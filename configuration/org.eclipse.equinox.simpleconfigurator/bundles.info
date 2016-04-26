@@ -3,6 +3,7 @@
 ch.qos.logback.classic,1.0.7.v20121108-1250,plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.core,1.0.7.v20121108-1250,plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar,4,false
 ch.qos.logback.slf4j,1.0.7.v201505121915,plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar,4,false
+com.ahtik.wordwrap,0.0.5,plugins/com.ahtik.wordwrap_0.0.5.jar,4,false
 com.android.ide.eclipse.adt,23.0.7.2120684,plugins/com.android.ide.eclipse.adt_23.0.7.2120684.jar,4,false
 com.android.ide.eclipse.base,23.0.7.2120684,plugins/com.android.ide.eclipse.base_23.0.7.2120684.jar,4,false
 com.android.ide.eclipse.ddms,23.0.7.2120684,plugins/com.android.ide.eclipse.ddms_23.0.7.2120684.jar,4,false
