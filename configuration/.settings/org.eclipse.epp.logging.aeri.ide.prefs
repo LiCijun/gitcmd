@@ -1,3 +1,6 @@
-anonymizeMessages=false
+anonymizeMessages=true
 anonymizeStackTraces=true
+debugEnabled=true
 eclipse.preferences.version=1
+reporterEmail=
+reporterName=
