@@ -1,0 +1,6 @@
+<map id="org.coreasm.eclipse.editors.errors.ITextErrorRecognizer" name="org.coreasm.eclipse.editors.errors.ITextErrorRecognizer">
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1CoreASMErrorRecognizer.html" title="The CoreASMErrorRecognizer collects errors from the CoreASM Engine. " alt="" coords="5,420,227,527"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ModularityErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of &quot;include&quot; statements. " alt="" coords="251,288,473,659"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html" title="This ErrorRecognizer searches an ASM document for plugin errors. " alt="" coords="498,391,720,556"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1IErrorRecognizer.html" title="An object implementing IErrorRecognizer is an object which checks an ASMDocument for a certain kind o..." alt="" coords="251,6,473,98"/>
+</map>

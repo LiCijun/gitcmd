@@ -1,0 +1,4 @@
+<map id="org.coreasm.eclipse.editors.errors.ErrorManager.checkAllTreeErrorRecognizers" name="org.coreasm.eclipse.editors.errors.ErrorManager.checkAllTreeErrorRecognizers">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html#aec35973b8ae86c8fa6c0e995c9268211" title="Executes all ErrorRecognizers (both TextErrorRecognizers and TreeErrorRecognizers) interface and coll..." alt="" coords="336,5,584,46"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html#a4eac949849b73b2b442b7baee4a990f4" title="This is the method of the Observer interface which is called after each run of the parser..." alt="" coords="349,70,571,111"/>
+</map>

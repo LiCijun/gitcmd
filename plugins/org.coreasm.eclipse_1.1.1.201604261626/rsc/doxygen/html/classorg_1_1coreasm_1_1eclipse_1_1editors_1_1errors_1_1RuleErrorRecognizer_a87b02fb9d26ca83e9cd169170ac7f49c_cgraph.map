@@ -1,0 +1,4 @@
+<map id="org.coreasm.eclipse.editors.errors.RuleErrorRecognizer.checkForErrors" name="org.coreasm.eclipse.editors.errors.RuleErrorRecognizer.checkForErrors">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMEditor.html#affb3a5535b4b781eddd1f29d66f53f52" title="Returns the IFile object for the file the specification loaded in this editor is stored in..." alt="" coords="309,5,496,46"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1RuleErrorRecognizer.html#acb6c745d26e4fbcec7711f3db7a946f7" title="Helper method for getting a list with all rule declaration nodes from the syntax tree. " alt="" coords="291,70,514,111"/>
+</map>

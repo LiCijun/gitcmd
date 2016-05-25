@@ -1,0 +1,5 @@
+<map id="org.coreasm.eclipse.util.Utilities.getCurrentEditor" name="org.coreasm.eclipse.util.Utilities.getCurrentEditor">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1util_1_1Utilities.html#ac7d13b5a5c5ae30872edc79e83996541" title="org.coreasm.eclipse.util.\lUtilities.addExternOutlineRoot" alt="" coords="233,5,431,46"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1util_1_1Utilities.html#abb9f9baf51a1390fbb0c30c459fbf117" title="Clears the externRootList from the Outline. " alt="" coords="219,70,445,111"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1util_1_1Utilities.html#a37f7e659d18cd68abfcf1a797dc694c8" title="org.coreasm.eclipse.util.\lUtilities.removeExternOutlineRoot" alt="" coords="222,135,442,177"/>
+</map>

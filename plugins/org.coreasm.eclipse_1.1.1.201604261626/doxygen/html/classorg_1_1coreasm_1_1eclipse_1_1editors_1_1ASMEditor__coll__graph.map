@@ -1,0 +1,8 @@
+<map id="org.coreasm.eclipse.editors.ASMEditor" name="org.coreasm.eclipse.editors.ASMEditor">
+<area shape="rect" id="node11" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMDocumentProvider.html" title="This class is a DocumentProvider for ASMDocuments stored as files. " alt="" coords="1068,1181,1255,1302"/>
+<area shape="rect" id="node14" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMIncludeWatcher.html" title="The IncludeWatcher watches included specifications. " alt="" coords="1669,1159,1856,1324"/>
+<area shape="rect" id="node17" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser.html" title="This class organizes the parsing of CoreASM specifications. " alt="" coords="631,1446,817,1773"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1AbstractContentPage.html" title="This class is an abstract base class for ContentPages for the Outlining for an ASMEditor. " alt="" coords="1287,289,1525,498"/>
+<area shape="rect" id="node22" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser_1_1ParsingJob.html" title="This class manages the running of the parser. " alt="" coords="475,1144,661,1339"/>
+<area shape="rect" id="node29" href="$classorg_1_1coreasm_1_1eclipse_1_1tools_1_1ColorManager.html" title="{org.coreasm.eclipse.tools.\lColorManager\n||+ dispose()\l+ getColor()\l}" alt="" coords="1802,340,1976,447"/>
+</map>

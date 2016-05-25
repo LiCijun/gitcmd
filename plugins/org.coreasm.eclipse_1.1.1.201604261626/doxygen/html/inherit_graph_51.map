@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1AbstractContentPage.html" title="This class is an abstract base class for ContentPages for the Outlining for an ASMEditor. " alt="" coords="254,5,493,46"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1ParsedOutlinePage.html" title="This content page shows an outline view for CoreASM specifications based on the syntax tree which was..." alt="" coords="542,5,781,46"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1ui_1_1views_1_1ASMCompareView.html" title="Implementation of the ASM Compare View. " alt="" coords="256,335,491,377"/>
+<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1ui_1_1views_1_1ASMUpdateView.html" title="Implementation of the ASM Update View. " alt="" coords="256,401,491,442"/>
+<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1hover_1_1ASMTextHover.html" title="This annotation hover shows the description of the selected ASM annotation. " alt="" coords="262,483,485,525"/>
+<area shape="rect" id="node9" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMIncludeWatcher.html" title="The IncludeWatcher watches included specifications. " alt="" coords="280,74,467,115"/>
+<area shape="rect" id="node12" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1views_1_1ASMAstTreeView.html" title="org.coreasm.eclipse.editors.views.\lASMAstTreeView" alt="" coords="261,270,485,311"/>
+<area shape="rect" id="node17" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMDeclarationWatcher.html" title="The ASMDeclarationWatcher manages the markers for declarations. " alt="" coords="280,139,467,181"/>
+<area shape="rect" id="node18" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html" title="An ErrorManager checks a CoreASM specification for errors beyond syntax errors. " alt="" coords="262,205,485,246"/>
+<area shape="rect" id="node20" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1ui_1_1ILinkedWithASMEditorView.html" title="org.coreasm.eclipse.editors.ui.\lILinkedWithASMEditorView" alt="" coords="5,217,205,258"/>
+</map>

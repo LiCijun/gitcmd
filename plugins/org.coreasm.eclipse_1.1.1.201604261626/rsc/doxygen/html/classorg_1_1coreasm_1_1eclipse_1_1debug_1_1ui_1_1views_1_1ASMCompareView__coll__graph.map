@@ -1,0 +1,3 @@
+<map id="org.coreasm.eclipse.debug.ui.views.ASMCompareView" name="org.coreasm.eclipse.debug.ui.views.ASMCompareView">
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1ui_1_1views_1_1ASMCompareViewElement.html" title="{org.coreasm.eclipse.debug.ui.views.\lASMCompareViewElement\n|&#45; name\l&#45; values\l&#45; difference\l|+ ASMCompareViewElement()\l+ getName()\l+ getValues()\l+ hasDifference()\l}" alt="" coords="404,147,637,312"/>
+</map>

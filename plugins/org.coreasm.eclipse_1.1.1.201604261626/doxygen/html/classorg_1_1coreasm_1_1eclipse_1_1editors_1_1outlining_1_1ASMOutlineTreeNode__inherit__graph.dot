@@ -1,0 +1,9 @@
+digraph "org.coreasm.eclipse.editors.outlining.ASMOutlineTreeNode"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{org.coreasm.eclipse.editors.outlining.\lASMOutlineTreeNode\n|+ UNAVAILABLE_NODE\l+ OUTDATED_NODE\l- node\l- type\l- description\l- group\l- image\l- suffix\l- parent\l- children\l|+ ASMOutlineTreeNode()\l+ ASMOutlineTreeNode()\l+ ASMOutlineTreeNode()\l+ addChild()\l+ removeChild()\l+ setParentFile()\l+ getParentFile()\l+ getParent()\l+ getChildren()\l+ hasChildren()\land 9 more...\l- getDescription()\l- getDescription()\l- getGroup()\l- getGroup()\l- getImage()\l- getImage()\l- getImage()\l- getSuffix()\l- getSuffix()\l- getChildren()\l- getChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Comparable\< ASMOutlineTree\lNode \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

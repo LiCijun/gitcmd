@@ -1,0 +1,4 @@
+<map id="org.coreasm.eclipse.editors.ASMDocument.getASTNodesOnLineOfOffset" name="org.coreasm.eclipse.editors.ASMDocument.getASTNodesOnLineOfOffset">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMDocument.html#a7705186609064f694dc9c7a88f81d671" title="Returns a list of nodes in the specified line. " alt="" coords="307,11,546,53"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMDocument.html#a38cc5ac8b06f83f9cc5e5cd98f22a370" title="Returns the position of the specified Node in this document. " alt="" coords="595,11,805,53"/>
+</map>

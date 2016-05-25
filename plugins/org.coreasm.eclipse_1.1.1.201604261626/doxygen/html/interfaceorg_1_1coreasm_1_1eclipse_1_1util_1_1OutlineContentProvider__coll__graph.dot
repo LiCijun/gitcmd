@@ -1,0 +1,7 @@
+digraph "org.coreasm.eclipse.util.OutlineContentProvider"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{org.coreasm.eclipse.util.\lOutlineContentProvider\n||+ getImage()\l+ getGroupImage()\l+ getGroup()\l+ getSuffix()\l+ hasDeclarations()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

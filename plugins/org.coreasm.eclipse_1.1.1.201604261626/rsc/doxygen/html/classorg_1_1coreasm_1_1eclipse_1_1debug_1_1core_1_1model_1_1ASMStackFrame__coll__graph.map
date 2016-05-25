@@ -1,0 +1,6 @@
+<map id="org.coreasm.eclipse.debug.core.model.ASMStackFrame" name="org.coreasm.eclipse.debug.core.model.ASMStackFrame">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMDebugElement.html" title="Implementation of common function for ASM debug elements. " alt="" coords="5,160,256,267"/>
+<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMThread.html" title="This class is needed by the eclipse debug framework. " alt="" coords="183,359,433,598"/>
+<area shape="rect" id="node9" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMStorage.html" title="Wrapper class for ASM storages. " alt="" coords="1064,345,1315,613"/>
+<area shape="rect" id="node20" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1WatchExpressionAPI.html" title="{org.coreasm.eclipse.engine.debugger.\lWatchExpressionAPI\n||+ WatchExpressionAPI()\l+ evaluateExpression()\l+ initialize()\l+ terminate()\l+ recover()\l+ loadSpecification()\l+ loadSpecification()\l+ loadSpecification()\l+ parseSpecification()\l+ parseSpecification()\land 63 more...\l&#45; bindPlugins()\l&#45; unbindPlugins()\l&#45; copyOprRegFromCapi()\l}" alt="" coords="1260,677,1503,960"/>
+</map>

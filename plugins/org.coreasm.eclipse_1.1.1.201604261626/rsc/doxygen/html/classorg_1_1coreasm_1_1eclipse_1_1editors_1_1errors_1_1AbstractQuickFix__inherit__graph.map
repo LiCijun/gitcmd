@@ -1,0 +1,13 @@
+<map id="org.coreasm.eclipse.editors.errors.AbstractQuickFix" name="org.coreasm.eclipse.editors.errors.AbstractQuickFix">
+<area shape="rect" id="node2" title="General QuickFix for replacing the whole hover region with a given string or inserting the string at ..." alt="" coords="5,219,227,384"/>
+<area shape="rect" id="node3" title="Quick fix for deleting all init rules but one which was selected by the user. " alt="" coords="252,233,529,369"/>
+<area shape="rect" id="node4" title="Quick fix for adding an init for an existing rule declaration. " alt="" coords="554,226,781,377"/>
+<area shape="rect" id="node5" title="Quick fix for creating a new rule with the name of the given include statement if a rule with that na..." alt="" coords="807,241,1064,362"/>
+<area shape="rect" id="node6" title="Quick fix for deleting an init statement. " alt="" coords="1090,241,1347,362"/>
+<area shape="rect" id="node7" title="Quick fix for replacing the rule name of an init statement with the name of an existing rule..." alt="" coords="1372,226,1639,377"/>
+<area shape="rect" id="node8" title="QuickFix for opening an included document if this document contains errors. " alt="" coords="1663,233,1885,369"/>
+<area shape="rect" id="node9" title="Quick fix for adding uses for missing plugins. " alt="" coords="1910,233,2132,369"/>
+<area shape="rect" id="node10" title="QuickFix for creating a new file if there is an include statement referring to a non&#45;existing file..." alt="" coords="2157,233,2379,369"/>
+<area shape="rect" id="node11" title="Quick fix for adding use clauses for missing plugins. " alt="" coords="2403,241,2700,362"/>
+<area shape="rect" id="node12" title="Quick fix for renaming rules with the same name to get them an unique name. " alt="" coords="2725,241,3016,362"/>
+</map>

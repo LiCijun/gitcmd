@@ -1,0 +1,7 @@
+<map id="org.coreasm.eclipse.debug.core.model.ASMDebugElement" name="org.coreasm.eclipse.debug.core.model.ASMDebugElement">
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMDebugTarget.html" title="Implementation of the ASM debug target. " alt="" coords="5,300,256,583"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMStackFrame.html" title="This class contains the variables of the current state. " alt="" coords="280,307,531,575"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMThread.html" title="This class is needed by the eclipse debug framework. " alt="" coords="555,322,805,561"/>
+<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMValue.html" title="This class represents the value of an ASM function. " alt="" coords="829,329,1080,553"/>
+<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMVariable.html" title="This class represents an ASM function/variable. " alt="" coords="1104,285,1355,597"/>
+</map>

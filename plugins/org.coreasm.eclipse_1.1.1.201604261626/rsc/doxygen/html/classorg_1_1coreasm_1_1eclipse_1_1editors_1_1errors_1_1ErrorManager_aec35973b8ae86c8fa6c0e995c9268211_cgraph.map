@@ -1,0 +1,4 @@
+<map id="org.coreasm.eclipse.editors.errors.ErrorManager.checkAllErrorRecognizer" name="org.coreasm.eclipse.editors.errors.ErrorManager.checkAllErrorRecognizer">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html#a18ad4a08d6faf956557e9d07eb16f50d" title="Executes all ErrorRecognizers implementing the ITextErrorRecognizer interface and collects the errors..." alt="" coords="302,5,583,46"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html#a6d389e174fc57d57c1d6ebe02c96a915" title="Executes all ErrorRecognizers implementing the ITreeErrorRecognizer interface and collects the errors..." alt="" coords="302,70,583,111"/>
+</map>

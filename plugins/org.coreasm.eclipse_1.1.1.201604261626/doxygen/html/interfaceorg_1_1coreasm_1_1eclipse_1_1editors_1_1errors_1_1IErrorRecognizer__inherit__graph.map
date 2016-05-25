@@ -1,0 +1,9 @@
+<map id="org.coreasm.eclipse.editors.errors.IErrorRecognizer" name="org.coreasm.eclipse.editors.errors.IErrorRecognizer">
+<area shape="rect" id="node2" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ITextErrorRecognizer.html" title="The ITextErrorRecognizer interface is a marker interface which marks instances of the IErrorRecognize..." alt="" coords="374,147,596,239"/>
+<area shape="rect" id="node6" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ITreeErrorRecognizer.html" title="The ITreeErrorRecognizer interface is a marker interface which marks instances of the IErrorRecognize..." alt="" coords="745,147,967,239"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1CoreASMErrorRecognizer.html" title="The CoreASMErrorRecognizer collects errors from the CoreASM Engine. " alt="" coords="5,420,227,527"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ModularityErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of &quot;include&quot; statements. " alt="" coords="251,288,473,659"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html" title="This ErrorRecognizer searches an ASM document for plugin errors. " alt="" coords="498,391,720,556"/>
+<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1InitErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of &quot;init&quot; statements. " alt="" coords="745,391,967,556"/>
+<area shape="rect" id="node8" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1RuleErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of rule declaration. " alt="" coords="991,361,1213,585"/>
+</map>

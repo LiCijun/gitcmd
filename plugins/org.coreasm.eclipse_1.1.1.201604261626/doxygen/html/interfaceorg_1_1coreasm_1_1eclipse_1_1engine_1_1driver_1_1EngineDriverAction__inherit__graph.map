@@ -1,0 +1,5 @@
+<map id="org.coreasm.eclipse.engine.driver.EngineDriverAction" name="org.coreasm.eclipse.engine.driver.EngineDriverAction">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1PauseEngineAction.html" title="Action of Pausing the engine. " alt="" coords="5,154,195,334"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1ResumeEngineAction.html" title="Action to resume a paused instance of the engine. " alt="" coords="219,154,408,334"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1StopEngineAction.html" title="Implements an action to stop an already running CoreASM engine. " alt="" coords="432,147,621,341"/>
+</map>

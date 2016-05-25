@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1IErrorRecognizer.html" title="An object implementing IErrorRecognizer is an object which checks an ASMDocument for a certain kind o..." alt="" coords="6,153,229,194"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ITextErrorRecognizer.html" title="The ITextErrorRecognizer interface is a marker interface which marks instances of the IErrorRecognize..." alt="" coords="278,103,501,145"/>
+<area shape="rect" id="node6" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ITreeErrorRecognizer.html" title="The ITreeErrorRecognizer interface is a marker interface which marks instances of the IErrorRecognize..." alt="" coords="278,201,501,242"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1CoreASMErrorRecognizer.html" title="The CoreASMErrorRecognizer collects errors from the CoreASM Engine. " alt="" coords="550,5,773,46"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ModularityErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of &quot;include&quot; statements. " alt="" coords="550,70,773,111"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html" title="This ErrorRecognizer searches an ASM document for plugin errors. " alt="" coords="550,135,773,177"/>
+<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1InitErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of &quot;init&quot; statements. " alt="" coords="550,201,773,242"/>
+<area shape="rect" id="node8" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1RuleErrorRecognizer.html" title="Checks an ASMDocument for the correct usage of rule declaration. " alt="" coords="550,266,773,307"/>
+</map>

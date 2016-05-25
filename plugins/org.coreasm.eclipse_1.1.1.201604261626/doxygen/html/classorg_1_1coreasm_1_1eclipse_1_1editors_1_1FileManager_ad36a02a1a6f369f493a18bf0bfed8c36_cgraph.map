@@ -1,0 +1,4 @@
+<map id="org.coreasm.eclipse.editors.FileManager.fileExits" name="org.coreasm.eclipse.editors.FileManager.fileExits">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1FileManager.html#ad93623be87ed5acdf0bc01b6cc0f5e6b" title="Checks if a certain file, given by its IFile object, is existing. " alt="" coords="240,5,427,46"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1FileManager.html#a2de0b49295aa7784d8599d1cafe3b40b" title="Returns an IFile object for a file given by its name within a project. " alt="" coords="240,70,427,111"/>
+</map>

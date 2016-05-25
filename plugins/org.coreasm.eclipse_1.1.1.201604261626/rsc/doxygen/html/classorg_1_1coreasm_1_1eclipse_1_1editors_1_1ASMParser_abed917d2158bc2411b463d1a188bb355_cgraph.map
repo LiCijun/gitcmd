@@ -1,0 +1,7 @@
+<map id="org.coreasm.eclipse.editors.ASMParser.initParser" name="org.coreasm.eclipse.editors.ASMParser.initParser">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser.html#a1017e60d1333753c968ddd4b239678a8" title="Collects all IDs from a set of plugins and stores them in the currentIDs set. " alt="" coords="240,13,427,54"/>
+<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser.html#af3c5b57e00b640b159fd32e9eba158a7" title="This method determines all plugins which will be loaded by the engine if the specification is run..." alt="" coords="240,78,427,119"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1SlimEngine.html#a3b582ac347b625eff669700502123f2c" title="Returns a reference to the Full Engine. " alt="" coords="475,13,661,54"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1SlimEngine.html#a773e3a965fbf8f6d922b19551c9aefee" title="Creates the full engine and feeds it with a dummy specification which contains a use clause for each ..." alt="" coords="709,13,899,54"/>
+<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1CoreASMEngineFactory.html#a8fc2b3ea6317ea4bc518194b213c7fc0" title="Creates an instance of CoreASM Engine configured for the CoreASM Eclipse plugin. " alt="" coords="947,5,1178,61"/>
+</map>

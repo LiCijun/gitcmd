@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="org.coreasm.eclipse.preferences.\lPreferenceConstants",height=0.2,width=0.4,color="black",URL="$classorg_1_1coreasm_1_1eclipse_1_1preferences_1_1PreferenceConstants.html",tooltip="Constant definitions for plug-in preferences. "];
+}

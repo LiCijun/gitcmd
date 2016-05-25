@@ -1,0 +1,5 @@
+<map id="org.coreasm.eclipse.editors.FileManager.getFile" name="org.coreasm.eclipse.editors.FileManager.getFile">
+<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1FileManager.html#ad36a02a1a6f369f493a18bf0bfed8c36" title="Checks if a certain file, given by its filename and its object, is existing. " alt="" coords="240,5,427,46"/>
+<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1FileManager.html#a8d1ebb1e7b3e81c208026cda6434de3f" title="Opens an editor for a file specified by its filename and its project. " alt="" coords="240,70,427,111"/>
+<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ModularityErrorRecognizer.html#a6046e908c9a474fd28d96e75a0b5ef4f" title="Checks the given document for errors. " alt="" coords="475,5,744,46"/>
+</map>

@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: org.coreasm.eclipse.util,org.coreasm.util,org.coreasm.
+ util.information
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: ., target/lib/org.coreasm.engine.jar
+Built-By: marcel
+Eclipse-BundleShape: dir
+Bundle-Name: CoreASM Eclipse Plugin
+Created-By: Apache Maven
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.de
+ bug.ui,org.eclipse.jface.text,org.eclipse.ui.console,org.eclipse.ui.e
+ ditors,org.eclipse.ui.ide,org.eclipse.jdt.ui,org.eclipse.ui.navigator
+Bundle-Vendor: coreasm.org
+Bundle-Version: 1.1.1.201604261626
+Build-Jdk: 1.7.0_80
+Bundle-Activator: org.coreasm.eclipse.CoreASMPlugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.coreasm.eclipse;singleton:=true
+Import-Package: org.eclipse.ui.dialogs,org.eclipse.ui.texteditor.templ
+ ates,org.eclipse.ui.views.contentoutline
+Archiver-Version: Plexus Archiver
+
