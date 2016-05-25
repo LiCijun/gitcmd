@@ -1,0 +1,42 @@
+[2016-05-25 11:03:08] Executing manual tasks
+[2016-05-25 11:03:11] Product self.product.version
+[2016-05-25 11:03:11] Bundle org.eclipse.oomph.setup 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-05-25 11:03:11] Bundle org.eclipse.oomph.setup.core 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-05-25 11:03:11] Bundle org.eclipse.oomph.setup.p2 1.3.0.v20160213-0953, build=2199, branch=7194e06d06a87ced95779121a8281b59b9abdf81, commit=7194e06d06a87ced95779121a8281b59b9abdf81
+[2016-05-25 11:03:11] Performing P2 Director
+[2016-05-25 11:03:11] Offline = false
+[2016-05-25 11:03:11] Mirrors = true
+[2016-05-25 11:03:11] Resolving 8 requirements from 7 repositories to D:\GitRepo\Eclipse
+[2016-05-25 11:03:11] Requirement com.android.ide.eclipse.adt.feature.feature.group [23.0.0,23.1.0)
+[2016-05-25 11:03:11] Requirement com.android.ide.eclipse.hierarchyviewer.feature.feature.group [23.0.0,23.1.0)
+[2016-05-25 11:03:11] Requirement epp.package.java [4.5.0,4.6.0)
+[2016-05-25 11:03:11] Requirement com.android.ide.eclipse.ddms.feature.feature.group [23.0.0,23.1.0)
+[2016-05-25 11:03:11] Requirement com.ahtik.wordwrap.feature.group [0.0.0,0.1.0)
+[2016-05-25 11:03:11] Requirement com.android.ide.eclipse.gldebugger.feature.feature.group [23.0.0,23.1.0)
+[2016-05-25 11:03:11] Requirement com.android.ide.eclipse.ndk.feature.feature.group [23.0.0,23.1.0)
+[2016-05-25 11:03:11] Requirement com.android.ide.eclipse.traceview.feature.feature.group [23.0.0,23.1.0)
+[2016-05-25 11:03:11] Repository http://download.eclipse.org/releases/mars
+[2016-05-25 11:03:11] Repository http://download.eclipse.org/mylyn/releases/latest
+[2016-05-25 11:03:11] Repository http://www.ahtik.com/eclipse-update/
+[2016-05-25 11:03:11] Repository https://dl-ssl.google.com/android/eclipse/
+[2016-05-25 11:03:11] Repository http://ahtik.com/eclipse-update
+[2016-05-25 11:03:11] Repository http://download.eclipse.org/eclipse/updates/4.5
+[2016-05-25 11:03:11] Repository http://download.eclipse.org/mylyn/releases/mars
+[2016-05-25 11:03:14] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: http://www.ahtik.com/eclipse-update/content.xml
+java.net.UnknownHostException: www.ahtik.com
+  at java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+  at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+  at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+  at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+  at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:259)
+  at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+[2016-05-25 11:03:16] 

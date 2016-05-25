@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="net.sourceforge.easysql"
+   name="EasySQL Plug-in"
+   version="1.1"
+   provider-name="Ricardo Lecheta,Joseph Toth"
+   class="net.sourceforge.easysql.EasySQLPlugin">
+
+   <runtime>
+      	<library name="easysql.jar">
+			<export name="*"/>
+	  	</library>
+   	  	<library name="lib/xerces-2.4.0.jar">
+      		<export name="*"/>
+		</library>
+   		<library name="lib/log4j-1.2.8.jar">
+      		<export name="*"/>
+   		</library>
+     <library name="lib/commons-lang-2.1.jar">
+        <export name="*"/>
+     </library>
+     <library name="lib/xml-apis.jar">
+        <export name="*"/>
+     </library>
+   </runtime>
+   <requires>
+		<import plugin="org.eclipse.ui"/>
+		<import plugin="org.eclipse.core.runtime"/>
+		<import plugin="org.eclipse.ui.ide"/>
+		<import plugin="org.eclipse.jface.text"/>
+		<import plugin="org.eclipse.ui.workbench.texteditor"/>
+		<import plugin="org.eclipse.ui.editors"/>
+		<import plugin="org.eclipse.core.resources"/>
+   </requires>
+
+<!-- Perspective -->
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="EasySQL"
+            icon="icons/database_icon.gif"
+            class="net.sourceforge.easysql.Perspective"
+            id="net.sourceforge.easysql.perspective">
+      </perspective>
+   </extension>
+   
+<!-- Views --> 
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="EasySQL"
+            id="net.sourceforge.easysql.views.Category">
+      </category>
+      <view
+            name="Connections"
+            icon="icons/selected_connected_icon.gif"
+            category="net.sourceforge.easysql.views.Category"
+            class="net.sourceforge.easysql.views.ConnectionView"
+            id="net.sourceforge.easysql.views.ConnectionView">
+      </view>
+      <view
+            name="Results"
+            icon="icons/table_icon.gif"
+            category="net.sourceforge.easysql.views.Category"
+            class="net.sourceforge.easysql.views.ResultView"
+            id="net.sourceforge.easysql.views.ResultView">
+      </view>
+      <view
+            name="Messages"
+            icon="icons/column_icon.gif"
+            category="net.sourceforge.easysql.views.Category"
+            class="net.sourceforge.easysql.views.MessageView"
+            id="net.sourceforge.easysql.views.MessageView">
+      </view>
+   </extension>
+   
+<!-- Editor -->
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="SQL Editor"
+            default="true"
+            icon="icons/database_icon.gif"
+            extensions="sql"
+            contributorClass="net.sourceforge.easysql.editors.sql.SQLContributor"
+            class="net.sourceforge.easysql.editors.SQLEditor"
+            id="net.sourceforge.easysql.editors.SQLEditor">
+      </editor>
+   </extension>
+   
+<!-- ActionSet -->
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="EasySQL"
+            visible="true"
+            id="net.sourceforge.easysql.actionSet">
+         <menu
+               label="&amp;SQL"
+               path="EasySQL"
+               id="net.sourceforge.easysql.menus.workbench">
+            <separator
+                  name="separator1">
+            </separator>
+            <separator
+                  name="separator2">
+            </separator>
+            <separator
+                  name="separator3">
+            </separator>
+         </menu>
+         <action
+               label="New &amp;Buffer"
+               tooltip="Open New SQL Buffer"
+               class="net.sourceforge.easysql.actions.NewBuffer"
+               menubarPath="net.sourceforge.easysql.menus.workbench/separator1"
+               id="net.sourceforge.easysql.actions.NewBufferAction">
+         </action>
+         <action
+               toolbarPath="EasySQL"
+               id="net.sourceforge.easysql.actions.ExecuteAction"
+               class="net.sourceforge.easysql.actions.ExecuteAction"
+               disabledIcon="icons/remove_icon.gif"
+               icon="icons/execute_icon.gif"
+               label="Execute"
+               menubarPath="net.sourceforge.easysql.menus.workbench/separator2"
+               accelerator="Ctrl+Alt+Enter"
+               tooltip="Execute SQL">
+         </action>
+         <action
+               toolbarPath="EasySQL"
+               id="net.sourceforge.easysql.actions.ExecuteNewTabAction"
+               class="net.sourceforge.easysql.actions.ExecuteNewTabAction"
+               disabledIcon="icons/remove_icon.gif"
+               icon="icons/execute_icon.gif"
+               label="Execute (New Tab)"
+               menubarPath="net.sourceforge.easysql.menus.workbench/separator2"
+               tooltip="Execute SQL (New Tab)"
+               accelerator="Ctrl+Alt+W">
+         </action>
+         <action
+               label="Open ConnectionView"
+               tooltip="Open ConnectionView"
+               class="net.sourceforge.easysql.actions.OpenConnectionViewAction"
+               menubarPath="net.sourceforge.easysql.menus.workbench/separator3"
+               id="net.sourceforge.easysql.actions.OpenConnectionViewAction">
+         </action>
+         <action
+               label="Open ResultView"
+               tooltip="Open ResultView"
+               class="net.sourceforge.easysql.actions.OpenResultViewAction"
+               menubarPath="net.sourceforge.easysql.menus.workbench/separator3"
+               id="net.sourceforge.easysql.actions.OpenResultViewAction">
+         </action>
+         <action
+               label="Open MessageView"
+               tooltip="Open MessageView"
+               class="net.sourceforge.easysql.actions.OpenMessageViewAction"
+               menubarPath="net.sourceforge.easysql.menus.workbench/separator3"
+               id="net.sourceforge.easysql.actions.OpenMessageViewAction">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

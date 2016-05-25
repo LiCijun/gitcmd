@@ -1,3 +1,8 @@
 autoUpdateInit=true
+day=Every day
+download=true
 eclipse.preferences.version=1
 migrated34Prefs=true
+remindOnSchedule=true
+schedule=on-startup
+showUpdateWizard=true

@@ -1,0 +1,913 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: http://www.agpad.com/update/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1464148823916'/>
+    <property name='site.checksum' value='3918805310'/>
+  </properties>
+  <references size='2'>
+    <repository uri='http://www.agpad.com/update' url='http://www.agpad.com/update' type='1' options='0'/>
+    <repository uri='http://www.agpad.com/update' url='http://www.agpad.com/update' type='0' options='0'/>
+  </references>
+  <units size='35'>
+    <unit id='com.spket.widget' version='1.6.18' singleton='false'>
+      <update id='com.spket.widget' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.widget' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.widget' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.widget' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.widget&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.ywt' version='1.6.6' singleton='false'>
+      <update id='com.spket.ywt' range='[0.0.0,1.6.6)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.ywt' version='1.6.6'/>
+        <provided namespace='osgi.bundle' name='com.spket.ywt' version='1.6.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.ywt' version='1.6.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.ywt&#xA;Bundle-Version: 1.6.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.as.core' version='1.6.17' singleton='false'>
+      <update id='com.spket.as.core' range='[0.0.0,1.6.17)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.as.core' version='1.6.17'/>
+        <provided namespace='osgi.bundle' name='com.spket.as.core' version='1.6.17'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.as.core' version='1.6.17'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.as.core&#xA;Bundle-Version: 1.6.17&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.js' version='1.6.23' singleton='false'>
+      <update id='com.spket.js' range='[0.0.0,1.6.23)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.js' version='1.6.23'/>
+        <provided namespace='osgi.bundle' name='com.spket.js' version='1.6.23'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.js' version='1.6.23'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.js&#xA;Bundle-Version: 1.6.23&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.swt' version='1.6.18' singleton='false'>
+      <update id='com.spket.swt' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.swt' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.swt' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.swt' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.swt&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.sted.win32' version='1.6.18' singleton='false'>
+      <update id='com.spket.sted.win32' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.win32' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.sted.win32' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.sted.win32' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.sted.win32&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='http://www.agpad.com/update/site.xml.spket' version='1.0.0.787c8QcK_uDh'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Spket IDE'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://www.agpad.com/update/site.xml.spket' version='1.0.0.787c8QcK_uDh'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.feature.group' range='[1.6.23,1.6.23]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.ui.feature.group' range='[1.6.23,1.6.23]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.xml.external.feature.group' range='[2.8.0,2.8.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.spket.wpfe' version='1.6.6' singleton='false'>
+      <update id='com.spket.wpfe' range='[0.0.0,1.6.6)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.wpfe' version='1.6.6'/>
+        <provided namespace='osgi.bundle' name='com.spket.wpfe' version='1.6.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.wpfe' version='1.6.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.wpfe&#xA;Bundle-Version: 1.6.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.dtd' version='1.6.19' singleton='false'>
+      <update id='com.spket.dtd' range='[0.0.0,1.6.19)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.dtd' version='1.6.19'/>
+        <provided namespace='osgi.bundle' name='com.spket.dtd' version='1.6.19'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.dtd' version='1.6.19'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.dtd&#xA;Bundle-Version: 1.6.19&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.laszlo' version='1.6.19' singleton='false'>
+      <update id='com.spket.laszlo' range='[0.0.0,1.6.19)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.laszlo' version='1.6.19'/>
+        <provided namespace='osgi.bundle' name='com.spket.laszlo' version='1.6.19'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.laszlo' version='1.6.19'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.laszlo&#xA;Bundle-Version: 1.6.19&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.core' version='1.6.18' singleton='false'>
+      <update id='com.spket.core' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.core' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.core' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.core' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.core&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.xml.external.feature.group' version='2.8.0' singleton='false'>
+      <update id='com.spket.xml.external.feature.group' range='[0.0.0,2.8.0)' severity='0'/>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%feature.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%provider.name'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+        <property name='df_LT.copyright' value='(c) Copyright 2005, 2007 spket.com, All rights reserved.'/>
+        <property name='df_LT.description' value='Xerces2 Java Parser 2.8.0'/>
+        <property name='df_LT.provider.name' value='spket.com'/>
+        <property name='df_LT.feature.name' value='Xerces for Spket IDE'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.xml.external.feature.group' version='2.8.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xerces' range='[2.8.0.v200705301630,2.8.0.v200705301630]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xml.resolver' range='[1.1.0.v200705310020,1.1.0.v200705310020]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.xml.external.feature.jar' range='[2.8.0,2.8.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.spket.yuic' version='1.6.18' singleton='false'>
+      <update id='com.spket.yuic' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.yuic' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.yuic' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.yuic' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.yuic&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.theme' version='1.6.18' singleton='false'>
+      <update id='com.spket.theme' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.theme' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.theme' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.theme' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.theme&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.js.xpc' version='1.6.6' singleton='false'>
+      <update id='com.spket.js.xpc' range='[0.0.0,1.6.6)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.js.xpc' version='1.6.6'/>
+        <provided namespace='osgi.bundle' name='com.spket.js.xpc' version='1.6.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.js.xpc' version='1.6.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.js.xpc&#xA;Bundle-Version: 1.6.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.mime' version='1.6.19' singleton='false'>
+      <update id='com.spket.mime' range='[0.0.0,1.6.19)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.mime' version='1.6.19'/>
+        <provided namespace='osgi.bundle' name='com.spket.mime' version='1.6.19'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.mime' version='1.6.19'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.mime&#xA;Bundle-Version: 1.6.19&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.sted.feature.jar' version='1.6.23'>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%feature.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%provider.name'/>
+        <property name='df_LT.license' value='Free'/>
+        <property name='df_LT.copyright' value='(c) Copyright 2005, 2009 spket.com, All rights reserved.'/>
+        <property name='df_LT.description' value='Spket text editor is a small, fast and powerful freeware general purpose text editor.'/>
+        <property name='df_LT.provider.name' value='spket.com'/>
+        <property name='df_LT.feature.name' value='Spket Text Editor'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.feature.jar' version='1.6.23'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.spket.sted' version='1.6.23'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.spket.sted' version='1.6.23'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.spket.awt' version='1.6.6' singleton='false'>
+      <update id='com.spket.awt' range='[0.0.0,1.6.6)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.awt' version='1.6.6'/>
+        <provided namespace='osgi.bundle' name='com.spket.awt' version='1.6.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.awt' version='1.6.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.awt&#xA;Bundle-Version: 1.6.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.mxml' version='1.6.15' singleton='false'>
+      <update id='com.spket.mxml' range='[0.0.0,1.6.15)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.mxml' version='1.6.15'/>
+        <provided namespace='osgi.bundle' name='com.spket.mxml' version='1.6.15'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.mxml' version='1.6.15'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.mxml&#xA;Bundle-Version: 1.6.15&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.xml' version='1.6.19' singleton='false'>
+      <update id='com.spket.xml' range='[0.0.0,1.6.19)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.xml' version='1.6.19'/>
+        <provided namespace='osgi.bundle' name='com.spket.xml' version='1.6.19'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.xml' version='1.6.19'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.xml&#xA;Bundle-Version: 1.6.19&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.scintilla.win32' version='1.6.18' singleton='false'>
+      <update id='com.spket.scintilla.win32' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.scintilla.win32' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.scintilla.win32' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.scintilla.win32' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.scintilla.win32&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.grammars' version='1.6.9' singleton='false'>
+      <update id='com.spket.grammars' range='[0.0.0,1.6.9)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.grammars' version='1.6.9'/>
+        <provided namespace='osgi.bundle' name='com.spket.grammars' version='1.6.9'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.grammars' version='1.6.9'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.grammars&#xA;Bundle-Version: 1.6.9&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.sted.feature.group' version='1.6.23' singleton='false'>
+      <update id='com.spket.sted.feature.group' range='[0.0.0,1.6.23)' severity='0'/>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%feature.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%provider.name'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='Free'/>
+        <property name='df_LT.copyright' value='(c) Copyright 2005, 2009 spket.com, All rights reserved.'/>
+        <property name='df_LT.description' value='Spket text editor is a small, fast and powerful freeware general purpose text editor.'/>
+        <property name='df_LT.provider.name' value='spket.com'/>
+        <property name='df_LT.feature.name' value='Spket Text Editor'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.feature.group' version='1.6.23'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.core' range='[1.6.18,1.6.18]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.ui' range='[1.6.23,1.6.23]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.scintilla.win32' range='[1.6.18,1.6.18]'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted' range='[1.6.18,1.6.18]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.win32' range='[1.6.18,1.6.18]'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.swt' range='[1.6.18,1.6.18]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.theme' range='[1.6.18,1.6.18]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.widget' range='[1.6.18,1.6.18]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.widget.win32' range='[1.6.18,1.6.18]'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.feature.jar' range='[1.6.23,1.6.23]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.spket.ui.feature.group' version='1.6.23' singleton='false'>
+      <update id='com.spket.ui.feature.group' range='[0.0.0,1.6.23)' severity='0'/>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%feature.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%provider.name'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='Free for non-commercial use'/>
+        <property name='df_LT.copyright' value='(c) Copyright 2005, 2009 spket.com, All rights reserved.'/>
+        <property name='df_LT.description' value='Development Tool for RIA'/>
+        <property name='df_LT.provider.name' value='spket.com'/>
+        <property name='df_LT.feature.name' value='Spket IDE'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.ui.feature.group' version='1.6.23'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xerces' range='2.8.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted.feature.group' range='[1.6.23,1.6.23]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.as.core' range='[1.6.17,1.6.17]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.awt' range='[1.6.6,1.6.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.dtd' range='[1.6.19,1.6.19]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.extjs' range='[1.6.17,1.6.17]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.grammars' range='[1.6.9,1.6.9]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.js' range='[1.6.23,1.6.23]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.js.debug' range='[1.6.16,1.6.16]'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.js.xpc' range='[1.6.6,1.6.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.laszlo' range='[1.6.19,1.6.19]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.mime' range='[1.6.19,1.6.19]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.mxml' range='[1.6.15,1.6.15]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.svg' range='[1.6.6,1.6.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.wpfe' range='[1.6.6,1.6.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.xml' range='[1.6.19,1.6.19]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.xul' range='[1.6.6,1.6.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.ywt' range='[1.6.6,1.6.6]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.yuic' range='[1.6.18,1.6.18]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.spket.ui.feature.jar' range='[1.6.23,1.6.23]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.spket.sted' version='1.6.18' singleton='false'>
+      <update id='com.spket.sted' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.sted' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.sted' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.sted' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.sted&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.xml.resolver' version='1.1.0.v200705310020' singleton='false'>
+      <update id='org.apache.xml.resolver' range='[0.0.0,1.1.0.v200705310020)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.xml.resolver' version='1.1.0.v200705310020'/>
+        <provided namespace='osgi.bundle' name='org.apache.xml.resolver' version='1.1.0.v200705310020'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.1.0.v200705310020'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.xml.resolver&#xA;Bundle-Version: 1.1.0.v200705310020&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.js.debug' version='1.6.16' singleton='false'>
+      <update id='com.spket.js.debug' range='[0.0.0,1.6.16)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.js.debug' version='1.6.16'/>
+        <provided namespace='osgi.bundle' name='com.spket.js.debug' version='1.6.16'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.js.debug' version='1.6.16'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.js.debug&#xA;Bundle-Version: 1.6.16&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.svg' version='1.6.6' singleton='false'>
+      <update id='com.spket.svg' range='[0.0.0,1.6.6)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.svg' version='1.6.6'/>
+        <provided namespace='osgi.bundle' name='com.spket.svg' version='1.6.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.svg' version='1.6.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.svg&#xA;Bundle-Version: 1.6.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.ui' version='1.6.23' singleton='false'>
+      <update id='com.spket.ui' range='[0.0.0,1.6.23)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.ui' version='1.6.23'/>
+        <provided namespace='osgi.bundle' name='com.spket.ui' version='1.6.23'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.ui' version='1.6.23'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.ui&#xA;Bundle-Version: 1.6.23&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.xul' version='1.6.6' singleton='false'>
+      <update id='com.spket.xul' range='[0.0.0,1.6.6)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.xul' version='1.6.6'/>
+        <provided namespace='osgi.bundle' name='com.spket.xul' version='1.6.6'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.xul' version='1.6.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.xul&#xA;Bundle-Version: 1.6.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.xerces' version='2.8.0.v200705301630' singleton='false'>
+      <update id='org.apache.xerces' range='[0.0.0,2.8.0.v200705301630)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.xerces' version='2.8.0.v200705301630'/>
+        <provided namespace='osgi.bundle' name='org.apache.xerces' version='2.8.0.v200705301630'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.8.0.v200705301630'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.xerces&#xA;Bundle-Version: 2.8.0.v200705301630&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.xml.external.feature.jar' version='2.8.0'>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%feature.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%provider.name'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+        <property name='df_LT.copyright' value='(c) Copyright 2005, 2007 spket.com, All rights reserved.'/>
+        <property name='df_LT.description' value='Xerces2 Java Parser 2.8.0'/>
+        <property name='df_LT.provider.name' value='spket.com'/>
+        <property name='df_LT.feature.name' value='Xerces for Spket IDE'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.xml.external.feature.jar' version='2.8.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.spket.xml.external' version='2.8.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.spket.xml.external' version='2.8.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.spket.ui.feature.jar' version='1.6.23'>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%feature.name'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%provider.name'/>
+        <property name='df_LT.license' value='Free for non-commercial use'/>
+        <property name='df_LT.copyright' value='(c) Copyright 2005, 2009 spket.com, All rights reserved.'/>
+        <property name='df_LT.description' value='Development Tool for RIA'/>
+        <property name='df_LT.provider.name' value='spket.com'/>
+        <property name='df_LT.feature.name' value='Spket IDE'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.ui.feature.jar' version='1.6.23'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.spket.ui' version='1.6.23'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.spket.ui' version='1.6.23'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='com.spket.extjs' version='1.6.17' singleton='false'>
+      <update id='com.spket.extjs' range='[0.0.0,1.6.17)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.extjs' version='1.6.17'/>
+        <provided namespace='osgi.bundle' name='com.spket.extjs' version='1.6.17'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.extjs' version='1.6.17'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.extjs&#xA;Bundle-Version: 1.6.17&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.spket.widget.win32' version='1.6.18' singleton='false'>
+      <update id='com.spket.widget.win32' range='[0.0.0,1.6.18)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.spket.widget.win32' version='1.6.18'/>
+        <provided namespace='osgi.bundle' name='com.spket.widget.win32' version='1.6.18'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.spket.widget.win32' version='1.6.18'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.spket.widget.win32&#xA;Bundle-Version: 1.6.18&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

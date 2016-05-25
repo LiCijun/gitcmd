@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://www.agpad.com/update/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1464149165181'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='3918805310'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='31'>
+    <artifact classifier='osgi.bundle' id='com.spket.js' version='1.6.23'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.js_1.6.23.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.sted' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.sted_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.js.xpc' version='1.6.6'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.js.xpc_1.6.6.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.ui' version='1.6.23'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.ui_1.6.23.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.extjs' version='1.6.17'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.extjs_1.6.17.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.grammars' version='1.6.9'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.grammars_1.6.9.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.yuic' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.yuic_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.scintilla.win32' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.scintilla.win32_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.ywt' version='1.6.6'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.ywt_1.6.6.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.swt' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.swt_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.xml' version='1.6.19'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.xml_1.6.19.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.svg' version='1.6.6'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.svg_1.6.6.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.spket.ui' version='1.6.23'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/features/com.spket.ui_1.6.23.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.spket.sted' version='1.6.23'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/features/com.spket.sted_1.6.23.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.widget' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.widget_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.wpfe' version='1.6.6'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.wpfe_1.6.6.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.mime' version='1.6.19'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.mime_1.6.19.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.mxml' version='1.6.15'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.mxml_1.6.15.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.widget.win32' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.widget.win32_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.8.0.v200705301630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/org.apache.xerces_2.8.0.v200705301630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.awt' version='1.6.6'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.awt_1.6.6.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.core' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.core_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.xul' version='1.6.6'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.xul_1.6.6.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.sted.win32' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.sted.win32_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.laszlo' version='1.6.19'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.laszlo_1.6.19.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.js.debug' version='1.6.16'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.js.debug_1.6.16.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.theme' version='1.6.18'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.theme_1.6.18.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.1.0.v200705310020'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/org.apache.xml.resolver_1.1.0.v200705310020.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.spket.xml.external' version='2.8.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/features/com.spket.xml.external_2.8.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.dtd' version='1.6.19'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.dtd_1.6.19.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.spket.as.core' version='1.6.17'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://www.agpad.com/update/plugins/com.spket.as.core_1.6.17.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

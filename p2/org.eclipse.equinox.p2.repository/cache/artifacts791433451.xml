@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?artifactRepository version='1.1.0'?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+--><repository name="Apache Ivy P2 Eclipse repository" type="org.eclipse.equinox.p2.artifact.repository.simpleRepository" version="1">
+  <properties size="3">
+    <property name="p2.timestamp" value="1358115182334"/>
+    <property name="p2.compressed" value="false"/>
+  <property name="p2.mirrorsURL" value="http://ant.apache.org/ivy/ivyde/updatesite/p2-mirrors--xml.cgi?path=ivy-2.3.0.final_20130110142753"/></properties>
+  <mappings size="3">
+    <rule filter="(&amp; (classifier=osgi.bundle))" output="${repoUrl}/plugins/${id}_${version}.jar"/>
+    <rule filter="(&amp; (classifier=binary))" output="${repoUrl}/binary/${id}_${version}"/>
+    <rule filter="(&amp; (classifier=org.eclipse.update.feature))" output="${repoUrl}/features/${id}_${version}.jar"/>
+  </mappings>
+  <artifacts size="4">
+    <artifact classifier="osgi.bundle" id="org.apache.ivy.eclipse.ant" version="2.3.0.final_20130110142753">
+      <properties size="3">
+        <property name="artifact.size" value="1114052"/>
+        <property name="download.size" value="1114052"/>
+        <property name="download.md5" value="b92de8526ad545a3a0e6e4f8b43d6b55"/>
+      </properties>
+    </artifact>
+    <artifact classifier="org.eclipse.update.feature" id="org.apache.ivy.eclipse.ant.feature" version="2.3.0.final_20130110142753">
+      <properties size="4">
+        <property name="artifact.size" value="9518"/>
+        <property name="download.size" value="9518"/>
+        <property name="download.md5" value="3bf4958f57ab19369b852f9f92dd9a1e"/>
+        <property name="download.contentType" value="application/zip"/>
+      </properties>
+    </artifact>
+    <artifact classifier="osgi.bundle" id="org.apache.ivy" version="2.3.0.final_20130110142753">
+      <properties size="3">
+        <property name="artifact.size" value="1222059"/>
+        <property name="download.size" value="1222059"/>
+        <property name="download.md5" value="b4edf3ba324e8063d41b85f30f107fe8"/>
+      </properties>
+    </artifact>
+    <artifact classifier="org.eclipse.update.feature" id="org.apache.ivy.feature" version="2.3.0.final_20130110142753">
+      <properties size="4">
+        <property name="artifact.size" value="9521"/>
+        <property name="download.size" value="9521"/>
+        <property name="download.md5" value="c9c2ae317c1237225d1cb91a85aa2144"/>
+        <property name="download.contentType" value="application/zip"/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
