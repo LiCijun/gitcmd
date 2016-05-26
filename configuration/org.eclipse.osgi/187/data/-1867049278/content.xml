@@ -2,7 +2,7 @@
 <?metadataRepository version='1.1.0'?>
 <repository name='update site: jar:file:/C:/Users/li/Desktop/easysql-1.1.zip!/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1464225363018'/>
+    <property name='p2.timestamp' value='1464226049779'/>
     <property name='site.checksum' value='0'/>
   </properties>
 </repository>
