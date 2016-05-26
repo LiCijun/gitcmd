@@ -1,0 +1,8 @@
+#encoding=UTF-8
+#version=1
+org.sf.feeling.decompiler.cfr.source,2.5.0.201605251940,plugins/org.sf.feeling.decompiler.cfr.source_2.5.0.201605251940.jar,-1,false
+org.sf.feeling.decompiler.jad.source,2.5.0.201605251940,plugins/org.sf.feeling.decompiler.jad.source_2.5.0.201605251940.jar,-1,false
+org.sf.feeling.decompiler.jd.source,2.5.0.201605251940,plugins/org.sf.feeling.decompiler.jd.source_2.5.0.201605251940.jar,-1,false
+org.sf.feeling.decompiler.procyon.source,2.5.0.201605251940,plugins/org.sf.feeling.decompiler.procyon.source_2.5.0.201605251940.jar,-1,false
+org.sf.feeling.decompiler.source,2.5.0.201605251940,plugins/org.sf.feeling.decompiler.source_2.5.0.201605251940.jar,-1,false
+org.sf.feeling.decompiler.update.source,2.5.0.201605251940,plugins/org.sf.feeling.decompiler.update.source_2.5.0.201605251940.jar,-1,false

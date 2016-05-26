@@ -30,7 +30,7 @@
 <link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_69iQNH9_V5jG-ypN2uK1-Lehh5o2pv6am8NNHLtqn_M.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_lr2o_ExSkGmspU6Jv0EuenlZg0tlRIxvwfnlgwVYz5o.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_8YB-_oN6I-_qSrT9Zu_DNRz3DJpvLvDpmnclKp6Xoao.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_YvsMsloxv8jTByQWqRUpJOpQnw-9HPElvps5xIFGC18.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_LNGmRbulwwEIjQPt945oUlNlm8ORWleuqdjm5UKbLe0.css" media="all" />
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -59,7 +59,7 @@ Drupal.behaviors.adSenseUnblock = {
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_rab_jEF9pMo7lOg8cj6QyuTpmJ9K7Jwo5bAg3-Tkr5s.js"></script>
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_w-WzqlK588RlrsaxAtdDaXLFWnz_UZXM1rREMJGLh7A.js"></script>
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_b7U_lKDVexT9ANsjNY70cWzK5P1fFxUVCwzTBefvGi0.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_marketplace","theme_token":"1ilScDm3bb1H-DjEEk1b-whaPSTLBx14Sp6T7QFjBu8","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/adsense\/contrib\/adsense_click\/adsense_click.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"1":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/javascript\/main.min.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/javascript\/marketplace.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/stylesheets\/styles.min.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/content\/amaterasuml\/content.jar":true},"field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_marketplace","theme_token":"ZMU1WFTM0d1_ZX9RqmhceG2a8vazYKHDKZ_BiJMWhVc","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/adsense\/contrib\/adsense_click\/adsense_click.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"1":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/javascript\/main.min.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/javascript\/marketplace.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/stylesheets\/styles.min.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/content\/amaterasuml\/content.jar":true},"field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
 </head>
 <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-227 page-node-contentjar node-type-resource" >
   <div id="skip-link">
@@ -420,7 +420,7 @@ Thanks a Million</p>
 <div class="form-item form-type-textfield form-item-keys">
 <div class="input-group"><input placeholder="Search" class="field-search-key auto_submit form-control form-text" type="text" id="edit-keys--2" name="keys" value="" size="30" maxlength="255" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span></span></div><input type="hidden" id="edit-keys--2-autocomplete" value="http://marketplace.eclipse.org/index.php?q=apachesolr_autocomplete" disabled="disabled" class="autocomplete" />
 </div>
-</div><input type="hidden" name="form_build_id" value="form-4pXMzF5HoBgmwKkewjvcr60gXL3B6wnEgGYkFhgkwds" />
+</div><input type="hidden" name="form_build_id" value="form-uow_PoamqWfC79Q654Y8wleCTInhNoKXWhJ5p-fF0k8" />
 <input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
 <fieldset  class="panel-warning collapsible collapsed panel panel-default form-wrapper" id="edit-advanced--2">
           <legend class="panel-heading">
@@ -458,16 +458,16 @@ Thanks a Million</p>
   <div class="block-content">
     <table class="table-favoritedby-fav-block table table-hover table-striped table-bordered">
 <tbody>
- <tr><td><a href="/user/gmisingnameapw/favorites">GiljuSong Mising name</a></td> </tr>
- <tr><td><a href="/user/azonov/favorites">Alexsander Zonov</a></td> </tr>
- <tr><td><a href="/user/llintu/favorites">Lintu Lintu</a></td> </tr>
- <tr><td><a href="/user/tpham1gl/favorites">Tuan PHAM</a></td> </tr>
  <tr><td><a href="/user/bmisingnamesvc/favorites">benauca Mising name</a></td> </tr>
- <tr><td><a href="/user/lmisingnamebs4/favorites">lb Mising name</a></td> </tr>
- <tr><td><a href="/user/amisingname3qg/favorites">ash Mising name</a></td> </tr>
+ <tr><td><a href="/user/akrsharma/favorites">Ashwani Kr Sharma</a></td> </tr>
+ <tr><td><a href="/user/jdrlik/favorites">Jean Paul Drlik</a></td> </tr>
  <tr><td><a href="/user/dmisingnamecej/favorites">duweiguo Mising name</a></td> </tr>
- <tr><td><a href="/user/xmisingnamen8d/favorites">xiaowu Mising name</a></td> </tr>
- <tr><td><a href="/user/smisingnamer8a/favorites">Şaban Ulutaş</a></td> </tr>
+ <tr><td><a href="/user/mmisingnamer61/favorites">Missing name Mising name</a></td> </tr>
+ <tr><td><a href="/user/gmisingnameapw/favorites">GiljuSong Mising name</a></td> </tr>
+ <tr><td><a href="/user/karaki/favorites">Kenichi Araki</a></td> </tr>
+ <tr><td><a href="/user/nmisingnamel6u/favorites">Nagaraju Mising name</a></td> </tr>
+ <tr><td><a href="/user/mstefanovicxqd/favorites">Miroslav Stefanovic</a></td> </tr>
+ <tr><td><a href="/user/amisingname3qg/favorites">ash Mising name</a></td> </tr>
 </tbody>
 </table>
   </div>

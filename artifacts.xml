@@ -3,14 +3,14 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1464174030311'/>
+    <property name='p2.timestamp' value='1464225296136'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='885'>
+  <artifacts size='898'>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.help.ui' version='3.19.0.v20160315-1830'>
       <properties size='1'>
         <property name='download.size' value='1276480'/>
@@ -165,6 +165,11 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.net' version='1.2.200.v20120807-0927'>
       <properties size='1'>
         <property name='download.size' value='48832'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.cfr.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='9600'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.ui' version='1.11.0.v20160316-2122'>
@@ -763,6 +768,14 @@
         <property name='download.size' value='1174469'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='24043'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='ch.acanda.eclipse.pmd.unsupported' version='1.8.0.201512061933'>
       <properties size='1'>
         <property name='download.size' value='7388'/>
@@ -850,14 +863,6 @@
       <properties size='1'>
         <property name='download.size' value='81822'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler' version='2.4.0.201605191214'>
-      <properties size='1'>
-        <property name='download.size' value='24108'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.debug.core' version='3.10.0.v20150303-1130'>
       <properties size='1'>
@@ -962,6 +967,11 @@
         <property name='download.size' value='721102'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='73223'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.uddi4j' version='2.0.5.v200805270300'>
       <properties size='1'>
         <property name='download.size' value='196462'/>
@@ -1015,6 +1025,11 @@
         <property name='download.size' value='269892'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.jad.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='13198'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.oomph.setup.core' version='1.3.0.v20160213-0953'>
       <properties size='1'>
         <property name='download.size' value='198274'/>
@@ -1033,6 +1048,11 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.manipulator' version='2.0.100.v20150423-1455'>
       <properties size='1'>
         <property name='download.size' value='25362'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.procyon.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='10563'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.transport.ecf' version='1.1.100.v20150521-1342'>
@@ -1107,11 +1127,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.springframework.roo.wrapping.bcprov-jdk15' version='1.45.0.0001'>
-      <properties size='1'>
-        <property name='download.size' value='1670946'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jdt.junit.core' version='3.7.400.v20150423-0747'>
       <properties size='1'>
@@ -1512,6 +1527,11 @@
         <property name='download.size' value='90600'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.jd.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='11771'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.springframework.ide.eclipse.beans.ui' version='3.7.3.201602250914-RELEASE'>
       <properties size='1'>
         <property name='download.size' value='435283'/>
@@ -1826,6 +1846,11 @@
         <property name='download.size' value='13766'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.jd' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='4742712'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.aether.transport.file' version='1.0.1.v20141111'>
       <properties size='1'>
         <property name='download.size' value='15212'/>
@@ -1932,6 +1957,11 @@
     <artifact classifier='osgi.bundle' id='org.springsource.ide.eclipse.commons.frameworks.ui' version='3.7.3.201602250752-RELEASE'>
       <properties size='1'>
         <property name='download.size' value='225597'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.procyon' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='1592375'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.traceview.feature' version='23.0.7.2120684'>
@@ -2246,6 +2276,11 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='706336'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.mediawiki.core' version='2.7.0.v20151009-1723'>
       <properties size='1'>
         <property name='download.size' value='118555'/>
@@ -2468,11 +2503,6 @@
         <property name='download.size' value='26519'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.update' version='1.0.0.201605191154'>
-      <properties size='1'>
-        <property name='download.size' value='36070'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.springframework.ide.eclipse.boot.dash' version='3.7.3.201602250914-RELEASE'>
       <properties size='1'>
         <property name='download.size' value='2109997'/>
@@ -2538,6 +2568,14 @@
       <properties size='1'>
         <property name='download.size' value='470511'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler.jd' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='24157'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.ndk' version='23.0.7.2120684'>
       <properties size='1'>
@@ -2617,6 +2655,14 @@
       <properties size='1'>
         <property name='download.size' value='158706'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler.procyon' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='24114'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.bidi' version='0.10.0.v20130327-1442'>
       <properties size='1'>
@@ -2773,6 +2819,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='24108'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.10.102.v20160118-1700'>
       <properties size='1'>
         <property name='download.size' value='1307562'/>
@@ -2818,11 +2872,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler' version='1.0.0.201605191154'>
-      <properties size='1'>
-        <property name='download.size' value='706806'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.spket.dtd' version='1.6.19'>
       <properties size='1'>
@@ -3851,6 +3900,14 @@
         <property name='download.size' value='56837'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler.jad' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='24153'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.team_feature' version='3.19.0.v20160316-2105'>
       <properties size='1'>
         <property name='download.size' value='18305'/>
@@ -4010,6 +4067,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sf.feeling.decompiler.cfr' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='24111'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jst.common.annotations.core' version='1.1.300.v201302011850'>
       <properties size='1'>
         <property name='download.size' value='25561'/>
@@ -4095,6 +4160,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.update.source' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='19280'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit.ui' version='2.11.1.v20160208-0841'>
       <properties size='1'>
@@ -4267,14 +4337,6 @@
         <property name='download.size' value='51481'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='edu.umd.cs.findbugs.plugin.eclipse' version='3.0.1.20150306-5afe4d1'>
-      <properties size='1'>
-        <property name='download.size' value='5368658'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui' version='3.2.0.201602051005'>
       <properties size='1'>
         <property name='download.size' value='127567'/>
@@ -4371,6 +4433,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.jad' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='774202'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.context.tasks.ui' version='3.19.0.v20160111-2059'>
       <properties size='1'>
@@ -4715,6 +4782,11 @@
         <property name='download.size' value='47113'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.cfr' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='1320949'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.markdown.ui' version='2.7.0.v20151009-1723'>
       <properties size='1'>
         <property name='download.size' value='10125'/>
@@ -4824,6 +4896,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sf.feeling.decompiler.update' version='2.5.0.201605251940'>
+      <properties size='1'>
+        <property name='download.size' value='34442'/>
+      </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='jp.gr.java_conf.ussiy.app.propedit.hyperlink' version='2.0.0'>
       <properties size='1'>

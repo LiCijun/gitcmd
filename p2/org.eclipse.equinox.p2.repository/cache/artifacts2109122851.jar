@@ -30,7 +30,7 @@
 <link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_69iQNH9_V5jG-ypN2uK1-Lehh5o2pv6am8NNHLtqn_M.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_lr2o_ExSkGmspU6Jv0EuenlZg0tlRIxvwfnlgwVYz5o.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_8YB-_oN6I-_qSrT9Zu_DNRz3DJpvLvDpmnclKp6Xoao.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_YvsMsloxv8jTByQWqRUpJOpQnw-9HPElvps5xIFGC18.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://marketplace.eclipse.org/sites/default/files/css/css_LNGmRbulwwEIjQPt945oUlNlm8ORWleuqdjm5UKbLe0.css" media="all" />
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -59,7 +59,7 @@ Drupal.behaviors.adSenseUnblock = {
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_rab_jEF9pMo7lOg8cj6QyuTpmJ9K7Jwo5bAg3-Tkr5s.js"></script>
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_w-WzqlK588RlrsaxAtdDaXLFWnz_UZXM1rREMJGLh7A.js"></script>
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_b7U_lKDVexT9ANsjNY70cWzK5P1fFxUVCwzTBefvGi0.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_marketplace","theme_token":"9PdQZ1tpzj5fBhxvwBTFT4iG7DeDM3ogXevdUyfmLsI","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/adsense\/contrib\/adsense_click\/adsense_click.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"1":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/javascript\/main.min.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/javascript\/marketplace.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/stylesheets\/styles.min.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/content\/vaadin-plugin-eclipse\/artifacts.jar":true},"field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_marketplace","theme_token":"B9SCW5UyIdwfmUNJZvvVTd3wbSM1jcO8gASclo6DcAM","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/adsense\/contrib\/adsense_click\/adsense_click.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"1":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/javascript\/main.min.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/javascript\/marketplace.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/stylesheets\/styles.min.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/content\/vaadin-plugin-eclipse\/artifacts.jar":true},"field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
 </head>
 <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1023 page-node-artifactsjar node-type-resource" >
   <div id="skip-link">
@@ -159,7 +159,7 @@ Drupal.behaviors.adSenseUnblock = {
     <div class="col-xs-24">
       <ol class="breadcrumb"><li><a href="//www.eclipse.org">Home</a></li>
 <li><a href="/">Marketplace</a></li>
-<li><a href="/category/markets/tools">Tools (1592)</a></li>
+<li><a href="/category/markets/tools">Tools (1593)</a></li>
 <li class="active">Vaadin Plugin for Eclipse</li>
 </ol>    </div>
   </div>
@@ -269,11 +269,26 @@ layout.addComponent(l);</p>
     </legend>
           <div class="panel-body">
         <h2>Unsuccessful Installs</h2>
-<p>Unsuccessful Installs in the last 7 Days:21</p>
+<p>Unsuccessful Installs in the last 7 Days:30</p>
 <table class="table table-hover table-striped table-bordered sticky-enabled">
  <thead><tr><th>Count</th><th>Error Message</th> </tr></thead>
 <tbody>
- <tr><td>16</td><td><span title="Cannot continue the operation.  There is another install operation in progress."><a href="/content/error/report/2891701">Cannot continue the operation.  There is another install operation in progress.</a></span></td> </tr>
+ <tr><td>14</td><td><span title="Cannot continue the operation.  There is another install operation in progress."><a href="/content/error/report/2892241">Cannot continue the operation.  There is another install operation in progress.</a></span></td> </tr>
+ <tr><td>5</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8)
+  Missing requirement: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8) requires &#039;org.eclipse.epp.package.jee.feature.feature.group 4.4.0&#039; but it could not be found"><a href="/content/error/report/2902355">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>4</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8)
+  Missing requirement: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse 2.3.9) requires &#039;bundle org.apache.ivyde.eclipse [2.2.0,2.3.0)&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8)
+    To: com.vaadin.integration.eclipse 0.0.0"><a href="/content/error/report/2902458">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>2</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
+  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse 2.3.2.201503060752) requires &#039;bundle org.eclipse.mylyn.commons.ui 0.0.0&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
+    To: com.vaadin.integration.eclipse [2.3.2.201503060752]"><a href="/content/error/report/2896208">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
  <tr><td>2</td><td><span title="Cannot complete the install because one or more required items could not be found.
   Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
   Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.jdt.ui 3.4.1&#039; but it could not be found"><a href="/content/error/report/2896903">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
@@ -282,13 +297,13 @@ layout.addComponent(l);</p>
   Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.apache.ivyde.eclipse 0.0.0&#039; but it could not be found"><a href="/content/error/report/2894644">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
  <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
   Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
-  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse 2.3.2.201503060752) requires &#039;bundle org.eclipse.mylyn.commons.ui 0.0.0&#039; but it could not be found
-  Cannot satisfy dependency:
-    From: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
-    To: com.vaadin.integration.eclipse [2.3.2.201503060752]"><a href="/content/error/report/2896208">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
- <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
-  Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
   Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.wst.common.project.facet.ui 0.0.0&#039; but it could not be found"><a href="/content/error/report/2896212">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse.feature.group 2.3.9)
+  Missing requirement: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse 2.3.9) requires &#039;bundle org.apache.ivyde.eclipse [2.2.0,2.3.0)&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse.feature.group 2.3.9)
+    To: com.vaadin.integration.eclipse [2.3.9]"><a href="/content/error/report/2902615">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
 </tbody>
 </table>
 
@@ -447,16 +462,16 @@ layout.addComponent(l);</p>
     
   <div class="block-content">
     <ul class="menu-item-list"><li><a href="/category/markets/eclipse-project">Eclipse Project (40)</a></li>
-<li><a href="/category/markets/tools" class="solstice-menu-collapse solstice-menu-nojs-collapsed">Tools (1592)</a><ul><li><a href="/taxonomy/term/1964%2C31">Application Development Frameworks (190)</a></li>
+<li><a href="/category/markets/tools" class="solstice-menu-collapse solstice-menu-nojs-collapsed">Tools (1593)</a><ul><li><a href="/taxonomy/term/1964%2C31">Application Development Frameworks (190)</a></li>
 <li><a href="/taxonomy/term/28%2C31">Application Management (52)</a></li>
 <li><a href="/taxonomy/term/1%2C31">Application Server (64)</a></li>
-<li><a href="/taxonomy/term/42%2C31">BIRT (19)</a></li>
+<li><a href="/taxonomy/term/42%2C31">BIRT (20)</a></li>
 <li><a href="/taxonomy/term/4%2C31">Build and Deploy (146)</a></li>
-<li><a href="/taxonomy/term/1973%2C31">Business Intelligence, Reporting and Charting (25)</a></li>
+<li><a href="/taxonomy/term/1973%2C31">Business Intelligence, Reporting and Charting (26)</a></li>
 <li><a href="/taxonomy/term/2%2C31">Code Management (160)</a></li>
 <li><a href="/taxonomy/term/1968%2C31">Collaboration (44)</a></li>
 <li><a href="/taxonomy/term/3%2C31">Database (67)</a></li>
-<li><a href="/taxonomy/term/1970%2C31">Database Development (37)</a></li>
+<li><a href="/taxonomy/term/1970%2C31">Database Development (38)</a></li>
 <li><a href="/taxonomy/term/36%2C31">Database Persistence (33)</a></li>
 <li><a href="/taxonomy/term/5%2C31">Documentation (78)</a></li>
 <li><a href="/taxonomy/term/1963%2C31">EclipseRT Target Platform Components (9)</a></li>
@@ -481,7 +496,7 @@ layout.addComponent(l);</p>
 <li><a href="/taxonomy/term/30%2C31">Process (33)</a></li>
 <li><a href="/taxonomy/term/13%2C31">Profiling (28)</a></li>
 <li><a href="/taxonomy/term/1966%2C31">Programming Languages (102)</a></li>
-<li><a href="/taxonomy/term/39%2C31">Reporting (51)</a></li>
+<li><a href="/taxonomy/term/39%2C31">Reporting (52)</a></li>
 <li><a href="/taxonomy/term/25%2C31">Rich Client Applications (84)</a></li>
 <li><a href="/taxonomy/term/26%2C31">SCM (25)</a></li>
 <li><a href="/taxonomy/term/40%2C31">Search (53)</a></li>
@@ -514,7 +529,7 @@ layout.addComponent(l);</p>
 <div class="form-item form-type-textfield form-item-keys">
 <div class="input-group"><input placeholder="Search" class="field-search-key auto_submit form-control form-text" type="text" id="edit-keys--2" name="keys" value="" size="30" maxlength="255" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span></span></div><input type="hidden" id="edit-keys--2-autocomplete" value="http://marketplace.eclipse.org/index.php?q=apachesolr_autocomplete" disabled="disabled" class="autocomplete" />
 </div>
-</div><input type="hidden" name="form_build_id" value="form-ysWKDaXFL1F60UPyg3HgvfXecUqAOd4njMejCpRsORI" />
+</div><input type="hidden" name="form_build_id" value="form-DiFNm6rnZTz6z8QTfvBIForoNLYYyDMFCVjvufi0K3E" />
 <input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
 <fieldset  class="panel-warning collapsible collapsed panel panel-default form-wrapper" id="edit-advanced--2">
           <legend class="panel-heading">
@@ -552,16 +567,16 @@ layout.addComponent(l);</p>
   <div class="block-content">
     <table class="table-favoritedby-fav-block table table-hover table-striped table-bordered">
 <tbody>
- <tr><td><a href="/user/afiller/favorites">Andreas Filler</a></td> </tr>
- <tr><td><a href="/user/jhuizinga/favorites">Joris Huizinga</a></td> </tr>
- <tr><td><a href="/user/mmisingname84v/favorites">Martin Ganserer</a></td> </tr>
- <tr><td><a href="/user/nmisingnamexbx/favorites">Nick Mising name</a></td> </tr>
- <tr><td><a href="/user/adomnguezmatamoros/favorites">Alberto Dominguez Matamoros</a></td> </tr>
- <tr><td><a href="/user/gamersonokv/favorites">Greg Amerson</a></td> </tr>
+ <tr><td><a href="/user/hdrewsuu5/favorites">Heinz Drews</a></td> </tr>
+ <tr><td><a href="/user/aalmarhuby/favorites">Assim Al-Marhuby</a></td> </tr>
+ <tr><td><a href="/user/eserrata/favorites">Eneldo Serrata</a></td> </tr>
+ <tr><td><a href="/user/mtahvonen/favorites">Matti Tahvonen</a></td> </tr>
  <tr><td><a href="/user/tgmbh/favorites">tranSIT GmbH</a></td> </tr>
- <tr><td><a href="/user/pmisingname6c7/favorites">paul Mising name</a></td> </tr>
- <tr><td><a href="/user/mmisingname76x/favorites">Bhupendra Khilrani</a></td> </tr>
- <tr><td><a href="/user/iyotov/favorites">Ivaylo Yotov</a></td> </tr>
+ <tr><td><a href="/user/ag357/favorites">Antonio G</a></td> </tr>
+ <tr><td><a href="/user/smisingname8q3/favorites">Sami Ekblad</a></td> </tr>
+ <tr><td><a href="/user/nmisingnamexbx/favorites">Nick Mising name</a></td> </tr>
+ <tr><td><a href="/user/gpierini/favorites">Gianluigi Pierini</a></td> </tr>
+ <tr><td><a href="/user/adomnguezmatamoros/favorites">Alberto Dominguez Matamoros</a></td> </tr>
 </tbody>
 </table>
   </div>
