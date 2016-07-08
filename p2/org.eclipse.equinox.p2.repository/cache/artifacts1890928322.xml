@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Groovy Artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1330639355482'/>
+    <property name='publishPackFilesAsSiblings' value='true'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='5'>
+    <rule filter='(&amp; (classifier=osgi.bundle) (format=packed))' output='${repoUrl}/plugins/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='49'>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.m2eclipse.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='6001'/>
+        <property name='download.size' value='6001'/>
+        <property name='download.md5' value='6f14c2ccb1eb7289e68cbf04c8307f67'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.refactoring.test' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='255366'/>
+        <property name='download.size' value='255366'/>
+        <property name='download.md5' value='807af19fa9f11e9d36eae898b2ad5f45'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.core' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='819849'/>
+        <property name='download.size' value='819849'/>
+        <property name='download.md5' value='5c141e338efe1f73240dfdaf6ed26a83'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.codeassist.completion' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='181608'/>
+        <property name='download.size' value='181608'/>
+        <property name='download.md5' value='92f2fe148f95ea17b185854ae6df0788'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core' version='3.6.2.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='4506334'/>
+        <property name='download.size' value='4506334'/>
+        <property name='download.md5' value='4bacdb13a5f9e0eb9e240f139fdd428d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.ui' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='492947'/>
+        <property name='download.size' value='492947'/>
+        <property name='download.md5' value='51dc340fdf2dd78ea77685bcb04aef81'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.groovy.core.tests.compiler' version='3.3.100.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='4441677'/>
+        <property name='download.size' value='4441677'/>
+        <property name='download.md5' value='d72644690e712945fb4e389854142f17'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.dsl.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='236541'/>
+        <property name='download.size' value='236541'/>
+        <property name='download.md5' value='aee6f094cbbc262ec0b6e8bc8731208d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.alltests.feature' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='13235'/>
+        <property name='download.size' value='13235'/>
+        <property name='download.md5' value='1f220f0e7baf6796a575943c58a3d7b1'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.core.test' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='322830'/>
+        <property name='download.size' value='322830'/>
+        <property name='download.md5' value='96b52139f3013e68c60208eabd54f04a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.quickfix' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='44802'/>
+        <property name='download.size' value='44802'/>
+        <property name='download.md5' value='5d9cd8a0cbf604bbb2ad4d51141e025e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.groovy.core' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='291431'/>
+        <property name='download.size' value='291431'/>
+        <property name='download.md5' value='5db42f44e32afd0df889cc6da9ba3e12'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.astviews' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='63862'/>
+        <property name='download.size' value='63862'/>
+        <property name='download.md5' value='ae7f1c0cdc83088b2a28e454a6709dad'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.eclipse.feature.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='6135'/>
+        <property name='download.size' value='6135'/>
+        <property name='download.md5' value='5cd9b227390746fcb59c4356d94daff9'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.codebrowsing.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='48634'/>
+        <property name='download.size' value='48634'/>
+        <property name='download.md5' value='8dffa169772fae678e217961f0b657ad'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.codebrowsing' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='60615'/>
+        <property name='download.size' value='60615'/>
+        <property name='download.md5' value='b3855538c14709c7ab1cfac599772549'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.refactoring.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='160735'/>
+        <property name='download.size' value='160735'/>
+        <property name='download.md5' value='bf9c4aa13a4077a4126c6daa9617a24c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.frameworkadapter.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='6405'/>
+        <property name='download.size' value='6405'/>
+        <property name='download.md5' value='36713668b489f5cc091b1e47f03a4c3c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.codeassist.completion.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='136109'/>
+        <property name='download.size' value='136109'/>
+        <property name='download.md5' value='fa455f40095e4695bc60f607558fad74'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.refactoring' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='224249'/>
+        <property name='download.size' value='224249'/>
+        <property name='download.md5' value='8554a18bb5c46d4f2289d47bab11cbbd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.ui.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='291729'/>
+        <property name='download.size' value='291729'/>
+        <property name='download.md5' value='6886b1f74e7bd3d710febc490cf6ee09'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy17.feature' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='9857'/>
+        <property name='download.size' value='9857'/>
+        <property name='download.md5' value='5dc111ef4a96e57860dae819d18ecece'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='716'/>
+        <property name='download.size' value='716'/>
+        <property name='download.md5' value='c93c91affc461017b97a0272a8aa90af'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.source' version='3.6.2.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='3668277'/>
+        <property name='download.size' value='3668277'/>
+        <property name='download.md5' value='218d317b4f92ef151f4580555b977ff8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.jdt.patch.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='6090'/>
+        <property name='download.size' value='6090'/>
+        <property name='download.md5' value='50cba40b51f002c2cbba0f6032ae78ac'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.eclipse.feature' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='14242'/>
+        <property name='download.size' value='14242'/>
+        <property name='download.md5' value='570fb08e874e3a0b993ba0121dc81433'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.m2eclipse.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='4675'/>
+        <property name='download.size' value='4675'/>
+        <property name='download.md5' value='db210ce0674dd1439348719aea10db08'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='4244'/>
+        <property name='download.size' value='4244'/>
+        <property name='download.md5' value='25b14100b12618889369941032c4b2ee'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.codebrowsing.test' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='47501'/>
+        <property name='download.size' value='47501'/>
+        <property name='download.md5' value='5de6e3d8ab22b4b78d255e32db990aa1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.groovy.core.tests.builder' version='3.3.100.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='6122443'/>
+        <property name='download.size' value='6122443'/>
+        <property name='download.md5' value='4cefcec6d0ccfb2760e6bd58f0b3dbc7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.m2eclipse' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='7343'/>
+        <property name='download.size' value='7343'/>
+        <property name='download.md5' value='a443d6954b137e698e6905ae8e8530b6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.codeassist.completion.test' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='71591'/>
+        <property name='download.size' value='71591'/>
+        <property name='download.md5' value='4e203cf7da2f51628ec62ff7c842f322'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.quickfix.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='39911'/>
+        <property name='download.size' value='39911'/>
+        <property name='download.md5' value='47011105a79565f4a65e452d156b5a63'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.dsl.tests' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='63486'/>
+        <property name='download.size' value='63486'/>
+        <property name='download.md5' value='de6de76dba9ad0ac230b4e77fff837ee'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.ant' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='8549'/>
+        <property name='download.size' value='8549'/>
+        <property name='download.md5' value='70277169bcd783bf1b7ec59fe39b0809'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.dsl' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='348829'/>
+        <property name='download.size' value='348829'/>
+        <property name='download.md5' value='8e2cdc24c3d0db565164b2ca6c96feb6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy18.feature' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='9856'/>
+        <property name='download.size' value='9856'/>
+        <property name='download.md5' value='eeb5803d55173ff217020e5d33631e5d'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy' version='1.7.10.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='17131245'/>
+        <property name='download.size' value='17131245'/>
+        <property name='download.md5' value='ae2674d87051748d4a63fdfc17d1417e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy' version='1.8.6.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='18301047'/>
+        <property name='download.size' value='18301047'/>
+        <property name='download.md5' value='0fc075cfd8936357193209fb5eefa112'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.core.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='66413'/>
+        <property name='download.size' value='66413'/>
+        <property name='download.md5' value='2f8901338ba81d8d996bfaa7c08fec37'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.m2eclipse' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='6145'/>
+        <property name='download.size' value='6145'/>
+        <property name='download.md5' value='9c2c2af1160ba2b7be0192ace5a7ad13'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.frameworkadapter' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='8010'/>
+        <property name='download.size' value='8010'/>
+        <property name='download.md5' value='9dbfe989d5a804b126dc061cd362b844'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.jdt.patch' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='6338'/>
+        <property name='download.size' value='6338'/>
+        <property name='download.md5' value='ee3a904b7102930ae3d3b8733eb7e2ee'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.quickfix.test' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='22221'/>
+        <property name='download.size' value='22221'/>
+        <property name='download.md5' value='d8f8208cc71af3edae8934f5ac26b3a4'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.alltests' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='2853'/>
+        <property name='download.size' value='2853'/>
+        <property name='download.md5' value='8be06bb0b727839dac3a2635af871ea5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.astviews.source' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='10568'/>
+        <property name='download.size' value='10568'/>
+        <property name='download.md5' value='54694bbc5a1eb544605ff855f3fa8927'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.codehaus.groovy.headless.feature' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='4'>
+        <property name='artifact.size' value='13802'/>
+        <property name='download.size' value='13802'/>
+        <property name='download.md5' value='2f4a0abda59cdf9d66cf5d7f9dd474a6'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.tests' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='217149'/>
+        <property name='download.size' value='217149'/>
+        <property name='download.md5' value='e660ff362ece90ee640f7fd86e301e2a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.codehaus.groovy.eclipse.junit.test' version='2.6.1.xx-20120301-1300-e36-RELEASE'>
+      <properties size='3'>
+        <property name='artifact.size' value='19464'/>
+        <property name='download.size' value='19464'/>
+        <property name='download.md5' value='8a9e14f996b8aa84b654c6c9edc2a154'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,4 +1,0 @@
-<map id="org.coreasm.eclipse.editors.outlining.ParsedContentProvider.getElements" name="org.coreasm.eclipse.editors.outlining.ParsedContentProvider.getElements">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1ParsedContentProvider.html#ac37c94c26ce9ccdb07c68d5008d8c896" title="org.coreasm.eclipse.editors.outlining.\lParsedContentProvider.appendChild" alt="" coords="294,5,533,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMEditor.html#affb3a5535b4b781eddd1f29d66f53f52" title="Returns the IFile object for the file the specification loaded in this editor is stored in..." alt="" coords="581,5,768,46"/>
-</map>

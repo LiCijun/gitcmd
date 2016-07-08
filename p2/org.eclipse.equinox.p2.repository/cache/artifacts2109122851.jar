@@ -59,7 +59,7 @@ Drupal.behaviors.adSenseUnblock = {
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_rab_jEF9pMo7lOg8cj6QyuTpmJ9K7Jwo5bAg3-Tkr5s.js"></script>
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_w-WzqlK588RlrsaxAtdDaXLFWnz_UZXM1rREMJGLh7A.js"></script>
 <script src="http://marketplace.eclipse.org/sites/default/files/js/js_b7U_lKDVexT9ANsjNY70cWzK5P1fFxUVCwzTBefvGi0.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_marketplace","theme_token":"B9SCW5UyIdwfmUNJZvvVTd3wbSM1jcO8gASclo6DcAM","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/adsense\/contrib\/adsense_click\/adsense_click.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"1":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/javascript\/main.min.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/javascript\/marketplace.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/stylesheets\/styles.min.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/content\/vaadin-plugin-eclipse\/artifacts.jar":true},"field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"solstice_marketplace","theme_token":"TBl_3AnE6NxDn7OdnJb8t8KWYRDbuS-glWJrP9e60Fc","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"sites\/all\/modules\/contrib\/adsense\/contrib\/adsense_click\/adsense_click.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"http:\/\/w.sharethis.com\/button\/buttons.js":1,"1":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/javascript\/main.min.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/javascript\/marketplace.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/stylesheets\/styles.min.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"urlIsAjaxTrusted":{"\/content\/vaadin-plugin-eclipse\/artifacts.jar":true},"field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
 </head>
 <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1023 page-node-artifactsjar node-type-resource" >
   <div id="skip-link">
@@ -159,7 +159,7 @@ Drupal.behaviors.adSenseUnblock = {
     <div class="col-xs-24">
       <ol class="breadcrumb"><li><a href="//www.eclipse.org">Home</a></li>
 <li><a href="/">Marketplace</a></li>
-<li><a href="/category/markets/tools">Tools (1593)</a></li>
+<li><a href="/category/markets/tools">Tools (1602)</a></li>
 <li class="active">Vaadin Plugin for Eclipse</li>
 </ol>    </div>
   </div>
@@ -193,7 +193,7 @@ Drupal.behaviors.adSenseUnblock = {
     <div id="node-1023" class="node node-resource clearfix">
   <div class="row padding-bottom">
     <div class="col-sm-5 col-md-4">
-      <div class="listing-badge-container"><div class="col-md-24"><div class="row"><a href="/content/vaadin-plugin-eclipse" class="listing-image" style="background:url(http://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/logo-rgb-110x80-wide-on-white-bg.png?itok=hzA2zDk5) no-repeat center;"><span class="sr-only">Vaadin Plugin for Eclipse</span></a></div><div class="row padding-top-10 hidden-xs"><div class="col-xs-24 col-sm-12 text-center"><div class="row"><a href="https://marketplace.eclipse.org/user/login/sso?destination=node/1023/toggle_favorites" class="favorite" _target="_parent" title="Add Vaadin Plugin for Eclipse to your favorites"><i class="fa fa-star-o"></i> 45</a></div></div><div class="col-xs-24 col-sm-12 text-center"><div class="row"><a href="/content/vaadin-plugin-eclipse#reviews" class=""><i class="fa fa-comment-o"></i> 5</a></div></div></div><div class="row text-center padding-top-10 hidden-xs"><div class="drag_installbutton drag_installbutton_v2"><a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1023" class="drag" title="Drag to your running Eclipse workspace to install Vaadin Plugin for Eclipse"><span class="btn btn-simple"><i class="fa fa-download orange"></i> Install</span><div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div></a></div></div><div class="row listing-icons text-center col-light-padding padding-top-10 padding-bottom-15"><div class="row"><a href="/content/vaadin-plugin-eclipse/click" title="Vaadin Plugin for Eclipse website." target="_blank"><i class="fa fa-home"></i></a><i class="fa fa-rss"></i><a href="http://vaadin.com/forum" title="Vaadin Plugin for Eclipse support link." target="_blank"><i class="fa fa-question-circle"></i></a><a href="#maint-content-area" id="btn-update-site"><i class="fa fa-download"></i></a><div id="update-site-content" class="hide"><p>Add this URL to your Eclipse Installation to reach this Solution's Update Site.</p><div class="box-container box-container-even"><h4>Neon (4.6)<br/>Mars (4.5)<br/>Luna (4.4)</h4><input class="margin-bottom-10 form-text" type="text" value="http://vaadin.com/eclipse/" size="125" /><i class="fa fa-linux orange" title="Linux/GTK"></i> <i class="fa fa-windows orange" title="Windows"></i> <i class="fa fa-apple orange" title="Mac"></i></div><div class="box-container box-container-odd"><h4>Kepler (4.3)<br/>Juno (4.2, 3.8)<br/>Previous to Juno (<=4.1)</h4><input class="margin-bottom-10 form-text" type="text" value="http://vaadin.com/eclipse/3.5" size="125" /><i class="fa fa-linux orange" title="Linux/GTK"></i> <i class="fa fa-windows orange" title="Windows"></i> <i class="fa fa-apple orange" title="Mac"></i></div><a href="/content/vaadin-plugin-eclipse/help" title="How to add an update site." class="">Learn more...</a></div></div></div></div></div>    </div>
+      <div class="listing-badge-container"><div class="col-md-24"><div class="row"><a href="/content/vaadin-plugin-eclipse" class="listing-image" style="background:url(http://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/logo-rgb-110x80-wide-on-white-bg.png?itok=hzA2zDk5) no-repeat center;"><span class="sr-only">Vaadin Plugin for Eclipse</span></a></div><div class="row padding-top-10 hidden-xs"><div class="col-xs-24 col-sm-12 text-center"><div class="row"><a href="https://marketplace.eclipse.org/user/login/sso?destination=node/1023/toggle_favorites" class="favorite" _target="_parent" title="Add Vaadin Plugin for Eclipse to your favorites"><i class="fa fa-star-o"></i> 46</a></div></div><div class="col-xs-24 col-sm-12 text-center"><div class="row"><a href="/content/vaadin-plugin-eclipse#reviews" class=""><i class="fa fa-comment-o"></i> 5</a></div></div></div><div class="row text-center padding-top-10 hidden-xs"><div class="drag_installbutton drag_installbutton_v2"><a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1023" class="drag" title="Drag to your running Eclipse workspace to install Vaadin Plugin for Eclipse"><span class="btn btn-simple"><i class="fa fa-download orange"></i> Install</span><div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div></a></div></div><div class="row listing-icons text-center col-light-padding padding-top-10 padding-bottom-15"><div class="row"><a href="/content/vaadin-plugin-eclipse/click" title="Vaadin Plugin for Eclipse website." target="_blank"><i class="fa fa-home"></i></a><i class="fa fa-rss"></i><a href="http://vaadin.com/forum" title="Vaadin Plugin for Eclipse support link." target="_blank"><i class="fa fa-question-circle"></i></a><a href="#maint-content-area" id="btn-update-site"><i class="fa fa-download"></i></a><div id="update-site-content" class="hide"><p>Add this URL to your Eclipse Installation to reach this Solution's Update Site.</p><div class="box-container box-container-even"><h4>Neon (4.6)<br/>Mars (4.5)<br/>Luna (4.4)</h4><input class="margin-bottom-10 form-text" type="text" value="http://vaadin.com/eclipse/" size="125" /><i class="fa fa-linux orange" title="Linux/GTK"></i> <i class="fa fa-windows orange" title="Windows"></i> <i class="fa fa-apple orange" title="Mac"></i></div><div class="box-container box-container-odd"><h4>Kepler (4.3)<br/>Juno (4.2, 3.8)<br/>Previous to Juno (<=4.1)</h4><input class="margin-bottom-10 form-text" type="text" value="http://vaadin.com/eclipse/3.5" size="125" /><i class="fa fa-linux orange" title="Linux/GTK"></i> <i class="fa fa-windows orange" title="Windows"></i> <i class="fa fa-apple orange" title="Mac"></i></div><a href="/content/vaadin-plugin-eclipse/help" title="How to add an update site." class="">Learn more...</a></div></div></div></div></div>    </div>
 
     <div class="col-sm-19 col-md-20">
             
@@ -206,19 +206,26 @@ Drupal.behaviors.adSenseUnblock = {
       <span class="panel-title fieldset-legend">Details</span>
     </legend>
           <div class="panel-body">
-        <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Vaadin is a powerful open source UI library for creating rich web user interfaces. It is a Java EE compatible component library that makes it easy for Java developers to create stunning web applications. No need for JavaScript or XML programming - just use Java:</p>
-<p>Label l = new Label("Hello Vaadin User");<br />
-layout.addComponent(l);</p>
-<p>In addition to dozens of built-in components the Vaadin Directory at <a href="https://vaadin.com/directory">https://vaadin.com/directory</a> provides over 500 extra widgets and components for building your application.</p>
-<p>The Vaadin Plugin for Eclipse comes with project wizard and samples and WYSIWYG visual designer and wizards to speed up the development.</p>
-<p>Vaadin Ltd offers professional tools and support for the framework. Learn more at <a href="https://vaadin.com/tools-and-services">https://vaadin.com/tools-and-services</a></p>
-</div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Categories: </div><ul class="links inline list-inline"><li class="taxonomy-term-reference-0"><a href="/category/categories/application-development-frameworks">Application Development Frameworks</a>, </li><li class="taxonomy-term-reference-1"><a href="/category/categories/j2ee-development-platform">J2EE Development Platform</a>, </li><li class="taxonomy-term-reference-2"><a href="/category/categories/ui">UI</a>, </li><li class="taxonomy-term-reference-3"><a href="/category/categories/web">Web</a>, </li><li class="taxonomy-term-reference-4"><a href="/category/categories/web-xml-java-ee-and-osgi-enterprise-development">Web, XML, Java EE and OSGi Enterprise Development</a></li></ul></div><div class="field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tags: </div><ul class="links inline list-inline"><li class="taxonomy-term-reference-0"><a href="/category/free-tagging/java">java</a>, </li><li class="taxonomy-term-reference-1"><a href="/category/free-tagging/j2ee">J2EE</a>, </li><li class="taxonomy-term-reference-2"><a href="/category/free-tagging/web">web</a>, </li><li class="taxonomy-term-reference-3"><a href="/category/free-tagging/ria">ria</a>, </li><li class="taxonomy-term-reference-4"><a href="/category/free-tagging/java-ee">java ee</a>, </li><li class="taxonomy-term-reference-5"><a href="/category/free-tagging/gwt">GWT</a>, </li><li class="taxonomy-term-reference-6"><a href="/category/free-tagging/vaadin">vaadin</a></li></ul></div><fieldset  class="collapsible  group-additional-details field-group-fieldset panel panel-default form-wrapper" id="bootstrap-panel">
+        <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Vaadin Framework is an open source Java UI library for creating rich web user interfaces. Using its component based API developers can create stunning web applications in plain Java - without thinking about client-server communication (XHR, WebSockets) or writing JavaScript, CSS or markup languages.</p> 
+
+<code><pre>List&lt;Person&gt; personList = backendService.getAllPersons();
+Grid grid = new Grid();
+grid.setContainerDataSource(
+    new BeanItemContainer&lt;Person&gt;(Person.class, personList));
+grid.setColumns("firstName", "lastName", "email");
+</pre>
+</code>
+<p>Vaadin only requires a servlet container, and there are integration libraries for Spring and Java EE (CDI). In addition to dozens of built-in components the <a href="https://vaadin.com/directory">Vaadin Directory</a> provides over 500 community made widgets and components for building your application.</p>
+<p>The Vaadin Plugin for Eclipse comes with project templates and samples and a WYSIWYG visual designer to speed up your development.
+</p>
+<p>Vaadin is Open source (Apache 2.0) but Vaadin Ltd offers <a href="https://vaadin.com/pro-tools">professional tools</a> and <a href="https://vaadin.com/tools-and-services">services</a> for the framework.
+</p></div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Categories: </div><ul class="links inline list-inline"><li class="taxonomy-term-reference-0"><a href="/category/categories/application-development-frameworks">Application Development Frameworks</a>, </li><li class="taxonomy-term-reference-1"><a href="/category/categories/j2ee-development-platform">J2EE Development Platform</a>, </li><li class="taxonomy-term-reference-2"><a href="/category/categories/ui">UI</a>, </li><li class="taxonomy-term-reference-3"><a href="/category/categories/web">Web</a>, </li><li class="taxonomy-term-reference-4"><a href="/category/categories/web-xml-java-ee-and-osgi-enterprise-development">Web, XML, Java EE and OSGi Enterprise Development</a></li></ul></div><div class="field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tags: </div><ul class="links inline list-inline"><li class="taxonomy-term-reference-0"><a href="/category/free-tagging/java">java</a>, </li><li class="taxonomy-term-reference-1"><a href="/category/free-tagging/j2ee">J2EE</a>, </li><li class="taxonomy-term-reference-2"><a href="/category/free-tagging/web">web</a>, </li><li class="taxonomy-term-reference-3"><a href="/category/free-tagging/ria">ria</a>, </li><li class="taxonomy-term-reference-4"><a href="/category/free-tagging/java-ee">java ee</a>, </li><li class="taxonomy-term-reference-5"><a href="/category/free-tagging/gwt">GWT</a>, </li><li class="taxonomy-term-reference-6"><a href="/category/free-tagging/vaadin">vaadin</a></li></ul></div><fieldset  class="collapsible  group-additional-details field-group-fieldset panel panel-default form-wrapper" id="bootstrap-panel">
           <legend class="panel-heading">
       <a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#bootstrap-panel > .collapse">Additional Details</a>
     </legend>
           <div class="panel-collapse collapse fade in">
     <div class="panel-body">
-        <div class="field field-name-resource-sv-eclipse-version field-type-text field-label-inline clearfix"><div class="field-label">Eclipse Versions:&nbsp;</div><div class="field-items"><div class="field-item even">Neon (4.6), Mars (4.5), Luna (4.4), Kepler (4.3), Juno (4.2, 3.8), Previous to Juno (<=4.1)</div></div></div><div class="field field-name-resource-sv-os field-type-text field-label-inline clearfix"><div class="field-label">Platform Support:&nbsp;</div><div class="field-items"><div class="field-item even">Windows, Mac, Linux/GTK</div></div></div><div class="field field-name-field-companyname field-type-text field-label-inline clearfix"><div class="field-label">Organization Name:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/search/content/%22Vaadin%20Ltd%22">Vaadin Ltd</a></div></div></div><div class="field field-name-shared-date-created field-type-text field-label-inline clearfix"><div class="field-label">Date Created:&nbsp;</div><div class="field-items"><div class="field-item even">Fri, 2009-10-09 09:49</div></div></div><div class="field field-name-field-status field-type-list-text field-label-inline clearfix"><div class="field-label">Development Status:&nbsp;</div><div class="field-items"><div class="field-item even">Production/Stable</div></div></div><div class="field field-name-field-licensetype field-type-list-text field-label-inline clearfix"><div class="field-label">License:&nbsp;</div><div class="field-items"><div class="field-item even">Apache 2.0</div></div></div><div class="field field-name-shared-date-updated field-type-text field-label-inline clearfix"><div class="field-label">Date Updated:&nbsp;</div><div class="field-items"><div class="field-item even">Tue, 2016-03-15 08:39</div></div></div><div class="field field-name-shared-submitted-by field-type-text field-label-inline clearfix"><div class="field-label">Submitted by:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/user/smisingname8q3/listings" title="Sami Ekblad">Sami Ekblad</a></div></div></div>  </div>
+        <div class="field field-name-resource-sv-eclipse-version field-type-text field-label-inline clearfix"><div class="field-label">Eclipse Versions:&nbsp;</div><div class="field-items"><div class="field-item even">Neon (4.6), Mars (4.5), Luna (4.4), Kepler (4.3), Juno (4.2, 3.8), Previous to Juno (<=4.1)</div></div></div><div class="field field-name-resource-sv-os field-type-text field-label-inline clearfix"><div class="field-label">Platform Support:&nbsp;</div><div class="field-items"><div class="field-item even">Windows, Mac, Linux/GTK</div></div></div><div class="field field-name-field-companyname field-type-text field-label-inline clearfix"><div class="field-label">Organization Name:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/search/content/%22Vaadin%20Ltd%22">Vaadin Ltd</a></div></div></div><div class="field field-name-shared-date-created field-type-text field-label-inline clearfix"><div class="field-label">Date Created:&nbsp;</div><div class="field-items"><div class="field-item even">Fri, 2009-10-09 09:49</div></div></div><div class="field field-name-field-status field-type-list-text field-label-inline clearfix"><div class="field-label">Development Status:&nbsp;</div><div class="field-items"><div class="field-item even">Production/Stable</div></div></div><div class="field field-name-field-licensetype field-type-list-text field-label-inline clearfix"><div class="field-label">License:&nbsp;</div><div class="field-items"><div class="field-item even">Apache 2.0</div></div></div><div class="field field-name-shared-date-updated field-type-text field-label-inline clearfix"><div class="field-label">Date Updated:&nbsp;</div><div class="field-items"><div class="field-item even">Tue, 2016-06-28 06:36</div></div></div><div class="field field-name-shared-submitted-by field-type-text field-label-inline clearfix"><div class="field-label">Submitted by:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/user/smisingname8q3/listings" title="Sami Ekblad">Sami Ekblad</a></div></div></div>  </div>
     </div>
   </fieldset>
 <div class="sharethis-buttons"><div class="sharethis-wrapper"><span st_url="http://marketplace.eclipse.org/content/vaadin-plugin-eclipse" st_title="Vaadin Plugin for Eclipse" class="st_facebook_button" displayText="facebook"></span>
@@ -235,19 +242,20 @@ layout.addComponent(l);</p>
       <span class="panel-title fieldset-legend">Screenshots</span>
     </legend>
           <div class="panel-body">
-        <div class="field field-name-field-screenshot field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-eclipse-wysiwyg.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-eclipse-wysiwyg.png?itok=K8LozFek" width="469" height="385" alt="" title="" /></a></div><div class="field-item odd"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-touchkit-parking-sample.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-touchkit-parking-sample.png?itok=oV7UHRI0" width="469" height="780" alt="" title="" /></a></div><div class="field-item even"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-sample-dashboard.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-sample-dashboard.png?itok=VUQXdP4-" width="469" height="338" alt="" title="" /></a></div><div class="field-item odd"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-touchkit-ipad.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-touchkit-ipad.png?itok=VNpCp_oN" width="469" height="379" alt="" title="" /></a></div></div></div>  </div>
+        <div class="field field-name-field-screenshot field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-valo-demo.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-valo-demo.png?itok=lfjvvG-R" width="469" height="322" alt="" title="" /></a></div><div class="field-item odd"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-touchkit-parking-sample.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-touchkit-parking-sample.png?itok=oV7UHRI0" width="469" height="780" alt="" title="" /></a></div><div class="field-item even"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-sample-dashboard.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-sample-dashboard.png?itok=VUQXdP4-" width="469" height="338" alt="" title="" /></a></div><div class="field-item odd"><a href="http://marketplace.eclipse.org/sites/default/files/vaadin-touchkit-ipad.png" title="Vaadin Plugin for Eclipse" class="colorbox" rel="gallery-node-1023"><img class="img-responsive" src="http://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/vaadin-touchkit-ipad.png?itok=VNpCp_oN" width="469" height="379" alt="" title="" /></a></div></div></div>  </div>
   </fieldset>
 <fieldset  class="collapsible collapsed  group-metrics-tab field-group-htab panel panel-default form-wrapper" id="group-metrics-tab">
           <legend class="panel-heading">
       <span class="panel-title fieldset-legend">Metrics</span>
     </legend>
           <div class="panel-body">
-        <div class="text-center"><div  class="charts-google chart" data-chart="{&quot;visualization&quot;:&quot;ColumnChart&quot;,&quot;options&quot;:{&quot;title&quot;:&quot;Marketplace Client Install&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:20},&quot;titlePosition&quot;:&quot;out&quot;,&quot;colors&quot;:[&quot;#2f7ed8&quot;,&quot;#0d233a&quot;,&quot;#8bbc21&quot;,&quot;#910000&quot;,&quot;#1aadce&quot;,&quot;#492970&quot;,&quot;#f28f43&quot;,&quot;#77a1e5&quot;,&quot;#c42525&quot;,&quot;#a6c96a&quot;],&quot;fontName&quot;:&quot;Arial&quot;,&quot;fontSize&quot;:12,&quot;backgroundColor&quot;:{&quot;fill&quot;:&quot;transparent&quot;},&quot;isStacked&quot;:false,&quot;tooltip&quot;:{&quot;trigger&quot;:&quot;focus&quot;,&quot;isHtml&quot;:false},&quot;pieSliceText&quot;:&quot;none&quot;,&quot;legend&quot;:{&quot;position&quot;:&quot;none&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;titleTextStyle&quot;:{&quot;bold&quot;:true,&quot;italic&quot;:false},&quot;textStyle&quot;:{&quot;bold&quot;:false,&quot;italic&quot;:false}},&quot;interpolateNulls&quot;:true,&quot;animation&quot;:{&quot;duration&quot;:10000,&quot;easing&quot;:&quot;out&quot;},&quot;hAxis&quot;:{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[]},&quot;vAxes&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[],&quot;format&quot;:&quot;#&quot;}],&quot;series&quot;:[{&quot;color&quot;:&quot;#F7941E&quot;,&quot;pointSize&quot;:3,&quot;visibleInLegend&quot;:true,&quot;pieSliceText&quot;:&quot;none&quot;,&quot;_format&quot;:{&quot;format&quot;:&quot;#&quot;}}]},&quot;data&quot;:[[&quot;x&quot;,&quot;Installs&quot;],[&quot;6\/15&quot;,2899],[&quot;7\/15&quot;,3070],[&quot;8\/15&quot;,2781],[&quot;9\/15&quot;,3007],[&quot;10\/15&quot;,3226],[&quot;11\/15&quot;,3340],[&quot;12\/15&quot;,2708],[&quot;1\/16&quot;,2790],[&quot;2\/16&quot;,2942],[&quot;3\/16&quot;,3060],[&quot;4\/16&quot;,2888],[&quot;5\/16&quot;,2282]]}" id="google-chart-render"></div>
-<div  class="charts-google chart" data-chart="{&quot;visualization&quot;:&quot;ColumnChart&quot;,&quot;options&quot;:{&quot;title&quot;:&quot;Clickthroughs&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:20},&quot;titlePosition&quot;:&quot;out&quot;,&quot;colors&quot;:[&quot;#2f7ed8&quot;,&quot;#0d233a&quot;,&quot;#8bbc21&quot;,&quot;#910000&quot;,&quot;#1aadce&quot;,&quot;#492970&quot;,&quot;#f28f43&quot;,&quot;#77a1e5&quot;,&quot;#c42525&quot;,&quot;#a6c96a&quot;],&quot;fontName&quot;:&quot;Arial&quot;,&quot;fontSize&quot;:12,&quot;backgroundColor&quot;:{&quot;fill&quot;:&quot;transparent&quot;},&quot;isStacked&quot;:false,&quot;tooltip&quot;:{&quot;trigger&quot;:&quot;focus&quot;,&quot;isHtml&quot;:false},&quot;pieSliceText&quot;:&quot;none&quot;,&quot;legend&quot;:{&quot;position&quot;:&quot;none&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;titleTextStyle&quot;:{&quot;bold&quot;:true,&quot;italic&quot;:false},&quot;textStyle&quot;:{&quot;bold&quot;:false,&quot;italic&quot;:false}},&quot;interpolateNulls&quot;:true,&quot;animation&quot;:{&quot;duration&quot;:10000,&quot;easing&quot;:&quot;out&quot;},&quot;hAxis&quot;:{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[]},&quot;vAxes&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[],&quot;format&quot;:&quot;#&quot;}],&quot;series&quot;:[{&quot;color&quot;:&quot;#F7941E&quot;,&quot;pointSize&quot;:3,&quot;visibleInLegend&quot;:true,&quot;pieSliceText&quot;:&quot;none&quot;,&quot;_format&quot;:{&quot;format&quot;:&quot;#&quot;}}]},&quot;data&quot;:[[&quot;x&quot;,&quot;Clicks&quot;],[&quot;6\/15&quot;,35],[&quot;7\/15&quot;,32],[&quot;8\/15&quot;,45],[&quot;9\/15&quot;,38],[&quot;10\/15&quot;,31],[&quot;11\/15&quot;,37],[&quot;12\/15&quot;,34],[&quot;1\/16&quot;,41],[&quot;2\/16&quot;,30],[&quot;3\/16&quot;,47],[&quot;4\/16&quot;,56],[&quot;5\/16&quot;,49]]}" id="google-chart-render--2"></div>
+        <div class="text-center"><div  class="charts-google chart" data-chart="{&quot;visualization&quot;:&quot;ColumnChart&quot;,&quot;options&quot;:{&quot;title&quot;:&quot;Marketplace Client Install&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:20},&quot;titlePosition&quot;:&quot;out&quot;,&quot;colors&quot;:[&quot;#2f7ed8&quot;,&quot;#0d233a&quot;,&quot;#8bbc21&quot;,&quot;#910000&quot;,&quot;#1aadce&quot;,&quot;#492970&quot;,&quot;#f28f43&quot;,&quot;#77a1e5&quot;,&quot;#c42525&quot;,&quot;#a6c96a&quot;],&quot;fontName&quot;:&quot;Arial&quot;,&quot;fontSize&quot;:12,&quot;backgroundColor&quot;:{&quot;fill&quot;:&quot;transparent&quot;},&quot;isStacked&quot;:false,&quot;tooltip&quot;:{&quot;trigger&quot;:&quot;focus&quot;,&quot;isHtml&quot;:false},&quot;pieSliceText&quot;:&quot;none&quot;,&quot;legend&quot;:{&quot;position&quot;:&quot;none&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;titleTextStyle&quot;:{&quot;bold&quot;:true,&quot;italic&quot;:false},&quot;textStyle&quot;:{&quot;bold&quot;:false,&quot;italic&quot;:false}},&quot;interpolateNulls&quot;:true,&quot;animation&quot;:{&quot;duration&quot;:10000,&quot;easing&quot;:&quot;out&quot;},&quot;hAxis&quot;:{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[]},&quot;vAxes&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[],&quot;format&quot;:&quot;#&quot;}],&quot;series&quot;:[{&quot;color&quot;:&quot;#F7941E&quot;,&quot;pointSize&quot;:3,&quot;visibleInLegend&quot;:true,&quot;pieSliceText&quot;:&quot;none&quot;,&quot;_format&quot;:{&quot;format&quot;:&quot;#&quot;}}]},&quot;data&quot;:[[&quot;x&quot;,&quot;Installs&quot;],[&quot;7\/15&quot;,3070],[&quot;8\/15&quot;,2781],[&quot;9\/15&quot;,3007],[&quot;10\/15&quot;,3226],[&quot;11\/15&quot;,3340],[&quot;12\/15&quot;,2708],[&quot;1\/16&quot;,2790],[&quot;2\/16&quot;,2942],[&quot;3\/16&quot;,3060],[&quot;4\/16&quot;,2888],[&quot;5\/16&quot;,2697],[&quot;6\/16&quot;,2861]]}" id="google-chart-render"></div>
+<div  class="charts-google chart" data-chart="{&quot;visualization&quot;:&quot;ColumnChart&quot;,&quot;options&quot;:{&quot;title&quot;:&quot;Clickthroughs&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:20},&quot;titlePosition&quot;:&quot;out&quot;,&quot;colors&quot;:[&quot;#2f7ed8&quot;,&quot;#0d233a&quot;,&quot;#8bbc21&quot;,&quot;#910000&quot;,&quot;#1aadce&quot;,&quot;#492970&quot;,&quot;#f28f43&quot;,&quot;#77a1e5&quot;,&quot;#c42525&quot;,&quot;#a6c96a&quot;],&quot;fontName&quot;:&quot;Arial&quot;,&quot;fontSize&quot;:12,&quot;backgroundColor&quot;:{&quot;fill&quot;:&quot;transparent&quot;},&quot;isStacked&quot;:false,&quot;tooltip&quot;:{&quot;trigger&quot;:&quot;focus&quot;,&quot;isHtml&quot;:false},&quot;pieSliceText&quot;:&quot;none&quot;,&quot;legend&quot;:{&quot;position&quot;:&quot;none&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;titleTextStyle&quot;:{&quot;bold&quot;:true,&quot;italic&quot;:false},&quot;textStyle&quot;:{&quot;bold&quot;:false,&quot;italic&quot;:false}},&quot;interpolateNulls&quot;:true,&quot;animation&quot;:{&quot;duration&quot;:10000,&quot;easing&quot;:&quot;out&quot;},&quot;hAxis&quot;:{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[]},&quot;vAxes&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[],&quot;format&quot;:&quot;#&quot;}],&quot;series&quot;:[{&quot;color&quot;:&quot;#F7941E&quot;,&quot;pointSize&quot;:3,&quot;visibleInLegend&quot;:true,&quot;pieSliceText&quot;:&quot;none&quot;,&quot;_format&quot;:{&quot;format&quot;:&quot;#&quot;}}]},&quot;data&quot;:[[&quot;x&quot;,&quot;Clicks&quot;],[&quot;7\/15&quot;,32],[&quot;8\/15&quot;,45],[&quot;9\/15&quot;,38],[&quot;10\/15&quot;,31],[&quot;11\/15&quot;,37],[&quot;12\/15&quot;,34],[&quot;1\/16&quot;,41],[&quot;2\/16&quot;,30],[&quot;3\/16&quot;,47],[&quot;4\/16&quot;,56],[&quot;5\/16&quot;,53],[&quot;6\/16&quot;,51]]}" id="google-chart-render--2"></div>
 </div><table class="table table-hover table-striped table-bordered sticky-enabled">
  <thead><tr><th>Date</th><th>Ranking</th><th>Installs</th><th>Clickthroughs</th> </tr></thead>
 <tbody>
- <tr><td>May 2016</td><td>29/900</td><td>2282 (0.6%)</td><td>49</td> </tr>
+ <tr><td>June 2016</td><td>27/852</td><td>2861 (0.63%)</td><td>51</td> </tr>
+ <tr><td>May 2016</td><td>28/908</td><td>2697 (0.59%)</td><td>53</td> </tr>
  <tr><td>April 2016</td><td>32/926</td><td>2888 (0.6%)</td><td>56</td> </tr>
  <tr><td>March 2016</td><td>28/911</td><td>3060 (0.6%)</td><td>47</td> </tr>
  <tr><td>February 2016</td><td>27/901</td><td>2942 (0.65%)</td><td>30</td> </tr>
@@ -258,7 +266,6 @@ layout.addComponent(l);</p>
  <tr><td>September 2015</td><td>25/868</td><td>3007 (0.72%)</td><td>38</td> </tr>
  <tr><td>August 2015</td><td>26/860</td><td>2781 (0.67%)</td><td>45</td> </tr>
  <tr><td>July 2015</td><td>25/866</td><td>3070 (0.66%)</td><td>32</td> </tr>
- <tr><td>June 2015</td><td>25/901</td><td>2899 (0.66%)</td><td>35</td> </tr>
 </tbody>
 </table>
 <a href="/metrics/successful_installs/alltime" class="button">View Data for all Listings</a>  </div>
@@ -269,41 +276,129 @@ layout.addComponent(l);</p>
     </legend>
           <div class="panel-body">
         <h2>Unsuccessful Installs</h2>
-<p>Unsuccessful Installs in the last 7 Days:30</p>
+<p>Unsuccessful Installs in the last 7 Days:38</p>
 <table class="table table-hover table-striped table-bordered sticky-enabled">
  <thead><tr><th>Count</th><th>Error Message</th> </tr></thead>
 <tbody>
- <tr><td>14</td><td><span title="Cannot continue the operation.  There is another install operation in progress."><a href="/content/error/report/2892241">Cannot continue the operation.  There is another install operation in progress.</a></span></td> </tr>
- <tr><td>5</td><td><span title="Cannot complete the install because one or more required items could not be found.
-  Software being installed: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8)
-  Missing requirement: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8) requires &#039;org.eclipse.epp.package.jee.feature.feature.group 4.4.0&#039; but it could not be found"><a href="/content/error/report/2902355">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>20</td><td><span title="Cannot continue the operation.  There is another install operation in progress."><a href="/content/error/report/2942619">Cannot continue the operation.  There is another install operation in progress.</a></span></td> </tr>
  <tr><td>4</td><td><span title="Cannot complete the install because one or more required items could not be found.
-  Software being installed: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8)
-  Missing requirement: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse 2.3.9) requires &#039;bundle org.apache.ivyde.eclipse [2.2.0,2.3.0)&#039; but it could not be found
-  Cannot satisfy dependency:
-    From: Vaadin Designer 1.0.8 (com.vaadin.designer.eclipse.feature.group 1.0.8)
-    To: com.vaadin.integration.eclipse 0.0.0"><a href="/content/error/report/2902458">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+  Software being installed: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse.feature.group 3.0.0)
+  Missing requirement: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse.feature.group 3.0.0) requires &#039;org.apache.ivyde.eclipse 0.0.0&#039; but it could not be found"><a href="/content/error/report/2945489">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>3</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
+  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.wst.common.project.facet.ui 0.0.0&#039; but it could not be found"><a href="/content/error/report/2948409">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
  <tr><td>2</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Designer 1.0.9 (com.vaadin.designer.eclipse.feature.group 1.0.9)
+  Missing requirement: Vaadin Designer 1.0.9 (com.vaadin.designer.eclipse.feature.group 1.0.9) requires &#039;org.eclipse.epp.package.jee.feature.feature.group 4.4.0&#039; but it could not be found"><a href="/content/error/report/2946283">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse.feature.group 3.0.0)
+  Missing requirement: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse 3.0.0) requires &#039;bundle org.eclipse.mylyn.commons.ui 0.0.0&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse.feature.group 3.0.0)
+    To: com.vaadin.integration.eclipse [3.0.0]"><a href="/content/error/report/2942173">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
   Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
   Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse 2.3.2.201503060752) requires &#039;bundle org.eclipse.mylyn.commons.ui 0.0.0&#039; but it could not be found
   Cannot satisfy dependency:
     From: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
-    To: com.vaadin.integration.eclipse [2.3.2.201503060752]"><a href="/content/error/report/2896208">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
- <tr><td>2</td><td><span title="Cannot complete the install because one or more required items could not be found.
-  Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
-  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.jdt.ui 3.4.1&#039; but it could not be found"><a href="/content/error/report/2896903">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+    To: com.vaadin.integration.eclipse [2.3.2.201503060752]"><a href="/content/error/report/2942445">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="操作を続行できません。 別のインストール操作が進行中です。"><a href="/content/error/report/2948850">操作を続行できません。 別のインストール操作が進行中です。</a></span></td> </tr>
  <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
   Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
-  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.apache.ivyde.eclipse 0.0.0&#039; but it could not be found"><a href="/content/error/report/2894644">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.jst.j2ee.web 0.0.0&#039; but it could not be found"><a href="/content/error/report/2949572">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
  <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
   Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
-  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.wst.common.project.facet.ui 0.0.0&#039; but it could not be found"><a href="/content/error/report/2896212">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
- <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
-  Software being installed: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse.feature.group 2.3.9)
-  Missing requirement: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse 2.3.9) requires &#039;bundle org.apache.ivyde.eclipse [2.2.0,2.3.0)&#039; but it could not be found
+  Missing requirement: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752) requires &#039;org.eclipse.jst.servlet.ui 0.0.0&#039; but it could not be found"><a href="/content/error/report/2949989">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="No se puede completar la instalación porque no se han podido encontrar uno o varios elementos necesarios.
+  Software que se está instalando: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse.feature.group 3.0.0)
+  Requisito faltante: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse.feature.group 3.0.0) requiere &#039;org.eclipse.ui 0.0.0&#039; pero no se ha podido encontrar"><a href="/content/error/report/2950114">No se puede completar la instalación porque no se han podido encontrar uno o varios elementos necesarios....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because of a conflicting dependency.
+  Software being installed: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
+  Software currently installed: Eclipse IDE for Java Developers 1.5.2.20130211-1820 (epp.package.java 1.5.2.20130211-1820)
+  Only one of the following can be installed at once: 
+    Bidirectional Text Support 0.9.0.v20120522-1841 (org.eclipse.equinox.bidi 0.9.0.v20120522-1841)
+    Bidirectional Text Support 0.10.0.v20130327-1442 (org.eclipse.equinox.bidi 0.10.0.v20130327-1442)
+    Bidirectional Text Support 0.9.100.v20121107-021609 (org.eclipse.equinox.bidi 0.9.100.v20121107-021609)
+  Only one of the following can be installed at once: 
+    Structured Source Editor 1.3.300.v201404240319 (org.eclipse.wst.sse.ui 1.3.300.v201404240319)
+    Structured Source Editor 1.3.102.v201301162301 (org.eclipse.wst.sse.ui 1.3.102.v201301162301)
+    Structured Source Editor 1.3.301.v201501151629 (org.eclipse.wst.sse.ui 1.3.301.v201501151629)
+    Structured Source Editor 1.3.300.v201406172023 (org.eclipse.wst.sse.ui 1.3.300.v201406172023)
   Cannot satisfy dependency:
-    From: Vaadin Plug-in for Eclipse 2.3.9 (com.vaadin.integration.eclipse.feature.group 2.3.9)
-    To: com.vaadin.integration.eclipse [2.3.9]"><a href="/content/error/report/2902615">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+    From: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse 2.3.2.201503060752)
+    To: bundle org.eclipse.wst.web.ui 1.1.0
+  Cannot satisfy dependency:
+    From: Vaadin Plug-in for Eclipse 2.3.2.201503060752 (com.vaadin.integration.eclipse.feature.group 2.3.2.201503060752)
+    To: com.vaadin.integration.eclipse [2.3.2.201503060752]
+  Cannot satisfy dependency:
+    From: Eclipse IDE for Java Developers 1.5.2.20130211-1820 (epp.package.java 1.5.2.20130211-1820)
+    To: org.eclipse.epp.package.java.feature.feature.group [1.5.2.20130211-1820]
+  Cannot satisfy dependency:
+    From: Eclipse e4 Rich Client Platform 1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS (org.eclipse.e4.rcp.feature.group 1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS)
+    To: org.eclipse.equinox.bidi [0.9.100.v20121107-021609]
+  Cannot satisfy dependency:
+    From: EPP Java Package 1.5.2.20130211-1820 (org.eclipse.epp.package.java.feature.feature.group 1.5.2.20130211-1820)
+    To: org.eclipse.platform.feature.group [4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7]
+  Cannot satisfy dependency:
+    From: EPP Java Package 1.5.2.20130211-1820 (org.eclipse.epp.package.java.feature.feature.group 1.5.2.20130211-1820)
+    To: org.eclipse.wst.xml_ui.feature.feature.group 0.0.0
+  Cannot satisfy dependency:
+    From: Eclipse Platform 4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7 (org.eclipse.platform.feature.group 4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7)
+    To: org.eclipse.rcp.feature.group [4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h]
+  Cannot satisfy dependency:
+    From: Eclipse RCP 4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h (org.eclipse.rcp.feature.group 4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h)
+    To: org.eclipse.e4.rcp.feature.group [1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS]
+  Cannot satisfy dependency:
+    From: WTP UI Plug-in 1.2.300.v201401292051 (org.eclipse.wst.common.frameworks.ui 1.2.300.v201401292051)
+    To: bundle org.eclipse.equinox.bidi [0.10.0,2.0.0)
+  Cannot satisfy dependency:
+    From: WTP UI Plug-in 1.2.300.v201401292115 (org.eclipse.wst.common.frameworks.ui 1.2.300.v201401292115)
+    To: bundle org.eclipse.equinox.bidi [0.10.0,2.0.0)
+  Cannot satisfy dependency:
+    From: WST Common UI 3.6.0.v201405010300-7C7CFhKEdhOaz-oWh9oTk1tKoQz01SEPP (org.eclipse.wst.common_ui.feature.feature.group 3.6.0.v201405010300-7C7CFhKEdhOaz-oWh9oTk1tKoQz01SEPP)
+    To: org.eclipse.wst.common.frameworks.ui [1.2.300.v201401292115]
+  Cannot satisfy dependency:
+    From: WST Common UI 3.6.1.v201409111444 (org.eclipse.wst.common_ui.feature.feature.group 3.6.1.v201409111444)
+    To: org.eclipse.wst.common.frameworks.ui [1.2.300.v201401292051]
+  Cannot satisfy dependency:
+    From: WST Common UI 3.6.3.v201501292352 (org.eclipse.wst.common_ui.feature.feature.group 3.6.3.v201501292352)
+    To: org.eclipse.wst.common.frameworks.ui [1.2.300.v201401292051]
+  Cannot satisfy dependency:
+    From: SSE CSS Source Editor 1.0.900.v201401131434 (org.eclipse.wst.css.ui 1.0.900.v201401131434)
+    To: bundle org.eclipse.wst.sse.ui [1.3.200,1.4.0)
+  Cannot satisfy dependency:
+    From: SSE CSS Source Editor 1.0.900.v201401131445 (org.eclipse.wst.css.ui 1.0.900.v201401131445)
+    To: bundle org.eclipse.wst.sse.ui [1.3.200,1.4.0)
+  Cannot satisfy dependency:
+    From: SSE CSS Source Editor 1.0.901.v201501212057 (org.eclipse.wst.css.ui 1.0.901.v201501212057)
+    To: bundle org.eclipse.wst.sse.ui [1.3.200,1.4.0)
+  Cannot satisfy dependency:
+    From: Eclipse Web Developer Tools 1.1.600.v201109220400 (org.eclipse.wst.web.ui 1.1.600.v201109220400)
+    To: bundle org.eclipse.wst.css.ui [1.0.0,1.1.0)
+  Cannot satisfy dependency:
+    From: Eclipse Web Developer Tools 1.1.600.v201302011850 (org.eclipse.wst.web.ui 1.1.600.v201302011850)
+    To: bundle org.eclipse.wst.css.ui [1.0.0,1.1.0)
+  Cannot satisfy dependency:
+    From: Eclipse XML Editors and Tools 3.4.2.v201211061806-7H7GFeJDxumUrsn5qkiQgOEhsz0p60HAmPyU6VX (org.eclipse.wst.xml_ui.feature.feature.group 3.4.2.v201211061806-7H7GFeJDxumUrsn5qkiQgOEhsz0p60HAmPyU6VX)
+    To: org.eclipse.wst.sse.ui [1.3.102.v201301162301]
+  Cannot satisfy dependency:
+    From: Eclipse XML Editors and Tools 3.6.0.v201405062148-7H7NFm0DxumWv9-7bhgNooiVMQ_TBruLpRz012TF (org.eclipse.wst.xml_ui.feature.feature.group 3.6.0.v201405062148-7H7NFm0DxumWv9-7bhgNooiVMQ_TBruLpRz012TF)
+    To: org.eclipse.wst.common_ui.feature.feature.group [3.6.0.v201405010300-7C7CFhKEdhOaz-oWh9oTk1tKoQz01SEPP]
+  Cannot satisfy dependency:
+    From: Eclipse XML Editors and Tools 3.6.1.v201409111852 (org.eclipse.wst.xml_ui.feature.feature.group 3.6.1.v201409111852)
+    To: org.eclipse.wst.common_ui.feature.feature.group [3.6.1.v201409111444]
+  Cannot satisfy dependency:
+    From: Eclipse XML Editors and Tools 3.6.3.v201501292352 (org.eclipse.wst.xml_ui.feature.feature.group 3.6.3.v201501292352)
+    To: org.eclipse.wst.common_ui.feature.feature.group [3.6.3.v201501292352]"><a href="/content/error/report/2942762">Cannot complete the install because of a conflicting dependency....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: m2e-wtp - Maven Integration for WTP 1.0.1.20130911-1545 (org.eclipse.m2e.wtp.feature.feature.group 1.0.1.20130911-1545)
+  Missing requirement: m2e-wtp - Maven Integration for WTP 1.0.1.20130911-1545 (org.eclipse.m2e.wtp.feature.feature.group 1.0.1.20130911-1545) requires &#039;org.eclipse.m2e.feature.feature.group 1.4.0&#039; but it could not be found"><a href="/content/error/report/2943057">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: Vaadin Designer 1.0.9 (com.vaadin.designer.eclipse.feature.group 1.0.9)
+  Missing requirement: Vaadin Plug-in for Eclipse 3.0.0 (com.vaadin.integration.eclipse 3.0.0) requires &#039;bundle org.apache.ivyde.eclipse [2.2.0,2.3.0)&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: Vaadin Designer 1.0.9 (com.vaadin.designer.eclipse.feature.group 1.0.9)
+    To: com.vaadin.integration.eclipse 0.0.0"><a href="/content/error/report/2944523">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
 </tbody>
 </table>
 
@@ -328,7 +423,7 @@ layout.addComponent(l);</p>
 
   <div class="col-xs-5">
       <div class="user-picture pull-left">
-    <a href="/user/cmedianu" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/387b98bb5a6284fd107cf4b47421a926.jpg?d=mm&amp;s=100&amp;r=G" alt="Calin Medianu&#039;s picture" title="Calin Medianu&#039;s picture" /></a>  </div>
+    <a href="/user/cmedianu" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/387b98bb5a6284fd107cf4b47421a926.jpg?d=mm&amp;s=100&amp;r=G" alt="cmedianu&#039;s picture" title="cmedianu&#039;s picture" /></a>  </div>
   </div>
   <div class="col-xs-19">
     
@@ -349,7 +444,7 @@ layout.addComponent(l);</p>
 
   <div class="col-xs-5">
       <div class="user-picture pull-left">
-    <a href="/user/vingman" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/8846575d847875fb950b285a9c03a076.jpg?d=mm&amp;s=100&amp;r=G" alt="Ville Ingman&#039;s picture" title="Ville Ingman&#039;s picture" /></a>  </div>
+    <a href="/user/vingman" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/8846575d847875fb950b285a9c03a076.jpg?d=mm&amp;s=100&amp;r=G" alt="vingman&#039;s picture" title="vingman&#039;s picture" /></a>  </div>
   </div>
   <div class="col-xs-19">
     
@@ -369,7 +464,7 @@ layout.addComponent(l);</p>
 
   <div class="col-xs-5">
       <div class="user-picture pull-left">
-    <a href="/user/smisingname8q3" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/a180b0ea98a90e630b6e6a8ee63918a7.jpg?d=mm&amp;s=100&amp;r=G" alt="Sami Ekblad&#039;s picture" title="Sami Ekblad&#039;s picture" /></a>  </div>
+    <a href="/user/smisingname8q3" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/a180b0ea98a90e630b6e6a8ee63918a7.jpg?d=mm&amp;s=100&amp;r=G" alt="smisingname8q3&#039;s picture" title="smisingname8q3&#039;s picture" /></a>  </div>
   </div>
   <div class="col-xs-19">
     
@@ -390,7 +485,7 @@ layout.addComponent(l);</p>
 
   <div class="col-xs-5">
       <div class="user-picture pull-left">
-    <a href="/user/cmedianu" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/387b98bb5a6284fd107cf4b47421a926.jpg?d=mm&amp;s=100&amp;r=G" alt="Calin Medianu&#039;s picture" title="Calin Medianu&#039;s picture" /></a>  </div>
+    <a href="/user/cmedianu" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/387b98bb5a6284fd107cf4b47421a926.jpg?d=mm&amp;s=100&amp;r=G" alt="cmedianu&#039;s picture" title="cmedianu&#039;s picture" /></a>  </div>
   </div>
   <div class="col-xs-19">
     
@@ -411,7 +506,7 @@ layout.addComponent(l);</p>
 
   <div class="col-xs-5">
       <div class="user-picture pull-left">
-    <a href="/user/eserrata" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/c2815c53f0c79f572d7d44042481b865.jpg?d=mm&amp;s=100&amp;r=G" alt="Eneldo Serrata&#039;s picture" title="Eneldo Serrata&#039;s picture" /></a>  </div>
+    <a href="/user/eserrata" title="View user profile."><img class="media-object dp img-circle img-responsive" src="http://www.gravatar.com/avatar/c2815c53f0c79f572d7d44042481b865.jpg?d=mm&amp;s=100&amp;r=G" alt="eserrata&#039;s picture" title="eserrata&#039;s picture" /></a>  </div>
   </div>
   <div class="col-xs-19">
     
@@ -461,60 +556,60 @@ layout.addComponent(l);</p>
         <h2 class="block-title">Markets</h2>
     
   <div class="block-content">
-    <ul class="menu-item-list"><li><a href="/category/markets/eclipse-project">Eclipse Project (40)</a></li>
-<li><a href="/category/markets/tools" class="solstice-menu-collapse solstice-menu-nojs-collapsed">Tools (1593)</a><ul><li><a href="/taxonomy/term/1964%2C31">Application Development Frameworks (190)</a></li>
-<li><a href="/taxonomy/term/28%2C31">Application Management (52)</a></li>
-<li><a href="/taxonomy/term/1%2C31">Application Server (64)</a></li>
+    <ul class="menu-item-list"><li><a href="/category/markets/eclipse-project">Eclipse Project (47)</a></li>
+<li><a href="/category/markets/tools" class="solstice-menu-collapse solstice-menu-nojs-collapsed">Tools (1602)</a><ul><li><a href="/taxonomy/term/1964%2C31">Application Development Frameworks (189)</a></li>
+<li><a href="/taxonomy/term/28%2C31">Application Management (53)</a></li>
+<li><a href="/taxonomy/term/1%2C31">Application Server (62)</a></li>
 <li><a href="/taxonomy/term/42%2C31">BIRT (20)</a></li>
-<li><a href="/taxonomy/term/4%2C31">Build and Deploy (146)</a></li>
+<li><a href="/taxonomy/term/4%2C31">Build and Deploy (145)</a></li>
 <li><a href="/taxonomy/term/1973%2C31">Business Intelligence, Reporting and Charting (26)</a></li>
-<li><a href="/taxonomy/term/2%2C31">Code Management (160)</a></li>
+<li><a href="/taxonomy/term/2%2C31">Code Management (158)</a></li>
 <li><a href="/taxonomy/term/1968%2C31">Collaboration (44)</a></li>
-<li><a href="/taxonomy/term/3%2C31">Database (67)</a></li>
-<li><a href="/taxonomy/term/1970%2C31">Database Development (38)</a></li>
+<li><a href="/taxonomy/term/3%2C31">Database (68)</a></li>
+<li><a href="/taxonomy/term/1970%2C31">Database Development (39)</a></li>
 <li><a href="/taxonomy/term/36%2C31">Database Persistence (33)</a></li>
 <li><a href="/taxonomy/term/5%2C31">Documentation (78)</a></li>
 <li><a href="/taxonomy/term/1963%2C31">EclipseRT Target Platform Components (9)</a></li>
-<li><a href="/taxonomy/term/6%2C31">Editor (359)</a></li>
+<li><a href="/taxonomy/term/6%2C31">Editor (363)</a></li>
 <li><a href="/taxonomy/term/7%2C31">Entertainment (23)</a></li>
 <li><a href="/taxonomy/term/1972%2C31">General Purpose Tools (124)</a></li>
 <li><a href="/taxonomy/term/8%2C31">Graphics (44)</a></li>
-<li><a href="/taxonomy/term/24%2C31">IDE (404)</a></li>
+<li><a href="/taxonomy/term/24%2C31">IDE (408)</a></li>
 <li><a href="/taxonomy/term/3574%2C31">Internet of Things (IoT) (16)</a></li>
-<li><a href="/taxonomy/term/9%2C31">J2EE Development Platform (88)</a></li>
-<li><a href="/taxonomy/term/27%2C31">J2ME (11)</a></li>
+<li><a href="/taxonomy/term/9%2C31">J2EE Development Platform (85)</a></li>
+<li><a href="/taxonomy/term/27%2C31">J2ME (10)</a></li>
 <li><a href="/taxonomy/term/4397%2C31">Kura Apps (0)</a></li>
-<li><a href="/taxonomy/term/10%2C31">Languages (175)</a></li>
-<li><a href="/taxonomy/term/1969%2C31">Linux Tools (12)</a></li>
+<li><a href="/taxonomy/term/10%2C31">Languages (176)</a></li>
+<li><a href="/taxonomy/term/1969%2C31">Linux Tools (13)</a></li>
 <li><a href="/taxonomy/term/37%2C31">Logging (22)</a></li>
 <li><a href="/taxonomy/term/1974%2C31">Mobile and Device Development (76)</a></li>
-<li><a href="/taxonomy/term/1971%2C31">Modeling (108)</a></li>
-<li><a href="/taxonomy/term/11%2C31">Modeling Tools (203)</a></li>
+<li><a href="/taxonomy/term/1971%2C31">Modeling (110)</a></li>
+<li><a href="/taxonomy/term/11%2C31">Modeling Tools (204)</a></li>
 <li><a href="/taxonomy/term/38%2C31">Mylyn Connectors (29)</a></li>
-<li><a href="/taxonomy/term/12%2C31">Network (23)</a></li>
+<li><a href="/taxonomy/term/12%2C31">Network (28)</a></li>
 <li><a href="/taxonomy/term/23%2C31">Other (94)</a></li>
 <li><a href="/taxonomy/term/30%2C31">Process (33)</a></li>
 <li><a href="/taxonomy/term/13%2C31">Profiling (28)</a></li>
-<li><a href="/taxonomy/term/1966%2C31">Programming Languages (102)</a></li>
+<li><a href="/taxonomy/term/1966%2C31">Programming Languages (107)</a></li>
 <li><a href="/taxonomy/term/39%2C31">Reporting (52)</a></li>
-<li><a href="/taxonomy/term/25%2C31">Rich Client Applications (84)</a></li>
+<li><a href="/taxonomy/term/25%2C31">Rich Client Applications (83)</a></li>
 <li><a href="/taxonomy/term/26%2C31">SCM (25)</a></li>
-<li><a href="/taxonomy/term/40%2C31">Search (53)</a></li>
+<li><a href="/taxonomy/term/40%2C31">Search (52)</a></li>
 <li><a href="/taxonomy/term/1965%2C31">SOA Development (23)</a></li>
-<li><a href="/taxonomy/term/14%2C31">Source Code Analyzer (119)</a></li>
-<li><a href="/taxonomy/term/29%2C31">Systems Development (84)</a></li>
+<li><a href="/taxonomy/term/14%2C31">Source Code Analyzer (121)</a></li>
+<li><a href="/taxonomy/term/29%2C31">Systems Development (86)</a></li>
 <li><a href="/taxonomy/term/15%2C31">Team Development (100)</a></li>
 <li><a href="/taxonomy/term/16%2C31">Testing (113)</a></li>
-<li><a href="/taxonomy/term/17%2C31">Tools (734)</a></li>
-<li><a href="/taxonomy/term/18%2C31">UI (130)</a></li>
+<li><a href="/taxonomy/term/17%2C31">Tools (740)</a></li>
+<li><a href="/taxonomy/term/18%2C31">UI (132)</a></li>
 <li><a href="/taxonomy/term/19%2C31">UML (72)</a></li>
-<li><a href="/taxonomy/term/20%2C31">Web (153)</a></li>
+<li><a href="/taxonomy/term/20%2C31">Web (159)</a></li>
 <li><a href="/taxonomy/term/21%2C31">Web Services (74)</a></li>
-<li><a href="/taxonomy/term/1967%2C31">Web, XML, Java EE and OSGi Enterprise Development (65)</a></li>
+<li><a href="/taxonomy/term/1967%2C31">Web, XML, Java EE and OSGi Enterprise Development (64)</a></li>
 <li><a href="/taxonomy/term/22%2C31">XML (58)</a></li>
 </ul></li>
 <li><a href="/category/markets/iot">IoT (1)</a></li>
-<li><a href="/category/markets/rcp-applications">RCP Applications (178)</a></li>
+<li><a href="/category/markets/rcp-applications">RCP Applications (182)</a></li>
 <li><a href="/category/markets/training-consulting">Training & Consulting (76)</a></li>
 <li><a href="/category/markets/long-term-support">Long Term Support (11)</a></li>
 </ul>  </div>
@@ -529,7 +624,7 @@ layout.addComponent(l);</p>
 <div class="form-item form-type-textfield form-item-keys">
 <div class="input-group"><input placeholder="Search" class="field-search-key auto_submit form-control form-text" type="text" id="edit-keys--2" name="keys" value="" size="30" maxlength="255" /><span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span></span></div><input type="hidden" id="edit-keys--2-autocomplete" value="http://marketplace.eclipse.org/index.php?q=apachesolr_autocomplete" disabled="disabled" class="autocomplete" />
 </div>
-</div><input type="hidden" name="form_build_id" value="form-DiFNm6rnZTz6z8QTfvBIForoNLYYyDMFCVjvufi0K3E" />
+</div><input type="hidden" name="form_build_id" value="form-fEmkQslrdBBpYksnDwnKsYzKx6WRzfOF74qayx2kqm0" />
 <input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
 <fieldset  class="panel-warning collapsible collapsed panel panel-default form-wrapper" id="edit-advanced--2">
           <legend class="panel-heading">
@@ -567,16 +662,16 @@ layout.addComponent(l);</p>
   <div class="block-content">
     <table class="table-favoritedby-fav-block table table-hover table-striped table-bordered">
 <tbody>
- <tr><td><a href="/user/hdrewsuu5/favorites">Heinz Drews</a></td> </tr>
+ <tr><td><a href="/user/martin-ganserer/favorites">Martin Ganserer</a></td> </tr>
+ <tr><td><a href="/user/mviney/favorites">Michael Viney</a></td> </tr>
+ <tr><td><a href="/user/ssharmacpa/favorites">Satyendra Sharma</a></td> </tr>
+ <tr><td><a href="/user/jhuizinga/favorites">Joris Huizinga</a></td> </tr>
+ <tr><td><a href="/user/araffle/favorites">Andy Raffle</a></td> </tr>
+ <tr><td><a href="/user/nwiegandt/favorites">Nicklas Wiegandt</a></td> </tr>
  <tr><td><a href="/user/aalmarhuby/favorites">Assim Al-Marhuby</a></td> </tr>
- <tr><td><a href="/user/eserrata/favorites">Eneldo Serrata</a></td> </tr>
- <tr><td><a href="/user/mtahvonen/favorites">Matti Tahvonen</a></td> </tr>
- <tr><td><a href="/user/tgmbh/favorites">tranSIT GmbH</a></td> </tr>
- <tr><td><a href="/user/ag357/favorites">Antonio G</a></td> </tr>
- <tr><td><a href="/user/smisingname8q3/favorites">Sami Ekblad</a></td> </tr>
- <tr><td><a href="/user/nmisingnamexbx/favorites">Nick Mising name</a></td> </tr>
- <tr><td><a href="/user/gpierini/favorites">Gianluigi Pierini</a></td> </tr>
- <tr><td><a href="/user/adomnguezmatamoros/favorites">Alberto Dominguez Matamoros</a></td> </tr>
+ <tr><td><a href="/user/iyotov/favorites">Ivaylo Yotov</a></td> </tr>
+ <tr><td><a href="/user/aparkergdb/favorites">Aaron Parker</a></td> </tr>
+ <tr><td><a href="/user/afiller/favorites">Andreas Filler</a></td> </tr>
 </tbody>
 </table>
   </div>

@@ -1,5 +1,0 @@
-<map id="org.coreasm.eclipse.editors.errors.InitErrorRecognizer.checkForErrors" name="org.coreasm.eclipse.editors.errors.InitErrorRecognizer.checkForErrors">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1InitErrorRecognizer.html#a030d704cf185d80b3148379636157948" title="Helper method for getting a list of all rule declaration nodes. " alt="" coords="280,5,536,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1AstTools.html#a1106af3ecac515f0e1971123fd06c23e" title="Search recursively through the syntax tree until an ID node is found (pre&#45;order) " alt="" coords="584,5,771,46"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1AstTools.html#ad874a1ebd47de942fc3c2fb7963d5720" title="Search recursively through the syntax tree until an ID node is found (pre&#45;order) " alt="" coords="819,5,1005,46"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="org.coreasm.eclipse.debug.core.model.ASMVariable" name="org.coreasm.eclipse.debug.core.model.ASMVariable">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMDebugElement.html" title="Implementation of common function for ASM debug elements. " alt="" coords="19,160,269,267"/>
-<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMStackFrame.html" title="This class contains the variables of the current state. " alt="" coords="69,699,320,938"/>
-<area shape="rect" id="node8" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMThread.html" title="This class is needed by the eclipse debug framework. " alt="" coords="363,359,613,598"/>
-<area shape="rect" id="node10" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMStorage.html" title="Wrapper class for ASM storages. " alt="" coords="1087,345,1337,613"/>
-<area shape="rect" id="node21" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1WatchExpressionAPI.html" title="{org.coreasm.eclipse.engine.debugger.\lWatchExpressionAPI\n||+ WatchExpressionAPI()\l+ evaluateExpression()\l+ initialize()\l+ terminate()\l+ recover()\l+ loadSpecification()\l+ loadSpecification()\l+ loadSpecification()\l+ parseSpecification()\l+ parseSpecification()\land 63 more...\l&#45; bindPlugins()\l&#45; unbindPlugins()\l&#45; copyOprRegFromCapi()\l}" alt="" coords="1284,677,1527,960"/>
-</map>

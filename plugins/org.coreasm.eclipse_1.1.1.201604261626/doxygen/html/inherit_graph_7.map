@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMDebugElement.html" title="Implementation of common function for ASM debug elements. " alt="" coords="163,209,413,250"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMDebugTarget.html" title="Implementation of the ASM debug target. " alt="" coords="461,114,712,155"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMStackFrame.html" title="This class contains the variables of the current state. " alt="" coords="461,49,712,90"/>
-<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMThread.html" title="This class is needed by the eclipse debug framework. " alt="" coords="461,181,712,222"/>
-<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMValue.html" title="This class represents the value of an ASM function. " alt="" coords="461,247,712,289"/>
-<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMVariable.html" title="This class represents an ASM function/variable. " alt="" coords="461,317,712,358"/>
-</map>

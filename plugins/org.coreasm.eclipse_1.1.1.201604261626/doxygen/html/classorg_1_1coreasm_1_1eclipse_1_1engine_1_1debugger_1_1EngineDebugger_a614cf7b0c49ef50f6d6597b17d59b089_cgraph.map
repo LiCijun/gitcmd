@@ -1,9 +1,0 @@
-<map id="org.coreasm.eclipse.engine.debugger.EngineDebugger.onRuleCall" name="org.coreasm.eclipse.engine.debugger.EngineDebugger.onRuleCall">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1EngineDebugger.html#a42d1cd73adac83ac345194f0ada081fc" title="This method is called whenever a breakpoint is hit. " alt="" coords="296,70,539,111"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1EngineDebugger.html#a2588b9c6f986fa3d125d529ce4d09733" title="Sets the stepping mode of the debugger. " alt="" coords="587,5,829,46"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1EngineDebugger.html#a9220a854c4ab063cc7477915ec264903" title="Updates/Creates the current state. " alt="" coords="587,70,829,111"/>
-<area shape="rect" id="node8" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1EngineDebugger.html#af5befea30ff6ae7b16d748d4bbe0adf8" title="Pauses the execution until the user resumes it. " alt="" coords="587,135,829,177"/>
-<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1EngineDebugger.html#a5f8eff0e00e51b63f9deede246ad3ad4" title="Returns the current step. " alt="" coords="877,5,1120,46"/>
-<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1EngineDebugger.html#a650d2d03787ef2b0984766e0ff1d9625" title="Returns the current updates as a set of ASMUpdate. " alt="" coords="877,70,1120,111"/>
-<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1driver_1_1EngineDriver.html#a2767e48afd3ce726e7bc479ab0146677" title="org.coreasm.eclipse.engine.driver.\lEngineDriver.run" alt="" coords="888,135,1109,177"/>
-</map>

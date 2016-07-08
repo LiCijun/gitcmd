@@ -1,4 +1,0 @@
-<map id="org.coreasm.eclipse.editors.FileManager.createFile" name="org.coreasm.eclipse.editors.FileManager.createFile">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1FileManager.html#ab643a3aee0fab119b7b44ac1e774e707" title="Returns a reference to the project the currently edited file belongs to. " alt="" coords="241,5,434,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1FileManager.html#a1e333622a40bcacd768d6eabf01cdbd5" title="Returns the project to which a certain file belongs to. " alt="" coords="483,5,669,46"/>
-</map>

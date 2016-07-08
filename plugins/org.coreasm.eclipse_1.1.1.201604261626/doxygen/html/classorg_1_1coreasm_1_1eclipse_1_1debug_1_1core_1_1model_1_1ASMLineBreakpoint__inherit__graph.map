@@ -1,4 +1,0 @@
-<map id="org.coreasm.eclipse.debug.core.model.ASMLineBreakpoint" name="org.coreasm.eclipse.debug.core.model.ASMLineBreakpoint">
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMMethodBreakpoint.html" title="Implementation of a method breakpoint. " alt="" coords="5,366,256,487"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1debug_1_1core_1_1model_1_1ASMWatchpoint.html" title="Implementation of a watchpoint. " alt="" coords="280,315,531,539"/>
-</map>

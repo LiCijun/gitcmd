@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ~ Copyright (c) 2012, 2014 Sonatype, Inc.
+ ~ All rights reserved. This program and the accompanying materials
+ ~ are made available under the terms of the Eclipse Public License v1.0
+ ~ which accompanies this distribution, and is available at
+ ~ http://www.eclipse.org/legal/epl-v10.html
+-->
+<feature
+      id="org.eclipse.aether.feature.source"
+      label="%featureName"
+      version="1.0.1.v20141111"
+      provider-name="%providerName">
+
+   <description url="%descriptionURL">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.aether.api.source"
+         download-size="160"
+         install-size="551"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.spi.source"
+         download-size="44"
+         install-size="113"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.impl.source"
+         download-size="106"
+         install-size="412"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.util.source"
+         download-size="117"
+         install-size="391"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.connector.basic.source"
+         download-size="16"
+         install-size="61"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.classpath.source"
+         download-size="6"
+         install-size="11"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.file.source"
+         download-size="6"
+         install-size="14"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.http.source"
+         download-size="21"
+         install-size="63"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.aether.transport.wagon.source"
+         download-size="14"
+         install-size="41"
+         version="1.0.1.v20141111"
+         unpack="false"/>
+
+</feature>

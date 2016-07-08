@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1warnings_1_1IWarningRecognizer.html" title="This interface should be implemented by warning recognizers. " alt="" coords="5,70,248,111"/>
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1warnings_1_1CoreASMWarningRecognizer.html" title="The CoreASMWarningRecognizer collects warnings from the CoreASM Engine. " alt="" coords="304,5,547,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1warnings_1_1NumberOfArgumentsWarningRecognizer.html" title="org.coreasm.eclipse.editors.warnings.\lNumberOfArgumentsWarningRecognizer" alt="" coords="296,70,555,111"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1warnings_1_1UndefinedIdentifierWarningRecognizer.html" title="This WarningRecognizer searches an ASM document for undefined identifiers. " alt="" coords="303,135,548,177"/>
-</map>

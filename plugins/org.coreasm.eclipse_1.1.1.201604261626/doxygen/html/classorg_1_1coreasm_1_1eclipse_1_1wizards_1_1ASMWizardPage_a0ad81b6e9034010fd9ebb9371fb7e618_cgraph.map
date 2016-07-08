@@ -1,5 +1,0 @@
-<map id="org.coreasm.eclipse.wizards.ASMWizardPage.createControl" name="org.coreasm.eclipse.wizards.ASMWizardPage.createControl">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1wizards_1_1ASMWizardPage.html#a0244c19c700d499eb0bd944ce39d22b4" title="Ensures that both text fields are set. " alt="" coords="259,5,471,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1wizards_1_1ASMWizardPage.html#acf2f4516c05b359a4f1eb4ed1bad1aa5" title="Uses the standard container selection dialog to choose the new value for the container field..." alt="" coords="261,70,469,111"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1wizards_1_1ASMWizardPage.html#a6e205dc5f4d03730a7eedc7a760ee3ff" title="Tests if the current workbench selection is a suitable container to use. " alt="" coords="269,135,461,177"/>
-</map>

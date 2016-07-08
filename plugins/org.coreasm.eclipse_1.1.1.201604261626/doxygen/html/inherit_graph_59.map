@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1PauseEngineAction.html" title="Action of Pausing the engine. " alt="" coords="283,5,472,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1ResumeEngineAction.html" title="Action to resume a paused instance of the engine. " alt="" coords="283,70,472,111"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1StopEngineAction.html" title="Implements an action to stop an already running CoreASM engine. " alt="" coords="283,135,472,177"/>
-<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1CoreASMAboutAction.html" title="Shows a brief About window. " alt="" coords="283,266,472,307"/>
-<area shape="rect" id="node7" href="$classorg_1_1coreasm_1_1eclipse_1_1actions_1_1CoreASMHelpAction.html" title="Shows a brief help window. " alt="" coords="283,201,472,242"/>
-<area shape="rect" id="node8" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1engine_1_1driver_1_1EngineDriverAction.html" title="Actions dealing with EngineDriver should implement this method. " alt="" coords="9,19,231,61"/>
-</map>

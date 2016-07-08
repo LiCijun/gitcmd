@@ -1,7 +1,0 @@
-<map id="org.coreasm.eclipse.editors.errors.PluginErrorRecognizer.checkForErrors" name="org.coreasm.eclipse.editors.errors.PluginErrorRecognizer.checkForErrors">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html#a418aaaac68dd7e8240a2e02b1dd3c035" title="Helper method for checking lines which have code or comments besides the use statement. " alt="" coords="319,5,590,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html#a0abe68ac79d7b9141af141205d06bfd0" title="Helper method to retrieve the Plugin instances for all used plugins. " alt="" coords="309,70,600,111"/>
-<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html#a7a3d71972e702b5f4113ab28705f3c42" title="Helper method for checking if all plugin dependencies are fullfiled. " alt="" coords="299,135,610,177"/>
-<area shape="rect" id="node6" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html#aae295a2d0a50da130d3e9e8c53d70199" title="Helper method for getting all use statements from the given document. " alt="" coords="343,201,566,242"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1PluginErrorRecognizer.html#a5ee811e4659e4c8d42fc604c39072a91" title="Helper method to retrieve the Plugin instance for a given use statement. " alt="" coords="659,70,907,111"/>
-</map>

@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: http://eclipseguru.org/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1467272001922'/>
+    <property name='site.checksum' value='323934026'/>
+  </properties>
+  <references size='2'>
+    <repository uri='http://eclipseguru.org/' url='http://eclipseguru.org/' type='1' options='0'/>
+    <repository uri='http://eclipseguru.org/' url='http://eclipseguru.org/' type='0' options='0'/>
+  </references>
+  <units size='18'>
+    <unit id='org.eclipse.jst.server.generic.resin.feature.jar' version='1.1.2.200809292109'>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.featureName' value='Resin Webtools Support'/>
+        <property name='df_LT.providerName' value='EclipseGuru'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.server.generic.resin.feature.jar' version='1.1.2.200809292109'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.jst.server.generic.resin' version='1.1.2.200809292109'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jst.server.generic.resin' version='1.1.2.200809292109'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='org.eclipseguru.patches.pde.feature.jar' version='3.7.0.vRELEASE-001'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='EclipseGuru&apos;s Patches for PDE 3.7.0'/>
+        <property name='org.eclipse.equinox.p2.description' value='A set of patches for PDE (patch files included in this feature).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='EclipseGuru'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.patches.pde.feature.jar' version='3.7.0.vRELEASE-001'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipseguru.patches.pde' version='3.7.0.vRELEASE-001'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipseguru.patches.pde' version='3.7.0.vRELEASE-001'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.jst.server.generic.resin.feature.group' version='1.1.2.200809292109' singleton='false'>
+      <update id='org.eclipse.jst.server.generic.resin.feature.group' range='[0.0.0,1.1.2.200809292109)' severity='0'/>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Resin Webtools Support'/>
+        <property name='df_LT.providerName' value='EclipseGuru'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.server.generic.resin.feature.group' version='1.1.2.200809292109'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.server.generic.resin' range='[1.1.2.200809292109,1.1.2.200809292109]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.server.generic.resin.feature.jar' range='[1.1.2.200809292109,1.1.2.200809292109]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.jst.server.generic.resin' version='1.1.2.200809292109' singleton='false'>
+      <update id='org.eclipse.jst.server.generic.resin' range='[0.0.0,1.1.2.200809292109)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.server.generic.resin' version='1.1.2.200809292109'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.jst.server.generic.resin' version='1.1.2.200809292109'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.jst.server.generic.resin' version='1.1.2.200809292109'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.jst.server.generic.resin&#xA;Bundle-Version: 1.1.2.200809292109&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.pde.ui' version='3.6.100.201106211658' singleton='false'>
+      <update id='org.eclipse.pde.ui' range='[0.0.0,3.6.100.201106211658)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.ui' version='3.6.100.201106211658'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.pde.ui' version='3.6.100.201106211658'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui' version='3.6.100.201106211658'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.pde.ui&#xA;Bundle-Version: 3.6.100.201106211658&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipseguru.patches.pde.feature.group' version='3.7.0.vRELEASE-001' singleton='false'>
+      <patchScope>
+        <scope>
+          <requires size='1'>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='0.0.0'/>
+          </requires>
+        </scope>
+      </patchScope>
+      <changes>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.core' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.core' range='[3.7.0.201106211658,3.7.0.201106211658]'/>
+          </to>
+        </change>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.launching' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.launching' range='[3.6.0.201106211658,3.6.0.201106211658]'/>
+          </to>
+        </change>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.junit.runtime' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.junit.runtime' range='[3.4.100.201106211658,3.4.100.201106211658]'/>
+          </to>
+        </change>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.ui' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.ui' range='[3.6.100.201106211658,3.6.100.201106211658]'/>
+          </to>
+        </change>
+        <change>
+          <from>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.runtime' range='0.0.0'/>
+          </from>
+          <to>
+            <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.runtime' range='[3.4.200.201106211658,3.4.200.201106211658]'/>
+          </to>
+        </change>
+      </changes>
+      <lifeCycle>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='0.0.0' greedy='false'/>
+      </lifeCycle>
+      <update id='org.eclipseguru.patches.pde.feature.group' range='[0.0.0,3.7.0.vRELEASE-001)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.type.patch' value='true'/>
+        <property name='org.eclipse.equinox.p2.name' value='EclipseGuru&apos;s Patches for PDE 3.7.0'/>
+        <property name='org.eclipse.equinox.p2.description' value='A set of patches for PDE (patch files included in this feature).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='EclipseGuru'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.patches.pde.feature.group' version='3.7.0.vRELEASE-001'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.patches.pde.feature.jar' range='[3.7.0.vRELEASE-001,3.7.0.vRELEASE-001]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='http://eclipseguru.org/site.xml.org.eclipseguru.resin' version='1.0.0.213cLTBla7733I3K7K753K'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Resin Support for Eclipse Webtools 2.0'/>
+        <property name='org.eclipse.equinox.p2.description' value='A really simple integration of Resin 3.0 into Eclipse Webstools 2.0.'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipseguru.org/site.xml.org.eclipseguru.resin' version='1.0.0.213cLTBla7733I3K7K753K'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jst.server.generic.resin.feature.group' range='[1.1.2.200809292109,1.1.2.200809292109]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.pde.core' version='3.7.0.201106211658' singleton='false'>
+      <update id='org.eclipse.pde.core' range='[0.0.0,3.7.0.201106211658)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.core' version='3.7.0.201106211658'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.pde.core' version='3.7.0.201106211658'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.pde.core' version='3.7.0.201106211658'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.pde.core&#xA;Bundle-Version: 3.7.0.201106211658&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.pde.launching' version='3.6.0.201106211658' singleton='false'>
+      <update id='org.eclipse.pde.launching' range='[0.0.0,3.6.0.201106211658)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.launching' version='3.6.0.201106211658'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.pde.launching' version='3.6.0.201106211658'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.pde.launching' version='3.6.0.201106211658'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.pde.launching&#xA;Bundle-Version: 3.6.0.201106211658&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='http://eclipseguru.org/site.xml.org.eclipseguru.patches' version='1.0.0.67C-cNJybh8swWkWOyW1335'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Patches'/>
+        <property name='org.eclipse.equinox.p2.description' value='A set of patches for Eclipse features.'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipseguru.org/site.xml.org.eclipseguru.patches' version='1.0.0.67C-cNJybh8swWkWOyW1335'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.patches.pde.feature.group' range='[3.7.0.vRELEASE-001,3.7.0.vRELEASE-001]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.pde.runtime' version='3.4.200.201106211658' singleton='false'>
+      <update id='org.eclipse.pde.runtime' range='[0.0.0,3.4.200.201106211658)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.runtime' version='3.4.200.201106211658'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.pde.runtime' version='3.4.200.201106211658'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.pde.runtime' version='3.4.200.201106211658'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.pde.runtime&#xA;Bundle-Version: 3.4.200.201106211658&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipseguru.gwt' version='2.0.0.201011251644' singleton='false'>
+      <update id='org.eclipseguru.gwt' range='[0.0.0,2.0.0.201011251644)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt' version='2.0.0.201011251644'/>
+        <provided namespace='osgi.bundle' name='org.eclipseguru.gwt' version='2.0.0.201011251644'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipseguru.gwt' version='2.0.0.201011251644'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipseguru.gwt&#xA;Bundle-Version: 2.0.0.201011251644&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipseguru.gwt.core' version='2.1.0.201011251644' singleton='false'>
+      <update id='org.eclipseguru.gwt.core' range='[0.0.0,2.1.0.201011251644)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.core' version='2.1.0.201011251644'/>
+        <provided namespace='osgi.bundle' name='org.eclipseguru.gwt.core' version='2.1.0.201011251644'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipseguru.gwt.core' version='2.1.0.201011251644'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipseguru.gwt.core&#xA;Bundle-Version: 2.1.0.201011251644&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='http://eclipseguru.org/site.xml.org.eclipseguru.gwt.20' version='1.0.0.41-cNE1vE77353557C5EAA'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Google Webtoolkit Tooling for GWT 2.0+'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipseguru.org/site.xml.org.eclipseguru.gwt.20' version='1.0.0.41-cNE1vE77353557C5EAA'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.feature.group' range='[2.1.0.201011251644,2.1.0.201011251644]'>
+          <filter>
+            (|(osgi.os=linux)(osgi.os=macosx)(osgi.os=win32))
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipseguru.gwt.ui' version='2.1.0.201011251644' singleton='false'>
+      <update id='org.eclipseguru.gwt.ui' range='[0.0.0,2.1.0.201011251644)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.ui' version='2.1.0.201011251644'/>
+        <provided namespace='osgi.bundle' name='org.eclipseguru.gwt.ui' version='2.1.0.201011251644'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipseguru.gwt.ui' version='2.1.0.201011251644'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipseguru.gwt.ui&#xA;Bundle-Version: 2.1.0.201011251644&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.pde.junit.runtime' version='3.4.100.201106211658' singleton='false'>
+      <update id='org.eclipse.pde.junit.runtime' range='[0.0.0,3.4.100.201106211658)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.junit.runtime' version='3.4.100.201106211658'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.pde.junit.runtime' version='3.4.100.201106211658'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.pde.junit.runtime' version='3.4.100.201106211658'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.pde.junit.runtime&#xA;Bundle-Version: 3.4.100.201106211658&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipseguru.gwt.feature.group' version='2.1.0.201011251644' singleton='false'>
+      <update id='org.eclipseguru.gwt.feature.group' range='[0.0.0,2.1.0.201011251644)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='ECLIPSEGURU SOFTWARE USER AGREEMENT&#xA;August 13, 2006&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSEGURU MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the EclipseGuru&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the EclipseGuru is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the EclipseGuru to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+        <property name='df_LT.featureName' value='Google Webtoolkit (GWT) Tooling '/>
+        <property name='df_LT.description' value='Google Webtoolkit Tooling.'/>
+        <property name='df_LT.providerName' value='EclipseGuru'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.feature.group' version='2.1.0.201011251644'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='20'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.launching' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.variables' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ant.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ltk.core.refactoring' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.debug.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt' range='[2.0.0.201011251644,2.0.0.201011251644]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.core' range='[2.1.0.201011251644,2.1.0.201011251644]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.ui' range='[2.1.0.201011251644,2.1.0.201011251644]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.feature.jar' range='[2.1.0.201011251644,2.1.0.201011251644]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <filter>
+        (|(osgi.os=linux)(osgi.os=macosx)(osgi.os=win32))
+      </filter>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright (c) 2006, 2010 EclipseGuru and others.&#xA;All rights reserved.&#xA;&#xA;This program and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0 which accompanies this distribution, and is&#xA;available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.eclipseguru.gwt.feature.jar' version='2.1.0.201011251644'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='ECLIPSEGURU SOFTWARE USER AGREEMENT&#xA;August 13, 2006&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSEGURU MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the EclipseGuru&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the EclipseGuru is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the EclipseGuru to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+        <property name='df_LT.featureName' value='Google Webtoolkit (GWT) Tooling '/>
+        <property name='df_LT.description' value='Google Webtoolkit Tooling.'/>
+        <property name='df_LT.providerName' value='EclipseGuru'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipseguru.gwt.feature.jar' version='2.1.0.201011251644'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipseguru.gwt' version='2.1.0.201011251644'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipseguru.gwt' version='2.1.0.201011251644'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright (c) 2006, 2010 EclipseGuru and others.&#xA;All rights reserved.&#xA;&#xA;This program and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0 which accompanies this distribution, and is&#xA;available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+  </units>
+</repository>

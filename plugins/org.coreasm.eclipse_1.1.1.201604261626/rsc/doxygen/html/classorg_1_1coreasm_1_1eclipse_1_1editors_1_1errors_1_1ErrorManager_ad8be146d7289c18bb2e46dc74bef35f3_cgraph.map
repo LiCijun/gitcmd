@@ -1,5 +1,0 @@
-<map id="org.coreasm.eclipse.editors.errors.ErrorManager.ErrorManager" name="org.coreasm.eclipse.editors.errors.ErrorManager.ErrorManager">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html#a46b514c85a8e7864d5cfff6ff153d9d9" title="Adds an ErrorRegognizer to this ErrorManager, so the ErrorRecognizer will be run after each run of th..." alt="" coords="286,5,509,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ErrorManager.html#a0fcb89aa9d96e43cda1c5d0f8e4c1105" title="Adds a WarningRecognizer to this ErrorManager. " alt="" coords="278,70,517,111"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMEditor.html#ad06c7385c077c7f66e20c802c7b90831" title="Returns the parser object which is bound to this ASMEditor instance. " alt="" coords="304,135,491,177"/>
-</map>

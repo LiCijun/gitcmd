@@ -1,4 +1,0 @@
-<map id="org.coreasm.eclipse.editors.contentassist.TemplateManager.getTemplateStore" name="org.coreasm.eclipse.editors.contentassist.TemplateManager.getTemplateStore">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1contentassist_1_1TemplateManager.html#a49ecc15adecac7fb3914805fa8e0f0d9" title="Returns this plug&#45;in&#39;s context type registry. " alt="" coords="323,5,595,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1CoreASMPlugin.html#a12ddb84c72282656327a87dd8bb4fabd" title="Returns the shared instance. " alt="" coords="373,70,544,111"/>
-</map>

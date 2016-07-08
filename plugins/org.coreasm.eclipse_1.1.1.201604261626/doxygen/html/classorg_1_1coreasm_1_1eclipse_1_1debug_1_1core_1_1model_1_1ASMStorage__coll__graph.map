@@ -1,3 +1,0 @@
-<map id="org.coreasm.eclipse.debug.core.model.ASMStorage" name="org.coreasm.eclipse.debug.core.model.ASMStorage">
-<area shape="rect" id="node12" href="$classorg_1_1coreasm_1_1eclipse_1_1engine_1_1debugger_1_1WatchExpressionAPI.html" title="{org.coreasm.eclipse.engine.debugger.\lWatchExpressionAPI\n||+ WatchExpressionAPI()\l+ evaluateExpression()\l+ initialize()\l+ terminate()\l+ recover()\l+ loadSpecification()\l+ loadSpecification()\l+ loadSpecification()\l+ parseSpecification()\l+ parseSpecification()\land 63 more...\l&#45; bindPlugins()\l&#45; unbindPlugins()\l&#45; copyOprRegFromCapi()\l}" alt="" coords="249,664,492,947"/>
-</map>

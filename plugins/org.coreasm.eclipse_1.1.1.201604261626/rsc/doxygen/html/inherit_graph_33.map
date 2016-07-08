@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1AbstractError.html" title="Abstract class for modeling errors within CoreASM specifications. " alt="" coords="6,103,229,145"/>
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1CoreASMEclipseError.html" title="This class represents errors from CoreASM. " alt="" coords="278,5,501,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1SimpleError.html" title="This class models a SimpleError. " alt="" coords="278,70,501,111"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1SyntaxError.html" title="This class models a SyntaxError. " alt="" coords="278,135,501,177"/>
-<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1UndefinedError.html" title="This class models a UndefinedError. " alt="" coords="278,201,501,242"/>
-</map>

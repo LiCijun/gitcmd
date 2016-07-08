@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="DevUtilsFeature"
+      label="DevUtilsFeature"
+      version="1.0.9.201209201734">
+
+   <description url="http://dev-utils-plugin.googlecode.com/svn/trunk/update">
+      devutilsplugins
+   </description>
+
+   <copyright url="http://dev-utils-plugin.googlecode.com">
+      KangTae Kim
+   </copyright>
+
+   <license url="http://dev-utils-plugin.googlecode.com/svn/trunk/update/license">
+      license
+   </license>
+
+   <url>
+      <update label="devutilsplugin" url="http://dev-utils-plugin.googlecode.com/svn/trunk/update"/>
+   </url>
+
+   <plugin
+         id="DevUtilsPlugin"
+         download-size="0"
+         install-size="0"
+         version="1.0.9.201209201734"
+         unpack="false"/>
+
+</feature>

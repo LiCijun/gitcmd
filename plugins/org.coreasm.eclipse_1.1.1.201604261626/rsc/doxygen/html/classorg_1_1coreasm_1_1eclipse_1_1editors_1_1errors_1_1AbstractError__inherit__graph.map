@@ -1,6 +1,0 @@
-<map id="org.coreasm.eclipse.editors.errors.AbstractError" name="org.coreasm.eclipse.editors.errors.AbstractError">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1CoreASMEclipseError.html" title="This class represents errors from CoreASM. " alt="" coords="5,629,227,736"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1SimpleError.html" title="This class models a SimpleError. " alt="" coords="251,571,473,795"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1SyntaxError.html" title="This class models a SyntaxError. " alt="" coords="498,578,720,787"/>
-<area shape="rect" id="node5" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1UndefinedError.html" title="This class models a UndefinedError. " alt="" coords="745,607,967,758"/>
-</map>

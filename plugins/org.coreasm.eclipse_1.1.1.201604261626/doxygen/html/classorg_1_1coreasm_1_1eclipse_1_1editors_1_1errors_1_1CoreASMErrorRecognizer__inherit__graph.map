@@ -1,4 +1,0 @@
-<map id="org.coreasm.eclipse.editors.errors.CoreASMErrorRecognizer" name="org.coreasm.eclipse.editors.errors.CoreASMErrorRecognizer">
-<area shape="rect" id="node2" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1ITextErrorRecognizer.html" title="The ITextErrorRecognizer interface is a marker interface which marks instances of the IErrorRecognize..." alt="" coords="5,147,227,239"/>
-<area shape="rect" id="node3" href="$interfaceorg_1_1coreasm_1_1eclipse_1_1editors_1_1errors_1_1IErrorRecognizer.html" title="An object implementing IErrorRecognizer is an object which checks an ASMDocument for a certain kind o..." alt="" coords="5,6,227,98"/>
-</map>

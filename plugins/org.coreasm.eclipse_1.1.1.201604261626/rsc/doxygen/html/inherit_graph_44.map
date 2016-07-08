@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1util_1_1OutlineTreeNode.html" title="An OutlineTreeNode represents a node in the tree which is displayed in the outline view for an ASMEdi..." alt="" coords="147,38,405,79"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1util_1_1GroupOutlineTreeNode.html" title="org.coreasm.eclipse.editors.outlining.util.\lGroupOutlineTreeNode" alt="" coords="453,5,712,46"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1util_1_1RootOutlineTreeNode.html" title="org.coreasm.eclipse.editors.outlining.util.\lRootOutlineTreeNode" alt="" coords="453,70,712,111"/>
-</map>

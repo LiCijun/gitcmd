@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: http://kangtae49.github.io/dev-utils-plugin/update' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1466486322351'/>
+    <property name='site.checksum' value='142712451'/>
+  </properties>
+  <references size='2'>
+    <repository uri='http://dev-utils-plugin.googlecode.com/svn/trunk/update' url='http://dev-utils-plugin.googlecode.com/svn/trunk/update' type='0' options='0'/>
+    <repository uri='http://dev-utils-plugin.googlecode.com/svn/trunk/update' url='http://dev-utils-plugin.googlecode.com/svn/trunk/update' type='1' options='0'/>
+  </references>
+  <units size='4'>
+    <unit id='DevUtilsFeature.feature.jar' version='1.0.9.201209201734'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='DevUtilsFeature'/>
+        <property name='org.eclipse.equinox.p2.description' value='devutilsplugins'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://dev-utils-plugin.googlecode.com/svn/trunk/update'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='DevUtilsFeature.feature.jar' version='1.0.9.201209201734'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='DevUtilsFeature' version='1.0.9.201209201734'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='DevUtilsFeature' version='1.0.9.201209201734'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://dev-utils-plugin.googlecode.com/svn/trunk/update/license' url='http://dev-utils-plugin.googlecode.com/svn/trunk/update/license'>
+          license
+        </license>
+      </licenses>
+      <copyright uri='http://dev-utils-plugin.googlecode.com' url='http://dev-utils-plugin.googlecode.com'>
+        KangTae Kim
+      </copyright>
+    </unit>
+    <unit id='DevUtilsPlugin' version='1.0.9.201209201734' singleton='false'>
+      <update id='DevUtilsPlugin' range='[0.0.0,1.0.9.201209201734)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='DevUtilsPlugin' version='1.0.9.201209201734'/>
+        <provided namespace='osgi.bundle' name='DevUtilsPlugin' version='1.0.9.201209201734'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='DevUtilsPlugin' version='1.0.9.201209201734'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: DevUtilsPlugin&#xA;Bundle-Version: 1.0.9.201209201734&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='DevUtilsFeature.feature.group' version='1.0.9.201209201734' singleton='false'>
+      <update id='DevUtilsFeature.feature.group' range='[0.0.0,1.0.9.201209201734)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='DevUtilsFeature'/>
+        <property name='org.eclipse.equinox.p2.description' value='devutilsplugins'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://dev-utils-plugin.googlecode.com/svn/trunk/update'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='DevUtilsFeature.feature.group' version='1.0.9.201209201734'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='DevUtilsPlugin' range='[1.0.9.201209201734,1.0.9.201209201734]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='DevUtilsFeature.feature.jar' range='[1.0.9.201209201734,1.0.9.201209201734]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://dev-utils-plugin.googlecode.com/svn/trunk/update/license' url='http://dev-utils-plugin.googlecode.com/svn/trunk/update/license'>
+          license
+        </license>
+      </licenses>
+      <copyright uri='http://dev-utils-plugin.googlecode.com' url='http://dev-utils-plugin.googlecode.com'>
+        KangTae Kim
+      </copyright>
+    </unit>
+    <unit id='http://kangtae49.github.io/dev-utils-plugin/update/site.xml.DevUtils' version='1.0.0.2-7GdWnh--773573K735G9A'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='DevUtils'/>
+        <property name='org.eclipse.equinox.p2.description' value='DevUtils'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://kangtae49.github.io/dev-utils-plugin/update/site.xml.DevUtils' version='1.0.0.2-7GdWnh--773573K735G9A'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='DevUtilsFeature.feature.group' range='[1.0.9.201209201734,1.0.9.201209201734]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+  </units>
+</repository>

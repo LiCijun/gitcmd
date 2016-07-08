@@ -1,6 +1,0 @@
-<map id="org.coreasm.eclipse.editors.outlining.util.OutlineTreeNode" name="org.coreasm.eclipse.editors.outlining.util.OutlineTreeNode">
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1util_1_1GroupOutlineTreeNode.html" title="{org.coreasm.eclipse.editors.outlining.util.\lGroupOutlineTreeNode\n|&#45; childrenUnsorted\l&#45; childrenSorted\l|+ GroupOutlineTreeNode()\l+ getChildren()\l+ addChild()\l}" alt="" coords="13,471,271,607"/>
-<area shape="rect" id="node12" title="Following classes are subclasses of OutlineTreeNode so its easier to use them and reduces copy code..." alt="" coords="2275,493,2532,585"/>
-<area shape="rect" id="node13" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1outlining_1_1util_1_1RootOutlineTreeNode.html" title="{org.coreasm.eclipse.editors.outlining.util.\lRootOutlineTreeNode\n|&#45; groupNodes\l&#45; allNodesUnsorted\l&#45; allNodesSorted\l|+ RootOutlineTreeNode()\l+ getGroupNodes()\l+ getAllNodes()\l+ addNode()\l&#45; addGroup()\l}" alt="" coords="2557,449,2815,629"/>
-<area shape="rect" id="node4" title="Use group is a different case because of the special icon. " alt="" coords="5,678,280,770"/>
-</map>

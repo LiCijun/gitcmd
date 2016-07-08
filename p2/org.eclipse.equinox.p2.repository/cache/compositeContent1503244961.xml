@@ -5,10 +5,11 @@
     version='1.0.0'>
 
   <properties size='1'>
-    <property name='p2.timestamp' value='8'/>
+    <property name='p2.timestamp' value='9'/>
   </properties>
 
-  <children size='3'>
+  <children size='4'>
+    <child location="1.7"/>
     <child location='1.6'/>
     <child location='1.5'/>
     <child location='1.4'/>

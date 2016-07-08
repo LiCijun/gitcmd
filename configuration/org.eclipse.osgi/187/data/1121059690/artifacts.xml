@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1464341950478'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='3716894310'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='12'>
+    <artifact classifier='osgi.bundle' id='com.github.sevntu.checkstyle.checks' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/plugins/com.github.sevntu.checkstyle.checks_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.sevntu.checkstyle.checks.feature' version='1.0.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/features/com.github.sevntu.checkstyle.checks.feature_1.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.sevntu.checkstyle.checks' version='1.0.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/plugins/com.github.sevntu.checkstyle.checks_1.0.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.sevntu.checkstyle.checks' version='1.0.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/plugins/com.github.sevntu.checkstyle.checks_1.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.sevntu.checkstyle.checks.feature' version='1.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/features/com.github.sevntu.checkstyle.checks.feature_1.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.sevntu.checkstyle.checks.feature' version='1.0.5'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/features/com.github.sevntu.checkstyle.checks.feature_1.0.5.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.sevntu.checkstyle.checks.feature' version='1.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/features/com.github.sevntu.checkstyle.checks.feature_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.sevntu.checkstyle.checks' version='1.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/plugins/com.github.sevntu.checkstyle.checks_1.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.sevntu.checkstyle.checks' version='1.0.5'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/plugins/com.github.sevntu.checkstyle.checks_1.0.5.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.github.sevntu.checkstyle.checks' version='1.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/plugins/com.github.sevntu.checkstyle.checks_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.sevntu.checkstyle.checks.feature' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/features/com.github.sevntu.checkstyle.checks.feature_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.github.sevntu.checkstyle.checks.feature' version='1.0.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/features/com.github.sevntu.checkstyle.checks.feature_1.0.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

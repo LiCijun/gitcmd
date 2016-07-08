@@ -1,5 +1,0 @@
-<map id="org.coreasm.eclipse.editors.SlimEngine.getFullEngine" name="org.coreasm.eclipse.editors.SlimEngine.getFullEngine">
-<area shape="rect" id="node2" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser.html#a1017e60d1333753c968ddd4b239678a8" title="Collects all IDs from a set of plugins and stores them in the currentIDs set. " alt="" coords="240,5,427,46"/>
-<area shape="rect" id="node3" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser.html#abed917d2158bc2411b463d1a188bb355" title="Checks if a new parser must be created because the plugins have been changed since the last run of th..." alt="" coords="475,5,661,46"/>
-<area shape="rect" id="node4" href="$classorg_1_1coreasm_1_1eclipse_1_1editors_1_1ASMParser.html#a8b3f27734e80cfebe6539d3b588899c2" title="This method runs the parser once. " alt="" coords="709,5,896,46"/>
-</map>
