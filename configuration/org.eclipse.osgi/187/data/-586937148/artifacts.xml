@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://mylyn-mantis.sourceforge.net/eclipse/update' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1468653520722'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='4240773162'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='9'>
+    <artifact classifier='org.eclipse.update.feature' id='com.itsolut.mantis_feature' version='3.10.1.201407122122'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/features/com.itsolut.mantis_feature_3.10.1.201407122122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.collect' version='1.0.0.v201105210816'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/com.google.collect_1.0.0.v201105210816.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.aopalliance' version='1.0.0.v201105210816'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/org.aopalliance_1.0.0.v201105210816.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.inject' version='2.0.0.v201105231817'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/com.google.inject_2.0.0.v201105231817.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.itsolut.mantis.wikitext' version='3.10.1.201407122122'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/com.itsolut.mantis.wikitext_3.10.1.201407122122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.soap' version='3.7.0.v20120319-0200'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/org.eclipse.mylyn.commons.soap_3.7.0.v20120319-0200.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.itsolut.mantis.ui' version='3.10.1.201407122122'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/com.itsolut.mantis.ui_3.10.1.201407122122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.itsolut.mantis.wikitext_feature' version='3.10.1.201407122122'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/features/com.itsolut.mantis.wikitext_feature_3.10.1.201407122122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.itsolut.mantis.core' version='3.10.1.201407122122'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://mylyn-mantis.sourceforge.net/eclipse/update/plugins/com.itsolut.mantis.core_3.10.1.201407122122.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.recommenders.rcp.feature.source" version="2.4.2.v20160708-1336" plugin="org.eclipse.recommenders.rcp" label="%label" provider-name="%provider-name">
+  <includes id="org.eclipse.recommenders.rcp.feature" version="2.4.2.v20160708-1336"/>
+  <description url="http://www.eclipse.org/recommenders/">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.recommenders.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.apidocs.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.apidocs.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.calls.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.calls.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.chain.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.completion.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.constructors.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.constructors.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.coordinates.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.coordinates.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.injection.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.jayes.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.jayes.io.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.jdt.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.models.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.models.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.net.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.overrides.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.overrides.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.subwords.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.types.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.utils.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.recommenders.utils.rcp.source" version="2.4.2.v20160708-1336" download-size="0" install-size="0" unpack="false"/>
+</feature>

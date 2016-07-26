@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.recommenders.3rd.feature.source" version="2.4.2.v20160708-1336" label="%label" provider-name="%provider-name">
+  <includes id="org.eclipse.recommenders.3rd.feature" version="2.4.2.v20160708-1336"/>
+  <description url="http://www.eclipse.org/recommenders/">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="ch.qos.logback.classic.source" version="1.0.7.v20121108-1250" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="ch.qos.logback.core.source" version="1.0.7.v20121108-1250" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="ch.qos.logback.slf4j.source" version="1.0.7.v201505121915" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.google.gson.source" version="2.2.4.v201311231704" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.google.guava.source" version="15.0.0.v201403281430" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.google.inject.source" version="3.0.0.v201605172100" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="com.google.inject.multibindings.source" version="3.0.0.v201605172100" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="javax.inject.source" version="1.0.0.v20091030" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.codec.source" version="1.6.0.v201305230611" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.httpclient.source" version="3.1.0.v201012070820" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.io.source" version="2.2.0.v201405211200" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.lang3.source" version="3.1.0.v201403281430" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.logging.source" version="1.1.1.v201101211721" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.math.source" version="2.1.0.v201105210652" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.commons.pool.source" version="1.6.0.v201204271246" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.httpcomponents.httpclient.source" version="4.3.6.v201511171540" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.httpcomponents.httpcore.source" version="4.3.3.v201411290715" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.lucene.core.source" version="3.5.0.v20120725-1805" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.apache.solr.client.solrj.source" version="3.5.0.v20150506-0844" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.slf4j.api.source" version="1.7.2.v20121108-1250" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.xtext.xbase.lib.source" version="2.7.3.v201411190455" download-size="0" install-size="0" unpack="false"/>
+  <includes id="org.eclipse.aether.feature.source" version="1.0.1.v20141111"/>
+</feature>
