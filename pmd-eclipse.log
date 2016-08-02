@@ -11086,3 +11086,285 @@ java.lang.RuntimeException: Couldn't find that class Can't find resource ruleset
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+2016/08/01 18:13:42,499 ERROR PMDPlugin                        Runtime Exception when loading state ruleset file
+java.lang.RuntimeException: Couldn't find that class Can't find resource rulesets/java/controversial.xml. Make sure the resource is a valid file or URL or is on the CLASSPATH
+	at net.sourceforge.pmd.RuleSetFactory.parseRuleSetNode(RuleSetFactory.java:229)
+	at net.sourceforge.pmd.RuleSetFactory.createRuleSet(RuleSetFactory.java:157)
+	at net.sourceforge.pmd.RuleSetFactory.createRuleSet(RuleSetFactory.java:146)
+	at net.sourceforge.pmd.eclipse.runtime.preferences.impl.PreferencesManagerImpl.getRuleSetFromStateLocation(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.preferences.impl.PreferencesManagerImpl.getRuleSet(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesImpl.<init>(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.PropertiesFactoryImpl.newProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2016/08/01 18:13:43,304 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 6 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 9 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 10 more
+2016/08/01 18:13:49,128 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
+2016/08/01 18:17:47,127 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
+2016/08/01 18:22:19,376 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
+2016/08/01 18:25:31,112 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
+2016/08/01 18:27:25,715 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
+2016/08/01 18:28:45,908 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
+2016/08/01 18:33:52,314 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResource(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processProject(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResources(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 6 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 9 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 10 more
+2016/08/01 18:33:57,440 ERROR PMDPlugin                        Error executing command ReviewCode
+name.herlin.command.CommandException: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.processResourceDelta(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.ReviewCodeCmd.execute(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.cmd.JobCommandProcessor$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: net.sourceforge.pmd.eclipse.runtime.properties.PropertiesException: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.readProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.runtime.properties.impl.ProjectPropertiesManagerImpl.loadProjectProperties(Unknown Source)
+	at net.sourceforge.pmd.eclipse.plugin.PMDPlugin.loadProjectProperties(Unknown Source)
+	... 4 more
+Caused by: org.exolab.castor.xml.MarshalException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd{File: [not available]; line: 1259; column: 23}
+	at org.exolab.castor.xml.Unmarshaller.convertSAXExceptionToMarshalException(Unmarshaller.java:755)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:721)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:610)
+	... 7 more
+Caused by: org.xml.sax.SAXException: unable to find FieldDescriptor for 'fullBuildEnabled' in ClassDescriptor of pmd
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1925)
+	at org.exolab.castor.xml.UnmarshalHandler.startElement(UnmarshalHandler.java:1353)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.exolab.castor.xml.Unmarshaller.unmarshal(Unmarshaller.java:709)
+	... 8 more
