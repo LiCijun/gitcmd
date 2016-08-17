@@ -167,11 +167,11 @@ org.eclipse.ecf.provider.filetransfer.httpclient4,1.1.0.v20151130-0157,plugins/o
 org.eclipse.ecf.provider.filetransfer.httpclient4.ssl,1.1.0.v20151130-0157,plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.1.0.v20151130-0157.jar,4,false
 org.eclipse.ecf.provider.filetransfer.ssl,1.0.0.v20151130-0157,plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20151130-0157.jar,4,false
 org.eclipse.ecf.ssl,1.2.0.v20151130-0157,plugins/org.eclipse.ecf.ssl_1.2.0.v20151130-0157.jar,4,false
-org.eclipse.egit,4.4.0.201606070830-r,plugins/org.eclipse.egit_4.4.0.201606070830-r.jar,4,false
-org.eclipse.egit.core,4.4.0.201606070830-r,plugins/org.eclipse.egit.core_4.4.0.201606070830-r.jar,4,false
-org.eclipse.egit.doc,4.4.0.201606070830-r,plugins/org.eclipse.egit.doc_4.4.0.201606070830-r.jar,4,false
+org.eclipse.egit,4.4.1.201607150455-r,plugins/org.eclipse.egit_4.4.1.201607150455-r.jar,4,false
+org.eclipse.egit.core,4.4.1.201607150455-r,plugins/org.eclipse.egit.core_4.4.1.201607150455-r.jar,4,false
+org.eclipse.egit.doc,4.4.1.201607150455-r,plugins/org.eclipse.egit.doc_4.4.1.201607150455-r.jar,4,false
 org.eclipse.egit.mylyn.ui,4.4.0.201606070830-r,plugins/org.eclipse.egit.mylyn.ui_4.4.0.201606070830-r.jar,4,false
-org.eclipse.egit.ui,4.4.0.201606070830-r,plugins/org.eclipse.egit.ui_4.4.0.201606070830-r.jar,4,false
+org.eclipse.egit.ui,4.4.1.201607150455-r,plugins/org.eclipse.egit.ui_4.4.1.201607150455-r.jar,4,false
 org.eclipse.emf.common,2.11.1.v20160208-0816,plugins/org.eclipse.emf.common_2.11.1.v20160208-0816.jar,4,false
 org.eclipse.emf.common.ui,2.10.1.v20160208-0841,plugins/org.eclipse.emf.common.ui_2.10.1.v20160208-0841.jar,4,false
 org.eclipse.emf.databinding,1.3.0.v20160208-0841,plugins/org.eclipse.emf.databinding_1.3.0.v20160208-0841.jar,4,false
@@ -276,8 +276,8 @@ org.eclipse.jetty.util,9.2.13.v20150730,plugins/org.eclipse.jetty.util_9.2.13.v2
 org.eclipse.jface,3.11.1.v20160128-1644,plugins/org.eclipse.jface_3.11.1.v20160128-1644.jar,4,false
 org.eclipse.jface.databinding,1.7.0.v20150406-2148,plugins/org.eclipse.jface.databinding_1.7.0.v20150406-2148.jar,4,false
 org.eclipse.jface.text,3.10.0.v20150603-1752,plugins/org.eclipse.jface.text_3.10.0.v20150603-1752.jar,4,false
-org.eclipse.jgit,4.4.0.201606070830-r,plugins/org.eclipse.jgit_4.4.0.201606070830-r.jar,4,false
-org.eclipse.jgit.archive,4.4.0.201606070830-r,plugins/org.eclipse.jgit.archive_4.4.0.201606070830-r.jar,4,false
+org.eclipse.jgit,4.4.1.201607150455-r,plugins/org.eclipse.jgit_4.4.1.201607150455-r.jar,4,false
+org.eclipse.jgit.archive,4.4.1.201607150455-r,plugins/org.eclipse.jgit.archive_4.4.1.201607150455-r.jar,4,false
 org.eclipse.jsch.core,1.2.0.v20141202-1415,plugins/org.eclipse.jsch.core_1.2.0.v20141202-1415.jar,4,false
 org.eclipse.jsch.ui,1.2.0.v20141202-1415,plugins/org.eclipse.jsch.ui_1.2.0.v20141202-1415.jar,4,false
 org.eclipse.ltk.core.refactoring,3.6.201.v20150819-1034,plugins/org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar,4,false
