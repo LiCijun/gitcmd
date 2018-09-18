@@ -25,6 +25,26 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+cd %~dp0..\
+mkdir LiKey
+cd LiKey
+git init
+git remote add cmd  cmd:li/LiKey.git
+git remote add li  li:li/LiKey.git
+git remote add lcj  lcj:li/LiKey.git
+git remote add github  github:LiCijun/LiKey.git
+
+
+
+
+cd %~dp0..\
+mkdir  DocTemplate
+cd DocTemplate
+git init
+git remote add li  li:li/DocTemplate
+git remote add cmd  cmd:DocTemplate.git
+git remote add lcj  lcj:li/DocTemplate
+
 
 
 cd %~dp0..\

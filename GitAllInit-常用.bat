@@ -479,13 +479,7 @@ git remote add li  li:li/SecUnit2.git
 git remote add KMT  kmt:SecUnit2.git
 git remote add lcj  lcj:li/SecUnit2.git
 
-cd %~dp0..\
-mkdir LiKey
-cd LiKey
-git init
-git remote add li  li:li/LiKey.git
-git remote add lcj  lcj:li/LiKey.git
-git remote add github  github:LiCijun/LiKey.git
+
 
 cd %~dp0..\
 mkdir TP2300
