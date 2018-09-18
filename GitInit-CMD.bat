@@ -1,0 +1,289 @@
+@echo off  
+  
+:: BatchGotAdmin  
+:-------------------------------------  
+REM  --> Check for permissions  
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"  
+  
+REM --> If error flag set, we do not have admin.  
+if '%errorlevel%' NEQ '0' (  
+    echo Requesting administrative privileges...  
+    goto UACPrompt  
+) else ( goto gotAdmin )  
+  
+:UACPrompt  
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"  
+    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"  
+  
+    "%temp%\getadmin.vbs"  
+    exit /B  
+  
+:gotAdmin  
+    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )  
+    pushd "%CD%"  
+    CD /D "%~dp0"  
+:--------------------------------------  
+@echo off
+
+
+
+cd %~dp0..\
+mkdir  usbkms
+cd usbkms
+git init
+git remote add li  li:li/usbkms
+git remote add cmd  cmd:usbkms.git
+git remote add lcj  lcj:li/usbkms
+
+cd %~dp0..\
+mkdir  gitolite-admin-CMD
+cd gitolite-admin-CMD
+git init
+git remote add li  li:li/gitolite-admin-CMD
+git remote add cmd  cmd:gitolite-admin
+git remote add lcj  lcj:li/gitolite-admin-CMD
+
+cd %~dp0..\
+mkdir  usbkmsDoc
+cd usbkmsDoc
+git init
+git remote add li  li:li/usbkmsusbkmsDoc
+git remote add cmd  cmd:usbkmsusbkmsDoc
+git remote add lcj  lcj:li/usbkmsusbkmsDoc
+
+
+cd %~dp0..\
+mkdir  Android.BlueTooth
+cd Android.BlueTooth
+git init
+git remote add li  li:li/Android.BlueTooth
+git remote add cmd  cmd:Android.BlueTooth
+git remote add lcj  lcj:li/Android.BlueTooth
+
+cd %~dp0..\
+mkdir  Android.Convert
+cd Android.Convert
+git init
+git remote add li  li:li/Android.Convert
+git remote add cmd  cmd:Android.Convert
+git remote add lcj  lcj:li/Android.Convert
+
+cd %~dp0..\
+mkdir  Android.DeviceInfo
+cd Android.DeviceInfo
+git init
+git remote add li  li:li/Android.DeviceInfo
+git remote add cmd  cmd:Android.DeviceInfo
+git remote add lcj  lcj:li/Android.DeviceInfo
+
+cd %~dp0..\
+mkdir  Android.ExeWork
+cd Android.ExeWork
+git init
+git remote add li  li:li/Android.ExeWork
+git remote add cmd  cmd:Android.ExeWork
+git remote add lcj  lcj:li/Android.ExeWork
+
+ cd %~dp0..\
+mkdir  Android.Hardware
+cd Android.Hardware
+git init
+git remote add li  li:li/Android.Hardware
+git remote add cmd  cmd:Android.Hardware
+git remote add lcj  lcj:li/Android.Hardware
+
+ cd %~dp0..\
+mkdir  Android.HHUInterface
+cd Android.HHUInterface
+git init
+git remote add li  li:li/Android.HHUInterface
+git remote add cmd  cmd:Android.HHUInterface
+git remote add lcj  lcj:li/Android.HHUInterface
+
+ cd %~dp0..\
+mkdir  Android.ISO7816
+cd Android.ISO7816
+git init
+git remote add li  li:li/Android.ISO7816
+git remote add cmd  cmd:Android.ISO7816
+git remote add lcj  lcj:li/Android.ISO7816
+
+ cd %~dp0..\
+mkdir  Android.Meter
+cd Android.Meter
+git init
+git remote add li  li:li/Android.Meter
+git remote add cmd  cmd:Android.Meter
+git remote add lcj  lcj:li/Android.Meter
+
+
+ cd %~dp0..\
+mkdir  Android.Meter645
+cd Android.Meter645
+git init
+git remote add li  li:li/Android.Meter645
+git remote add cmd  cmd:Android.Meter645
+git remote add lcj  lcj:li/Android.Meter645
+
+ cd %~dp0..\
+mkdir  Android.MeterFunction
+cd Android.MeterFunction
+git init
+git remote add li  li:li/Android.MeterFunction
+git remote add cmd  cmd:Android.MeterFunction
+git remote add lcj  lcj:li/Android.MeterFunction
+
+
+
+ cd %~dp0..\
+mkdir  Android.PeripheralProtocol
+cd Android.PeripheralProtocol
+git init
+git remote add li  li:li/Android.PeripheralProtocol
+git remote add cmd  cmd:Android.PeripheralProtocol
+git remote add lcj  lcj:li/Android.PeripheralProtocol
+
+
+ cd %~dp0..\
+mkdir  Android.P645
+cd Android.P645
+git init
+git remote add li  li:li/Android.P645
+git remote add cmd  cmd:Android.P645
+git remote add lcj  lcj:li/Android.P645
+
+ cd %~dp0..\
+mkdir  Android.RESAM
+cd Android.RESAM
+git init
+git remote add li  li:li/Android.RESAM
+git remote add cmd  cmd:Android.RESAM
+git remote add lcj  lcj:li/Android.RESAM
+
+
+ cd %~dp0..\
+mkdir  Android.RFIDTESAM
+cd Android.RFIDTESAM
+git init
+git remote add li  li:li/Android.RFIDTESAM
+git remote add cmd  cmd:Android.RFIDTESAM
+git remote add lcj  lcj:li/Android.RFIDTESAM
+
+
+
+ cd %~dp0..\
+mkdir  Android.SecUnit
+cd Android.SecUnit
+git init
+git remote add li  li:li/Android.SecUnit
+git remote add cmd  cmd:Android.SecUnit
+git remote add lcj  lcj:li/Android.SecUnit
+
+
+ cd %~dp0..\
+mkdir  Android.SerialPort
+cd Android.SerialPort
+git init
+git remote add li  li:li/Android.SerialPort
+git remote add cmd  cmd:Android.SerialPort
+git remote add lcj  lcj:li/Android.SerialPort
+
+
+ cd %~dp0..\
+mkdir  Android.Terminal3761
+cd Android.Terminal3761
+git init
+git remote add li  li:li/Android.Terminal3761
+git remote add cmd  cmd:Android.Terminal3761
+git remote add lcj  lcj:li/Android.Terminal3761
+
+ cd %~dp0..\
+mkdir  Android.WorkSync
+cd Android.WorkSync
+git init
+git remote add li  li:li/Android.WorkSync
+git remote add cmd  cmd:Android.WorkSync
+git remote add lcj  lcj:li/Android.WorkSync
+
+ cd %~dp0..\
+mkdir  Android.AndroidProxy
+cd Android.AndroidProxy
+git init
+git remote add li  li:li/Android.AndroidProxy
+git remote add cmd  cmd:Android.AndroidProxy
+git remote add lcj  lcj:li/Android.AndroidProxy
+
+
+ cd %~dp0..\
+mkdir  Android.HZWQInterface
+cd Android.HZWQInterface
+git init
+git remote add li  li:li/Android.HZWQInterface
+git remote add cmd  cmd:Android.HZWQInterface
+git remote add lcj  lcj:li/Android.HZWQInterface
+
+
+ cd %~dp0..\
+mkdir  SecUnit2
+cd SecUnit2
+git init
+git remote add li  li:li/SecUnit2
+git remote add cmd  cmd:SecUnit2
+git remote add lcj  lcj:li/SecUnit2
+
+
+ cd %~dp0..\
+mkdir  ChongQingMeterRead
+cd ChongQingMeterRead
+git init
+git remote add li  li:li/ChongQingMeterRead
+git remote add cmd  cmd:ChongQingMeterRead
+git remote add lcj  lcj:li/ChongQingMeterRead
+
+
+ cd %~dp0..\
+mkdir  MaintenanceHHU
+cd MaintenanceHHU
+git init
+git remote add li  li:li/MaintenanceHHU
+git remote add cmd  cmd:MaintenanceHHU
+git remote add lcj  lcj:li/MaintenanceHHU
+
+
+ cd %~dp0..\
+mkdir  AndroidHHU
+cd AndroidHHU
+git init
+git remote add li  li:li/AndroidHHU
+git remote add cmd  cmd:AndroidHHU
+git remote add lcj  lcj:li/AndroidHHU
+
+
+ cd %~dp0..\
+mkdir  AndroidHHUv2
+cd AndroidHHUv2
+git init
+git remote add li  li:li/AndroidHHUv2
+git remote add cmd  cmd:AndroidHHUv2
+git remote add lcj  lcj:li/AndroidHHUv2
+
+       cd %~dp0..\
+mkdir  CEPRICheck
+cd CEPRICheck
+git init
+git remote add li  li:li/CEPRICheck
+git remote add cmd  cmd:CEPRICheck
+git remote add lcj  lcj:li/CEPRICheck
+
+ cd %~dp0..\
+mkdir  Calibrator
+cd Calibrator
+git init
+git remote add li  li:li/Calibrator
+git remote add cmd  cmd:Calibrator
+git remote add lcj  lcj:li/Calibrator
+        
+   
+
+
+
