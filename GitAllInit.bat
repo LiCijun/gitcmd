@@ -24,7 +24,74 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"  
 :--------------------------------------  
 @echo off
+ 
+ 
+ 
+ 
+  cd %~dp0..\
+mkdir APP
+cd APP
+git init
+git remote add li  li:li/APP.git
+git remote add KMT  kmt:APP.git
+git remote add lcj  lcj:li/APP.git
+   
+ cd %~dp0..\
+mkdir hwz
+cd hwz
+git init
+git remote add li  li:li/hwz.git
+git remote add KMT  kmt:hwz.git
+git remote add lcj  lcj:li/hwz.git
+   
+cd %~dp0..\
+mkdir tp900
+cd tp900
+git init
+git remote add li  li:li/tp900.git
+git remote add KMT  kmt:tp900.git
+git remote add lcj  lcj:li/tp900.git
 
+cd %~dp0..\
+mkdir ibd70test
+cd ibd70test
+git init
+git remote add li  li:li/ibd70test.git
+git remote add KMT  kmt:ibd70test.git
+git remote add lcj  lcj:li/ibd70test.git
+cd %~dp0..\
+mkdir wince7
+cd wince7
+git init
+git remote add li  li:li/wince7.git
+git remote add KMT  kmt:wince7.git
+git remote add lcj  lcj:li/wince7.git
+
+cd %~dp0..\
+mkdir ibd70
+cd ibd70
+git init
+git remote add li  li:li/ibd70.git
+git remote add KMT  kmt:ibd70.git
+git remote add lcj  lcj:li/ibd70.git
+
+   
+cd %~dp0..\
+mkdir cepricode
+cd cepricode
+git init
+git remote add li  li:li/cepricode.git
+git remote add KMT  kmt:cepricode.git
+git remote add lcj  lcj:li/cepricode.git
+
+
+cd %~dp0..\
+mkdir cepridoc
+cd cepridoc
+git init
+git remote add li  li:li/cepridoc.git
+git remote add KMT  kmt:cepridoc.git
+git remote add lcj  lcj:li/cepridoc.git
 
 
 
