@@ -25,7 +25,118 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+cd %~dp0..\
+mkdir Android.SecureUnit
+cd Android.SecureUnit
+git init
+git remote add li  li:li/Android.SecureUnit.git
+git remote add KMT  kmt:Android.SecureUnit.git
+git remote add lcj  lcj:li/Android.SecureUnit.git
 
+cd %~dp0..\
+mkdir Android.SerialPortDemo
+cd Android.SerialPortDemo
+git init
+git remote add li  li:li/Android.SerialPortDemo.git
+git remote add KMT  kmt:Android.SerialPortDemo.git
+git remote add lcj  lcj:li/Android.SerialPortDemo.git
+
+cd %~dp0..\
+mkdir Android.SerialPortDemoUseLib
+cd Android.SerialPortDemoUseLib
+git init
+git remote add li  li:li/Android.SerialPortDemoUseLib.git
+git remote add KMT  kmt:Android.SerialPortDemoUseLib.git
+git remote add lcj  lcj:li/Android.SerialPortDemoUseLib.git
+
+cd %~dp0..\
+mkdir OA
+cd OA
+git init
+git remote add li  li:li/OA.git
+git remote add KMT  kmt:OA.git
+git remote add lcj  lcj:li/OA.git
+
+cd %~dp0..\
+mkdir U950
+cd U950
+git init
+git remote add li  li:li/U950.git
+git remote add KMT  kmt:U950.git
+git remote add lcj  lcj:li/U950.git
+
+cd %~dp0..\
+mkdir VS
+cd VS
+git init
+git remote add li  li:li/VS.git
+git remote add KMT  kmt:VS.git
+git remote add lcj  lcj:li/VS.git
+
+
+cd %~dp0..\
+mkdir SPI
+cd SPI
+git init
+git remote add li  li:li/SPI.git
+git remote add KMT  kmt:SPI.git
+git remote add lcj  lcj:li/SPI.git
+
+
+cd %~dp0..\
+mkdir RFID
+cd RFID
+git init
+git remote add li  li:li/RFID.git
+git remote add KMT  kmt:RFID.git
+git remote add lcj  lcj:li/RFID.git
+
+
+
+cd %~dp0..\
+mkdir ignore
+cd ignore
+git init
+git remote add li  li:li/ignore.git
+git remote add KMT  kmt:ignore.git
+git remote add lcj  lcj:li/ignore.git
+
+
+
+cd %~dp0..\
+mkdir IRFID1356M
+cd IRFID1356M
+git init
+git remote add li  li:li/IRFID1356M.git
+git remote add KMT  kmt:IRFID1356M.git
+git remote add lcj  lcj:li/IRFID1356M.git
+
+
+cd %~dp0..\
+mkdir foxmail
+cd foxmail
+git init
+git remote add li  li:li/foxmail.git
+git remote add KMT  kmt:foxmail.git
+git remote add lcj  lcj:li/foxmail.git
+
+cd %~dp0..\
+mkdir firefox
+cd firefox
+git init
+git remote add li  li:li/firefox.git
+git remote add KMT  kmt:firefox.git
+git remote add lcj  lcj:li/firefox.git
+
+
+
+cd %~dp0..\
+mkdir Dispose
+cd Dispose
+git init
+git remote add li  li:li/Dispose.git
+git remote add KMT  kmt:Dispose.git
+git remote add lcj  lcj:li/Dispose.git
 
 
 cd %~dp0..\
