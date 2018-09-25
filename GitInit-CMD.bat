@@ -25,6 +25,18 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+
+
+cd %~dp0..\
+mkdir ADoc
+cd ADoc
+git init
+git remote add li  li:li/ADoc.git
+git remote add lcj  lcj:li/ADoc.git
+
+
+
+
 cd %~dp0..\
 mkdir LiKey
 cd LiKey
@@ -33,7 +45,6 @@ git remote add cmd  cmd:li/LiKey.git
 git remote add li  li:li/LiKey.git
 git remote add lcj  lcj:li/LiKey.git
 git remote add github  github:LiCijun/LiKey.git
-
 
 cd %~dp0..\
 mkdir  Centos
