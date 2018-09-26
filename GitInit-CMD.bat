@@ -25,16 +25,30 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+cd %~dp0..\
+mkdir CmdDoc
+cd CmdDoc
+git init
+git remote add li  li:li/CmdDoc.git
+git remote add lcj  lcj:li/CmdDoc.git
 
 
 cd %~dp0..\
-mkdir ADoc
-cd ADoc
+mkdir  CEPRISealAIDLDoc
+cd CEPRISealAIDLDoc
 git init
-git remote add li  li:li/ADoc.git
-git remote add lcj  lcj:li/ADoc.git
+git remote add li  li:li/CEPRISealAIDLDoc
+git remote add cmd  cmd:CEPRISealAIDLDoc.git
+git remote add lcj  lcj:li/CEPRISealAIDLDoc
 
 
+cd %~dp0..\
+mkdir  CEPRISealAIDL
+cd CEPRISealAIDL
+git init
+git remote add li  li:li/CEPRISealAIDL
+git remote add cmd  cmd:CEPRISealAIDL.git
+git remote add lcj  lcj:li/CEPRISealAIDL
 
 
 cd %~dp0..\
