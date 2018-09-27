@@ -25,6 +25,15 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
  
+ 
+cd %~dp0..\
+mkdir LiCijun
+cd LiCijun
+git init
+git remote add li  li:li/LiCijun.git
+git remote add KMT  kmt:LiCijun.git
+git remote add lcj  lcj:li/LiCijun.git
+
     cd %~dp0..\
 mkdir P645
 cd P645
