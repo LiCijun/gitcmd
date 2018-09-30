@@ -26,7 +26,14 @@ if '%errorlevel%' NEQ '0' (
 @echo off
  
 
- 
+
+ cd %~dp0..\
+mkdir PMCWebService
+cd PMCWebService
+git init
+git remote add li  li:li/PMCWebService.git
+git remote add KMT  kmt:PMCWebService.git
+git remote add lcj  lcj:li/PMCWebService.git
  
  
 
@@ -797,12 +804,6 @@ git init
 git remote add lcj  lcj:fss.git
 git remote add li  li:fss.git
 
-cd %~dp0..\
-mkdir git
-cd git
-git init
-git remote add lcj  lcj:git.git
-git remote add li  li:git.git
 
 
 cd %~dp0..\
