@@ -1,6 +1,58 @@
 @echo off  
-  
+ 
+ 
+ 
+ cd %~dp0..\
+mkdir Android.Linq4j
+cd Android.Linq4j
+git init
+git remote add li  li:li/Android.Linq4j.git
+git remote add cmd  cmd:Android.Linq4j.git
+git remote add lcj  lcj:li/Android.Linq4j.git
 
+
+ cd %~dp0..\
+mkdir Android.MessageQueue 
+cd Android.MessageQueue
+git init
+git remote add li  li:li/Android.MessageQueue.git
+git remote add cmd  cmd:Android.MessageQueue.git 
+git remote add lcj  lcj:li/Android.MessageQueue.git
+
+
+cd %~dp0..\
+mkdir Android.Event
+cd Android.Event
+git init
+git remote add li  li:li/Android.Event.git
+git remote add cmd  cmd:Android.Event.git 
+git remote add lcj  lcj:li/Android.Event.git
+
+cd %~dp0..\
+mkdir Android.Protocol
+cd Android.Protocol
+git init
+git remote add li  li:li/Android.Protocol.git
+git remote add cmd  cmd:Android.Protocol.git 
+git remote add lcj  lcj:li/Android.Protocol.git
+
+cd %~dp0..\
+mkdir linq4j
+cd linq4j
+git init
+git remote add li  li:li/linq4j.git
+git remote add github  github:julianhyde/linq4j.git
+git remote add cmd  cmd:linq4j.git
+git remote add lcj  lcj:li/linq4j.git
+
+
+cd %~dp0..\
+mkdir  Android.Lang
+cd Android.Lang
+git init
+git remote add li  li:li/Android.Lang.git
+git remote add cmd  cmd:Android.Lang.git
+git remote add lcj  lcj:li/Android.Lang.git
 
 cd %~dp0..\
 mkdir CmdDoc
