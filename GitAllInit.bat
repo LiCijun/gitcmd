@@ -1696,13 +1696,7 @@ git remote add li  li:li/Android.SecUnit.git
 git remote add KMT  kmt:Android.SecUnit.git 
 git remote add lcj  lcj:li/Android.SecUnit.git
 
-cd %~dp0..\
-mkdir Android.MessageQueue 
-cd Android.MessageQueue
-git init
-git remote add li  li:li/Android.MessageQueue.git
-git remote add KMT  kmt:Android.MessageQueue.git 
-git remote add lcj  lcj:li/Android.MessageQueue.git
+
 
 
 cd %~dp0..\
@@ -1987,11 +1981,6 @@ git remote add li  li:li/FssSafeTest.git
 git remote add KMT  kmt:FssSafeTest.git
 git remote add lcj  lcj:li/FssSafeTest.git
 
-
-
-
-
-
 cd %~dp0..\
 mkdir Android.Company
 cd Android.Company
@@ -1999,16 +1988,6 @@ git init
 git remote add li  li:li/Android.Company.git
 git remote add KMT  kmt:Android.Company.git
 git remote add lcj  lcj:li/Android.Company.git
-
-
-
-cd %~dp0..\
-mkdir Android.Linq4j
-cd Android.Linq4j
-git init
-git remote add li  li:li/Android.Linq4j.git
-git remote add KMT  kmt:Android.Linq4j.git
-git remote add lcj  lcj:li/Android.Linq4j.git
 
 cd %~dp0..\
 mkdir Android.Terminal3761

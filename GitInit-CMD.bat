@@ -1,6 +1,12 @@
 @echo off  
  
- 
+cd %~dp0..\
+mkdir distribution
+cd distribution
+git init
+git remote add li  li:li/distribution.git
+git remote add cmd  cmd:distribution.git
+git remote add lcj  lcj:li/distribution.git
  
  cd %~dp0..\
 mkdir Android.Linq4j
