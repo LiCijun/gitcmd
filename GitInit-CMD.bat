@@ -1,5 +1,17 @@
 @echo off  
  
+ 
+ 
+ cd %~dp0..\
+mkdir bid_ningxia
+cd bid_ningxia
+git init
+git remote add li  li:li/bid_ningxia.git
+git remote add cmd  cmd:bid_ningxia.git
+git remote add lcj  lcj:li/bid_ningxia.git
+
+
+
 cd %~dp0..\
 mkdir distribution
 cd distribution
