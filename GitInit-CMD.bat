@@ -159,9 +159,12 @@ cd %~dp0..\
 mkdir  usbkmsDoc
 cd usbkmsDoc
 git init
-git remote add li  li:li/usbkmsusbkmsDoc
-git remote add cmd  cmd:usbkmsusbkmsDoc
-git remote add lcj  lcj:li/usbkmsusbkmsDoc
+git remote add li  li:li/usbkmsDoc
+git remote add cmd  cmd:usbkmsDoc
+git remote add lcj  lcj:li/usbkmsDoc
+git remote set-url li  li:li/usbkmsDoc
+git remote set-url cmd  cmd:usbkmsDoc
+git remote set-url lcj  lcj:li/usbkmsDoc
 
 
 cd %~dp0..\
