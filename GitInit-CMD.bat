@@ -1,5 +1,15 @@
 @echo off  
  
+    cd %~dp0..\
+mkdir pgpcmd
+cd pgpcmd
+git init
+git remote add li  li:li/pgpcmd.git
+git remote add cmd  cmd:pgp.git
+git remote add lcj  lcj:li/pgpcmd.git
+
+
+
    cd %~dp0..\
 mkdir esmsDoc
 cd esmsDoc
