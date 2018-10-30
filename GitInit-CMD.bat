@@ -1,6 +1,21 @@
 @echo off  
  
- 
+   cd %~dp0..\
+mkdir esmsDoc
+cd esmsDoc
+git init
+git remote add li  li:li/esmsDoc.git
+git remote add cmd  cmd:esmsDoc.git
+git remote add lcj  lcj:li/esmsDoc.git
+
+
+  cd %~dp0..\
+mkdir esms
+cd esms
+git init
+git remote add li  li:li/esms.git
+git remote add cmd  cmd:esms.git
+git remote add lcj  lcj:li/esms.git
  
  cd %~dp0..\
 mkdir bid_ningxia
