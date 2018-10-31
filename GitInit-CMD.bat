@@ -1,5 +1,13 @@
 @echo off  
- 
+  
+cd %~dp0..\
+mkdir Android.MVP
+cd Android.MVP
+git init
+git remote add li  li:li/Android.MVP.git
+git remote add cmd  cmd:Android.MVP.git
+git remote add lcj  lcj:li/Android.MVP.git
+
  cd %~dp0..\
 mkdir gitcmd
 cd gitcmd
@@ -24,6 +32,14 @@ git init
 git remote add li  li:li/MessageAnalysisDoc.git
 git remote add cmd  cmd:MessageAnalysisDoc.git
 git remote add lcj  lcj:li/MessageAnalysisDoc.git
+
+cd %~dp0..\
+mkdir MessageAnalysis
+cd MessageAnalysis
+git init
+git remote add li  li:li/MessageAnalysis.git
+git remote add cmd  cmd:MessageAnalysis.git
+git remote add lcj  lcj:li/MessageAnalysis.git
 
 
     cd %~dp0..\
