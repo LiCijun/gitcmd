@@ -1,13 +1,56 @@
 @echo off  
  
+cd %~dp0..\
+mkdir MessageAnalysisDoc
+cd MessageAnalysisDoc
+git init
+git remote add li  li:li/MessageAnalysisDoc.git
+git remote add cmd  cmd:MessageAnalysisDoc.git
+git remote add lcj  lcj:li/MessageAnalysisDoc.git
+
+
     cd %~dp0..\
+mkdir FaultAnalysisDoc
+cd FaultAnalysisDoc
+git init
+git remote add li  li:li/FaultAnalysisDoc.git
+git remote add cmd  cmd:FaultAnalysisDoc.git
+git remote add lcj  lcj:li/FaultAnalysisDoc.git
+
+    cd %~dp0..\
+mkdir FaultAnalysis
+cd FaultAnalysis
+git init
+git remote add li  li:li/FaultAnalysis.git
+git remote add cmd  cmd:FaultAnalysis.git
+git remote add lcj  lcj:li/FaultAnalysis.git
+ 
+cd %~dp0..\
+mkdir Android.Terminal3762
+cd Android.Terminal3762
+git init
+git remote add li  li:li/Android.Terminal3762.git
+git remote add cmd  cmd:Android.Terminal3762.git
+git remote add lcj  lcj:li/Android.Terminal3762.git
+ 
+ 
+ 
+ cd %~dp0..\
+mkdir Android.Terminal3762
+cd Android.Terminal3762
+git init
+git remote add li  li:li/Android.Terminal3762.git
+git remote add cmd  cmd:Android.Terminal3762.git
+git remote add lcj  lcj:li/Android.Terminal3762.git
+
+
+   cd %~dp0..\
 mkdir pgpcmd
 cd pgpcmd
 git init
 git remote add li  li:li/pgpcmd.git
 git remote add cmd  cmd:pgp.git
 git remote add lcj  lcj:li/pgpcmd.git
-
 
 
    cd %~dp0..\
