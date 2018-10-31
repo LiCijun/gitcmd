@@ -369,13 +369,7 @@ git remote add li  li:li/project.git
 git remote add lcj  lcj:li/project.git
 
 
-cd %~dp0..\
-mkdir gitcmd
-cd gitcmd
-git init
-git remote add li  li:li/gitcmd.git
-git remote add github  github:LiCijun/gitcmd.git
-git remote add lcj  lcj:li/gitcmd.git
+
 
 cd %~dp0..\
 mkdir CSG_Doc

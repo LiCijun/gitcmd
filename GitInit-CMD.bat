@@ -1,5 +1,22 @@
 @echo off  
  
+ cd %~dp0..\
+mkdir gitcmd
+cd gitcmd
+git init
+git remote add li  li:li/gitcmd.git
+git remote add github  github:LiCijun/gitcmd.git
+git remote add lcj  lcj:li/gitcmd.git
+git remote add cmd  cmd:gitcmd.git
+ 
+ cd %~dp0..\
+mkdir contract
+cd contract
+git init
+git remote add li  li:li/contract.git
+git remote add cmd  cmd:contract.git
+git remote add lcj  lcj:li/contract.git
+
 cd %~dp0..\
 mkdir MessageAnalysisDoc
 cd MessageAnalysisDoc
