@@ -1,5 +1,13 @@
 @echo off  
   
+
+cd %~dp0..\
+mkdir adempiere
+cd adempiere
+git init
+git remote add github  github:adempiere/adempiere.git
+  
+  
 cd %~dp0..\
 mkdir Android.MVP
 cd Android.MVP
