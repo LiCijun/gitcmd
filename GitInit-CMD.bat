@@ -517,5 +517,11 @@ git remote add lcj  lcj:li/Calibrator
         
    
 
-
+c:
+mkdir AndroidConfig
+cd c:/AndroidConfig
+git init
+git remote add li  li:li/AndroidConfig.git
+git remote add KMT  kmt:AndroidConfig.git
+git remote add lcj  lcj:li/AndroidConfig.git
 

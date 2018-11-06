@@ -652,16 +652,6 @@ git remote add li  li:li/TP2000Doc.git
 git remote add KMT  kmt:TP2000Doc.git
 git remote add lcj  lcj:li/TP2000Doc.git
 
-c:
-mkdir AndroidConfig
-cd c:/AndroidConfig
-git init
-git remote add li  li:li/AndroidConfig.git
-git remote add KMT  kmt:AndroidConfig.git
-git remote add lcj  lcj:li/AndroidConfig.git
-
-
-
 
  cd %~dp0..\
 mkdir PMCWebService
@@ -3041,13 +3031,12 @@ cd svntogit
 git init
 git remote add lcj  lcj:svntogit.git
 git remote add li  li:svntogit.git
-cd %~dp0..\
 
-mkdir warcraft
-cd warcraft
-git init
-git remote add lcj  lcj:warcraft.git
-git remote add li  li:warcraft.git
+
+
+
+
+
 cd %~dp0..\
 
 mkdir xian
