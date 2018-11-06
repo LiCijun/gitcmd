@@ -1,5 +1,28 @@
 @echo off  
+ 
   
+ cd %~dp0..\
+mkdir esmsservice
+cd esmsservice
+git init
+git remote add li  li:li/esmsservice.git
+git remote add cmd  cmd:esmsservice.git
+git remote add lcj  lcj:li/esmsservice.git
+
+
+cd %~dp0..\
+mkdir SafeTest2017
+cd SafeTest2017
+git init
+git remote add li  li:li/SafeTest2017.git
+git remote add cmd  cmd:SafeTest2017.git
+git remote add lcj  lcj:li/SafeTest2017.git
+
+ cd %~dp0..\
+mkdir gitignore
+cd gitignore
+git init
+git remote add github github:github/gitignore.git 
 
 cd %~dp0..\
 mkdir adempiere
