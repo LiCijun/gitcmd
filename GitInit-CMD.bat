@@ -1,5 +1,13 @@
 @echo off  
  
+cd %~dp0..\
+mkdir tomcat
+cd tomcat
+git init
+git remote add li  li:li/tomcat.git
+git remote add cmd  cmd:tomcat.git
+git remote add lcj  lcj:li/tomcat.git
+
   
  cd %~dp0..\
 mkdir esmsservice
