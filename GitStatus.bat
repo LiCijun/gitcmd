@@ -3,6 +3,14 @@
 cd %%s
 echo %%s
 git.exe status
-echo.
-echo.
+echo 
+echo 
 )
+ for /d %%s in (%~dp0..\AndroidLib\*) do (
+cd %%s
+echo %%s
+git.exe status
+echo 
+echo 
+)
+pause

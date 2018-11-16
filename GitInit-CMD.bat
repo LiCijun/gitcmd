@@ -1,5 +1,139 @@
 @echo off  
+
+mkdir AndroidLib
  
+cd %~dp0..\AndroidLib
+mkdir  Android.Convert
+cd Android.Convert
+git init
+git remote add li  li:li/Android.Convert
+git remote add cmd  cmd:Android.Convert
+git remote add lcj  lcj:li/Android.Convert
+
+
+cd %~dp0..\AndroidLib
+mkdir Android.Event
+cd Android.Event
+git init
+git remote add li  li:li/Android.Event.git
+git remote add cmd  cmd:Android.Event.git 
+git remote add lcj  lcj:li/Android.Event.git
+
+
+cd %~dp0..\AndroidLib
+mkdir  Android.Hardware
+cd Android.Hardware
+git init
+git remote add li  li:li/Android.Hardware
+git remote add cmd  cmd:Android.Hardware
+git remote add lcj  lcj:li/Android.Hardware
+
+cd %~dp0..\AndroidLib
+mkdir  Android.Lang
+cd Android.Lang
+git init
+git remote add li  li:li/Android.Lang.git
+git remote add cmd  cmd:Android.Lang.git
+git remote add lcj  lcj:li/Android.Lang.git
+
+cd %~dp0..\AndroidLib
+mkdir Android.Linq4j
+cd Android.Linq4j
+git init
+git remote add li  li:li/Android.Linq4j.git
+git remote add cmd  cmd:Android.Linq4j.git
+git remote add lcj  lcj:li/Android.Linq4j.git
+
+ cd %~dp0..\AndroidLib
+mkdir Android.MessageQueue 
+cd Android.MessageQueue
+git init
+git remote add li  li:li/Android.MessageQueue.git
+git remote add cmd  cmd:Android.MessageQueue.git 
+git remote add lcj  lcj:li/Android.MessageQueue.git
+
+
+cd %~dp0..\AndroidLib
+mkdir  Android.Meter
+cd Android.Meter
+git init
+git remote add li  li:li/Android.Meter
+git remote add cmd  cmd:Android.Meter
+git remote add lcj  lcj:li/Android.Meter
+
+
+ cd %~dp0..\AndroidLib
+mkdir  Android.Meter645
+cd Android.Meter645
+git init
+git remote add li  li:li/Android.Meter645
+git remote add cmd  cmd:Android.Meter645
+git remote add lcj  lcj:li/Android.Meter645
+
+
+ cd %~dp0..\AndroidLib
+mkdir  Android.MeterFunction
+cd Android.MeterFunction
+git init
+git remote add li  li:li/Android.MeterFunction
+git remote add cmd  cmd:Android.MeterFunction
+git remote add lcj  lcj:li/Android.MeterFunction
+
+cd %~dp0..\AndroidLib
+mkdir Android.MVP
+cd Android.MVP
+git init
+git remote add li  li:li/Android.MVP.git
+git remote add cmd  cmd:Android.MVP.git
+git remote add lcj  lcj:li/Android.MVP.git
+
+
+ cd %~dp0..\AndroidLib
+mkdir  Android.P645
+cd Android.P645
+git init
+git remote add li  li:li/Android.P645
+git remote add cmd  cmd:Android.P645
+git remote add lcj  lcj:li/Android.P645
+
+cd %~dp0..\AndroidLib
+mkdir Android.Protocol
+cd Android.Protocol
+git init
+git remote add li  li:li/Android.Protocol.git
+git remote add cmd  cmd:Android.Protocol.git 
+git remote add lcj  lcj:li/Android.Protocol.git
+
+
+ cd %~dp0..\AndroidLib
+mkdir  Android.SecUnit
+cd Android.SecUnit
+git init
+git remote add li  li:li/Android.SecUnit
+git remote add cmd  cmd:Android.SecUnit
+git remote add lcj  lcj:li/Android.SecUnit
+
+
+
+
+cd %~dp0..\
+mkdir 3ADoc
+cd 3ADoc
+git init
+git remote add li  li:li/3ADoc.git
+git remote add cmd  cmd:3ADoc.git
+git remote add lcj  lcj:li/3ADoc.git
+
+
+cd %~dp0..\
+mkdir 3A
+cd 3A
+git init
+git remote add li  li:li/3A.git
+git remote add cmd  cmd:3A.git
+git remote add lcj  lcj:li/3A.git
+
+
 cd %~dp0..\
 mkdir tomcat
 cd tomcat
@@ -39,13 +173,7 @@ git init
 git remote add github  github:adempiere/adempiere.git
   
   
-cd %~dp0..\
-mkdir Android.MVP
-cd Android.MVP
-git init
-git remote add li  li:li/Android.MVP.git
-git remote add cmd  cmd:Android.MVP.git
-git remote add lcj  lcj:li/Android.MVP.git
+
 
  cd %~dp0..\
 mkdir gitcmd
@@ -160,39 +288,9 @@ git remote add li  li:li/distribution.git
 git remote add cmd  cmd:distribution.git
 git remote add lcj  lcj:li/distribution.git
  
- cd %~dp0..\
-mkdir Android.Linq4j
-cd Android.Linq4j
-git init
-git remote add li  li:li/Android.Linq4j.git
-git remote add cmd  cmd:Android.Linq4j.git
-git remote add lcj  lcj:li/Android.Linq4j.git
 
 
- cd %~dp0..\
-mkdir Android.MessageQueue 
-cd Android.MessageQueue
-git init
-git remote add li  li:li/Android.MessageQueue.git
-git remote add cmd  cmd:Android.MessageQueue.git 
-git remote add lcj  lcj:li/Android.MessageQueue.git
 
-
-cd %~dp0..\
-mkdir Android.Event
-cd Android.Event
-git init
-git remote add li  li:li/Android.Event.git
-git remote add cmd  cmd:Android.Event.git 
-git remote add lcj  lcj:li/Android.Event.git
-
-cd %~dp0..\
-mkdir Android.Protocol
-cd Android.Protocol
-git init
-git remote add li  li:li/Android.Protocol.git
-git remote add cmd  cmd:Android.Protocol.git 
-git remote add lcj  lcj:li/Android.Protocol.git
 
 cd %~dp0..\
 mkdir linq4j
@@ -204,13 +302,7 @@ git remote add cmd  cmd:linq4j.git
 git remote add lcj  lcj:li/linq4j.git
 
 
-cd %~dp0..\
-mkdir  Android.Lang
-cd Android.Lang
-git init
-git remote add li  li:li/Android.Lang.git
-git remote add cmd  cmd:Android.Lang.git
-git remote add lcj  lcj:li/Android.Lang.git
+
 
 cd %~dp0..\
 mkdir CmdDoc
@@ -261,8 +353,7 @@ git init
 git remote add li  li:li/DocTemplate
 git remote add cmd  cmd:DocTemplate.git
 git remote add lcj  lcj:li/DocTemplate
-
-
+git remote add github  github:LiCijun/DocTemplate.git
 
 cd %~dp0..\
 mkdir  usbkms
@@ -300,13 +391,7 @@ git remote add li  li:li/Android.BlueTooth
 git remote add cmd  cmd:Android.BlueTooth
 git remote add lcj  lcj:li/Android.BlueTooth
 
-cd %~dp0..\
-mkdir  Android.Convert
-cd Android.Convert
-git init
-git remote add li  li:li/Android.Convert
-git remote add cmd  cmd:Android.Convert
-git remote add lcj  lcj:li/Android.Convert
+
 
 cd %~dp0..\
 mkdir  Android.DeviceInfo
@@ -324,13 +409,7 @@ git remote add li  li:li/Android.ExeWork
 git remote add cmd  cmd:Android.ExeWork
 git remote add lcj  lcj:li/Android.ExeWork
 
- cd %~dp0..\
-mkdir  Android.Hardware
-cd Android.Hardware
-git init
-git remote add li  li:li/Android.Hardware
-git remote add cmd  cmd:Android.Hardware
-git remote add lcj  lcj:li/Android.Hardware
+
 
  cd %~dp0..\
 mkdir  Android.HHUInterface
@@ -348,30 +427,8 @@ git remote add li  li:li/Android.ISO7816
 git remote add cmd  cmd:Android.ISO7816
 git remote add lcj  lcj:li/Android.ISO7816
 
- cd %~dp0..\
-mkdir  Android.Meter
-cd Android.Meter
-git init
-git remote add li  li:li/Android.Meter
-git remote add cmd  cmd:Android.Meter
-git remote add lcj  lcj:li/Android.Meter
 
 
- cd %~dp0..\
-mkdir  Android.Meter645
-cd Android.Meter645
-git init
-git remote add li  li:li/Android.Meter645
-git remote add cmd  cmd:Android.Meter645
-git remote add lcj  lcj:li/Android.Meter645
-
- cd %~dp0..\
-mkdir  Android.MeterFunction
-cd Android.MeterFunction
-git init
-git remote add li  li:li/Android.MeterFunction
-git remote add cmd  cmd:Android.MeterFunction
-git remote add lcj  lcj:li/Android.MeterFunction
 
 
 
@@ -384,13 +441,7 @@ git remote add cmd  cmd:Android.PeripheralProtocol
 git remote add lcj  lcj:li/Android.PeripheralProtocol
 
 
- cd %~dp0..\
-mkdir  Android.P645
-cd Android.P645
-git init
-git remote add li  li:li/Android.P645
-git remote add cmd  cmd:Android.P645
-git remote add lcj  lcj:li/Android.P645
+
 
  cd %~dp0..\
 mkdir  Android.RESAM
@@ -411,13 +462,7 @@ git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
 
- cd %~dp0..\
-mkdir  Android.SecUnit
-cd Android.SecUnit
-git init
-git remote add li  li:li/Android.SecUnit
-git remote add cmd  cmd:Android.SecUnit
-git remote add lcj  lcj:li/Android.SecUnit
+
 
 
  cd %~dp0..\
