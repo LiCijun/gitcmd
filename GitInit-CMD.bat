@@ -1,5 +1,5 @@
 @echo off  
-
+cd %~dp0..\
 mkdir AndroidLib
  
 cd %~dp0..\AndroidLib
@@ -11,7 +11,6 @@ git remote add cmd  cmd:Android.Convert
 git remote add lcj  lcj:li/CMDAndroid.Convert
 git remote  set-url  li  li:li/CMDAndroid.Convert
 git remote  set-url  lcj  lcj:li/CMDAndroid.Convert
-
 
 
 cd %~dp0..\AndroidLib

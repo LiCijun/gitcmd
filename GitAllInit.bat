@@ -1,6 +1,7 @@
 @echo off  
   
-
+cd %~dp0..\
+mkdir AndroidLib
 
 
 cd %~dp0..\
@@ -106,14 +107,6 @@ git remote add li  li:li/sdkeyNew.git
 git remote add KMT  kmt:sdkeyNew.git
 git remote add lcj  lcj:li/sdkeyNew.git
 
-cd %~dp0..\
-cd AndroidLib
-mkdir Android.Convert
-cd Android.Convert
-git init
-git remote add li  li:li/Android.Convert.git
-git remote add lcj  lcj:li/Android.Convert.git
-git remote add KMT  kmt:Android.Convert.git
 
 cd %~dp0..\
 mkdir JavaLib
