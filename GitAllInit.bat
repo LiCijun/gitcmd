@@ -1051,8 +1051,6 @@ git remote add lcj  lcj:li/ICepriHardware.git
 
 
 
-
-
 cd %~dp0..\
 mkdir UHFTEST
 cd UHFTEST
@@ -1072,10 +1070,6 @@ git remote add KMT  kmt:CEPRI698TEST.git
 git remote add lcj  lcj:li/CEPRI698TEST.git
 
 
-
-
-
-
 cd %~dp0..\
 mkdir Android.Hardware
 cd Android.Hardware
@@ -1092,11 +1086,6 @@ git init
 git remote add li  li:li/CumulativeProtocolOneDecoder.git
 git remote add KMT  kmt:CumulativeProtocolOneDecoder.git
 git remote add lcj  lcj:li/CumulativeProtocolOneDecoder.git
-
-
-
-
-
 
 
 cd %~dp0..\
