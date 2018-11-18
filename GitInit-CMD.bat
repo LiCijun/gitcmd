@@ -307,15 +307,6 @@ git remote add li  li:li/Android.Terminal3762.git
 git remote add cmd  cmd:Android.Terminal3762.git
 git remote add lcj  lcj:li/Android.Terminal3762.git
  
- 
- 
- cd %~dp0..\
-mkdir Android.Terminal3762
-cd Android.Terminal3762
-git init
-git remote add li  li:li/Android.Terminal3762.git
-git remote add cmd  cmd:Android.Terminal3762.git
-git remote add lcj  lcj:li/Android.Terminal3762.git
 
 
    cd %~dp0..\
@@ -645,6 +636,7 @@ git remote add lcj  lcj:li/Calibrator
    
 
 c:
+cd c:
 mkdir AndroidConfig
 cd c:/AndroidConfig
 git init
@@ -652,3 +644,4 @@ git remote add li  li:li/AndroidConfig.git
 git remote add cmd  cmd:AndroidConfig.git
 git remote add lcj  lcj:li/AndroidConfig.git
 
+pause
