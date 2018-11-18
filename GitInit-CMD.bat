@@ -6,9 +6,22 @@ cd %~dp0..\AndroidLib
 mkdir  Android.Convert
 cd Android.Convert
 git init
-git remote add li  li:li/Android.Convert
+git remote add li  li:li/CMDAndroid.Convert
 git remote add cmd  cmd:Android.Convert
+git remote add lcj  lcj:li/CMDAndroid.Convert
+git remote  set-url  li  li:li/CMDAndroid.Convert
+git remote  set-url  lcj  lcj:li/CMDAndroid.Convert
+
+
+
+cd %~dp0..\AndroidLib
+mkdir  KMTAndroid.Convert
+cd KMTAndroid.Convert
+git init
+git remote add li  li:li/Android.Convert
 git remote add lcj  lcj:li/Android.Convert
+
+
 
 
 cd %~dp0..\AndroidLib
@@ -57,17 +70,38 @@ cd %~dp0..\AndroidLib
 mkdir  Android.Meter
 cd Android.Meter
 git init
-git remote add li  li:li/Android.Meter
+git remote add li  li:li/CMDAndroid.Meter
 git remote add cmd  cmd:Android.Meter
+git remote add lcj  lcj:li/CMDAndroid.Meter
+git remote set-url li  li:li/CMDAndroid.Meter
+git remote set-url lcj  lcj:li/CMDAndroid.Meter
+
+
+cd %~dp0..\AndroidLib
+mkdir  KMTAndroid.Meter
+cd KMTAndroid.Meter
+git init
+git remote add li  li:li/Android.Meter
 git remote add lcj  lcj:li/Android.Meter
+
+
 
 
  cd %~dp0..\AndroidLib
 mkdir  Android.Meter645
 cd Android.Meter645
 git init
-git remote add li  li:li/Android.Meter645
+git remote add li  li:li/CMDAndroid.Meter645
 git remote add cmd  cmd:Android.Meter645
+git remote add lcj  lcj:li/CMDAndroid.Meter645
+git remote set-url li  li:li/CMDAndroid.Meter645
+git remote set-url lcj  lcj:li/CMDAndroid.Meter645
+
+ cd %~dp0..\AndroidLib
+mkdir  KMTAndroid.Meter645
+cd KMTAndroid.Meter645
+git init
+git remote add li  li:li/Android.Meter645
 git remote add lcj  lcj:li/Android.Meter645
 
 
@@ -75,9 +109,21 @@ git remote add lcj  lcj:li/Android.Meter645
 mkdir  Android.MeterFunction
 cd Android.MeterFunction
 git init
-git remote add li  li:li/Android.MeterFunction
+git remote add li  li:li/CMDAndroid.MeterFunction
 git remote add cmd  cmd:Android.MeterFunction
+git remote add lcj  lcj:li/CMDAndroid.MeterFunction
+git remote set-url li  li:li/CMDAndroid.MeterFunction
+git remote set-url lcj  lcj:li/CMDAndroid.MeterFunction
+
+
+ cd %~dp0..\AndroidLib
+mkdir  KMTAndroid.MeterFunction
+cd KMTAndroid.MeterFunction
+git init
+git remote add li  li:li/Android.MeterFunction
 git remote add lcj  lcj:li/Android.MeterFunction
+
+
 
 cd %~dp0..\AndroidLib
 mkdir Android.MVP
@@ -92,9 +138,20 @@ git remote add lcj  lcj:li/Android.MVP.git
 mkdir  Android.P645
 cd Android.P645
 git init
-git remote add li  li:li/Android.P645
+git remote add li  li:li/CMDAndroid.P645
 git remote add cmd  cmd:Android.P645
+git remote add lcj  lcj:li/CMDAndroid.P645
+git remote set-url li  li:li/CMDAndroid.P645
+git remote set-url lcj  lcj:li/CMDAndroid.P645
+
+ cd %~dp0..\AndroidLib
+mkdir  KMTAndroid.P645
+cd KMTAndroid.P645
+git init
+git remote add li  li:li/Android.P645
 git remote add lcj  lcj:li/Android.P645
+
+
 
 cd %~dp0..\AndroidLib
 mkdir Android.Protocol
@@ -109,11 +166,29 @@ git remote add lcj  lcj:li/Android.Protocol.git
 mkdir  Android.SecUnit
 cd Android.SecUnit
 git init
-git remote add li  li:li/Android.SecUnit
+git remote add li  li:li/CMDAndroid.SecUnit
 git remote add cmd  cmd:Android.SecUnit
+git remote add lcj  lcj:li/CMDAndroid.SecUnit
+git remote set-url li  li:li/CMDAndroid.SecUnit
+git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
+
+
+ cd %~dp0..\AndroidLib
+mkdir  KMTAndroid.SecUnit
+cd KMTAndroid.SecUnit
+git init
+git remote add li  li:li/Android.SecUnit
 git remote add lcj  lcj:li/Android.SecUnit
 
 
+
+cd %~dp0..\AndroidLib
+mkdir  Android.BlueTooth
+cd Android.BlueTooth
+git init
+git remote add li  li:li/Android.BlueTooth.git
+git remote add cmd  cmd:Android.BlueTooth.git
+git remote add lcj  lcj:li/Android.BlueTooth.git
 
 
 cd %~dp0..\

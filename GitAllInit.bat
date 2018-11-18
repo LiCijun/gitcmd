@@ -1,14 +1,7 @@
 @echo off  
   
 
-cd %~dp0..\
-cd AndroidLib
-mkdir  Android.BlueTooth
-cd Android.BlueTooth
-git init
-git remote add li  li:li/Android.BlueTooth.git
-git remote add KMT  kmt:Android.BlueTooth.git
-git remote add lcj  lcj:li/Android.BlueTooth.git
+
 
 cd %~dp0..\
 mkdir AndroidSDK
@@ -1667,7 +1660,14 @@ git remote add lcj  lcj:li/study.git
 git remote add li  li:li/study.git
 
 
-
+ cd %~dp0..\
+mkdir gitcmd
+cd gitcmd
+git init
+git remote add li  li:li/gitcmd.git
+git remote add github  github:LiCijun/gitcmd.git
+git remote add lcj  lcj:li/gitcmd.git
+git remote add cmd  cmd:gitcmd.git
 
 
 cd %~dp0..\
@@ -1967,8 +1967,8 @@ cd %~dp0..\
 mkdir WinCE.BTSet
 cd WinCE.BTSet
 git init
-git remote add li  li:li/BlueTooth.git
-git remote add lcj  lcj:li/BlueTooth.git
+git remote add li  li:li/WinCE.BTSet.git
+git remote add lcj  lcj:li/WinCE.BTSet.git
 
 cd %~dp0..\
 mkdir K36SimulatedTest
