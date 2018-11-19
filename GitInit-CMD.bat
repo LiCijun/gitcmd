@@ -1,6 +1,16 @@
 @echo off  
 cd %~dp0..\
 mkdir AndroidLib
+
+
+
+
+cd %~dp0..\AndroidLib
+mkdir  ft31x_HyperTerm
+cd ft31x_HyperTerm
+git init
+git remote add li  li:li/ft31x_HyperTerm
+git remote add lcj  lcj:li/ft31x_HyperTerm
  
 cd %~dp0..\AndroidLib
 mkdir  Android.Convert
