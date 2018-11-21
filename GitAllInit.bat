@@ -3,6 +3,14 @@
 cd %~dp0..\
 mkdir AndroidLib
 
+cd %~dp0..\
+mkdir ADoc
+cd ADoc
+git init
+git remote add li  li:li/ADoc.git
+git remote add lcj  lcj:li/ADoc.git
+
+
 
 cd %~dp0..\
 mkdir AndroidSDK
