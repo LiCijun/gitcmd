@@ -2,6 +2,22 @@
 cd %~dp0..\
 mkdir AndroidLib
 
+cd %~dp0..\
+mkdir  KeyShareDoc
+cd KeyShareDoc
+git init
+git remote add li  li:li/KeyShareDoc
+git remote add cmd  cmd:KeyShareDoc
+git remote add lcj  lcj:li/KeyShareDoc
+
+cd %~dp0..\
+mkdir  KeyShare
+cd KeyShare
+git init
+git remote add li  li:li/KeyShare
+git remote add cmd  cmd:KeyShare
+git remote add lcj  lcj:li/KeyShare
+
 
 cd %~dp0..\
 mkdir  ft31x_HyperTerm
