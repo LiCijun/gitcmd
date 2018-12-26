@@ -2,6 +2,28 @@
 cd %~dp0..\
 mkdir AndroidLib
 
+
+cd %~dp0..\
+mkdir softdog
+cd softdog
+git init
+git remote add li  li:li/softdog.git
+git remote add cmd  cmd:softdog.git
+git remote add lcj  lcj:li/softdog.git
+
+
+
+
+ cd %~dp0..\
+mkdir  ccopyright
+cd ccopyright
+git init
+git remote add li  li:li/ccopyright
+git remote add cmd  cmd:ccopyright
+git remote add lcj  lcj:li/ccopyright
+
+
+
 cd %~dp0..\
 mkdir  KeyShareDoc
 cd KeyShareDoc
@@ -529,6 +551,8 @@ git init
 git remote add li  li:li/Android.PeripheralProtocol
 git remote add cmd  cmd:Android.PeripheralProtocol
 git remote add lcj  lcj:li/Android.PeripheralProtocol
+
+
 
 
 
