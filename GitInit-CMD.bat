@@ -11,6 +11,22 @@ git remote add li  li:li/softdog.git
 git remote add cmd  cmd:softdog.git
 git remote add lcj  lcj:li/softdog.git
 
+cd %~dp0..\
+mkdir keyupdateDoc
+cd keyupdateDoc
+git init
+git remote add li  li:li/keyupdateDoc.git
+git remote add cmd  cmd:keyupdateDoc.git
+git remote add lcj  lcj:li/keyupdateDoc.git
+
+
+cd %~dp0..\
+mkdir keyupdate
+cd keyupdate
+git init
+git remote add li  li:li/keyupdate.git
+git remote add cmd  cmd:keyupdate.git
+git remote add lcj  lcj:li/keyupdate.git
 
 
 
