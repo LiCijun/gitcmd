@@ -2,6 +2,13 @@
 cd %~dp0..\
 mkdir AndroidLib
 
+cd %~dp0..\AndroidLib\
+mkdir  Android.RFIDTESAM
+cd Android.RFIDTESAM
+git init
+git remote add li  li:li/Android.RFIDTESAM
+git remote add cmd  cmd:Android.RFIDTESAM
+git remote add lcj  lcj:li/Android.RFIDTESAM
 
 cd %~dp0..\
 mkdir softdog
@@ -582,13 +589,7 @@ git remote add cmd  cmd:Android.RESAM
 git remote add lcj  lcj:li/Android.RESAM
 
 
- cd %~dp0..\
-mkdir  Android.RFIDTESAM
-cd Android.RFIDTESAM
-git init
-git remote add li  li:li/Android.RFIDTESAM
-git remote add cmd  cmd:Android.RFIDTESAM
-git remote add lcj  lcj:li/Android.RFIDTESAM
+
 
 
 
