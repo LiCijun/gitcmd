@@ -11,6 +11,15 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 cd %~dp0..\
+mkdir ISO9001
+cd ISO9001
+git init
+git remote add li  li:li/ISO9001.git
+git remote add cmd  cmd:ISO9001.git
+git remote add lcj  lcj:li/ISO9001.git
+
+
+cd %~dp0..\
 mkdir softdog
 cd softdog
 git init
