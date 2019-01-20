@@ -2530,7 +2530,8 @@ cd Eclipse
 git init
 git remote add li  li:li/Eclipse.git
 git remote add KMT  kmt:Eclipse.git
-git remote add lcj  lcj:li/Eclipse.github
+git remote add lcj  lcj:li/Eclipse.git
+git remote  set-url lcj  lcj:li/Eclipse.git
 
 
 cd %~dp0..\
@@ -2809,10 +2810,6 @@ git remote add KMT  kmt:ecdcdAssist.git
 git remote add lcj  lcj:li/ecdcdAssist.git
 
 
-
-
-
-
 cd %~dp0..\
 mkdir listen1
 cd listen1
@@ -2845,17 +2842,6 @@ git init
 git remote add li  li:li/BeiJingExpressDelivery.git
 git remote add KMT  kmt:BeiJingExpressDelivery.git
 git remote add lcj  lcj:li/BeiJingExpressDelivery.git
-
-
-
-cd %~dp0..\
-mkdir Thunderbird
-cd Thunderbird
-git init
-git remote add li  li:li/Thunderbird.git
-git remote add lcj  lcj:li/Thunderbird.git
-
-
 
 
 pause

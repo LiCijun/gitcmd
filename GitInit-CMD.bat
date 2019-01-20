@@ -10,6 +10,16 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+
+cd %~dp0..\
+mkdir keygen
+cd keygen
+git init
+git remote add github  github:LiCijun/keygen.git
+git remote add lcj  lcj:li/keygen.git
+git remote add li  li:li/keygen.git
+
+
 cd %~dp0..\
 mkdir ISO9001
 cd ISO9001
