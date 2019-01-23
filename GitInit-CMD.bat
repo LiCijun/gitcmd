@@ -12,6 +12,15 @@ git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
 cd %~dp0..\
+mkdir study
+cd study
+git init
+git remote add cmd  cmd:study.git
+git remote add lcj  lcj:li/study.git
+git remote add li  li:li/study.git
+
+
+cd %~dp0..\
 mkdir keygen
 cd keygen
 git init
@@ -491,7 +500,6 @@ git init
 git remote add cmd  cmd:li/LiKey.git
 git remote add li  li:li/LiKey.git
 git remote add lcj  lcj:li/LiKey.git
-git remote add github  github:LiCijun/LiKey.git
 
 cd %~dp0..\
 mkdir  Centos

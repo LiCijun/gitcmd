@@ -1404,13 +1404,7 @@ git remote add KMT  kmt:k36.git
 git remote add lcj  lcj:li/k36.git
 git remote add li  li:li/k36.git
 
-cd %~dp0..\
-mkdir keygen
-cd keygen
-git init
-git remote add github  github:LiCijun/keygen.git
-git remote add lcj  lcj:li/keygen.git
-git remote add li  li:li/keygen.git
+
 
 
 
@@ -1469,15 +1463,6 @@ git init
 git remote add lcj  lcj:li/report.git
 git remote add li  li:li/report.git
 
-
-
-
-cd %~dp0..\
-mkdir study
-cd study
-git init
-git remote add lcj  lcj:li/study.git
-git remote add li  li:li/study.git
 
 
  cd %~dp0..\
