@@ -12,6 +12,19 @@ git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
 cd %~dp0..\
+mkdir kafka-demo
+cd kafka-demo
+git init
+git remote add github  github:mikechengwei/kafka-demo.git
+
+cd %~dp0..\
+mkdir kafka-doc-zh
+cd kafka-doc-zh
+git init
+git remote add github  github:apachecn/kafka-doc-zh.git
+
+
+cd %~dp0..\
 mkdir study
 cd study
 git init
