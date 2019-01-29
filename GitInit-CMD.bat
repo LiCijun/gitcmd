@@ -20,6 +20,13 @@ git remote add cmd  cmd:microserviceDoc.git
 git remote add lcj  lcj:li/microserviceDoc.git
 git remote add li  li:li/microserviceDoc.git
 
+cd %~dp0..\
+mkdir baselib
+cd baselib
+git init
+git remote add cmd  cmd:lib.git
+git remote add lcj  lcj:li/lib.git
+git remote add li  li:li/lib.git
 
 cd %~dp0..\
 mkdir microservice
@@ -29,6 +36,13 @@ git remote add cmd  cmd:microservice.git
 git remote add lcj  lcj:li/microservice.git
 git remote add li  li:li/microservice.git
 
+cd %~dp0..\
+mkdir JavaLib
+cd JavaLib
+git init
+git remote add li  li:li/JavaLib.git
+git remote add lcj  lcj:li/JavaLib.git
+git remote add cmd  cmd:JavaLib.git
 
 
 cd %~dp0..\
