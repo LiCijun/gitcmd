@@ -10,7 +10,13 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
-   
+cd %~dp0..\
+mkdir WorkSpace
+cd WorkSpace
+git init
+git remote add li  li:li/WorkSpace.git
+git remote remove github
+git remote add lcj  lcj:li/WorkSpace.git   
   
   cd %~dp0..\
 mkdir microserviceDoc

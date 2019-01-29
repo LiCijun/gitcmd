@@ -108,13 +108,7 @@ git remote add KMT  kmt:sdkeyNew.git
 git remote add lcj  lcj:li/sdkeyNew.git
 
 
-cd %~dp0..\
-mkdir JavaLib
-cd JavaLib
-git init
-git remote add li  li:li/JavaLib.git
-git remote add lcj  lcj:li/JavaLib.git
-git remote add KMT  kmt:JavaLib.git
+
 
 cd %~dp0..\
 mkdir TP2000_Android
@@ -189,13 +183,7 @@ git remote add KMT  kmt:HZWQInterface.git
 git remote add lcj  lcj:li/HZWQInterface.git
 
 
-cd %~dp0..\
-mkdir baselib
-cd baselib
-git init
-git remote add KMT  kmt:lib.git
-git remote add lcj  lcj:li/lib.git
-git remote add li  li:li/lib.git
+
 
 
 cd %~dp0..\
@@ -435,13 +423,7 @@ git remote add li  li:li/TP2600.git
 git remote add KMT   kmt:TP2600.git
 git remote add lcj  lcj:li/TP2600.git
 
-cd %~dp0..\
-mkdir WorkSpace
-cd WorkSpace
-git init
-git remote add li  li:li/WorkSpace.git
-git remote add github  github:LiCijun/WorkSpace.git
-git remote add lcj  lcj:li/WorkSpace.git
+
 
 cd %~dp0..\
 mkdir AppRelease
