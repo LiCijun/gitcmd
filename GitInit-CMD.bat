@@ -10,6 +10,42 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+   
+  
+  cd %~dp0..\
+mkdir microserviceDoc
+cd microserviceDoc
+git init
+git remote add cmd  cmd:microserviceDoc.git
+git remote add lcj  lcj:li/microserviceDoc.git
+git remote add li  li:li/microserviceDoc.git
+
+
+cd %~dp0..\
+mkdir microservice
+cd microservice
+git init
+git remote add cmd  cmd:microservice.git
+git remote add lcj  lcj:li/microservice.git
+git remote add li  li:li/microservice.git
+
+
+
+cd %~dp0..\
+mkdir keyserviceDoc
+cd keyserviceDoc
+git init
+git remote add cmd  cmd:keyserviceDoc.git
+git remote add lcj  lcj:li/keyserviceDoc.git
+git remote add li  li:li/keyserviceDoc.git
+
+cd %~dp0..\
+mkdir keyservice
+cd keyservice
+git init
+git remote add cmd  cmd:keyservice.git
+git remote add lcj  lcj:li/keyservice.git
+git remote add li  li:li/keyservice.git
 
 cd %~dp0..\
 mkdir kafka-demo
