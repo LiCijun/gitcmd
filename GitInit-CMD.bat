@@ -10,6 +10,16 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+
+  cd %~dp0..\
+mkdir construction
+cd construction
+git init
+git remote add cmd  cmd:construction.git
+git remote add lcj  lcj:li/construction.git
+git remote add li  li:li/construction.git
+
+
 cd %~dp0..\
 mkdir WorkSpace
 cd WorkSpace
@@ -339,7 +349,7 @@ git remote set-url li  li:li/CMDAndroid.SecUnit
 git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
 
 
- cd %~dp0..\AndroidLib
+cd %~dp0..\AndroidLib
 mkdir  KMTAndroid.SecUnit
 cd KMTAndroid.SecUnit
 git init
@@ -351,7 +361,7 @@ git remote add lcj  lcj:li/Android.SecUnit
 cd %~dp0..\AndroidLib
 mkdir  Android.BlueTooth
 cd Android.BlueTooth
-git init
+git inits
 git remote add li  li:li/Android.BlueTooth.git
 git remote add cmd  cmd:Android.BlueTooth.git
 git remote add lcj  lcj:li/Android.BlueTooth.git
