@@ -44,6 +44,16 @@ git remote add cmd  cmd:lib.git
 git remote add lcj  lcj:li/lib.git
 git remote add li  li:li/lib.git
 
+
+
+cd %~dp0..\
+mkdir microserviceSystem
+cd microserviceSystem
+git init
+git remote add cmd  cmd:microserviceSystem.git
+git remote add lcj  lcj:li/microserviceSystem.git
+git remote add li  li:li/microserviceSystem.git
+
 cd %~dp0..\
 mkdir microservice
 cd microservice
