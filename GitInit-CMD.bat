@@ -19,6 +19,12 @@ git remote add cmd  cmd:construction.git
 git remote add lcj  lcj:li/construction.git
 git remote add li  li:li/construction.git
 
+cd %~dp0..\
+mkdir XMLSerialize
+cd XMLSerialize
+git init
+git remote add li  li:li/XMLSerialize.git
+git remote add lcj  lcj:li/XMLSerialize.git
 
 cd %~dp0..\
 mkdir WorkSpace
