@@ -11,7 +11,129 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
-  cd %~dp0..\
+cd %~dp0..\
+mkdir usbkeyocx
+cd usbkeyocx
+git init
+git remote add cmd  cmd:usbkeyocx.git
+git remote add lcj  lcj:li/usbkeyocx.git
+git remote add li  li:li/usbkeyocx.git
+
+
+cd %~dp0..\
+mkdir keyserviceDoc
+cd keyserviceDoc
+git init
+git remote add cmd  cmd:keyserviceDoc.git
+git remote add lcj  lcj:li/keyserviceDoc.git
+git remote add li  li:li/keyserviceDoc.git
+
+cd %~dp0..\
+mkdir keyservice
+cd keyservice
+git init
+git remote add cmd  cmd:keyservice.git
+git remote add lcj  lcj:li/keyservice.git
+git remote add li  li:li/keyservice.git
+
+
+cd %~dp0..\
+mkdir keyservicems
+cd keyservicems
+git init
+git remote add cmd  cmd:keyservicems.git
+git remote add lcj  lcj:li/keyservicems.git
+git remote add li  li:li/keyservicems.git
+
+
+cd %~dp0..\
+mkdir kmtdoc
+cd kmtdoc
+git init
+git remote add lcj  lcj:kmtdoc.git
+git remote add li  li:kmtdoc.git
+
+cd %~dp0..\
+mkdir TP2000Doc
+cd TP2000Doc
+git init
+git remote add li  li:li/TP2000Doc.git
+git remote add KMT  kmt:TP2000Doc.git
+git remote add lcj  lcj:li/TP2000Doc.git
+
+cd %~dp0..\
+mkdir pgpcom
+cd pgpcom
+git init
+git remote add lcj  lcj:pgpcom.git
+git remote add li  li:pgpcom.git
+
+cd %~dp0..\
+mkdir pgp
+cd pgp
+git init
+git remote add lcj  lcj:pgp.git
+git remote add li  li:pgp.git
+
+
+
+cd %~dp0..\
+mkdir mfhhdAssist
+cd mfhhdAssist
+git init
+git remote add li  li:li/mfhhdAssist.git
+git remote add lcj  lcj:li/mfhhdAssist.git
+git remote add KMT  kmt:mfhhdAssist.git
+
+
+cd %~dp0..\
+mkdir pgpsdk
+cd pgpsdk
+git init
+git remote add lcj  lcj:pgpsdk.git
+git remote add li  li:pgpsdk.git
+
+
+cd %~dp0..\
+mkdir ADoc
+cd ADoc
+git init
+git remote add li  li:li/ADoc.git
+git remote add lcj  lcj:li/ADoc.git
+
+cd %~dp0..\
+mkdir protocol
+cd protocol
+git init
+git remote add lcj  lcj:li/protocol.git
+git remote add li  li:li/protocol.git
+
+cd %~dp0..\
+mkdir project
+cd project
+git init
+git remote add li  li:li/project.git
+git remote add lcj  lcj:li/project.git
+
+
+cd %~dp0..\
+mkdir gitolite-admin
+cd gitolite-admin
+git init
+git remote add lcj  lcj:gitolite-admin.git
+git remote add li  li:gitolite-admin.git
+
+
+cd %~dp0..\
+mkdir gitolite-admin-KMT
+cd gitolite-admin-KMT
+git init
+git remote add KMT kmt:gitolite-admin.git
+git remote add li  li:li/gitolite-admin-KMT.git
+git remote add lcj  lcj:li/gitolite-admin-KMT.git
+
+
+cd %~dp0..\
 mkdir construction
 cd construction
 git init
@@ -77,21 +199,7 @@ git remote add lcj  lcj:li/JavaLib.git
 git remote add cmd  cmd:JavaLib.git
 
 
-cd %~dp0..\
-mkdir keyserviceDoc
-cd keyserviceDoc
-git init
-git remote add cmd  cmd:keyserviceDoc.git
-git remote add lcj  lcj:li/keyserviceDoc.git
-git remote add li  li:li/keyserviceDoc.git
 
-cd %~dp0..\
-mkdir keyservice
-cd keyservice
-git init
-git remote add cmd  cmd:keyservice.git
-git remote add lcj  lcj:li/keyservice.git
-git remote add li  li:li/keyservice.git
 
 cd %~dp0..\
 mkdir kafka-demo
@@ -365,6 +473,8 @@ git remote set-url li  li:li/CMDAndroid.SecUnit
 git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
 
 
+
+
 cd %~dp0..\AndroidLib
 mkdir  KMTAndroid.SecUnit
 cd KMTAndroid.SecUnit
@@ -612,6 +722,8 @@ git remote add cmd  cmd:DocTemplate.git
 git remote add lcj  lcj:li/DocTemplate
 git remote add github  github:LiCijun/DocTemplate.git
 
+
+
 cd %~dp0..\
 mkdir  usbkms
 cd usbkms
@@ -619,6 +731,9 @@ git init
 git remote add li  li:li/usbkms
 git remote add cmd  cmd:usbkms.git
 git remote add lcj  lcj:li/usbkms
+
+
+
 
 cd %~dp0..\
 mkdir  gitolite-admin-CMD
@@ -760,8 +875,31 @@ git remote add li  li:li/Android.HZWQInterface
 git remote add cmd  cmd:Android.HZWQInterface
 git remote add lcj  lcj:li/Android.HZWQInterface
 
+cd %~dp0..\
+mkdir SM3
+cd SM3
+git init
+git remote add li  li:li/SM3.git
+git remote add cmd  cmd:SM3.git
+git remote add lcj  lcj:li/SM3.git
 
- cd %~dp0..\
+cd %~dp0..\
+mkdir SM2
+cd SM2
+git init
+git remote add li  li:li/SM2.git
+git remote add cmd  cmd:SM2.git
+git remote add lcj  lcj:li/SM2.git
+
+cd %~dp0..\
+mkdir SM4
+cd SM4
+git init
+git remote add li  li:li/SM4.git
+git remote add cmd  cmd:SM4.git
+git remote add lcj  lcj:li/SM4.git
+
+cd %~dp0..\
 mkdir  SecUnit2
 cd SecUnit2
 git init
