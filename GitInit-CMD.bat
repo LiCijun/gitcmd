@@ -495,7 +495,7 @@ git remote add lcj  lcj:li/Android.SecUnit
 cd %~dp0..\AndroidLib
 mkdir  Android.BlueTooth
 cd Android.BlueTooth
-git inits
+git init
 git remote add li  li:li/Android.BlueTooth.git
 git remote add cmd  cmd:Android.BlueTooth.git
 git remote add lcj  lcj:li/Android.BlueTooth.git
