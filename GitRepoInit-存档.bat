@@ -508,13 +508,7 @@ git remote add KMT  kmt:fssweb.git
 git remote add lcj  lcj:li/fssweb.git
 
 
-cd %~dp0..\
-mkdir hhui
-cd hhui
-git init
-git remote add KMT  kmt:hhui.git
-git remote add lcj  lcj:li/hhui.git
-git remote add li  li:li/hhui.git
+
 
 
 cd %~dp0..\

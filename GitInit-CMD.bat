@@ -10,6 +10,14 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+cd %~dp0..\
+mkdir hhui
+cd hhui
+git init
+git remote add KMT  kmt:hhui.git
+git remote add lcj  lcj:li/hhui.git
+git remote add li  li:li/hhui.git
+
 
 cd %~dp0..\
 mkdir usbkeyocx
