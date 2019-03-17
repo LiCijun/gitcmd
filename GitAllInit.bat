@@ -4,13 +4,6 @@ cd %~dp0..\
 mkdir AndroidLib
 
 
-
-
-
-
-
-
-
 cd %~dp0..\
 mkdir Slock
 cd Slock
@@ -18,7 +11,6 @@ git init
 git remote add li  li:li/Slock.git
 git remote add KMT  kmt:Slock.git
 git remote add lcj  lcj:li/Slock.git
-
 
 
 cd %~dp0..\
@@ -71,12 +63,6 @@ git init
 git remote add lcj  lcj:li/livs2012.git
 git remote add li  li:li/livs2012.git
 
-cd %~dp0..\
-mkdir AndroidSign
-cd AndroidSign
-git init
-git remote add li  li:li/AndroidSign.git
-git remote add lcj  lcj:li/AndroidSign.git
 
 cd %~dp0..\
 mkdir HHUInOne
