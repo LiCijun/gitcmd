@@ -20,13 +20,20 @@ git remote add li  li:li/AndroidSign.git
 git remote add lcj  lcj:li/AndroidSign.git
 
 
-
+cd %~dp0..\
+mkdir iso14001_28001
+cd iso14001_28001
+git init
+git remote add cmd  cmd:iso14001_28001.git
+git remote add lcj  lcj:li/iso14001_28001.git
+git remote add li  li:li/iso14001_28001.git
 
 cd %~dp0..\
 mkdir hhui
 cd hhui
 git init
 git remote add KMT  kmt:hhui.git
+git remote add cmd  cmd:hhui.git
 git remote add lcj  lcj:li/hhui.git
 git remote add li  li:li/hhui.git
 
