@@ -717,6 +717,16 @@ git remote add lcj  lcj:li/CEPRISealAIDLDoc
 
 
 cd %~dp0..\
+mkdir HHUPublicKey
+cd HHUPublicKey
+git init
+git remote add li  li:li/HHUPublicKey.git
+git remote add KMT  kmt:HHUPublicKey.git
+git remote add lcj  lcj:li/HHUPublicKey.git
+
+
+
+cd %~dp0..\
 mkdir  CEPRISealAIDL
 cd CEPRISealAIDL
 git init

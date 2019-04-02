@@ -507,8 +507,38 @@ git remote add li  li:li/fssweb.git
 git remote add KMT  kmt:fssweb.git
 git remote add lcj  lcj:li/fssweb.git
 
+cd %~dp0..\
+mkdir P36
+cd P36
+git init
+git remote add li  li:li/P36.git
+git remote add lcj  lcj:li/P36.git
+git remote add KMT  kmt:P36.git
 
 
+cd %~dp0..\
+mkdir livs2012
+cd livs2012
+git init
+git remote add lcj  lcj:li/livs2012.git
+git remote add li  li:li/livs2012.git
+
+
+cd %~dp0..\
+mkdir donet
+cd donet
+git init
+git remote add KMT  kmt:donet.git
+git remote add lcj  lcj:li/donet.git
+git remote add li  li:li/donet.git
+
+cd %~dp0..\
+mkdir SecUnit
+cd SecUnit
+git init
+git remote add li  li:li/SecUnit.git
+git remote add KMT  kmt:SecUnit.git 
+git remote add lcj  lcj:li/SecUnit.git
 
 
 cd %~dp0..\
