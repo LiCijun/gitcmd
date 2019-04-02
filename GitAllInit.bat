@@ -4,13 +4,6 @@ cd %~dp0..\
 mkdir AndroidLib
 
 
-
-
-
-
-
-
-
 cd %~dp0..\
 mkdir Slock
 cd Slock
@@ -18,16 +11,6 @@ git init
 git remote add li  li:li/Slock.git
 git remote add KMT  kmt:Slock.git
 git remote add lcj  lcj:li/Slock.git
-
-
-
-cd %~dp0..\
-mkdir donet
-cd donet
-git init
-git remote add KMT  kmt:donet.git
-git remote add lcj  lcj:li/donet.git
-git remote add li  li:li/donet.git
 
 
 
@@ -64,19 +47,7 @@ git remote add li  li:li/AndroidPeripheral.git
 git remote add lcj  lcj:li/AndroidPeripheral.git
 git remote add KMT  kmt:AndroidPeripheral.git
 
-cd %~dp0..\
-mkdir livs2012
-cd livs2012
-git init
-git remote add lcj  lcj:li/livs2012.git
-git remote add li  li:li/livs2012.git
 
-cd %~dp0..\
-mkdir AndroidSign
-cd AndroidSign
-git init
-git remote add li  li:li/AndroidSign.git
-git remote add lcj  lcj:li/AndroidSign.git
 
 cd %~dp0..\
 mkdir HHUInOne
@@ -603,14 +574,6 @@ git remote add KMT  kmt:mfhhdMCU.git
 git remote add lcj  lcj:li/mfhhdMCU.git
 
 
-
-cd %~dp0..\
-mkdir HHUPublicKey
-cd HHUPublicKey
-git init
-git remote add li  li:li/HHUPublicKey.git
-git remote add KMT  kmt:HHUPublicKey.git
-git remote add lcj  lcj:li/HHUPublicKey.git
 
 
 
@@ -1181,13 +1144,7 @@ git remote add lcj  lcj:li/HHUConfigForPC.git
 
 
 
-cd %~dp0..\
-mkdir SecUnit
-cd SecUnit
-git init
-git remote add li  li:li/SecUnit.git
-git remote add KMT  kmt:SecUnit.git 
-git remote add lcj  lcj:li/SecUnit.git
+
 
 
 
@@ -1301,16 +1258,6 @@ git remote add li  li:li/database_data.git
 git remote add lcj  lcj:li/database_data.git
 
 
-
-
-
-cd %~dp0..\
-mkdir P36
-cd P36
-git init
-git remote add li  li:li/P36.git
-git remote add lcj  lcj:li/P36.git
-git remote add KMT  kmt:P36.git
 
 cd %~dp0..\
 mkdir PowerMeter

@@ -11,7 +11,6 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
-
 cd %~dp0..\
 mkdir idea-gitignore
 cd idea-gitignore
@@ -20,11 +19,30 @@ git remote add github  github:hsz/idea-gitignore.git
 git remote add lcj  lcj:li/idea-gitignore.git
 git remote add li  li:li/idea-gitignore.git
 
+
+cd %~dp0..\
+mkdir AndroidSign
+cd AndroidSign
+git init
+git remote add li  li:li/AndroidSign.git
+git remote add lcj  lcj:li/AndroidSign.git
+
+
+cd %~dp0..\
+mkdir iso14001_28001
+cd iso14001_28001
+git init
+git remote add cmd  cmd:iso14001_28001.git
+git remote add lcj  lcj:li/iso14001_28001.git
+git remote add li  li:li/iso14001_28001.git
+
+
 cd %~dp0..\
 mkdir hhui
 cd hhui
 git init
 git remote add KMT  kmt:hhui.git
+git remote add cmd  cmd:hhui.git
 git remote add lcj  lcj:li/hhui.git
 git remote add li  li:li/hhui.git
 
@@ -505,7 +523,7 @@ git remote add lcj  lcj:li/Android.SecUnit
 cd %~dp0..\AndroidLib
 mkdir  Android.BlueTooth
 cd Android.BlueTooth
-git inits
+git init
 git remote add li  li:li/Android.BlueTooth.git
 git remote add cmd  cmd:Android.BlueTooth.git
 git remote add lcj  lcj:li/Android.BlueTooth.git
@@ -705,6 +723,16 @@ git init
 git remote add li  li:li/CEPRISealAIDLDoc
 git remote add cmd  cmd:CEPRISealAIDLDoc.git
 git remote add lcj  lcj:li/CEPRISealAIDLDoc
+
+
+cd %~dp0..\
+mkdir HHUPublicKey
+cd HHUPublicKey
+git init
+git remote add li  li:li/HHUPublicKey.git
+git remote add KMT  kmt:HHUPublicKey.git
+git remote add lcj  lcj:li/HHUPublicKey.git
+
 
 
 cd %~dp0..\
