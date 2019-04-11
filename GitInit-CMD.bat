@@ -11,6 +11,14 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
+cd %~dp0..\
+mkdir idea-gitignore
+cd idea-gitignore
+git init
+git remote add github  github:hsz/idea-gitignore.git
+git remote add lcj  lcj:li/idea-gitignore.git
+git remote add li  li:li/idea-gitignore.git
+
 
 cd %~dp0..\
 mkdir AndroidSign
@@ -27,6 +35,7 @@ git init
 git remote add cmd  cmd:iso14001_28001.git
 git remote add lcj  lcj:li/iso14001_28001.git
 git remote add li  li:li/iso14001_28001.git
+
 
 cd %~dp0..\
 mkdir hhui
