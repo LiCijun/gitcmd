@@ -10,6 +10,13 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+cd %~dp0..\
+mkdir  CEPRISealAssemblyLine
+cd CEPRISealAssemblyLine
+git init
+git remote add li  li:li/CEPRISealAssemblyLine
+git remote add cmd  cmd:CEPRISealAssemblyLine
+git remote add lcj  lcj:li/CEPRISealAssemblyLine
 
 cd %~dp0..\
 mkdir idea-gitignore
@@ -732,6 +739,9 @@ git init
 git remote add li  li:li/HHUPublicKey.git
 git remote add KMT  kmt:HHUPublicKey.git
 git remote add lcj  lcj:li/HHUPublicKey.git
+
+
+
 
 
 
