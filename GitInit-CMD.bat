@@ -10,6 +10,17 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+
+cd %~dp0..\
+mkdir TP2000
+cd TP2000
+git init
+git remote add li  li:li/TP2000.git
+git remote add KMT  kmt:TP2000.git
+git remote add lcj  lcj:li/TP2000.git
+
+
+
 cd %~dp0..\
 mkdir  CEPRISealAssemblyLine
 cd CEPRISealAssemblyLine
