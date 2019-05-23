@@ -263,13 +263,6 @@ git init
 git remote add github  github:zxing/zxing.git
 
 
-cd %~dp0..\
-mkdir InstallShield
-cd InstallShield
-git init
-git remote add li  li:li/InstallShield.git
-git remote add KMT  kmt:InstallShield.git
-git remote add lcj  lcj:li/InstallShield.git
 
 cd %~dp0..\
 mkdir proxy

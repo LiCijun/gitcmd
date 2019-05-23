@@ -12,6 +12,49 @@ git remote add lcj  lcj:li/Android.RFIDTESAM
 
 
 cd %~dp0..\
+mkdir SafetyAccessControlSystemDoc
+cd SafetyAccessControlSystemDoc
+git init
+git remote add cmd  cmd:SafetyAccessControlSystemDoc.git
+git remote add lcj  lcj:SafetyAccessControlSystemDoc.git
+git remote add li  li:SafetyAccessControlSystemDoc.git
+
+cd %~dp0..\
+mkdir SafetyAccessControlSystem
+cd SafetyAccessControlSystem
+git init
+git remote add cmd  cmd:SafetyAccessControlSystem.git
+git remote add lcj  lcj:SafetyAccessControlSystem.git
+git remote add li  li:SafetyAccessControlSystem.git
+
+
+
+cd %~dp0..\
+mkdir keystoreDoc
+cd keystoreDoc
+git init
+git remote add li  li:keystoreDoc.git
+git remote add cmd  cmd:keystoreDoc.git
+git remote add lcj  lcj:keystoreDoc.git
+
+cd %~dp0..\
+mkdir keystore
+cd keystore
+git init
+git remote add li  li:keystore.git
+git remote add cmd  cmd:keystore.git
+git remote add lcj  lcj:keystore.git
+
+cd %~dp0..\
+mkdir InstallShield
+cd InstallShield
+git init
+git remote add li  li:li/InstallShield.git
+git remote add KMT  kmt:InstallShield.git
+git remote add lcj  lcj:li/InstallShield.git
+
+
+cd %~dp0..\
 mkdir TP2000
 cd TP2000
 git init

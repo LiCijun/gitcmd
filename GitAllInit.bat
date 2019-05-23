@@ -3,6 +3,7 @@
 cd %~dp0..\
 mkdir AndroidLib
 
+
 cd %~dp0..\
 mkdir Slock
 cd Slock
