@@ -10,6 +10,12 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+cd %~dp0..\
+mkdir posso
+cd posso
+git init
+git remote add lcj  lcj:posso.git
+git remote add li  li:posso.git
 
 cd %~dp0..\
 mkdir SafetyAccessControlSystemDoc
@@ -27,6 +33,14 @@ git remote add cmd  cmd:SafetyAccessControlSystem.git
 git remote add lcj  lcj:SafetyAccessControlSystem.git
 git remote add li  li:SafetyAccessControlSystem.git
 
+
+cd %~dp0..\
+mkdir 
+cd keystoreDoc
+git init
+git remote add li  li:keystoreDoc.git
+git remote add cmd  cmd:keystoreDoc.git
+git remote add lcj  lcj:keystoreDoc.git
 
 
 cd %~dp0..\
@@ -219,6 +233,7 @@ cd gitolite-admin
 git init
 git remote add lcj  lcj:gitolite-admin.git
 git remote add li  li:gitolite-admin.git
+git remote add vm  vm:gitolite-admin.git
 
 
 cd %~dp0..\
@@ -362,6 +377,7 @@ git init
 git remote add li  li:li/keyupdate.git
 git remote add cmd  cmd:keyupdate.git
 git remote add lcj  lcj:li/keyupdate.git
+git remote add vm  vm:keyupdate.git
 
 
 
