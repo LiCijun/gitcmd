@@ -10,6 +10,16 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+
+cd %~dp0..\
+mkdir fss2doc
+cd fss2doc
+git init
+git remote add li  li:li/fss2doc.git
+git remote add KMT  kmt:fss2doc.git
+git remote add lcj  lcj:li/fss2doc.git
+git remote add vm  vm:fss2doc.git
+
 cd %~dp0..\
 mkdir posso
 cd posso
