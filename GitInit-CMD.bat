@@ -18,7 +18,7 @@ git init
 git remote add li  li:li/fss2doc.git
 git remote add KMT  kmt:fss2doc.git
 git remote add lcj  lcj:li/fss2doc.git
-git remote add vm  vm:fss2doc.git
+git remote add vm  vm:li/fss2doc.git
 
 cd %~dp0..\
 mkdir posso
@@ -778,7 +778,7 @@ git init
 git remote add li  li:li/distribution.git
 git remote add cmd  cmd:distribution.git
 git remote add lcj  lcj:li/distribution.git
- 
+git remote add vm  vm:li/distribution.git
 
 
 
