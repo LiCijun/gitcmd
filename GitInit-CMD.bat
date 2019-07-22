@@ -10,9 +10,24 @@ git remote add li  li:li/Android.RFIDTESAM
 git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
+cd %~dp0..\
+mkdir ust
+cd ust
+git init
+git remote add cmd  cmd:ust.git
+git remote add vm  vm:ust.git
+git remote add lcj  lcj:ust.git
+git remote add li  li:ust.git
 
 
-
+cd %~dp0..\
+mkdir ustDoc
+cd ustDoc
+git init
+git remote add cmd  cmd:ustDoc.git
+git remote add vm  vm:ustDoc.git
+git remote add lcj  lcj:ustDoc.git
+git remote add li  li:ustDoc.git
 
 cd %~dp0..\
 mkdir usbkeyfront
