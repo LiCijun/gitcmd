@@ -15,8 +15,8 @@ echo Push vm
 cd %%s
 echo %%s
 echo.
-git.exe push --all  --thin  --progress  "vm"
-git.exe push --tags  --thin --progress  "vm"
+git push --all  --thin  --progress  "vm"
+git  push --tags  --thin --progress  "vm"
 echo.
 echo.
 echo.

@@ -11,6 +11,31 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 cd %~dp0..\
+mkdir ustsdk
+cd ustsdk
+git init
+git remote add cmd  cmd:ustsdk.git
+git remote add vm  vm:ustsdk.git
+git remote add lcj  lcj:ustsdk.git
+git remote add li  li:ustsdk.git
+
+cd %~dp0..\
+mkdir rxtx-2.1-7r2
+cd rxtx-2.1-7r2
+git init
+git remote add cmd  cmd:rxtx-2.1-7r2.git
+git remote add vm  vm:rxtx-2.1-7r2.git
+git remote add lcj  lcj:rxtx-2.1-7r2.git
+git remote add li  li:rxtx-2.1-7r2.git
+
+cd %~dp0..\
+mkdir ssh
+cd ssh
+git init
+git remote add vm  vm:ssh.git
+git remote add li  li:ssh.git
+
+cd %~dp0..\
 mkdir ust
 cd ust
 git init
@@ -18,6 +43,15 @@ git remote add cmd  cmd:ust.git
 git remote add vm  vm:ust.git
 git remote add lcj  lcj:ust.git
 git remote add li  li:ust.git
+
+cd %~dp0..\
+mkdir rxtx-2.2pre2
+cd rxtx-2.2pre2
+git init
+git remote add cmd  cmd:rxtx-2.2pre2.git
+git remote add vm  vm:rxtx-2.2pre2.git
+git remote add lcj  lcj:rxtx-2.2pre2.git
+git remote add li  li:rxtx-2.2pre2.git
 
 
 cd %~dp0..\
@@ -242,12 +276,7 @@ git remote add lcj  lcj:pgpsdk.git
 git remote add li  li:pgpsdk.git
 
 
-cd %~dp0..\
-mkdir ADoc
-cd ADoc
-git init
-git remote add li  li:li/ADoc.git
-git remote add lcj  lcj:li/ADoc.git
+
 
 cd %~dp0..\
 mkdir protocol

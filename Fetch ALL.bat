@@ -3,7 +3,7 @@
 echo %%s
 echo. Fetch All
 cd %%s
-git.exe fetch --all -v
+git fetch --all -v
 echo.
 echo.
 )
@@ -12,7 +12,7 @@ echo.
 echo %%s
 echo. Fetch All
 cd %%s
-git.exe fetch --all -v
+git fetch --all -v
 echo.
 echo.
 )
