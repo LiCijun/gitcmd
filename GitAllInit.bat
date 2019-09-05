@@ -11,6 +11,68 @@ git remote add li  li:li/ADoc.git
 git remote add lcj  lcj:li/ADoc.git
 
 cd %~dp0..\
+mkdir mfhhdAssist
+cd mfhhdAssist
+git init
+git remote add li  li:li/mfhhdAssist.git
+git remote add lcj  lcj:li/mfhhdAssist.git
+git remote add KMT  kmt:mfhhdAssist.git
+
+
+cd %~dp0..\
+mkdir TP2000Doc
+cd TP2000Doc
+git init
+git remote add li  li:li/TP2000Doc.git
+git remote add KMT  kmt:TP2000Doc.git
+git remote add lcj  lcj:li/TP2000Doc.git
+
+
+cd %~dp0..\
+mkdir TP2000
+cd TP2000
+git init
+git remote add li  li:li/TP2000.git
+git remote add KMT  kmt:TP2000.git
+git remote add lcj  lcj:li/TP2000.git
+
+cd %~dp0..\
+mkdir WorkSpace
+cd WorkSpace
+git init
+git remote add li  li:li/WorkSpace.git
+git remote remove github
+git remote add lcj  lcj:li/WorkSpace.git   
+
+cd %~dp0..\
+mkdir project
+cd project
+git init
+git remote add li  li:li/project.git
+git remote add lcj  lcj:li/project.git
+
+cd %~dp0..\
+mkdir kmtdoc
+cd kmtdoc
+git init
+git remote add lcj  lcj:kmtdoc.git
+git remote add li  li:kmtdoc.git
+
+cd %~dp0..\
+mkdir adempiere
+cd adempiere
+git init
+git remote add github  github:adempiere/adempiere.git
+
+cd %~dp0..\
+mkdir protocol
+cd protocol
+git init
+git remote add lcj  lcj:li/protocol.git
+git remote add li  li:li/protocol.git
+git remote add vm  vm:li/protocol.git
+
+cd %~dp0..\
 mkdir Slock
 cd Slock
 git init
