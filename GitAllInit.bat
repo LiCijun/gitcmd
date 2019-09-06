@@ -10,6 +10,14 @@ git init
 git remote add li  li:li/ADoc.git
 git remote add lcj  lcj:li/ADoc.git
 
+ cd %~dp0..\
+mkdir  Android.AndroidProxy
+cd Android.AndroidProxy
+git init
+git remote add li  li:li/Android.AndroidProxy
+git remote add cmd  cmd:Android.AndroidProxy
+git remote add lcj  lcj:li/Android.AndroidProxy
+
 cd %~dp0..\
 mkdir mfhhdAssist
 cd mfhhdAssist
