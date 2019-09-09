@@ -38,6 +38,25 @@ git remote add lcj  lcj:rxtx-2.1-7r2.git
 git remote add li  li:rxtx-2.1-7r2.git
 
 cd %~dp0..\
+mkdir km
+cd km
+git init
+git remote add vm  vm:km.git
+git remote add li  li:km.git
+git remote add cmd  cmd:km.git
+git remote add lcj  lcj:km.git
+
+
+cd %~dp0..\
+mkdir kmDoc
+cd kmDoc
+git init
+git remote add vm  vm:kmDoc.git
+git remote add li  li:kmDoc.git
+git remote add cmd  cmd:kmDoc.git
+git remote add lcj  lcj:kmDoc.git
+
+cd %~dp0..\
 mkdir ssh
 cd ssh
 git init
