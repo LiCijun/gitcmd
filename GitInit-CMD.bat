@@ -11,6 +11,59 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 cd %~dp0..\
+mkdir ddns
+cd ddns
+git init
+git remote add cmd  cmd:ddns.git
+git remote add vm  vm:ddns.git
+git remote add lcj  lcj:ddns.git
+git remote add li  li:ddns.git
+
+cd %~dp0..\
+mkdir ustsdk
+cd ustsdk
+git init
+git remote add cmd  cmd:ustsdk.git
+git remote add vm  vm:ustsdk.git
+git remote add lcj  lcj:ustsdk.git
+git remote add li  li:ustsdk.git
+
+cd %~dp0..\
+mkdir rxtx-2.1-7r2
+cd rxtx-2.1-7r2
+git init
+git remote add cmd  cmd:rxtx-2.1-7r2.git
+git remote add vm  vm:rxtx-2.1-7r2.git
+git remote add lcj  lcj:rxtx-2.1-7r2.git
+git remote add li  li:rxtx-2.1-7r2.git
+
+cd %~dp0..\
+mkdir km
+cd km
+git init
+git remote add vm  vm:km.git
+git remote add li  li:km.git
+git remote add cmd  cmd:km.git
+git remote add lcj  lcj:km.git
+
+
+cd %~dp0..\
+mkdir kmDoc
+cd kmDoc
+git init
+git remote add vm  vm:kmDoc.git
+git remote add li  li:kmDoc.git
+git remote add cmd  cmd:kmDoc.git
+git remote add lcj  lcj:kmDoc.git
+
+cd %~dp0..\
+mkdir ssh
+cd ssh
+git init
+git remote add vm  vm:ssh.git
+git remote add li  li:ssh.git
+
+cd %~dp0..\
 mkdir ust
 cd ust
 git init
@@ -18,6 +71,15 @@ git remote add cmd  cmd:ust.git
 git remote add vm  vm:ust.git
 git remote add lcj  lcj:ust.git
 git remote add li  li:ust.git
+
+cd %~dp0..\
+mkdir rxtx-2.2pre2
+cd rxtx-2.2pre2
+git init
+git remote add cmd  cmd:rxtx-2.2pre2.git
+git remote add vm  vm:rxtx-2.2pre2.git
+git remote add lcj  lcj:rxtx-2.2pre2.git
+git remote add li  li:rxtx-2.2pre2.git
 
 
 cd %~dp0..\
@@ -97,13 +159,7 @@ git remote add KMT  kmt:InstallShield.git
 git remote add lcj  lcj:li/InstallShield.git
 
 
-cd %~dp0..\
-mkdir TP2000
-cd TP2000
-git init
-git remote add li  li:li/TP2000.git
-git remote add KMT  kmt:TP2000.git
-git remote add lcj  lcj:li/TP2000.git
+
 
 
 
@@ -186,20 +242,9 @@ git remote add lcj  lcj:li/keyservicems.git
 git remote add li  li:li/keyservicems.git
 
 
-cd %~dp0..\
-mkdir kmtdoc
-cd kmtdoc
-git init
-git remote add lcj  lcj:kmtdoc.git
-git remote add li  li:kmtdoc.git
 
-cd %~dp0..\
-mkdir TP2000Doc
-cd TP2000Doc
-git init
-git remote add li  li:li/TP2000Doc.git
-git remote add KMT  kmt:TP2000Doc.git
-git remote add lcj  lcj:li/TP2000Doc.git
+
+
 
 cd %~dp0..\
 mkdir pgpcom
@@ -217,13 +262,6 @@ git remote add li  li:pgp.git
 
 
 
-cd %~dp0..\
-mkdir mfhhdAssist
-cd mfhhdAssist
-git init
-git remote add li  li:li/mfhhdAssist.git
-git remote add lcj  lcj:li/mfhhdAssist.git
-git remote add KMT  kmt:mfhhdAssist.git
 
 
 cd %~dp0..\
@@ -234,26 +272,11 @@ git remote add lcj  lcj:pgpsdk.git
 git remote add li  li:pgpsdk.git
 
 
-cd %~dp0..\
-mkdir ADoc
-cd ADoc
-git init
-git remote add li  li:li/ADoc.git
-git remote add lcj  lcj:li/ADoc.git
 
-cd %~dp0..\
-mkdir protocol
-cd protocol
-git init
-git remote add lcj  lcj:li/protocol.git
-git remote add li  li:li/protocol.git
 
-cd %~dp0..\
-mkdir project
-cd project
-git init
-git remote add li  li:li/project.git
-git remote add lcj  lcj:li/project.git
+
+
+
 
 
 cd %~dp0..\
@@ -295,6 +318,7 @@ cd WorkSpace
 git init
 git remote add li  li:li/WorkSpace.git
 git remote add lcj  lcj:li/WorkSpace.git   
+
   
   cd %~dp0..\
 mkdir microserviceDoc
@@ -684,16 +708,8 @@ cd gitignore
 git init
 git remote add github github:github/gitignore.git 
 
+
 cd %~dp0..\
-mkdir adempiere
-cd adempiere
-git init
-git remote add github  github:adempiere/adempiere.git
-  
-  
-
-
- cd %~dp0..\
 mkdir gitcmd
 cd gitcmd
 git init
