@@ -143,14 +143,6 @@ git remote add lcj  lcj:SafetyAccessControlSystem.git
 git remote add li  li:SafetyAccessControlSystem.git
 
 
-cd %~dp0..\
-mkdir 
-cd keystoreDoc
-git init
-git remote add li  li:keystoreDoc.git
-git remote add cmd  cmd:keystoreDoc.git
-git remote add lcj  lcj:keystoreDoc.git
-
 
 cd %~dp0..\
 mkdir keystoreDoc
@@ -330,6 +322,12 @@ git init
 git remote add li  li:li/XMLSerialize.git
 git remote add lcj  lcj:li/XMLSerialize.git
 
+cd %~dp0..\
+mkdir WorkSpace
+cd WorkSpace
+git init
+git remote add li  li:li/WorkSpace.git
+git remote add lcj  lcj:li/WorkSpace.git   
 
   
   cd %~dp0..\
