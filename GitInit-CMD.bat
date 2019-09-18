@@ -11,6 +11,16 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 cd %~dp0..\
+mkdir EnKey
+cd EnKey
+git init
+git remote add cmd  cmd:EnKey.git
+git remote add vm  vm:EnKey.git
+git remote add lcj  lcj:EnKey.git
+git remote add li  li:EnKey.git
+
+
+cd %~dp0..\
 mkdir ddns
 cd ddns
 git init
