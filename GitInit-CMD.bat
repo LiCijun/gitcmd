@@ -21,6 +21,15 @@ git remote add li  li:EnKey.git
 
 
 cd %~dp0..\
+mkdir senseshield
+cd senseshield
+git init
+git remote add cmd  cmd:senseshield.git
+git remote add vm  vm:senseshield.git
+git remote add lcj  lcj:senseshield.git
+git remote add li  li:senseshield.git
+
+cd %~dp0..\
 mkdir ddns
 cd ddns
 git init
