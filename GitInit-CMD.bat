@@ -11,6 +11,45 @@ git remote add cmd  cmd:Android.RFIDTESAM
 git remote add lcj  lcj:li/Android.RFIDTESAM
 
 cd %~dp0..\
+mkdir NWSealDoc
+cd NWSealDoc
+git init
+git remote add cmd  cmd:NWSealDoc.git
+git remote add vm  vm:NWSealDoc.git
+git remote add lcj  lcj:NWSealDoc.git
+git remote add li  li:NWSealDoc.git
+
+
+cd %~dp0..\
+mkdir fstms
+cd fstms
+git init
+git remote add cmd  cmd:fstms.git
+git remote add vm  vm:fstms.git
+git remote add lcj  lcj:fstms.git
+git remote add li  li:fstms.git
+
+cd %~dp0..\
+mkdir jdk
+cd jdk
+git init
+git remote add cmd  cmd:jdk.git
+git remote add vm  vm:jdk.git
+git remote add lcj  lcj:jdk.git
+git remote add li  li:jdk.git
+
+
+cd %~dp0..\
+mkdir fstmsDoc
+cd fstmsDoc
+git init
+git remote add cmd  cmd:fstmsDoc.git
+git remote add vm  vm:fstmsDoc.git
+git remote add lcj  lcj:fstmsDoc.git
+git remote add li  li:fstmsDoc.git
+
+
+cd %~dp0..\
 mkdir EnKey
 cd EnKey
 git init
@@ -18,6 +57,17 @@ git remote add cmd  cmd:EnKey.git
 git remote add vm  vm:EnKey.git
 git remote add lcj  lcj:EnKey.git
 git remote add li  li:EnKey.git
+
+
+cd %~dp0..\
+mkdir ArchSoft
+cd ArchSoft
+git init
+git remote add cmd  cmd:ArchSoft.git
+git remote add vm  vm:ArchSoft.git
+git remote add lcj  lcj:ArchSoft.git
+git remote add li  li:ArchSoft.git
+
 
 
 cd %~dp0..\
@@ -233,6 +283,7 @@ git init
 git remote add cmd  cmd:keyserviceDoc.git
 git remote add lcj  lcj:li/keyserviceDoc.git
 git remote add li  li:li/keyserviceDoc.git
+git remote add vm  vm:keyserviceDoc.git
 
 cd %~dp0..\
 mkdir keyservice
@@ -241,7 +292,7 @@ git init
 git remote add cmd  cmd:keyservice.git
 git remote add lcj  lcj:li/keyservice.git
 git remote add li  li:li/keyservice.git
-
+git remote add vm  vm:keyservice.git
 
 cd %~dp0..\
 mkdir keyservicems
@@ -250,10 +301,6 @@ git init
 git remote add cmd  cmd:keyservicems.git
 git remote add lcj  lcj:li/keyservicems.git
 git remote add li  li:li/keyservicems.git
-
-
-
-
 
 
 cd %~dp0..\
@@ -271,20 +318,12 @@ git remote add lcj  lcj:pgp.git
 git remote add li  li:pgp.git
 
 
-
-
-
 cd %~dp0..\
 mkdir pgpsdk
 cd pgpsdk
 git init
 git remote add lcj  lcj:pgpsdk.git
 git remote add li  li:pgpsdk.git
-
-
-
-
-
 
 
 
