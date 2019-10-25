@@ -93,6 +93,15 @@ git remote add lcj  lcj:ArchSoft.git
 git remote add li  li:ArchSoft.git
 
 
+cd %~dp0..\
+mkdir senseshield
+cd senseshield
+git init
+git remote add cmd  cmd:senseshield.git
+git remote add vm  vm:senseshield.git
+git remote add lcj  lcj:senseshield.git
+git remote add li  li:senseshield.git
+
 
 cd %~dp0..\
 mkdir ddns
@@ -1044,10 +1053,6 @@ git remote add cmd  cmd:Android.ISO7816
 git remote add lcj  lcj:li/Android.ISO7816
 
 
-
-
-
-
  cd %~dp0..\
 mkdir  Android.PeripheralProtocol
 cd Android.PeripheralProtocol
@@ -1058,10 +1063,7 @@ git remote add lcj  lcj:li/Android.PeripheralProtocol
 
 
 
-
-
-
- cd %~dp0..\
+cd %~dp0..\
 mkdir  Android.RESAM
 cd Android.RESAM
 git init
@@ -1070,14 +1072,7 @@ git remote add cmd  cmd:Android.RESAM
 git remote add lcj  lcj:li/Android.RESAM
 
 
-
-
-
-
-
-
-
- cd %~dp0..\
+cd %~dp0..\
 mkdir  Android.SerialPort
 cd Android.SerialPort
 git init
