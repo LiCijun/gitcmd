@@ -2,6 +2,30 @@
 cd %~dp0..\
 mkdir AndroidLib
 
+cd %~dp0..\
+mkdir protobuf
+cd protobuf
+git init
+git remote add github  github:protocolbuffers/protobuf.git
+
+cd %~dp0..\
+mkdir usttool
+cd usttool
+git init
+git remote add vm  vm:usttool.git
+git remote add cmd  cmd:usttool.git
+git remote add li  li:usttool.git
+
+
+cd %~dp0..\
+mkdir vnote
+cd vnote
+git init
+git remote add vm  vm:vnote.git
+git remote add lcj  lcj:vnote.git
+git remote add li  li:vnote.git
+
+
 cd %~dp0..\AndroidLib\
 mkdir  Android.RFIDTESAM
 cd Android.RFIDTESAM
@@ -774,6 +798,7 @@ git init
 git remote add li  li:li/contract.git
 git remote add cmd  cmd:contract.git
 git remote add lcj  lcj:li/contract.git
+git remote add vm  vm:contract.git
 
 cd %~dp0..\
 mkdir MessageAnalysisDoc
