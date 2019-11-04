@@ -55,8 +55,8 @@ initGit keystoreDoc      vm cmd li lcj
 initGit keystore      vm cmd li lcj
 initGit InstallShield      vm cmd li lcj
 initGit gitcmd      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit pgpcom      vm cmd li lcj
+initGit pgp      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 exit
@@ -161,19 +161,7 @@ git remote add lcj  lcj:li/keyservicems.git
 git remote add li  li:li/keyservicems.git
 
 
-cd $work_path
-mkdir pgpcom
-cd pgpcom
-git init
-git remote add lcj  lcj:pgpcom.git
-git remote add li  li:pgpcom.git
 
-cd $work_path
-mkdir pgp
-cd pgp
-git init
-git remote add lcj  lcj:pgp.git
-git remote add li  li:pgp.git
 
 
 cd $work_path
