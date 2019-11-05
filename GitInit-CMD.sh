@@ -74,7 +74,7 @@ git remote add github  github:protocolbuffers/protobuf.git
 
 
 
-cd $work_path/AndroidLib\
+cd $work_path/AndroidLib
 mkdir  Android.RFIDTESAM
 cd Android.RFIDTESAM
 git init

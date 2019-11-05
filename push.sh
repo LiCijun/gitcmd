@@ -18,7 +18,10 @@ if [  -n "$1" ] ;then
     then
     echo 
       echo $file ;  
-    git  fetch -v --progress $1
+ #   git push --all -v  --progress  $1
+ #   git push --tags -v  --progress  $1 
+    git push --all   $1
+    git push --tags   $1 
     fi 
         fi   
     fi
