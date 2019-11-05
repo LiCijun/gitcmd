@@ -59,6 +59,8 @@ initGit pgpcom      vm cmd li lcj
 initGit pgp      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+
+
 exit
 
 cd $work_path
@@ -72,7 +74,7 @@ git remote add github  github:protocolbuffers/protobuf.git
 
 
 
-cd $work_pathAndroidLib\
+cd $work_path/AndroidLib\
 mkdir  Android.RFIDTESAM
 cd Android.RFIDTESAM
 git init
@@ -369,7 +371,7 @@ git remote add li  li:li/ft31x_HyperTerm
 git remote add cmd  cmd:ft31x_HyperTerm
 git remote add lcj  lcj:li/ft31x_HyperTerm
  
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  Android.Convert
 cd Android.Convert
 git init
@@ -380,7 +382,7 @@ git remote  set-url  li  li:li/CMDAndroid.Convert
 git remote  set-url  lcj  lcj:li/CMDAndroid.Convert
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  KMTAndroid.Convert
 cd KMTAndroid.Convert
 git init
@@ -390,7 +392,7 @@ git remote add lcj  lcj:li/Android.Convert
 
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir Android.Event
 cd Android.Event
 git init
@@ -399,7 +401,7 @@ git remote add cmd  cmd:Android.Event.git
 git remote add lcj  lcj:li/Android.Event.git
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  Android.Hardware
 cd Android.Hardware
 git init
@@ -407,7 +409,7 @@ git remote add li  li:li/Android.Hardware
 git remote add cmd  cmd:Android.Hardware
 git remote add lcj  lcj:li/Android.Hardware
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  Android.Lang
 cd Android.Lang
 git init
@@ -415,7 +417,7 @@ git remote add li  li:li/Android.Lang.git
 git remote add cmd  cmd:Android.Lang.git
 git remote add lcj  lcj:li/Android.Lang.git
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir Android.Linq4j
 cd Android.Linq4j
 git init
@@ -423,7 +425,7 @@ git remote add li  li:li/Android.Linq4j.git
 git remote add cmd  cmd:Android.Linq4j.git
 git remote add lcj  lcj:li/Android.Linq4j.git
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir Android.MessageQueue 
 cd Android.MessageQueue
 git init
@@ -432,7 +434,7 @@ git remote add cmd  cmd:Android.MessageQueue.git
 git remote add lcj  lcj:li/Android.MessageQueue.git
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  Android.Meter
 cd Android.Meter
 git init
@@ -443,7 +445,7 @@ git remote set-url li  li:li/CMDAndroid.Meter
 git remote set-url lcj  lcj:li/CMDAndroid.Meter
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  KMTAndroid.Meter
 cd KMTAndroid.Meter
 git init
@@ -453,7 +455,7 @@ git remote add lcj  lcj:li/Android.Meter
 
 
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  Android.Meter645
 cd Android.Meter645
 git init
@@ -463,7 +465,7 @@ git remote add lcj  lcj:li/CMDAndroid.Meter645
 git remote set-url li  li:li/CMDAndroid.Meter645
 git remote set-url lcj  lcj:li/CMDAndroid.Meter645
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  KMTAndroid.Meter645
 cd KMTAndroid.Meter645
 git init
@@ -471,7 +473,7 @@ git remote add li  li:li/Android.Meter645
 git remote add lcj  lcj:li/Android.Meter645
 
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  Android.MeterFunction
 cd Android.MeterFunction
 git init
@@ -482,7 +484,7 @@ git remote set-url li  li:li/CMDAndroid.MeterFunction
 git remote set-url lcj  lcj:li/CMDAndroid.MeterFunction
 
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  KMTAndroid.MeterFunction
 cd KMTAndroid.MeterFunction
 git init
@@ -491,7 +493,7 @@ git remote add lcj  lcj:li/Android.MeterFunction
 
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir Android.MVP
 cd Android.MVP
 git init
@@ -500,7 +502,7 @@ git remote add cmd  cmd:Android.MVP.git
 git remote add lcj  lcj:li/Android.MVP.git
 
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  Android.P645
 cd Android.P645
 git init
@@ -510,7 +512,7 @@ git remote add lcj  lcj:li/CMDAndroid.P645
 git remote set-url li  li:li/CMDAndroid.P645
 git remote set-url lcj  lcj:li/CMDAndroid.P645
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  KMTAndroid.P645
 cd KMTAndroid.P645
 git init
@@ -519,7 +521,7 @@ git remote add lcj  lcj:li/Android.P645
 
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir Android.Protocol
 cd Android.Protocol
 git init
@@ -528,7 +530,7 @@ git remote add cmd  cmd:Android.Protocol.git
 git remote add lcj  lcj:li/Android.Protocol.git
 
 
- cd $work_pathAndroidLib
+ cd $work_path/AndroidLib
 mkdir  Android.SecUnit
 cd Android.SecUnit
 git init
@@ -541,7 +543,7 @@ git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
 
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  KMTAndroid.SecUnit
 cd KMTAndroid.SecUnit
 git init
@@ -550,7 +552,7 @@ git remote add lcj  lcj:li/Android.SecUnit
 
 
 
-cd $work_pathAndroidLib
+cd $work_path/AndroidLib
 mkdir  Android.BlueTooth
 cd Android.BlueTooth
 git init
