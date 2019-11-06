@@ -14,7 +14,7 @@ function getdir(){
      cd $file
      echo
       echo $file ;  
-    git  gc
+    git  status
         fi   
     fi
     done
@@ -25,8 +25,5 @@ work_path=$(dirname $(dirname $(readlink -f $0)))
 getdir 
 work_path=$work_path/AndroidLib
 getdir 
-
-
-
 
 

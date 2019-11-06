@@ -1,1 +1,0 @@
-GitStatus.bat>status.txt

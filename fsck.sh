@@ -12,8 +12,9 @@ function getdir(){
         if [   -d ${file}'/.git'   ] ; then 
           
      cd $file
+     echo
       echo $file ;  
-    git  fsck
+    git  fsck --full
         fi   
     fi
     done

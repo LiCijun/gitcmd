@@ -11,7 +11,7 @@ function initGit(){
    
 git_Repo_Path=$1
 cd $work_path
-if [ !  -d $git_Repo_Path ] ; then mkdir $git_Repo_Path ; fi
+if [ !  -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
 cd $git_Repo_Path
 if [ !  -d .git ] ; then git init  ; fi 
 
@@ -57,14 +57,38 @@ initGit InstallShield      vm cmd li lcj
 initGit gitcmd      vm cmd li lcj
 initGit pgpcom      vm cmd li lcj
 initGit pgp      vm cmd li lcj
+initGit ustFront      vm cmd li 
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
+initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 
 exit
 
-cd $work_path
-mkdir AndroidLib
+
 
 cd $work_path
 mkdir protobuf
