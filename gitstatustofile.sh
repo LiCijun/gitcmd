@@ -1,2 +1,2 @@
 #! /bin/bash
-./GitStatus.sh>status.txt
+./gitstatus.sh>status.txt
