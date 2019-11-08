@@ -2,6 +2,22 @@
 work_path=$(dirname $(dirname $(readlink -f $0)))
 echo Git Repo Path:$work_path
 function initRemote(){  
+if [ "$1" = "lis" ] ; 
+then
+remote=$(git remote | grep "li" )
+if [ ! -n "$remote" ]; then git remote add "li"  "li":li/$git_Repo_Path.git; fi 
+return 
+fi
+
+if [ "$1" = "lcjs" ] ;
+then
+remote=$(git remote | grep "lcj" )
+if [ ! -n "$remote" ]; then git remote add "lcj"  "lcj":li/$git_Repo_Path.git; fi 
+return 
+fi
+
+
+
 if [  -n "$1" ] ;then
    remote=$(git remote | grep "$1" )
 if [ ! -n "$remote" ]; then git remote add "$1"  "$1":$git_Repo_Path.git; fi 
@@ -23,6 +39,8 @@ initRemote "$6"
 
 
 }
+initGit CEPRISealAssemblyLine      vm cmd lis lcjs
+
 
 initGit IntelliJIdea vm cmd li
 initGit usttool vm cmd li
@@ -58,6 +76,16 @@ initGit gitcmd      vm cmd li lcj
 initGit pgpcom      vm cmd li lcj
 initGit pgp      vm cmd li lcj
 initGit ustFront      vm cmd li 
+initGit CEPRISealAssemblyLine      vm cmd lis lcjs
+initGit Android.RFIDTESAM      vm cmd lis lcjs
+initGit AndroidSign      vm cmd lis lcjs
+initGit iso14001_28001      vm cmd lis lcjs
+initGit hhui      vm cmd lis lcjs
+initGit usbkeyocx      vm cmd lis lcjs
+initGit pgpsdk      vm cmd li lcj
+initGit gitolite-admin      vm  li lcj
+initGit keyupdate_WinClient      vm cmd li lcj
+initGit demo      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
@@ -75,982 +103,304 @@ initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
 
-exit
 
 
+initGit keyserviceDoc      vm cmd lis lcjs
+initGit keyservice      vm cmd lis lcjs
+initGit keyservicems      vm cmd lis lcjs
+initGit construction      vm cmd lis lcjs
+initGit XMLSerialize      vm cmd lis lcjs
+initGit WorkSpace      vm cmd lis lcjs
+initGit microserviceDoc      vm cmd lis lcjs
+initGit microserviceSystem      vm cmd lis lcjs
+initGit microservice      vm cmd lis lcjs
+initGit JavaLib      vm cmd lis lcjs
+initGit study      vm cmd lis lcjs
+initGit keygen      vm  lis lcjs
+initGit ISO9001      vm cmd lis lcjs
+initGit softdog      vm cmd lis lcjs
+initGit keyupdateDoc      vm cmd lis lcjs
+initGit keyupdate      vm cmd lis lcjs
+initGit ccopyright      vm cmd lis lcjs
+initGit KeyShareDoc      vm cmd lis lcjs
+initGit KeyShare      vm  lis lcjs
+initGit ft31x_HyperTerm      vm cmd lis lcjs
+initGit 3ADoc      vm cmd lis lcjs
+initGit 3A      vm cmd lis lcjs
+initGit tomcat      vm cmd lis lcjs
+initGit esmsservice      vm cmd lis lcjs
+initGit SafeTest2017      vm cmd lis lcjs
+initGit gitcmd      vm cmd lis lcjs
+initGit contract      vm cmd lis lcjs
+initGit MessageAnalysisDoc      vm cmd lis lcjs
+initGit MessageAnalysis      vm cmd lis lcjs
+initGit FaultAnalysisDoc      vm cmd lis lcjs
+initGit FaultAnalysis      vm cmd lis lcjs
+initGit Android.Terminal3762      vm cmd lis lcjs
+initGit pgpcmd      vm cmd lis lcjs
+initGit esmsDoc      vm cmd lis lcjs
+initGit esms      vm cmd lis lcjs
+initGit bid_ningxia      vm cmd lis lcjs
+initGit distribution      vm cmd lis lcjs
+initGit linq4j      vm cmd lis lcjs
+initGit CmdDoc      vm cmd lis lcjs
+initGit CEPRISealAIDLDoc      vm cmd lis lcjs
+initGit HHUPublicKey     kmt  vm cmd lis lcjs
+initGit CEPRISealAIDL      vm cmd lis lcjs
+initGit LiKey      vm cmd lis lcjs
+initGit Centos      vm cmd lis lcjs
+initGit DocTemplate      vm cmd lis lcjs
+initGit usbkms      vm cmd lis lcjs
+initGit usbkmsDoc      vm cmd lis lcjs
+initGit Android.BlueTooth      vm cmd lis lcjs
+initGit Android.DeviceInfo      vm cmd lis lcjs
+initGit Android.ExeWork      vm cmd lis lcjs
+initGit Android.HHUInterface      vm cmd lis lcjs
+initGit Android.ISO7816      vm cmd lis lcjs
+initGit Android.PeripheralProtocol      vm cmd lis lcjs
+initGit Android.RESAM      vm cmd lis lcjs
+initGit Android.SerialPort      vm cmd lis lcjs
+initGit Android.Terminal3761      vm cmd lis lcjs
+initGit Android.WorkSync      vm cmd lis lcjs
+initGit Android.AndroidProxy      vm cmd lis lcjs
+initGit Android.HZWQInterface      vm cmd lis lcjs
+initGit SM3      vm cmd lis lcjs
+initGit SM2      vm cmd lis lcjs
+initGit SM4      vm cmd lis lcjs
+initGit SecUnit2      vm cmd lis lcjs
+initGit ChongQingMeterRead      vm cmd lis lcjs
+initGit MaintenanceHHU      vm cmd lis lcjs
+initGit AndroidHHU      vm cmd lis lcjs
+initGit AndroidHHUv2      vm cmd lis lcjs
+initGit CEPRICheck      vm cmd lis lcjs
+initGit Calibrator      vm cmd lis lcjs
+initGit AndroidConfig      vm cmd lis lcjs
+initGit ADoc      vm   lis lcjs
+initGit Android.AndroidProxy      vm cmd lis lcjs
+initGit mfhhdAssist      vm kmt lis lcjs
+initGit TP2000Doc      vm kmt lis lcjs
+initGit TP2000      vm cmd lis lcjs kmt
+initGit WorkSpace      vm   lis lcjs
+initGit project      vm  lis lcjs
+initGit kmtdoc      vm  lis lcjs
+initGit protocol      vm cmd lis lcjs
+initGit Slock      vm cmd lis lcjs kmt
+initGit solution      vm cmd lis lcjs
+initGit Identity_S50  kmt    vm cmd lis lcjs
+initGit AndroidPeripheral     kmt vm cmd lis lcjs
+initGit HHUInOne    kmt  vm cmd lis lcjs
+initGit sdkeyNew    kmt  vm cmd lis lcjs
+initGit MeterFunction    kmt  vm cmd lis lcjs
+initGit TP2100_Doc    kmt  vm cmd lis lcjs
+initGit chnroutes    kmt  vm cmd lis lcjs
+initGit HZWQInterface    kmt  vm cmd lis lcjs
+initGit p55    kmt  vm cmd lis lcjs
+initGit VS2017    kmt  vm cmd lis lcjs
+initGit SourceInsight    kmt  vm cmd lis lcjs
+initGit UHF_MCU    kmt  vm cmd lis lcjs
+initGit UHF-ZXW    kmt  vm cmd lis lcjs
+initGit AndRoidHHUNW    kmt  vm cmd lis lcjs
+initGit eomfront    kmt  vm cmd lis lcjs
+initGit CSG_Doc    kmt  vm cmd lis lcjs
+initGit tv     vm  lis lcjs
+initGit oscmsp    kmt  vm cmd lis lcjs
+initGit TP2300    kmt  vm cmd lis lcjs
+initGit AndroidLibProject    kmt  vm cmd lis lcjs
+initGit Java.csg.device.utils    kmt  vm cmd lis lcjs
+initGit AndroidCheck    kmt  vm cmd lis lcjs
+initGit liwince    kmt  vm cmd lis lcjs
+initGit certification    kmt  vm cmd lis lcjs
+initGit hhutype    kmt  vm cmd lis lcjs
+initGit P33Scan    kmt  vm cmd lis lcjs
+initGit p54    kmt  vm cmd lis lcjs
+initGit hwz    kmt  vm cmd lis lcjs
+initGit cepricode    kmt  vm cmd lis lcjs
+initGit cepridoc    kmt  vm cmd lis lcjs
+initGit Android.SecureUnit    kmt  vm cmd lis lcjs
+initGit Android.SerialPortDemo    kmt  vm cmd lis lcjs
+initGit Android.SerialPortDemoUseLib    kmt  vm cmd lis lcjs
+initGit VS    kmt  vm cmd lis lcjs
+initGit SPI    kmt  vm cmd lis lcjs
+initGit ignore    kmt  vm cmd lis lcjs
+initGit IRFID1356M    kmt  vm cmd lis lcjs
+initGit Dispose    kmt  vm cmd lis lcjs
+initGit gitApp    kmt  vm cmd lis lcjs
+initGit HxGroupHuNan    kmt  vm cmd lis lcjs
+initGit fss2report    kmt  vm cmd lis lcjs
+initGit TP2400Doc    kmt  vm cmd lis lcjs
+initGit repoFwj    kmt  vm cmd lis lcjs
+initGit PowerDesigner    kmt  vm cmd lis lcjs
+initGit powercontrol    kmt  vm cmd lis lcjs
+initGit pos_test    kmt  vm cmd lis lcjs
+initGit pos_uni    kmt  vm cmd lis lcjs
+initGit pos3    kmt  vm cmd lis lcjs
+initGit pos2_linux    kmt  vm cmd lis lcjs
+initGit P41    kmt  vm cmd lis lcjs
+initGit p35doc    kmt  vm cmd lis lcjs
+initGit mfhhdMCU    kmt  vm cmd lis lcjs
+initGit fssTest    kmt  vm cmd lis lcjs
+initGit fss3_conn    kmt  vm cmd lis lcjs
+initGit fss3ejb    kmt  vm cmd lis lcjs
+initGit fss3    kmt  vm cmd lis lcjs
+initGit fss2web    kmt  vm cmd lis lcjs
+initGit fss2test    kmt  vm cmd lis lcjs
+initGit fss2ejb    kmt  vm cmd lis lcjs
+initGit bjst    kmt  vm cmd lis lcjs
+initGit Android.ISerialPort    kmt  vm cmd lis lcjs
+initGit ICepriHardware    kmt  vm cmd lis lcjs
+initGit UHFTEST    kmt  vm cmd lis lcjs
+initGit CEPRI698TEST    kmt  vm cmd lis lcjs
+initGit Android.Hardware    kmt  vm cmd lis lcjs
+initGit CumulativeProtocolOneDecoder    kmt  vm cmd lis lcjs
+initGit P56    kmt  vm cmd lis lcjs
+initGit P57    kmt  vm cmd lis lcjs
+initGit Android.SPI    kmt  vm cmd lis lcjs
+initGit bit    kmt  vm cmd lis lcjs
+initGit cmd    kmt  vm cmd lis lcjs
+initGit ebook    kmt  vm cmd lis lcjs
+initGit ems22xx    kmt  vm cmd lis lcjs
+initGit example    kmt  vm cmd lis lcjs
+initGit gpgkey    kmt  vm cmd lis lcjs
+initGit hhu2.0    kmt  vm cmd lis lcjs
+initGit k25    kmt  vm cmd lis lcjs
+initGit keys    kmt  vm cmd lis lcjs
+initGit km25    kmt  vm cmd lis lcjs
+initGit lidb    kmt  vm cmd lis lcjs
+initGit liwin32    kmt  vm cmd lis lcjs
+initGit modetest    kmt  vm cmd lis lcjs
+initGit onenote    kmt  vm cmd lis lcjs
+initGit othercompanydemo    kmt  vm cmd lis lcjs
+initGit sec    kmt  vm cmd lis lcjs
+initGit concentrator    kmt  vm cmd lis lcjs
+initGit connector2    kmt  vm cmd lis lcjs
+initGit k36    kmt  vm cmd lis lcjs
+initGit li    kmt  vm cmd lis lcjs
+initGit p31    kmt  vm cmd lis lcjs
+initGit report    kmt  vm cmd lis lcjs
+initGit gitcmd    kmt  vm cmd lis lcjs
+initGit diskinfo    kmt  vm cmd lis lcjs
+initGit cpuCard    kmt  vm cmd lis lcjs
+initGit hhucompany    kmt  vm cmd lis lcjs
+initGit jlwh    kmt  vm cmd lis lcjs
+initGit p35    kmt  vm cmd lis lcjs
+initGit vc6    kmt  vm cmd lis lcjs
+initGit PosD    kmt  vm cmd lis lcjs
+initGit p31test    kmt  vm cmd lis lcjs
+initGit fm1701    kmt  vm cmd lis lcjs
+initGit p35demo    kmt  vm cmd lis lcjs
+initGit yanfaiso    kmt  vm cmd lis lcjs
+initGit Terminal3761    kmt  vm cmd lis lcjs
+initGit HHURepo    kmt  vm cmd lis lcjs
+initGit HHUConfigForPC    kmt  vm cmd lis lcjs
+initGit PLSQL    kmt  vm cmd lis lcjs
+initGit P35Check    kmt  vm cmd lis lcjs
+initGit ISO7816    kmt  vm cmd lis lcjs
+initGit K36Test    kmt  vm cmd lis lcjs
+initGit ESAMInit    kmt  vm cmd lis lcjs
+initGit K36Scan    kmt  vm cmd lis lcjs
+initGit RSA    kmt  vm cmd lis lcjs
+initGit HHUCheck    kmt  vm cmd lis lcjs
+initGit K36SimulatedTest    kmt  vm cmd lis lcjs
+initGit fssdoc    kmt  vm cmd lis lcjs
+initGit javaDemo    kmt  vm cmd lis lcjs
+initGit database_data    kmt  vm cmd lis lcjs
+initGit PowerMeter    kmt  vm cmd lis lcjs
+initGit TESAM    kmt  vm cmd lis lcjs
+initGit testmethod    kmt  vm cmd lis lcjs
+initGit OpenNETCF.IO.Serial    kmt  vm cmd lis lcjs
+initGit kmcom    kmt  vm cmd lis lcjs
+initGit SealTest    kmt  vm cmd lis lcjs
+initGit P38    kmt  vm cmd lis lcjs
+initGit CalcCheckCode    kmt  vm cmd lis lcjs
+initGit mfhhdHHU    kmt  vm cmd lis lcjs
+initGit SealInfo    kmt  vm cmd lis lcjs
+initGit GDSDConfig    kmt  vm cmd lis lcjs
+initGit HHUDataBase    kmt  vm cmd lis lcjs
+initGit kmcomvc    kmt  vm cmd lis lcjs
+initGit CpuCardLib    kmt  vm cmd lis lcjs
+initGit Android.Data.Sqlite    kmt  vm cmd lis lcjs
+initGit Android.HHUDataBase    kmt  vm cmd lis lcjs
+initGit Android.SecUnit    kmt  vm cmd lis lcjs
+initGit Android.EnumAttribute    kmt  vm cmd lis lcjs
+initGit CpuCardOcx    kmt  vm cmd lis lcjs
+initGit TestByThirdParty    kmt  vm cmd lis lcjs
+initGit AndroidHHUdoc    kmt  vm cmd lis lcjs
+initGit Android.DataBase    kmt  vm cmd lis lcjs
+initGit Android.MeterFunction    kmt  vm cmd lis lcjs
+initGit Android.P645    kmt  vm cmd lis lcjs
+initGit Android.Convert    kmt  vm cmd lis lcjs
+initGit Android.Meter    kmt  vm cmd lis lcjs
+initGit Android.TestLcj    kmt  vm cmd lis lcjs
+initGit Android.Security    kmt  vm cmd lis lcjs
+initGit Android.IO.Compression    kmt  vm cmd lis lcjs
+initGit Android.XMLSerialize    kmt  vm cmd lis lcjs
+initGit Android.MeasurementControl    kmt  vm cmd lis lcjs
+initGit MaintenanceDoc    kmt  vm cmd lis lcjs
+initGit Android.Company    kmt  vm cmd lis lcjs
+initGit KMTCpuCardOcx    kmt  vm cmd lis lcjs
+initGit CPU_Card    kmt  vm cmd lis lcjs
+initGit TP2200_Doc    kmt  vm cmd lis lcjs
+initGit 3DES    kmt  vm cmd lis lcjs
+initGit NSecureUnit    kmt  vm cmd lis lcjs
+initGit Android.ResourceManager    kmt  vm cmd lis lcjs
+initGit PosHSM    kmt  vm cmd lis lcjs
+initGit AndroidProxy    kmt  vm cmd lis lcjs
+initGit FieldCheck    kmt  vm cmd lis lcjs
+initGit listen1_desktop    kmt  vm cmd lis lcjs
+initGit cepripro    kmt  vm cmd lis lcjs
+initGit listen1_chrome_extension    kmt  vm cmd lis lcjs
+initGit hhumain2    kmt  vm cmd lis lcjs
+initGit DeYangRS485    kmt  vm cmd lis lcjs
+initGit fssRelease    kmt  vm cmd lis lcjs
+initGit DeYangGSMGPS    kmt  vm cmd lis lcjs
+initGit deyang    kmt  vm cmd lis lcjs
+initGit KMJXC    kmt  vm cmd lis lcjs
+initGit hhumainYJ    kmt  vm cmd lis lcjs
+initGit expressdelivery    kmt  vm cmd lis lcjs
+initGit mercurial    kmt  vm cmd lis lcjs
+initGit hhuv1.8    kmt  vm cmd lis lcjs
+initGit dnspodclientlite    kmt  vm cmd lis lcjs
+initGit ecdcd    kmt  vm cmd lis lcjs
+initGit andsrc    kmt  vm cmd lis lcjs
+initGit ecdcdAssist    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
+
+
+
+
+work_path=$work_path/AndroidLib
+
+initGit Android.Event      vm cmd lis lcjs
+initGit Android.Lang      vm cmd lis lcjs
+initGit Android.Linq4j      vm cmd lis lcjs
+initGit Android.Hardware      vm cmd lis lcjs
+initGit Android.MessageQueue      vm cmd lis lcjs
+initGit Android.MVP      vm cmd lis lcjs
+initGit Android.Protocol      vm cmd lis lcjs
+initGit Android.BlueTooth      vm cmd lis lcjs
+
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
+initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
 
-cd $work_path
-mkdir protobuf
-cd protobuf
-git init
-git remote add github  github:protocolbuffers/protobuf.git
 
-
-
-cd $work_path/AndroidLib
-mkdir  Android.RFIDTESAM
-cd Android.RFIDTESAM
-git init
-git remote add li  li:li/Android.RFIDTESAM
-git remote add cmd  cmd:Android.RFIDTESAM
-git remote add lcj  lcj:li/Android.RFIDTESAM
-
-
-cd $work_path
-mkdir  CEPRISealAssemblyLine
-cd CEPRISealAssemblyLine
-git init
-git remote add li  li:li/CEPRISealAssemblyLine
-git remote add cmd  cmd:CEPRISealAssemblyLine
-git remote add lcj  lcj:li/CEPRISealAssemblyLine
-
-cd $work_path
-mkdir idea-gitignore
-cd idea-gitignore
-git init
-git remote add github  github:hsz/idea-gitignore.git
-git remote add lcj  lcj:li/idea-gitignore.git
-git remote add li  li:li/idea-gitignore.git
-
-
-cd $work_path
-mkdir AndroidSign
-cd AndroidSign
-git init
-git remote add li  li:li/AndroidSign.git
-git remote add lcj  lcj:li/AndroidSign.git
-
-
-cd $work_path
-mkdir iso14001_28001
-cd iso14001_28001
-git init
-git remote add cmd  cmd:iso14001_28001.git
-git remote add lcj  lcj:li/iso14001_28001.git
-git remote add li  li:li/iso14001_28001.git
-
-
-cd $work_path
-mkdir hhui
-cd hhui
-git init
-git remote add KMT  kmt:hhui.git
-git remote add cmd  cmd:hhui.git
-git remote add lcj  lcj:li/hhui.git
-git remote add li  li:li/hhui.git
-
-
-cd $work_path
-mkdir usbkeyocx
-cd usbkeyocx
-git init
-git remote add cmd  cmd:usbkeyocx.git
-git remote add lcj  lcj:li/usbkeyocx.git
-git remote add li  li:li/usbkeyocx.git
-
-
-cd $work_path
-mkdir keyserviceDoc
-cd keyserviceDoc
-git init
-git remote add cmd  cmd:keyserviceDoc.git
-git remote add lcj  lcj:li/keyserviceDoc.git
-git remote add li  li:li/keyserviceDoc.git
-git remote add vm  vm:keyserviceDoc.git
-
-cd $work_path
-mkdir keyservice
-cd keyservice
-git init
-git remote add cmd  cmd:keyservice.git
-git remote add lcj  lcj:li/keyservice.git
-git remote add li  li:li/keyservice.git
-git remote add vm  vm:keyservice.git
-
-cd $work_path
-mkdir keyservicems
-cd keyservicems
-git init
-git remote add cmd  cmd:keyservicems.git
-git remote add lcj  lcj:li/keyservicems.git
-git remote add li  li:li/keyservicems.git
-
-
-
-
-
-cd $work_path
-mkdir pgpsdk
-cd pgpsdk
-git init
-git remote add lcj  lcj:pgpsdk.git
-git remote add li  li:pgpsdk.git
-
-
-
-
-cd $work_path
-mkdir gitolite-admin
-cd gitolite-admin
-git init
-git remote add lcj  lcj:gitolite-admin.git
-git remote add li  li:gitolite-admin.git
-git remote add vm  vm:gitolite-admin.git
-
-
-cd $work_path
-mkdir gitolite-admin-KMT
-cd gitolite-admin-KMT
-git init
-git remote add KMT kmt:gitolite-admin.git
-git remote add li  li:li/gitolite-admin-KMT.git
-git remote add lcj  lcj:li/gitolite-admin-KMT.git
-
-
-cd $work_path
-mkdir construction
-cd construction
-git init
-git remote add cmd  cmd:construction.git
-git remote add lcj  lcj:li/construction.git
-git remote add li  li:li/construction.git
-
-cd $work_path
-mkdir XMLSerialize
-cd XMLSerialize
-git init
-git remote add li  li:li/XMLSerialize.git
-git remote add lcj  lcj:li/XMLSerialize.git
-
-cd $work_path
-mkdir WorkSpace
-cd WorkSpace
-git init
-git remote add li  li:li/WorkSpace.git
-git remote add lcj  lcj:li/WorkSpace.git   
-
-  
-  cd $work_path
-mkdir microserviceDoc
-cd microserviceDoc
-git init
-git remote add cmd  cmd:microserviceDoc.git
-git remote add lcj  lcj:li/microserviceDoc.git
-git remote add li  li:li/microserviceDoc.git
-
-cd $work_path
-mkdir baselib
-cd baselib
-git init
-git remote add cmd  cmd:lib.git
-git remote add lcj  lcj:li/lib.git
-git remote add li  li:li/lib.git
-
-
-
-cd $work_path
-mkdir microserviceSystem
-cd microserviceSystem
-git init
-git remote add cmd  cmd:microserviceSystem.git
-git remote add lcj  lcj:li/microserviceSystem.git
-git remote add li  li:li/microserviceSystem.git
-
-cd $work_path
-mkdir microservice
-cd microservice
-git init
-git remote add cmd  cmd:microservice.git
-git remote add lcj  lcj:li/microservice.git
-git remote add li  li:li/microservice.git
-
-cd $work_path
-mkdir JavaLib
-cd JavaLib
-git init
-git remote add li  li:li/JavaLib.git
-git remote add lcj  lcj:li/JavaLib.git
-git remote add cmd  cmd:JavaLib.git
-
-
-
-
-cd $work_path
-mkdir kafka-demo
-cd kafka-demo
-git init
-git remote add github  github:mikechengwei/kafka-demo.git
-
-cd $work_path
-mkdir kafka-doc-zh
-cd kafka-doc-zh
-git init
-git remote add github  github:apachecn/kafka-doc-zh.git
-
-
-cd $work_path
-mkdir study
-cd study
-git init
-git remote add cmd  cmd:study.git
-git remote add lcj  lcj:li/study.git
-git remote add li  li:li/study.git
-
-
-cd $work_path
-mkdir keygen
-cd keygen
-git init
-git remote add github  github:LiCijun/keygen.git
-git remote add lcj  lcj:li/keygen.git
-git remote add li  li:li/keygen.git
-
-
-cd $work_path
-mkdir ISO9001
-cd ISO9001
-git init
-git remote add li  li:li/ISO9001.git
-git remote add cmd  cmd:ISO9001.git
-git remote add lcj  lcj:li/ISO9001.git
-
-
-cd $work_path
-mkdir softdog
-cd softdog
-git init
-git remote add li  li:li/softdog.git
-git remote add cmd  cmd:softdog.git
-git remote add lcj  lcj:li/softdog.git
-
-cd $work_path
-mkdir keyupdateDoc
-cd keyupdateDoc
-git init
-git remote add li  li:li/keyupdateDoc.git
-git remote add cmd  cmd:keyupdateDoc.git
-git remote add lcj  lcj:li/keyupdateDoc.git
-
-
-cd $work_path
-mkdir keyupdate
-cd keyupdate
-git init
-git remote add li  li:li/keyupdate.git
-git remote add cmd  cmd:keyupdate.git
-git remote add lcj  lcj:li/keyupdate.git
-git remote add vm  vm:keyupdate.git
-
-cd $work_path
-mkdir keyupdate_WinClient
-cd keyupdate_WinClient
-git init
-git remote add li  li:keyupdate_WinClient.git
-git remote add cmd  cmd:keyupdate_WinClient.git
-git remote add vm  vm:keyupdate_WinClient.git
-
- cd $work_path
-mkdir  ccopyright
-cd ccopyright
-git init
-git remote add li  li:li/ccopyright
-git remote add cmd  cmd:ccopyright
-git remote add lcj  lcj:li/ccopyright
-
-
-
-cd $work_path
-mkdir  KeyShareDoc
-cd KeyShareDoc
-git init
-git remote add li  li:li/KeyShareDoc
-git remote add cmd  cmd:KeyShareDoc
-git remote add lcj  lcj:li/KeyShareDoc
-
-cd $work_path
-mkdir  KeyShare
-cd KeyShare
-git init
-git remote add li  li:li/KeyShare
-git remote add cmd  cmd:KeyShare
-git remote add lcj  lcj:li/KeyShare
-
-
-cd $work_path
-mkdir  ft31x_HyperTerm
-cd ft31x_HyperTerm
-git init
-git remote add li  li:li/ft31x_HyperTerm
-git remote add cmd  cmd:ft31x_HyperTerm
-git remote add lcj  lcj:li/ft31x_HyperTerm
- 
-cd $work_path/AndroidLib
-mkdir  Android.Convert
-cd Android.Convert
-git init
-git remote add li  li:li/CMDAndroid.Convert
-git remote add cmd  cmd:Android.Convert
-git remote add lcj  lcj:li/CMDAndroid.Convert
-git remote  set-url  li  li:li/CMDAndroid.Convert
-git remote  set-url  lcj  lcj:li/CMDAndroid.Convert
-
-
-cd $work_path/AndroidLib
-mkdir  KMTAndroid.Convert
-cd KMTAndroid.Convert
-git init
-git remote add li  li:li/Android.Convert
-git remote add lcj  lcj:li/Android.Convert
-
-
-
-
-cd $work_path/AndroidLib
-mkdir Android.Event
-cd Android.Event
-git init
-git remote add li  li:li/Android.Event.git
-git remote add cmd  cmd:Android.Event.git 
-git remote add lcj  lcj:li/Android.Event.git
-
-
-cd $work_path/AndroidLib
-mkdir  Android.Hardware
-cd Android.Hardware
-git init
-git remote add li  li:li/Android.Hardware
-git remote add cmd  cmd:Android.Hardware
-git remote add lcj  lcj:li/Android.Hardware
-
-cd $work_path/AndroidLib
-mkdir  Android.Lang
-cd Android.Lang
-git init
-git remote add li  li:li/Android.Lang.git
-git remote add cmd  cmd:Android.Lang.git
-git remote add lcj  lcj:li/Android.Lang.git
-
-cd $work_path/AndroidLib
-mkdir Android.Linq4j
-cd Android.Linq4j
-git init
-git remote add li  li:li/Android.Linq4j.git
-git remote add cmd  cmd:Android.Linq4j.git
-git remote add lcj  lcj:li/Android.Linq4j.git
-
- cd $work_path/AndroidLib
-mkdir Android.MessageQueue 
-cd Android.MessageQueue
-git init
-git remote add li  li:li/Android.MessageQueue.git
-git remote add cmd  cmd:Android.MessageQueue.git 
-git remote add lcj  lcj:li/Android.MessageQueue.git
-
-
-cd $work_path/AndroidLib
-mkdir  Android.Meter
-cd Android.Meter
-git init
-git remote add li  li:li/CMDAndroid.Meter
-git remote add cmd  cmd:Android.Meter
-git remote add lcj  lcj:li/CMDAndroid.Meter
-git remote set-url li  li:li/CMDAndroid.Meter
-git remote set-url lcj  lcj:li/CMDAndroid.Meter
-
-
-cd $work_path/AndroidLib
-mkdir  KMTAndroid.Meter
-cd KMTAndroid.Meter
-git init
-git remote add li  li:li/Android.Meter
-git remote add lcj  lcj:li/Android.Meter
-
-
-
-
- cd $work_path/AndroidLib
-mkdir  Android.Meter645
-cd Android.Meter645
-git init
-git remote add li  li:li/CMDAndroid.Meter645
-git remote add cmd  cmd:Android.Meter645
-git remote add lcj  lcj:li/CMDAndroid.Meter645
-git remote set-url li  li:li/CMDAndroid.Meter645
-git remote set-url lcj  lcj:li/CMDAndroid.Meter645
-
- cd $work_path/AndroidLib
-mkdir  KMTAndroid.Meter645
-cd KMTAndroid.Meter645
-git init
-git remote add li  li:li/Android.Meter645
-git remote add lcj  lcj:li/Android.Meter645
-
-
- cd $work_path/AndroidLib
-mkdir  Android.MeterFunction
-cd Android.MeterFunction
-git init
-git remote add li  li:li/CMDAndroid.MeterFunction
-git remote add cmd  cmd:Android.MeterFunction
-git remote add lcj  lcj:li/CMDAndroid.MeterFunction
-git remote set-url li  li:li/CMDAndroid.MeterFunction
-git remote set-url lcj  lcj:li/CMDAndroid.MeterFunction
-
-
- cd $work_path/AndroidLib
-mkdir  KMTAndroid.MeterFunction
-cd KMTAndroid.MeterFunction
-git init
-git remote add li  li:li/Android.MeterFunction
-git remote add lcj  lcj:li/Android.MeterFunction
-
-
-
-cd $work_path/AndroidLib
-mkdir Android.MVP
-cd Android.MVP
-git init
-git remote add li  li:li/Android.MVP.git
-git remote add cmd  cmd:Android.MVP.git
-git remote add lcj  lcj:li/Android.MVP.git
-
-
- cd $work_path/AndroidLib
-mkdir  Android.P645
-cd Android.P645
-git init
-git remote add li  li:li/CMDAndroid.P645
-git remote add cmd  cmd:Android.P645
-git remote add lcj  lcj:li/CMDAndroid.P645
-git remote set-url li  li:li/CMDAndroid.P645
-git remote set-url lcj  lcj:li/CMDAndroid.P645
-
- cd $work_path/AndroidLib
-mkdir  KMTAndroid.P645
-cd KMTAndroid.P645
-git init
-git remote add li  li:li/Android.P645
-git remote add lcj  lcj:li/Android.P645
-
-
-
-cd $work_path/AndroidLib
-mkdir Android.Protocol
-cd Android.Protocol
-git init
-git remote add li  li:li/Android.Protocol.git
-git remote add cmd  cmd:Android.Protocol.git 
-git remote add lcj  lcj:li/Android.Protocol.git
-
-
- cd $work_path/AndroidLib
-mkdir  Android.SecUnit
-cd Android.SecUnit
-git init
-git remote add li  li:li/CMDAndroid.SecUnit
-git remote add cmd  cmd:Android.SecUnit
-git remote add lcj  lcj:li/CMDAndroid.SecUnit
-git remote set-url li  li:li/CMDAndroid.SecUnit
-git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
-
-
-
-
-cd $work_path/AndroidLib
-mkdir  KMTAndroid.SecUnit
-cd KMTAndroid.SecUnit
-git init
-git remote add li  li:li/Android.SecUnit
-git remote add lcj  lcj:li/Android.SecUnit
-
-
-
-cd $work_path/AndroidLib
-mkdir  Android.BlueTooth
-cd Android.BlueTooth
-git init
-git remote add li  li:li/Android.BlueTooth.git
-git remote add cmd  cmd:Android.BlueTooth.git
-git remote add lcj  lcj:li/Android.BlueTooth.git
-
-
-cd $work_path
-mkdir 3ADoc
-cd 3ADoc
-git init
-git remote add li  li:li/3ADoc.git
-git remote add cmd  cmd:3ADoc.git
-git remote add lcj  lcj:li/3ADoc.git
-
-
-cd $work_path
-mkdir 3A
-cd 3A
-git init
-git remote add li  li:li/3A.git
-git remote add cmd  cmd:3A.git
-git remote add lcj  lcj:li/3A.git
-
-
-cd $work_path
-mkdir tomcat
-cd tomcat
-git init
-git remote add li  li:li/tomcat.git
-git remote add cmd  cmd:tomcat.git
-git remote add lcj  lcj:li/tomcat.git
-
-  
- cd $work_path
-mkdir esmsservice
-cd esmsservice
-git init
-git remote add li  li:li/esmsservice.git
-git remote add cmd  cmd:esmsservice.git
-git remote add lcj  lcj:li/esmsservice.git
-
-
-cd $work_path
-mkdir SafeTest2017
-cd SafeTest2017
-git init
-git remote add li  li:li/SafeTest2017.git
-git remote add cmd  cmd:SafeTest2017.git
-git remote add lcj  lcj:li/SafeTest2017.git
-
- cd $work_path
-mkdir gitignore
-cd gitignore
-git init
-git remote add github github:github/gitignore.git 
-
-
-cd $work_path
-mkdir gitcmd
-cd gitcmd
-git init
-git remote add li  li:li/gitcmd.git
-git remote add github  github:LiCijun/gitcmd.git
-git remote add lcj  lcj:li/gitcmd.git
-git remote add cmd  cmd:gitcmd.git
- 
- cd $work_path
-mkdir contract
-cd contract
-git init
-git remote add li  li:li/contract.git
-git remote add cmd  cmd:contract.git
-git remote add lcj  lcj:li/contract.git
-git remote add vm  vm:contract.git
-
-cd $work_path
-mkdir MessageAnalysisDoc
-cd MessageAnalysisDoc
-git init
-git remote add li  li:li/MessageAnalysisDoc.git
-git remote add cmd  cmd:MessageAnalysisDoc.git
-git remote add lcj  lcj:li/MessageAnalysisDoc.git
-
-cd $work_path
-mkdir MessageAnalysis
-cd MessageAnalysis
-git init
-git remote add li  li:li/MessageAnalysis.git
-git remote add cmd  cmd:MessageAnalysis.git
-git remote add lcj  lcj:li/MessageAnalysis.git
-
-
-    cd $work_path
-mkdir FaultAnalysisDoc
-cd FaultAnalysisDoc
-git init
-git remote add li  li:li/FaultAnalysisDoc.git
-git remote add cmd  cmd:FaultAnalysisDoc.git
-git remote add lcj  lcj:li/FaultAnalysisDoc.git
-
-    cd $work_path
-mkdir FaultAnalysis
-cd FaultAnalysis
-git init
-git remote add li  li:li/FaultAnalysis.git
-git remote add cmd  cmd:FaultAnalysis.git
-git remote add lcj  lcj:li/FaultAnalysis.git
- 
-cd $work_path
-mkdir Android.Terminal3762
-cd Android.Terminal3762
-git init
-git remote add li  li:li/Android.Terminal3762.git
-git remote add cmd  cmd:Android.Terminal3762.git
-git remote add lcj  lcj:li/Android.Terminal3762.git
- 
-
-
-   cd $work_path
-mkdir pgpcmd
-cd pgpcmd
-git init
-git remote add li  li:li/pgpcmd.git
-git remote add cmd  cmd:pgp.git
-git remote add lcj  lcj:li/pgpcmd.git
-
-
-   cd $work_path
-mkdir esmsDoc
-cd esmsDoc
-git init
-git remote add li  li:li/esmsDoc.git
-git remote add cmd  cmd:esmsDoc.git
-git remote add lcj  lcj:li/esmsDoc.git
-
-
-  cd $work_path
-mkdir esms
-cd esms
-git init
-git remote add li  li:li/esms.git
-git remote add cmd  cmd:esms.git
-git remote add lcj  lcj:li/esms.git
- 
- cd $work_path
-mkdir bid_ningxia
-cd bid_ningxia
-git init
-git remote add li  li:li/bid_ningxia.git
-git remote add cmd  cmd:bid_ningxia.git
-git remote add lcj  lcj:li/bid_ningxia.git
-
-
-
-cd $work_path
-mkdir distribution
-cd distribution
-git init
-git remote add li  li:li/distribution.git
-git remote add cmd  cmd:distribution.git
-git remote add lcj  lcj:li/distribution.git
-git remote add vm  vm:li/distribution.git
-
-
-
-
-cd $work_path
-mkdir linq4j
-cd linq4j
-git init
-git remote add li  li:li/linq4j.git
-git remote add github  github:julianhyde/linq4j.git
-git remote add cmd  cmd:linq4j.git
-git remote add lcj  lcj:li/linq4j.git
-
-
-
-
-cd $work_path
-mkdir CmdDoc
-cd CmdDoc
-git init
-git remote add li  li:li/CmdDoc.git
-git remote add lcj  lcj:li/CmdDoc.git
-
-
-cd $work_path
-mkdir  CEPRISealAIDLDoc
-cd CEPRISealAIDLDoc
-git init
-git remote add li  li:li/CEPRISealAIDLDoc
-git remote add cmd  cmd:CEPRISealAIDLDoc.git
-git remote add lcj  lcj:li/CEPRISealAIDLDoc
-
-
-cd $work_path
-mkdir HHUPublicKey
-cd HHUPublicKey
-git init
-git remote add li  li:li/HHUPublicKey.git
-git remote add KMT  kmt:HHUPublicKey.git
-git remote add lcj  lcj:li/HHUPublicKey.git
-
-
-
-
-
-
-cd $work_path
-mkdir  CEPRISealAIDL
-cd CEPRISealAIDL
-git init
-git remote add li  li:li/CEPRISealAIDL
-git remote add cmd  cmd:CEPRISealAIDL.git
-git remote add lcj  lcj:li/CEPRISealAIDL
-
-
-cd $work_path
-mkdir LiKey
-cd LiKey
-git init
-git remote add cmd  cmd:li/LiKey.git
-git remote add li  li:li/LiKey.git
-git remote add lcj  lcj:li/LiKey.git
-
-cd $work_path
-mkdir  Centos
-cd Centos
-git init
-git remote add li  li:li/Centos
-git remote add lcj  lcj:li/Centos
-
-cd $work_path
-mkdir  DocTemplate
-cd DocTemplate
-git init
-git remote add li  li:li/DocTemplate
-git remote add cmd  cmd:DocTemplate.git
-git remote add lcj  lcj:li/DocTemplate
-git remote add github  github:LiCijun/DocTemplate.git
-
-
-
-cd $work_path
-mkdir  usbkms
-cd usbkms
-git init
-git remote add li  li:li/usbkms
-git remote add cmd  cmd:usbkms.git
-git remote add lcj  lcj:li/usbkms
-
-
-
-
-cd $work_path
-mkdir  gitolite-admin-CMD
-cd gitolite-admin-CMD
-git init
-git remote add li  li:li/gitolite-admin-CMD
-git remote add cmd  cmd:gitolite-admin
-git remote add lcj  lcj:li/gitolite-admin-CMD
-
-cd $work_path
-mkdir  usbkmsDoc
-cd usbkmsDoc
-git init
-git remote add li  li:li/usbkmsDoc
-git remote add cmd  cmd:usbkmsDoc
-git remote add lcj  lcj:li/usbkmsDoc
-git remote set-url li  li:li/usbkmsDoc
-git remote set-url cmd  cmd:usbkmsDoc
-git remote set-url lcj  lcj:li/usbkmsDoc
-
-
-cd $work_path
-mkdir  Android.BlueTooth
-cd Android.BlueTooth
-git init
-git remote add li  li:li/Android.BlueTooth
-git remote add cmd  cmd:Android.BlueTooth
-git remote add lcj  lcj:li/Android.BlueTooth
-
-
-
-cd $work_path
-mkdir  Android.DeviceInfo
-cd Android.DeviceInfo
-git init
-git remote add li  li:li/Android.DeviceInfo
-git remote add cmd  cmd:Android.DeviceInfo
-git remote add lcj  lcj:li/Android.DeviceInfo
-
-cd $work_path
-mkdir  Android.ExeWork
-cd Android.ExeWork
-git init
-git remote add li  li:li/Android.ExeWork
-git remote add cmd  cmd:Android.ExeWork
-git remote add lcj  lcj:li/Android.ExeWork
-
-
-
- cd $work_path
-mkdir  Android.HHUInterface
-cd Android.HHUInterface
-git init
-git remote add li  li:li/Android.HHUInterface
-git remote add cmd  cmd:Android.HHUInterface
-git remote add lcj  lcj:li/Android.HHUInterface
-
- cd $work_path
-mkdir  Android.ISO7816
-cd Android.ISO7816
-git init
-git remote add li  li:li/Android.ISO7816
-git remote add cmd  cmd:Android.ISO7816
-git remote add lcj  lcj:li/Android.ISO7816
-
-
- cd $work_path
-mkdir  Android.PeripheralProtocol
-cd Android.PeripheralProtocol
-git init
-git remote add li  li:li/Android.PeripheralProtocol
-git remote add cmd  cmd:Android.PeripheralProtocol
-git remote add lcj  lcj:li/Android.PeripheralProtocol
-
-
-
-cd $work_path
-mkdir  Android.RESAM
-cd Android.RESAM
-git init
-git remote add li  li:li/Android.RESAM
-git remote add cmd  cmd:Android.RESAM
-git remote add lcj  lcj:li/Android.RESAM
-
-
-cd $work_path
-mkdir  Android.SerialPort
-cd Android.SerialPort
-git init
-git remote add li  li:li/Android.SerialPort
-git remote add cmd  cmd:Android.SerialPort
-git remote add lcj  lcj:li/Android.SerialPort
-
-
- cd $work_path
-mkdir  Android.Terminal3761
-cd Android.Terminal3761
-git init
-git remote add li  li:li/Android.Terminal3761
-git remote add cmd  cmd:Android.Terminal3761
-git remote add lcj  lcj:li/Android.Terminal3761
-
- cd $work_path
-mkdir  Android.WorkSync
-cd Android.WorkSync
-git init
-git remote add li  li:li/Android.WorkSync
-git remote add cmd  cmd:Android.WorkSync
-git remote add lcj  lcj:li/Android.WorkSync
-
- cd $work_path
-mkdir  Android.AndroidProxy
-cd Android.AndroidProxy
-git init
-git remote add li  li:li/Android.AndroidProxy
-git remote add cmd  cmd:Android.AndroidProxy
-git remote add lcj  lcj:li/Android.AndroidProxy
-
-
- cd $work_path
-mkdir  Android.HZWQInterface
-cd Android.HZWQInterface
-git init
-git remote add li  li:li/Android.HZWQInterface
-git remote add cmd  cmd:Android.HZWQInterface
-git remote add lcj  lcj:li/Android.HZWQInterface
-
-cd $work_path
-mkdir SM3
-cd SM3
-git init
-git remote add li  li:li/SM3.git
-git remote add cmd  cmd:SM3.git
-git remote add lcj  lcj:li/SM3.git
-
-cd $work_path
-mkdir SM2
-cd SM2
-git init
-git remote add li  li:li/SM2.git
-git remote add cmd  cmd:SM2.git
-git remote add lcj  lcj:li/SM2.git
-
-cd $work_path
-mkdir SM4
-cd SM4
-git init
-git remote add li  li:li/SM4.git
-git remote add cmd  cmd:SM4.git
-git remote add lcj  lcj:li/SM4.git
-
-cd $work_path
-mkdir  SecUnit2
-cd SecUnit2
-git init
-git remote add li  li:li/SecUnit2
-git remote add cmd  cmd:SecUnit2
-git remote add lcj  lcj:li/SecUnit2
-
-
- cd $work_path
-mkdir  ChongQingMeterRead
-cd ChongQingMeterRead
-git init
-git remote add li  li:li/ChongQingMeterRead
-git remote add cmd  cmd:ChongQingMeterRead
-git remote add lcj  lcj:li/ChongQingMeterRead
-
-
- cd $work_path
-mkdir  MaintenanceHHU
-cd MaintenanceHHU
-git init
-git remote add li  li:li/MaintenanceHHU
-git remote add cmd  cmd:MaintenanceHHU
-git remote add lcj  lcj:li/MaintenanceHHU
-
-
- cd $work_path
-mkdir  AndroidHHU
-cd AndroidHHU
-git init
-git remote add li  li:li/AndroidHHU
-git remote add cmd  cmd:AndroidHHU
-git remote add lcj  lcj:li/AndroidHHU
-
-
- cd $work_path
-mkdir  AndroidHHUv2
-cd AndroidHHUv2
-git init
-git remote add li  li:li/AndroidHHUv2
-git remote add cmd  cmd:AndroidHHUv2
-git remote add lcj  lcj:li/AndroidHHUv2
-
-cd $work_path
-mkdir  CEPRICheck
-cd CEPRICheck
-git init
-git remote add li  li:li/CEPRICheck
-git remote add cmd  cmd:CEPRICheck
-git remote add lcj  lcj:li/CEPRICheck
-
-cd $work_path
-mkdir  Calibrator
-cd Calibrator
-git init
-git remote add li  li:li/Calibrator
-git remote add cmd  cmd:Calibrator
-git remote add lcj  lcj:li/Calibrator
-        
-   
-
-cd $work_path
-mkdir AndroidConfig
-cd AndroidConfig
-git init
-git remote add li  li:li/AndroidConfig.git
-git remote add cmd  cmd:AndroidConfig.git
-git remote add lcj  lcj:li/AndroidConfig.git
 
 
