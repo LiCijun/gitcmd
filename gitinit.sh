@@ -37,8 +37,43 @@ initRemote "$4"
 initRemote "$5"
 initRemote "$6"
 
-
 }
+
+
+function initGithub(){  
+   
+git_Repo_Path=$2
+cd $work_path
+if [ !  -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
+cd $git_Repo_Path
+if [ !  -d .git ] ; then git init  ; fi 
+
+
+remote=$(git remote | grep "github" )
+if [ ! -n "$remote" ]; then git remote add "github"  "github":$1/$git_Repo_Path.git; fi 
+
+initRemote "$3"
+initRemote "$4"
+initRemote "$5"
+initRemote "$6"
+initRemote "$7"
+initRemote "$8"
+}
+
+initGithub zxing zxing  vm cmd  li
+initGithub gfwlist gfwlist  vm cmd  li
+initGithub protocolbuffers protobuf  vm cmd  li
+initGithub hsz idea-gitignore   vm cmd  li
+initGithub mikechengwei kafka-demo  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+
+
 initGit CEPRISealAssemblyLine      vm cmd lis lcjs
 
 
@@ -376,7 +411,6 @@ initGit BeiJingExpressDelivery    kmt  vm cmd lis lcjs
 initGit sxocx    kmt  vm cmd lis lcjs
 initGit APP    kmt  vm cmd lis lcjs
 initGit vmloader    kmt  vm cmd lis lcjs
-initGit zxing    kmt  vm cmd lis lcjs
 initGit proxy    kmt  vm cmd lis lcjs
 initGit pm    kmt  vm cmd lis lcjs
 initGit msd    kmt  vm cmd lis lcjs
@@ -460,6 +494,7 @@ initGit warcraft      vm  lis lcjs
 initGit PMCWebService    kmt  vm cmd lis lcjs
 initGit pmc    kmt  vm cmd lis lcjs
 initGit pmcm    kmt  vm cmd lis lcjs
+initGit pmcm    md  vm cmd lis lcjs
 
 
 

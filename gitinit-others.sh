@@ -1,21 +1,5 @@
-
-
-cd $work_path
-mkdir protobuf
-cd protobuf
-git init
-git remote add github  github:protocolbuffers/protobuf.git
-
-
-
-cd $work_path
-mkdir idea-gitignore
-cd idea-gitignore
-git init
-git remote add github  github:hsz/idea-gitignore.git
-
-
-
+#! /bin/bash
+work_path=$(dirname $(dirname $(readlink -f $0)))
 
 cd $work_path
 mkdir gitolite-admin-KMT
@@ -35,23 +19,6 @@ git remote add lcj  lcj:li/lib.git
 git remote add li  li:li/lib.git
 
 
-
-cd $work_path
-mkdir kafka-demo
-cd kafka-demo
-git init
-git remote add github  github:mikechengwei/kafka-demo.git
-
-cd $work_path
-mkdir kafka-doc-zh
-cd kafka-doc-zh
-git init
-git remote add github  github:apachecn/kafka-doc-zh.git
-
-
-
-
-
 cd $work_path/AndroidLib
 mkdir  Android.Convert
 cd Android.Convert
@@ -69,8 +36,6 @@ cd KMTAndroid.Convert
 git init
 git remote add li  li:li/Android.Convert
 git remote add lcj  lcj:li/Android.Convert
-
-
 
 
 cd $work_path/AndroidLib
@@ -109,11 +74,6 @@ cd KMTAndroid.Meter645
 git init
 git remote add li  li:li/Android.Meter645
 git remote add lcj  lcj:li/Android.Meter645
-
-
-
-
-
 
 
  cd $work_path/AndroidLib
@@ -188,8 +148,6 @@ git remote add cmd  cmd:Android.SecUnit
 git remote add lcj  lcj:li/CMDAndroid.SecUnit
 git remote set-url li  li:li/CMDAndroid.SecUnit
 git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
-
-
 
 
  cd $work_path
