@@ -66,8 +66,8 @@ initGithub protocolbuffers protobuf  vm cmd  li
 initGithub hsz idea-gitignore   vm cmd  li
 initGithub mikechengwei kafka-demo  vm cmd  li
 initGithub  apachecn kafka-doc-zh  vm cmd  li
-initGithub  apachecn kafka-doc-zh  vm cmd  li
-initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub   github  gitignore  vm cmd  li
+initGithub  julianhyde linq4j    vm cmd  lis lcjs
 initGithub  apachecn kafka-doc-zh  vm cmd  li
 initGithub  apachecn kafka-doc-zh  vm cmd  li
 initGithub  apachecn kafka-doc-zh  vm cmd  li

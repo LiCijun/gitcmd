@@ -127,15 +127,6 @@ git init
 git remote add github  github:adempiere/adempiere.git
 
 
-cd $work_path
-mkdir linq4j
-cd linq4j
-git init
-git remote add li  li:li/linq4j.git
-git remote add github  github:julianhyde/linq4j.git
-git remote add cmd  cmd:linq4j.git
-git remote add lcj  lcj:li/linq4j.git
-
 
 
 
@@ -150,11 +141,6 @@ git remote set-url li  li:li/CMDAndroid.SecUnit
 git remote set-url lcj  lcj:li/CMDAndroid.SecUnit
 
 
- cd $work_path
-mkdir gitignore
-cd gitignore
-git init
-git remote add github github:github/gitignore.git 
 
 cd $work_path/AndroidLib
 mkdir  KMTAndroid.SecUnit
