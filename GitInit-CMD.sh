@@ -86,25 +86,7 @@ initGit pgpsdk      vm cmd li lcj
 initGit gitolite-admin      vm  li lcj
 initGit keyupdate_WinClient      vm cmd li lcj
 initGit demo      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-initGit AAAAAAAAAAAAAAAAAA      vm cmd li lcj
-
-
+initGit fss      vm cmd li lcj
 
 initGit keyserviceDoc      vm cmd lis lcjs
 initGit keyservice      vm cmd lis lcjs
@@ -364,17 +346,120 @@ initGit dnspodclientlite    kmt  vm cmd lis lcjs
 initGit ecdcd    kmt  vm cmd lis lcjs
 initGit andsrc    kmt  vm cmd lis lcjs
 initGit ecdcdAssist    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA    kmt  vm cmd lis lcjs
-
+initGit FirefoxSync    kmt  vm cmd lis lcjs
+initGit WinCE.Protocol    kmt  vm cmd lis lcjs
+initGit WinCE.MSTIII.Interface    kmt  vm cmd lis lcjs
+initGit WinCE.MessageQueue    kmt  vm cmd lis lcjs
+initGit fss2release    kmt  vm cmd lis lcjs
+initGit TP2600    kmt  vm cmd lis lcjs
+initGit PMFiles    kmt  vm cmd lis lcjs
+initGit ScanService    kmt  vm cmd lis lcjs
+initGit BoxManageming    kmt  vm cmd lis lcjs
+initGit RapiVCLib    kmt  vm cmd lis lcjs
+initGit rapi    kmt  vm cmd lis lcjs
+initGit tp900    kmt  vm cmd lis lcjs
+initGit AndroidSDK    kmt  vm cmd lis lcjs
+initGit GPRSTEST    kmt  vm cmd lis lcjs
+initGit gfwlist    kmt  vm cmd lis lcjs
+initGit P35MeterCard    kmt  vm cmd lis lcjs
+initGit systemos    kmt  vm cmd lis lcjs
+initGit readmeter    kmt  vm cmd lis lcjs
+initGit jboss6.1    kmt  vm cmd lis lcjs
+initGit TP2000_Android    kmt  vm cmd lis lcjs
+initGit SecUnitReadCardNo    kmt  vm cmd lis lcjs
+initGit TP2200    kmt  vm cmd lis lcjs
+initGit UHF    kmt  vm cmd lis lcjs
+initGit DQHC    kmt  vm cmd lis lcjs
+initGit evc_li    kmt  vm cmd li lcj
+initGit apk    kmt  vm cmd lis lcjs
+initGit BeiJingExpressDelivery    kmt  vm cmd lis lcjs
+initGit sxocx    kmt  vm cmd lis lcjs
+initGit APP    kmt  vm cmd lis lcjs
+initGit vmloader    kmt  vm cmd lis lcjs
+initGit zxing    kmt  vm cmd lis lcjs
+initGit proxy    kmt  vm cmd lis lcjs
+initGit pm    kmt  vm cmd lis lcjs
+initGit msd    kmt  vm cmd lis lcjs
+initGit WinCE.RFID    kmt  vm cmd lis lcjs
+initGit svntogit    kmt  vm cmd li lcj
+initGit Eclipse    kmt  vm cmd lis lcjs
+initGit WinCE.GPRS    kmt  vm cmd lis lcjs
+initGit WinCE.Event    kmt  vm cmd lis lcjs
+initGit WinCE.EnumAttribute    kmt  vm cmd lis lcjs
+initGit WinCE.Dispose    kmt  vm cmd lis lcjs
+initGit WinCE.Data.Sqlite    kmt  vm cmd lis lcjs
+initGit WinCE.BTSet    kmt  vm cmd lis lcjs
+initGit WinCE.Convert    kmt  vm cmd lis lcjs
+initGit WinCE.P645    kmt  vm cmd lis lcjs
+initGit WinCE.AES    kmt  vm cmd lis lcjs
+initGit P645    kmt  vm cmd lis lcjs
+initGit WinCE.TESAMRFID    kmt  vm cmd lis lcjs
+initGit WinCE.SPI    kmt  vm cmd lis lcjs
+initGit RFID    kmt  vm cmd lis lcjs
+initGit WinCE.RFID.IRFID1356M    kmt  vm cmd lis lcjs
+initGit WinCE.UHF    kmt  vm cmd lis lcjs
+initGit WinCE.UHF.FDW    kmt  vm cmd lis lcjs
+initGit keymanhub    kmt  vm cmd li lcj
+initGit HHUConfig    kmt  vm cmd lis lcjs
+initGit gx    kmt  vm cmd lis lcjs
+initGit FSSWebService    kmt  vm cmd lis lcjs
+initGit HHUWeb    kmt  vm cmd lis lcjs
+initGit fss3web    kmt  vm cmd lis lcjs
+initGit fssweb    kmt  vm cmd lis lcjs
+initGit P36    kmt  vm cmd lis lcjs
+initGit livs2012    kmt  vm cmd lis lcjs
+initGit donet    kmt  vm cmd lis lcjs
+initGit SecUnit    kmt  vm cmd lis lcjs
+initGit FssSafeTest    kmt  vm cmd lis lcjs
+initGit fss2doc    kmt  vm cmd lis lcjs
+initGit mfhhd    kmt  vm cmd lis lcjs
+initGit WinCEUILib    kmt  vm cmd lis lcjs
+initGit connect    kmt  vm cmd lis lcjs
+initGit UsbKeyProject    kmt  vm cmd lis lcjs
+initGit UsbKey    kmt  vm cmd lis lcjs
+initGit watermeter    kmt  vm cmd lis lcjs
+initGit xiamen    kmt  vm cmd lis lcjs
+initGit WinCE.WESAM    kmt  vm cmd lis lcjs
+initGit meter645    kmt  vm cmd lis lcjs
+initGit meter645    kmt  vm cmd lis lcjs
+initGit hhumain    kmt  vm cmd lis lcjs
+initGit TP2100    kmt  vm cmd lis lcjs
+initGit pmcdata    kmt  vm cmd lis lcjs
+initGit CESetGPRS    kmt  vm cmd lis lcjs
+initGit xianocx    kmt  vm cmd lis lcjs
+initGit xunjian    kmt  vm cmd lis lcjs
+initGit KeManTest    kmt  vm cmd lis lcjs
+initGit LiJiangHHU    kmt  vm cmd lis lcjs
+initGit pmcupdate    kmt  vm cmd lis lcjs
+initGit zhangyu    kmt  vm cmd lis lcjs
+initGit workspaceSDK    kmt  vm cmd lis lcjs
+initGit testreport    kmt  vm cmd lis lcjs
+initGit xian    kmt  vm cmd lis lcjs
+initGit w8600sdk    kmt  vm cmd lis lcjs
+initGit pmcforhhu    kmt  vm cmd lis lcjs
+initGit svndb    kmt  vm cmd lis lcjs
+initGit shunzhou    kmt  vm cmd lis lcjs
+initGit svn    kmt  vm cmd lis lcjs
+initGit tools    kmt  vm cmd lis lcjs
+initGit md_release    kmt  vm cmd lis lcjs
+initGit release_henan    kmt  vm cmd lis lcjs
+initGit CEPRI_V1.7.1028OK    kmt  vm cmd lis lcjs
+initGit www.keymantek.com    kmt  vm cmd lis lcjs
+initGit AppRelease    kmt  vm cmd lis lcjs
+initGit cepri_release    kmt  vm cmd lis lcjs
+initGit ibd70test    kmt  vm cmd lis lcjs
+initGit wince7    kmt  vm cmd lis lcjs
+initGit evc    kmt  vm cmd lis lcjs
+initGit ibd70    kmt  vm cmd lis lcjs
+initGit hhu1.8release    kmt  vm cmd lis lcjs
+initGit firefox    kmt  vm cmd lis lcjs
+initGit foxmail    kmt  vm cmd lis lcjs
+initGit OA    kmt  vm cmd lis lcjs
+initGit photo    kmt  vm cmd lis lcjs
+initGit warcraft      vm  lis lcjs
+initGit PMCWebService    kmt  vm cmd lis lcjs
+initGit pmc    kmt  vm cmd lis lcjs
+initGit pmcm    kmt  vm cmd lis lcjs
 
 
 
@@ -388,18 +473,6 @@ initGit Android.MessageQueue      vm cmd lis lcjs
 initGit Android.MVP      vm cmd lis lcjs
 initGit Android.Protocol      vm cmd lis lcjs
 initGit Android.BlueTooth      vm cmd lis lcjs
-
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
-initGit AAAAAAAAAAAAAAAAAA      vm cmd lis lcjs
 
 
 
