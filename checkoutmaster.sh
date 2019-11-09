@@ -39,6 +39,6 @@ else
 }
 
 work_path=$(dirname $(dirname $(readlink -f $0)))
-# #getdir $1
+getdir $1
 work_path=$work_path/AndroidLib
 getdir $1
