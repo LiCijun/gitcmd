@@ -59,22 +59,10 @@ initRemote "$6"
 initRemote "$7"
 initRemote "$8"
 }
-
-initGithub zxing zxing  vm cmd  li
-initGithub gfwlist gfwlist  vm cmd  li
-initGithub protocolbuffers protobuf  vm cmd  li
-initGithub hsz idea-gitignore   vm cmd  li
-initGithub mikechengwei kafka-demo  vm cmd  li
-initGithub  apachecn kafka-doc-zh  vm cmd  li
-initGithub   github  gitignore  vm cmd  li
-initGithub  julianhyde linq4j    vm cmd  lis lcjs
-initGithub  apachecn kafka-doc-zh  vm cmd  li
-initGithub  apachecn kafka-doc-zh  vm cmd  li
-initGithub  apachecn kafka-doc-zh  vm cmd  li
-initGithub  apachecn kafka-doc-zh  vm cmd  li
-
-
-initGit CEPRISealAssemblyLine      vm cmd lis lcjs
+rm -rf  $work_path/warcraft
+rm -rf  $work_path/firefox
+rm -rf  $work_path/zxing
+rm -rf  $work_path/foxmail
 
 
 initGit IntelliJIdea vm cmd li
@@ -82,8 +70,6 @@ initGit usttool vm cmd li
 initGit lcl vm cmd li
 initGit vnote vm cmd li
 initGit NWSealDoc vm cmd li lcj
-
-
 initGit fstms       vm cmd li lcj
 initGit jdk         vm cmd li lcj
 initGit fstmsDoc    vm cmd li lcj
@@ -486,15 +472,22 @@ initGit wince7    kmt  vm cmd lis lcjs
 initGit evc    kmt  vm cmd lis lcjs
 initGit ibd70    kmt  vm cmd lis lcjs
 initGit hhu1.8release    kmt  vm cmd lis lcjs
-initGit firefox    kmt  vm cmd lis lcjs
-initGit foxmail    kmt  vm cmd lis lcjs
+
 initGit OA    kmt  vm cmd lis lcjs
 initGit photo    kmt  vm cmd lis lcjs
-initGit warcraft      vm  lis lcjs
 initGit PMCWebService    kmt  vm cmd lis lcjs
 initGit pmc    kmt  vm cmd lis lcjs
 initGit pmcm    kmt  vm cmd lis lcjs
 initGit pmcm    md  vm cmd lis lcjs
+
+initGithub gfwlist gfwlist  vm cmd  li
+initGithub protocolbuffers protobuf  vm cmd  li
+initGithub hsz idea-gitignore   vm cmd  li
+initGithub mikechengwei kafka-demo  vm cmd  li
+initGithub  apachecn kafka-doc-zh  vm cmd  li
+initGithub   github  gitignore  vm cmd  li
+initGithub  julianhyde linq4j    vm cmd  lis lcjs
+initGit CEPRISealAssemblyLine      vm cmd lis lcjs
 
 
 
