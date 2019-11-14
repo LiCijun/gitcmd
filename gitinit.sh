@@ -63,7 +63,7 @@ rm -rf  $work_path/warcraft
 rm -rf  $work_path/firefox
 rm -rf  $work_path/zxing
 rm -rf  $work_path/foxmail
-
+rm -rf  $work_path/tomcat
 
 initGit IntelliJIdea vm cmd li
 initGit usttool vm cmd li
@@ -131,7 +131,7 @@ initGit KeyShare      vm  lis lcjs
 initGit ft31x_HyperTerm      vm cmd lis lcjs
 initGit 3ADoc      vm cmd lis lcjs
 initGit 3A      vm cmd lis lcjs
-initGit tomcat      vm cmd lis lcjs
+
 initGit esmsservice      vm cmd lis lcjs
 initGit SafeTest2017      vm cmd lis lcjs
 initGit gitcmd      vm cmd lis lcjs
