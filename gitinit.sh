@@ -64,7 +64,8 @@ rm -rf  $work_path/firefox
 rm -rf  $work_path/zxing
 rm -rf  $work_path/foxmail
 rm -rf  $work_path/tomcat
-
+initGit ust2            vm cmd li
+initGit ust2Doc         vm cmd li
 initGit IntelliJIdea vm cmd li
 initGit usttool vm cmd li
 initGit lcl vm cmd li
