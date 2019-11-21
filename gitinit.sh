@@ -64,12 +64,15 @@ rm -rf  $work_path/firefox
 rm -rf  $work_path/zxing
 rm -rf  $work_path/foxmail
 rm -rf  $work_path/tomcat
-initGit ust2            vm cmd li
-initGit ust2Doc         vm cmd li
-initGit IntelliJIdea vm cmd li
-initGit usttool vm cmd li
-initGit lcl vm cmd li
-initGit vnote vm cmd li
+
+initGit Business  vm cmd li lcj
+
+initGit ust2            vm cmd li lcj
+initGit ust2Doc         vm cmd li lcj
+initGit IntelliJIdea vm cmd li lcj
+initGit usttool vm cmd li lcj
+initGit lcl vm cmd li lcj
+initGit vnote vm cmd li lcj
 initGit NWSealDoc vm cmd li lcj
 initGit fstms       vm cmd li lcj
 initGit jdk         vm cmd li lcj
@@ -83,7 +86,7 @@ initGit rxtx-2.1-7r2        vm cmd li lcj
 initGit km              vm cmd li lcj
 initGit kmDoc           vm cmd li lcj
 initGit ust      vm cmd li lcj
-initGit ssh      vm   li 
+initGit ssh      vm   li lcj
 initGit rxtx-2.2pre2      vm cmd li lcj
 initGit ustDoc      vm cmd li lcj
 initGit usbkeyfront      vm cmd li lcj
