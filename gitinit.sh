@@ -66,7 +66,8 @@ rm -rf  $work_path/foxmail
 rm -rf  $work_path/tomcat
 
 initGit Business  vm cmd li lcj
-
+initGit GradleHome    vm cmd li lcj
+initGit dataconvert            vm cmd li lcj
 initGit ust2            vm cmd li lcj
 initGit ust2Doc         vm cmd li lcj
 initGit IntelliJIdea vm cmd li lcj
