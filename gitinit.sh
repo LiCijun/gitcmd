@@ -64,6 +64,8 @@ rm -rf  $work_path/firefox
 rm -rf  $work_path/zxing
 rm -rf  $work_path/foxmail
 rm -rf  $work_path/tomcat
+rm -rf  $work_path/WorkSpace
+rm -rf  $work_path/Eclipse
 
 initGit Business  vm cmd li lcj
 initGit GradleHome    vm cmd li lcj
@@ -119,7 +121,6 @@ initGit keyservice      vm cmd lis lcjs
 initGit keyservicems      vm cmd lis lcjs
 initGit construction      vm cmd lis lcjs
 initGit XMLSerialize      vm cmd lis lcjs
-initGit WorkSpace      vm cmd lis lcjs
 initGit microserviceDoc      vm cmd lis lcjs
 initGit microserviceSystem      vm cmd lis lcjs
 initGit microservice      vm cmd lis lcjs
@@ -189,7 +190,6 @@ initGit Android.AndroidProxy      vm cmd lis lcjs
 initGit mfhhdAssist      vm kmt lis lcjs
 initGit TP2000Doc      vm kmt lis lcjs
 initGit TP2000      vm cmd lis lcjs kmt
-initGit WorkSpace      vm   lis lcjs
 initGit project      vm  lis lcjs
 initGit kmtdoc      vm  lis lcjs
 initGit protocol      vm cmd lis lcjs
@@ -407,7 +407,6 @@ initGit pm    kmt  vm cmd lis lcjs
 initGit msd    kmt  vm cmd lis lcjs
 initGit WinCE.RFID    kmt  vm cmd lis lcjs
 initGit svntogit    kmt  vm cmd li lcj
-initGit Eclipse    kmt  vm cmd lis lcjs
 initGit WinCE.GPRS    kmt  vm cmd lis lcjs
 initGit WinCE.Event    kmt  vm cmd lis lcjs
 initGit WinCE.EnumAttribute    kmt  vm cmd lis lcjs
