@@ -151,5 +151,13 @@ git remote add lcj  lcj:li/Android.SecUnit
 
 
 
+cd /home/li/.CLion2019.3
+git init
+git remote add vm  vm:CLion2019.3
+
+cd /home/li/.IntelliJIdea2019.3
+git init
+git remote add vm  vm:IntelliJIdea2019.3
+
 
 
