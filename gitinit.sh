@@ -67,6 +67,17 @@ rm -rf  $work_path/tomcat
 rm -rf  $work_path/WorkSpace
 rm -rf  $work_path/Eclipse
 
+
+initGit systemtools  vm cmd li lcj
+initGit systemtools  vm cmd li lcj
+initGit systemtools  vm cmd li lcj
+initGit protocol3762  vm cmd li lcj
+initGit protocol698  vm cmd li lcj
+initGit protocol3761  vm cmd li lcj
+initGit protocol645  vm cmd li lcj
+initGit cmdprotocolbase  vm cmd li lcj
+
+initGit systemtools  vm cmd li lcj
 initGit cmdlibDoc  vm cmd li lcj
 initGit usttest  vm cmd li lcj
 initGit Business  vm cmd li lcj
