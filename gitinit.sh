@@ -67,6 +67,7 @@ rm -rf  $work_path/tomcat
 rm -rf  $work_path/WorkSpace
 rm -rf  $work_path/Eclipse
 
+initGit cmdlibDoc  vm cmd li lcj
 initGit usttest  vm cmd li lcj
 initGit Business  vm cmd li lcj
 initGit GradleHome    vm cmd li lcj
