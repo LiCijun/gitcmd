@@ -66,6 +66,7 @@ rm -rf  $work_path/foxmail
 rm -rf  $work_path/tomcat
 rm -rf  $work_path/WorkSpace
 rm -rf  $work_path/Eclipse
+rm -rf  $work_path/IntelliJIdea
 
 
 initGit systemtools  vm cmd li lcj
@@ -85,7 +86,6 @@ initGit GradleHome    vm cmd li lcj
 initGit dataconvert            vm cmd li lcj
 initGit ust2            vm cmd li lcj
 initGit ust2Doc         vm cmd li lcj
-initGit IntelliJIdea vm cmd li lcj
 initGit usttool vm cmd li lcj
 initGit lcl vm cmd li lcj
 initGit vnote vm cmd li lcj
