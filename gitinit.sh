@@ -67,8 +67,9 @@ rm -rf  $work_path/tomcat
 rm -rf  $work_path/WorkSpace
 rm -rf  $work_path/Eclipse
 rm -rf  $work_path/IntelliJIdea
+rm -rf  $work_path/Android.AndroidProxy
 
-
+initGit CmdNio  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
@@ -185,7 +186,6 @@ initGit Android.RESAM      vm cmd lis lcjs
 initGit Android.SerialPort      vm cmd lis lcjs
 initGit Android.Terminal3761      vm cmd lis lcjs
 initGit Android.WorkSync      vm cmd lis lcjs
-initGit Android.AndroidProxy      vm cmd lis lcjs
 initGit Android.HZWQInterface      vm cmd lis lcjs
 initGit SM3      vm cmd lis lcjs
 initGit SM2      vm cmd lis lcjs
@@ -199,7 +199,6 @@ initGit CEPRICheck      vm cmd lis lcjs
 initGit Calibrator      vm cmd lis lcjs
 initGit AndroidConfig      vm cmd lis lcjs
 initGit ADoc      vm   lis lcjs
-initGit Android.AndroidProxy      vm cmd lis lcjs
 initGit mfhhdAssist      vm kmt lis lcjs
 initGit TP2000Doc      vm kmt lis lcjs
 initGit TP2000      vm cmd lis lcjs kmt
