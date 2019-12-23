@@ -69,11 +69,13 @@ rm -rf  $work_path/Eclipse
 rm -rf  $work_path/IntelliJIdea
 rm -rf  $work_path/Android.AndroidProxy
 
+initGit systemtools  vm cmd li lcj
+initGit systemtools  vm cmd li lcj
+initGit systemtools  vm cmd li lcj
+initGit ProtectionLevelIII  vm cmd li lcj
+initGit copyrightDoc  vm cmd li lcj
 initGit wk  vm cmd li lcj
 initGit CmdNio  vm cmd li lcj
-initGit systemtools  vm cmd li lcj
-initGit systemtools  vm cmd li lcj
-initGit systemtools  vm cmd li lcj
 initGit protocol3762  vm cmd li lcj
 initGit protocol698  vm cmd li lcj
 initGit protocol3761  vm cmd li lcj

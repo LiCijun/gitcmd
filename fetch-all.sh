@@ -22,6 +22,7 @@ function getdir(){
     
         fi   
     fi
+    echo 
     done
     
 }
