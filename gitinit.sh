@@ -68,6 +68,10 @@ rm -rf  $work_path/WorkSpace
 rm -rf  $work_path/Eclipse
 rm -rf  $work_path/IntelliJIdea
 rm -rf  $work_path/Android.AndroidProxy
+rm -rf  $work_path/FirefoxSync
+rm -rf  $work_path/AppRelease
+
+
 
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
@@ -387,7 +391,6 @@ initGit dnspodclientlite    kmt  vm cmd lis lcjs
 initGit ecdcd    kmt  vm cmd lis lcjs
 initGit andsrc    kmt  vm cmd lis lcjs
 initGit ecdcdAssist    kmt  vm cmd lis lcjs
-initGit FirefoxSync    kmt  vm cmd lis lcjs
 initGit WinCE.Protocol    kmt  vm cmd lis lcjs
 initGit WinCE.MSTIII.Interface    kmt  vm cmd lis lcjs
 initGit WinCE.MessageQueue    kmt  vm cmd lis lcjs
@@ -484,7 +487,6 @@ initGit md_release    kmt  vm cmd lis lcjs
 initGit release_henan    kmt  vm cmd lis lcjs
 initGit CEPRI_V1.7.1028OK    kmt  vm cmd lis lcjs
 initGit www.keymantek.com    kmt  vm cmd lis lcjs
-initGit AppRelease    kmt  vm cmd lis lcjs
 initGit cepri_release    kmt  vm cmd lis lcjs
 initGit ibd70test    kmt  vm cmd lis lcjs
 initGit wince7    kmt  vm cmd lis lcjs
