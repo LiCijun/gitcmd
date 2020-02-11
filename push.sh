@@ -17,11 +17,11 @@ if [  -n "$1" ] ;then
        if [ "$remote"x = "$1"x ];    
     then
     echo 
-      echo $file ;  
+      echo $1 $file ;  
  #   git push --all -v  --progress  $1
  #   git push --tags -v  --progress  $1 
-    git push --all   $1
-    git push --tags   $1 
+    git push --all  --progress   $1
+    git push --tags   --progress  $1 
     fi 
         fi   
     fi

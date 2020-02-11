@@ -71,12 +71,12 @@ rm -rf  $work_path/Android.AndroidProxy
 rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
-
+#initGit Android.HZWQInterface      vm cmd lis lcjs
 initGit  Android.Meter645  cmd  vm li lcj
 initGit  Android.MeterFunction  cmd  vm li lcj
-initGit meter645    kmt  vm lis lcjs
+
 initGit Android.Meter     vm cmd li lcj
-#initGit Android.MeterKMT    kmt   lis lcjs
+
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
@@ -141,6 +141,7 @@ initGit keyupdate_WinClient      vm cmd li lcj
 initGit demo      vm cmd li lcj
 initGit fss      vm cmd li lcj
 
+initGit meter645    kmt  vm lis lcjs
 initGit keyserviceDoc      vm cmd lis lcjs
 initGit keyservice      vm cmd lis lcjs
 initGit keyservicems      vm cmd lis lcjs
@@ -183,7 +184,7 @@ initGit CEPRISealAIDLDoc      vm cmd lis lcjs
 initGit HHUPublicKey     kmt  vm cmd lis lcjs
 initGit CEPRISealAIDL      vm cmd lis lcjs
 initGit LiKey      vm cmd lis lcjs
-initGit Centos      vm cmd lis lcjs
+
 initGit DocTemplate      vm cmd lis lcjs
 initGit usbkms      vm cmd lis lcjs
 initGit usbkmsDoc      vm cmd lis lcjs
@@ -197,7 +198,7 @@ initGit Android.RESAM      vm cmd lis lcjs
 initGit Android.SerialPort      vm cmd lis lcjs
 initGit Android.Terminal3761      vm cmd lis lcjs
 initGit Android.WorkSync      vm cmd lis lcjs
-initGit Android.HZWQInterface      vm cmd lis lcjs
+
 initGit SM3      vm cmd lis lcjs
 initGit SM2      vm cmd lis lcjs
 initGit SM4      vm cmd lis lcjs
@@ -207,7 +208,6 @@ initGit MaintenanceHHU      vm cmd lis lcjs
 initGit AndroidHHU      vm cmd lis lcjs
 initGit AndroidHHUv2      vm cmd lis lcjs
 initGit CEPRICheck      vm cmd lis lcjs
-initGit Calibrator      vm cmd lis lcjs
 initGit AndroidConfig      vm cmd lis lcjs
 initGit ADoc      vm   lis lcjs
 initGit mfhhdAssist      vm kmt lis lcjs
@@ -245,15 +245,8 @@ initGit certification    kmt  vm cmd lis lcjs
 initGit hhutype    kmt  vm cmd lis lcjs
 initGit P33Scan    kmt  vm cmd lis lcjs
 initGit p54    kmt  vm cmd lis lcjs
-initGit hwz    kmt  vm cmd lis lcjs
-initGit cepricode    kmt  vm cmd lis lcjs
-initGit cepridoc    kmt  vm cmd lis lcjs
-initGit Android.SecureUnit    kmt  vm cmd lis lcjs
-initGit Android.SerialPortDemo    kmt  vm cmd lis lcjs
-initGit Android.SerialPortDemoUseLib    kmt  vm cmd lis lcjs
 initGit VS    kmt  vm cmd lis lcjs
 initGit SPI    kmt  vm cmd lis lcjs
-initGit ignore    kmt  vm cmd lis lcjs
 initGit IRFID1356M    kmt  vm cmd lis lcjs
 initGit Dispose    kmt  vm cmd lis lcjs
 initGit gitApp    kmt  vm cmd lis lcjs
@@ -271,13 +264,11 @@ initGit P41    kmt  vm cmd lis lcjs
 initGit p35doc    kmt  vm cmd lis lcjs
 initGit mfhhdMCU    kmt  vm cmd lis lcjs
 initGit fssTest    kmt  vm cmd lis lcjs
-initGit fss3_conn    kmt  vm cmd lis lcjs
 initGit fss3ejb    kmt  vm cmd lis lcjs
 initGit fss3    kmt  vm cmd lis lcjs
 initGit fss2web    kmt  vm cmd lis lcjs
 initGit fss2test    kmt  vm cmd lis lcjs
 initGit fss2ejb    kmt  vm cmd lis lcjs
-initGit bjst    kmt  vm cmd lis lcjs
 initGit Android.ISerialPort    kmt  vm cmd lis lcjs
 initGit ICepriHardware    kmt  vm cmd lis lcjs
 initGit UHFTEST    kmt  vm cmd lis lcjs
@@ -297,7 +288,7 @@ initGit hhu2.0    kmt  vm cmd lis lcjs
 initGit k25    kmt  vm cmd lis lcjs
 initGit keys    kmt  vm cmd lis lcjs
 initGit km25    kmt  vm cmd lis lcjs
-initGit lidb    kmt  vm cmd lis lcjs
+
 initGit liwin32    kmt  vm cmd lis lcjs
 initGit modetest    kmt  vm cmd lis lcjs
 initGit onenote    kmt  vm cmd lis lcjs
@@ -352,14 +343,14 @@ initGit kmcomvc    kmt  vm cmd lis lcjs
 initGit CpuCardLib    kmt  vm cmd lis lcjs
 initGit Android.Data.Sqlite    kmt  vm cmd lis lcjs
 initGit Android.HHUDataBase    kmt  vm cmd lis lcjs
-initGit Android.SecUnit    kmt  vm cmd lis lcjs
+
 initGit Android.EnumAttribute    kmt  vm cmd lis lcjs
 initGit CpuCardOcx    kmt  vm cmd lis lcjs
 initGit TestByThirdParty    kmt  vm cmd lis lcjs
 initGit AndroidHHUdoc    kmt  vm cmd lis lcjs
 initGit Android.DataBase    kmt  vm cmd lis lcjs
 initGit Android.MeterFunction    kmt  vm cmd lis lcjs
-initGit Android.P645    kmt  vm cmd lis lcjs
+
 initGit Android.Convert    kmt  vm cmd lis lcjs
 initGit Android.TestLcj    kmt  vm cmd lis lcjs
 initGit Android.Security    kmt  vm cmd lis lcjs
@@ -391,9 +382,7 @@ initGit expressdelivery    kmt  vm cmd lis lcjs
 initGit mercurial    kmt  vm cmd lis lcjs
 initGit hhuv1.8    kmt  vm cmd lis lcjs
 initGit dnspodclientlite    kmt  vm cmd lis lcjs
-initGit ecdcd    kmt  vm cmd lis lcjs
-initGit andsrc    kmt  vm cmd lis lcjs
-initGit ecdcdAssist    kmt  vm cmd lis lcjs
+
 initGit WinCE.Protocol    kmt  vm cmd lis lcjs
 initGit WinCE.MSTIII.Interface    kmt  vm cmd lis lcjs
 initGit WinCE.MessageQueue    kmt  vm cmd lis lcjs
@@ -411,7 +400,6 @@ initGit gfwlist    kmt  vm cmd lis lcjs
 initGit P35MeterCard    kmt  vm cmd lis lcjs
 initGit systemos    kmt  vm cmd lis lcjs
 initGit readmeter    kmt  vm cmd lis lcjs
-initGit jboss6.1    kmt  vm cmd lis lcjs
 initGit TP2000_Android    kmt  vm cmd lis lcjs
 initGit SecUnitReadCardNo    kmt  vm cmd lis lcjs
 initGit TP2200    kmt  vm cmd lis lcjs
@@ -487,16 +475,13 @@ initGit svn    kmt  vm cmd lis lcjs
 initGit tools    kmt  vm cmd lis lcjs
 initGit md_release    kmt  vm cmd lis lcjs
 initGit release_henan    kmt  vm cmd lis lcjs
-initGit CEPRI_V1.7.1028OK    kmt  vm cmd lis lcjs
 initGit www.keymantek.com    kmt  vm cmd lis lcjs
-initGit cepri_release    kmt  vm cmd lis lcjs
 initGit ibd70test    kmt  vm cmd lis lcjs
 initGit wince7    kmt  vm cmd lis lcjs
 initGit evc    kmt  vm cmd lis lcjs
 initGit ibd70    kmt  vm cmd lis lcjs
 initGit hhu1.8release    kmt  vm cmd lis lcjs
 
-initGit OA    kmt  vm cmd lis lcjs
 initGit photo    kmt  vm cmd lis lcjs
 initGit PMCWebService    kmt  vm cmd lis lcjs
 initGit pmc    kmt  vm cmd lis lcjs
@@ -524,7 +509,8 @@ initGit Android.MessageQueue      vm cmd lis lcjs
 initGit Android.MVP      vm cmd lis lcjs
 initGit Android.Protocol      vm cmd lis lcjs
 initGit Android.BlueTooth      vm cmd lis lcjs
-
+initGit Android.P645         vm cmd li lcj
+initGit Android.SecUnit      vm cmd li lcj
 
 
 

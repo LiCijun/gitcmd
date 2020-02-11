@@ -95,7 +95,7 @@ git remote add li  li:li/Android.MeterFunction
 git remote add lcj  lcj:li/Android.MeterFunction
 
 
- cd $work_path/AndroidLib
+cd $work_path/AndroidLib
 mkdir  Android.P645
 cd Android.P645
 git init
