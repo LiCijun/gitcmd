@@ -72,7 +72,11 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
-
+initGit  Android.Meter645  cmd  vm li lcj
+initGit  Android.MeterFunction  cmd  vm li lcj
+initGit meter645    kmt  vm lis lcjs
+initGit Android.Meter     vm cmd li lcj
+#initGit Android.MeterKMT    kmt   lis lcjs
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
 initGit systemtools  vm cmd li lcj
@@ -357,7 +361,6 @@ initGit Android.DataBase    kmt  vm cmd lis lcjs
 initGit Android.MeterFunction    kmt  vm cmd lis lcjs
 initGit Android.P645    kmt  vm cmd lis lcjs
 initGit Android.Convert    kmt  vm cmd lis lcjs
-initGit Android.Meter    kmt  vm cmd lis lcjs
 initGit Android.TestLcj    kmt  vm cmd lis lcjs
 initGit Android.Security    kmt  vm cmd lis lcjs
 initGit Android.IO.Compression    kmt  vm cmd lis lcjs
@@ -462,8 +465,7 @@ initGit UsbKey    kmt  vm cmd lis lcjs
 initGit watermeter    kmt  vm cmd lis lcjs
 initGit xiamen    kmt  vm cmd lis lcjs
 initGit WinCE.WESAM    kmt  vm cmd lis lcjs
-initGit meter645    kmt  vm cmd lis lcjs
-initGit meter645    kmt  vm cmd lis lcjs
+
 initGit hhumain    kmt  vm cmd lis lcjs
 initGit TP2100    kmt  vm cmd lis lcjs
 initGit pmcdata    kmt  vm cmd lis lcjs
