@@ -93,6 +93,7 @@ cd KMTAndroid.MeterFunction
 git init
 git remote add li  li:li/Android.MeterFunction
 git remote add lcj  lcj:li/Android.MeterFunction
+git remote add kmt kmt:Android.MeterFunction
 
 
 cd $work_path/AndroidLib

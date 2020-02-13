@@ -75,7 +75,6 @@ rm -rf  $work_path/AppRelease
 initGit ust-meterbox      vm cmd li lcj
 #initGit Android.HZWQInterface      vm cmd lis lcjs
 initGit  Android.Meter645  cmd  vm li lcj
-initGit  Android.MeterFunction  cmd  vm li lcj
 
 initGit Android.Meter     vm cmd li lcj
 
@@ -424,7 +423,7 @@ initGit FSSWebService    kmt  vm cmd lis lcjs
 initGit HHUWeb    kmt  vm cmd lis lcjs
 initGit fss3web    kmt  vm cmd lis lcjs
 initGit fssweb    kmt  vm cmd lis lcjs
-initGit P36    kmt  vm cmd lis lcjs
+
 initGit livs2012    kmt  vm cmd lis lcjs
 initGit donet    kmt  vm cmd lis lcjs
 initGit SecUnit    kmt  vm cmd lis lcjs
