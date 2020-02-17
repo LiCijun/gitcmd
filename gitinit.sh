@@ -378,7 +378,7 @@ initGit dnspodclientlite    kmt  vm cmd lis lcjs
 initGit WinCE.Protocol    kmt  vm cmd lis lcjs
 initGit WinCE.MSTIII.Interface    kmt  vm cmd lis lcjs
 initGit WinCE.MessageQueue    kmt  vm cmd lis lcjs
-initGit fss2release    kmt  vm cmd lis lcjs
+
 initGit TP2600    kmt  vm cmd lis lcjs
 initGit PMFiles    kmt  vm cmd lis lcjs
 initGit ScanService    kmt  vm cmd lis lcjs
@@ -464,8 +464,6 @@ initGit PMCWebService    kmt  vm cmd lis lcjs
 initGit pmc    kmt  vm cmd lis lcjs
 initGit pmcm    kmt  vm cmd lis lcjs
 initGit CEPRISealAssemblyLine      vm cmd lis lcjs
-initGit git      vm cmd lis lcjs
-
 
 
 

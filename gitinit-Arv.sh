@@ -64,6 +64,7 @@ initRemote "$8"
 
 initGit AppRelease    kmt  vm cmd lis lcjs
 initGit cepripro    kmt  vm cmd lis lcjs
+initGit fss2release    kmt  vm cmd lis lcjs
 
 
 
