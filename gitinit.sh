@@ -72,6 +72,9 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
+
+initGit sealDoc      vm cmd li
+
 initGit ust-meterbox      vm cmd li lcj
 #initGit Android.HZWQInterface      vm cmd lis lcjs
 initGit  Android.Meter645  cmd  vm li lcj
