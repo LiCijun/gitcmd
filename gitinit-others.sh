@@ -121,13 +121,6 @@ git remote add li  li:li/gitolite-admin-CMD
 git remote add cmd  cmd:gitolite-admin
 git remote add lcj  lcj:li/gitolite-admin-CMD
 
-cd $work_path
-mkdir adempiere
-cd adempiere
-git init
-git remote add github  github:adempiere/adempiere.git
-
-
 
  cd $work_path/AndroidLib
 mkdir  Android.SecUnit

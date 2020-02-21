@@ -224,7 +224,6 @@ initGit Identity_S50  kmt    vm cmd lis lcjs
 initGit AndroidPeripheral     kmt vm cmd lis lcjs
 initGit HHUInOne    kmt  vm cmd lis lcjs
 initGit sdkeyNew    kmt  vm cmd lis lcjs
-initGit MeterFunction    kmt  vm cmd lis lcjs
 initGit TP2100_Doc    kmt  vm cmd lis lcjs
 initGit chnroutes    kmt  vm cmd lis lcjs
 initGit HZWQInterface    kmt  vm cmd lis lcjs

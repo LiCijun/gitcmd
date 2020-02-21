@@ -2,7 +2,7 @@
 
 
 function getdir(){
-echo $1
+echo Fetch $1
 if [  -n "$1" ] ;then   
     for file in $work_path/*
     do  
