@@ -17,7 +17,7 @@ if [  -n "$1" ] ;then
        if [ "$remote"x = "$1"x ];    
     then
     echo 
-      echo $1   $file ;  
+      echo Fetch $1   $file ;  
     git  fetch -v --progress $1
     fi 
         fi   

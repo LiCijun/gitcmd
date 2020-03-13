@@ -17,7 +17,7 @@ if [  -n "$1" ] ;then
        if [ "$remote"x = "$1"x ];    
     then
     echo 
-      echo $1 $file ;  
+      echo push $1 $file ;  
  #   git push --all -v  --progress  $1
  #   git push --tags -v  --progress  $1 
     git push --all  --progress   $1

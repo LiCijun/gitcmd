@@ -72,7 +72,7 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
-
+initGit LiDoc      vm li
 initGit sealDoc      vm cmd li
 
 initGit ust-meterbox      vm cmd li lcj
@@ -477,8 +477,7 @@ initGithub mikechengwei kafka-demo
 initGithub  apachecn kafka-doc-zh 
 initGithub   github  gitignore  
 initGithub  julianhyde linq4j   
-
-
+initGithub  anrip dnspod-shell
 
 work_path=$work_path/AndroidLib
 
