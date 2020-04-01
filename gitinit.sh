@@ -72,17 +72,19 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
+initGit seal-mcu      vm cmd li
+
+initGit visms      vm cmd li
+initGit mcu      vm cmd li
+initGit ic      vm cmd li
+
+
 initGit LiDoc      vm li
 initGit sealDoc      vm cmd li
-
 initGit ust-meterbox      vm cmd li lcj
 #initGit Android.HZWQInterface      vm cmd lis lcjs
 initGit  Android.Meter645  cmd  vm li lcj
-
 initGit Android.Meter     vm cmd li lcj
-
-
-
 initGit ProtectionLevelIII  vm cmd li lcj
 initGit copyrightDoc  vm cmd li lcj
 initGit wk  vm cmd li lcj
