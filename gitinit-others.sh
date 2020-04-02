@@ -143,3 +143,6 @@ git remote add lcj  lcj:li/Android.SecUnit
 
 
 
+cd /home/li/.AndroidStudio3.6/
+git init
+git remote add vm vm:AndroidStudio
