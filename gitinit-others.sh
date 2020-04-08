@@ -143,6 +143,16 @@ git remote add lcj  lcj:li/Android.SecUnit
 
 
 
+
 cd /home/li/.AndroidStudio3.6/
 git init
 git remote add vm vm:AndroidStudio
+
+ cd $work_path/
+ mkdir O2OA
+ git init
+ git remote add gitee  git@gitee.com:o2oa/O2OA.git
+ git remote add github   git@github.com:o2oa/o2oa.git
+
+
+
