@@ -150,9 +150,14 @@ git remote add vm vm:AndroidStudio
 
  cd $work_path/
  mkdir O2OA
+ cd O2OA
  git init
  git remote add gitee  git@gitee.com:o2oa/O2OA.git
  git remote add github   git@github.com:o2oa/o2oa.git
 
 
-
+ cd $work_path/
+ mkdir shadowsocks-android
+ cd shadowsocks-android
+ git init
+ git remote add github github:shadowsocks/shadowsocks-android.git

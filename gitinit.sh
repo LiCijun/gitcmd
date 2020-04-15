@@ -72,6 +72,9 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
+initGit ust-apk      vm cmd li
+initGit ust-pctest      vm cmd li
+
 initGit seal-mcu      vm cmd li
 
 initGit visms      vm cmd li
