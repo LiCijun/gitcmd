@@ -161,3 +161,9 @@ git remote add vm vm:AndroidStudio
  cd shadowsocks-android
  git init
  git remote add github github:shadowsocks/shadowsocks-android.git
+
+
+
+ cd ~/.config/JetBrains/IntelliJIdea2020.1/
+git init
+git remote add vm vm:IntelliJIdea2020.1.git
