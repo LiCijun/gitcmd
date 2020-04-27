@@ -167,3 +167,18 @@ git remote add vm vm:AndroidStudio
  cd ~/.config/JetBrains/IntelliJIdea2020.1/
 git init
 git remote add vm vm:IntelliJIdea2020.1.git
+
+cd $work_path/
+mkdir rt-thread
+cd rt-thread
+git init
+ git remote add gitee  gitee:rtthread/rt-thread.git
+
+
+  cd $work_path/
+ mkdir FreeRTOS
+ cd FreeRTOS
+ git init
+ git remote add github github:FreeRTOS/FreeRTOS.git
+
+
