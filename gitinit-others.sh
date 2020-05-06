@@ -182,3 +182,9 @@ git init
  git remote add github github:FreeRTOS/FreeRTOS.git
 
 
+  cd $work_path/
+ mkdir fonts
+ cd fonts
+ git init
+ git remote add github github:powerline/fonts.git
+

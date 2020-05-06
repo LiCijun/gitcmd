@@ -72,9 +72,17 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
+initGit software-enterprise-application      vm cmd li
+initGit first-software-award-application      vm cmd li
+initGit develop-research-support-application     vm cmd li
+initGit high-tech-enterprise-application      vm cmd li
+
+
+initGit seal-apk      vm cmd li
 initGit sealDemo      vm cmd li
 initGit sealSDK      vm cmd li
 
+initGit mst      vm cmd li
 initGit ustapp      vm cmd li
 initGit ust-apk      vm cmd li
 initGit ust-pctest      vm cmd li
