@@ -82,7 +82,8 @@ initGit seal-apk      vm cmd li
 initGit sealDemo      vm cmd li
 initGit sealSDK      vm cmd li
 
-initGit mst      vm cmd li
+initGit mst-cmd      vm cmd li
+initGit mst      		vm cmd li
 initGit ustapp      vm cmd li
 initGit ust-apk      vm cmd li
 initGit ust-pctest      vm cmd li
@@ -473,7 +474,7 @@ initGit pmcforhhu    kmt  vm cmd lis lcjs
 initGit shunzhou    kmt  vm cmd lis lcjs
 initGit tools    kmt  vm cmd lis lcjs
 initGit md_release    kmt  vm cmd lis lcjs
-initGit www.keymantek.com    kmt  vm cmd lis lcjs
+
 initGit ibd70test    kmt  vm cmd lis lcjs
 initGit wince7    kmt  vm cmd lis lcjs
 initGit evc    kmt  vm cmd lis lcjs
