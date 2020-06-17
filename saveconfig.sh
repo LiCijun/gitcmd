@@ -11,3 +11,10 @@ echo
 cd  /home/li/.AndroidStudio3.6
 pwd
 git add --all  && git commit -m "auto commit" && git push -v --progress --all  vm
+
+
+cd  /home/li/
+pwd
+git add -u && git commit -m 'auto commit'  && git push -v --progress --all  vm
+
+

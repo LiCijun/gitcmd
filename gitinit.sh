@@ -71,7 +71,8 @@ rm -rf  $work_path/Android.AndroidProxy
 rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
-
+initGit 招投标     vm cmd li
+initGit cppcheck     vm cmd li
 initGit software-enterprise-application      vm cmd li
 initGit first-software-award-application      vm cmd li
 initGit develop-research-support-application     vm cmd li
@@ -496,6 +497,10 @@ initGithub  apachecn kafka-doc-zh
 initGithub   github  gitignore  
 initGithub  julianhyde linq4j   
 initGithub  anrip dnspod-shell
+initGithub  zh-google-styleguide zh-google-styleguide
+initGithub  Tencent  TscanCode
+initGithub  hechaoyuyu  devicemanager
+
 
 work_path=$work_path/AndroidLib
 
