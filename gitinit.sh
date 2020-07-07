@@ -71,7 +71,7 @@ rm -rf  $work_path/Android.AndroidProxy
 rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
-initGit 招投标     vm cmd li
+initGit tender-bidding     vm cmd li
 initGit cppcheck     vm cmd li
 initGit software-enterprise-application      vm cmd li
 initGit first-software-award-application      vm cmd li
