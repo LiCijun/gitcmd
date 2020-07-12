@@ -78,6 +78,7 @@ initGit first-software-award-application      vm cmd li
 initGit develop-research-support-application     vm cmd li
 initGit high-tech-enterprise-application      vm cmd li
 initGit lhn     vm   li
+initGit syh     vm   li
 
 initGit seal-apk      vm cmd li
 initGit sealDemo      vm cmd li
