@@ -83,6 +83,8 @@ initGit syh     vm   li
 initGit seal-apk      vm cmd li
 initGit sealDemo      vm cmd li
 initGit sealSDK      vm cmd li
+initGit ccproject      vm cmd li
+
 
 initGit mst-cmd      vm cmd li
 initGit mst      		vm cmd li
