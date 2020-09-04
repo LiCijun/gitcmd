@@ -71,41 +71,41 @@ rm -rf  $work_path/Android.AndroidProxy
 rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
-initGit tender-bidding     vm cmd li
-initGit cppcheck     vm cmd li
-initGit software-enterprise-application      vm cmd li
-initGit first-software-award-application      vm cmd li
-initGit develop-research-support-application     vm cmd li
-initGit high-tech-enterprise-application      vm cmd li
-initGit lhn     vm   li
-initGit syh     vm   li
+initGit tender-bidding     vm cmd li lcj
+initGit cppcheck     vm cmd li lcj
+initGit software-enterprise-application      vm cmd li lcj
+initGit first-software-award-application      vm cmd li lcj
+initGit develop-research-support-application     vm cmd li lcj
+initGit high-tech-enterprise-application      vm cmd li lcj
+initGit lhn     vm   li lcj
+initGit syh     vm   li lcj
 
-initGit seal-apk      vm cmd li
-initGit sealDemo      vm cmd li
-initGit sealSDK      vm cmd li
-initGit ccproject      vm cmd li
-
-
-initGit mst-cmd      vm cmd li
-initGit mst      		vm cmd li
-initGit ustapp      vm cmd li
-initGit ust-apk      vm cmd li
-initGit ust-pctest      vm cmd li
-
-initGit seal-mcu      vm cmd li
-
-initGit visms      vm cmd li
-initGit mcu      vm cmd li
-initGit ic      vm cmd li
+initGit seal-apk      vm cmd li lcj
+initGit sealDemo      vm cmd li lcj
+initGit sealSDK      vm cmd li lcj
+initGit ccproject     kmt   vm cmd li lcj
 
 
-initGit LiDoc      vm li
-initGit sealDoc      vm cmd li
+initGit mst-cmd      vm cmd li lcj
+initGit mst      		vm cmd li lcj
+initGit ustapp      vm cmd li lcj
+initGit ust-apk      vm cmd li lcj 
+initGit ust-pctest      vm cmd li lcj
+
+initGit seal-mcu      vm cmd li lcj
+
+initGit visms      vm cmd li lcj
+initGit mcu      vm cmd li lcj
+initGit ic      vm cmd li lcj
+
+
+initGit LiDoc      vm li lcj
+initGit sealDoc      vm cmd li lcj
 initGit ust-meterbox      vm cmd li lcj
 #initGit Android.HZWQInterface      vm cmd lis lcjs
-initGit  Android.Meter645  cmd  vm li lcj
-initGit Android.Meter     vm cmd li lcj
-initGit ProtectionLevelIII  vm cmd li lcj
+initGit  Android.Meter645  kmt  cmd  vm li lcj
+initGit Android.Meter    kmt   vm cmd li lcj
+initGit ProtectionLevelIII  kmt  vm cmd li lcj
 initGit copyrightDoc  vm cmd li lcj
 initGit wk  vm cmd li lcj
 initGit CmdNio  vm cmd li lcj
@@ -117,10 +117,10 @@ initGit cmdprotocolbase  vm cmd li lcj
 
 initGit cmdlibDoc  vm cmd li lcj
 initGit usttest  vm cmd li lcj
-initGit Business  vm cmd li lcj
+initGit Business  kmt  vm cmd li lcj
 initGit GradleHome    vm cmd li lcj
-initGit dataconvert            vm cmd li lcj
-initGit ust2            vm cmd li lcj
+initGit dataconvert   kmt           vm cmd li lcj
+initGit ust2          vm cmd li lcj
 initGit ust2Doc         vm cmd li lcj
 initGit usttool vm cmd li lcj
 initGit lcl vm cmd li lcj
@@ -135,113 +135,113 @@ initGit senseshield vm cmd li lcj
 initGit ddns        vm cmd li lcj
 initGit ustsdk      vm cmd li lcj
 initGit rxtx-2.1-7r2        vm cmd li lcj
-initGit km              vm cmd li lcj
-initGit kmDoc           vm cmd li lcj
+initGit km        kmt        vm cmd li lcj
+initGit kmDoc      kmt       vm cmd li lcj
 initGit ust      vm cmd li lcj
 initGit ssh      vm   li lcj
 initGit rxtx-2.2pre2      vm cmd li lcj
 initGit ustDoc      vm cmd li lcj
 initGit usbkeyfront      vm cmd li lcj
-initGit fss2doc      vm cmd li lcj
+initGit fss2doc    kmt  vm cmd li lcj
 
 initGit SafetyAccessControlSystemDoc      vm cmd li lcj
 initGit SafetyAccessControlSystem      vm cmd li lcj
 initGit keystoreDoc      vm cmd li lcj
 initGit keystore      vm cmd li lcj
-initGit InstallShield      vm cmd li lcj
-initGit gitcmd      vm cmd li lcj
-initGit pgpcom      vm cmd li lcj
-initGit pgp      vm  li lcj
-initGit pgpcmd      vm cmd lis lcjs
-initGit ustFront      vm cmd li 
-initGit CEPRISealAssemblyLine      vm cmd lis lcjs
-initGit Android.RFIDTESAM      vm cmd lis lcjs
-initGit AndroidSign      vm cmd lis lcjs
-initGit iso14001_28001      vm cmd lis lcjs
-initGit hhui      vm cmd lis lcjs
-initGit usbkeyocx      vm cmd lis lcjs
-initGit gitolite-admin      vm  li lcj
-initGit keyupdate_WinClient      vm cmd li lcj
-initGit demo      vm cmd li lcj
-initGit fss      vm cmd li lcj
+initGit InstallShield  kmt      vm cmd li lcj
+initGit gitcmd     kmt   vm cmd li lcj
+initGit pgpcom    kmt    vm cmd li lcj
+initGit pgp    kmt    vm  li lcj
+initGit pgpcmd     kmt   vm cmd lis lcjs
+initGit ustFront    kmt    vm cmd li  lcj
+initGit CEPRISealAssemblyLine    kmt    vm cmd lis lcjs
+initGit Android.RFIDTESAM    kmt    vm cmd lis lcjs
+initGit AndroidSign   kmt     vm cmd lis lcjs
+initGit iso14001_28001   kmt     vm cmd lis lcjs
+initGit hhui    kmt    vm cmd lis lcjs
+initGit usbkeyocx    kmt    vm cmd lis lcjs
+initGit gitolite-admin     vm  li lcj
+initGit keyupdate_WinClient     kmt   vm cmd li lcj
+initGit demo    kmt    vm cmd li lcj
+initGit fss    kmt    vm cmd li lcj
 
 initGit meter645    kmt  vm lis lcjs
-initGit keyserviceDoc      vm cmd lis lcjs
-initGit keyservice      vm cmd lis lcjs
-initGit keyservicems      vm cmd lis lcjs
+initGit keyserviceDoc   kmt     vm cmd lis lcjs
+initGit keyservice      kmt  vm cmd lis lcjs
+initGit keyservicems    kmt    vm cmd lis lcjs
 initGit construction      vm cmd lis lcjs
-initGit XMLSerialize      vm cmd lis lcjs
-initGit microserviceDoc      vm cmd lis lcjs
-initGit microserviceSystem      vm cmd lis lcjs
-initGit microservice      vm cmd lis lcjs
-initGit JavaLib      vm cmd lis lcjs
-initGit study      vm cmd lis lcjs
-initGit keygen      vm  lis lcjs
-initGit ISO9001      vm cmd lis lcjs
-initGit softdog      vm cmd lis lcjs
-initGit keyupdateDoc      vm cmd lis lcjs
-initGit keyupdate      vm cmd lis lcjs
-initGit ccopyright      vm cmd lis lcjs
-initGit KeyShareDoc      vm cmd lis lcjs
-initGit KeyShare      vm  lis lcjs
-initGit ft31x_HyperTerm      vm cmd lis lcjs
-initGit 3ADoc      vm cmd lis lcjs
-initGit 3A      vm cmd lis lcjs
+initGit XMLSerialize    kmt    vm cmd lis lcjs
+initGit microserviceDoc   kmt     vm cmd lis lcjs
+initGit microserviceSystem   kmt     vm cmd lis lcjs
+initGit microservice    kmt    vm cmd lis lcjs
+initGit JavaLib    kmt    vm cmd lis lcjs
+initGit study    kmt    vm cmd lis lcjs
+initGit keygen    kmt    vm  lis lcjs
+initGit ISO9001    kmt    vm cmd lis lcjs
+initGit softdog    kmt    vm cmd lis lcjs
+initGit keyupdateDoc   kmt     vm cmd lis lcjs
+initGit keyupdate     kmt   vm cmd lis lcjs
+initGit ccopyright  kmt      vm cmd lis lcjs
+initGit KeyShareDoc   kmt     vm cmd lis lcjs
+initGit KeyShare    kmt    vm  lis lcjs
+initGit ft31x_HyperTerm   kmt     vm cmd lis lcjs
+initGit 3ADoc     kmt   vm cmd lis lcjs
+initGit 3A     kmt   vm cmd lis lcjs
 
-initGit esmsservice      vm cmd lis lcjs
-initGit SafeTest2017      vm cmd lis lcjs
-initGit gitcmd      vm cmd lis lcjs
-initGit contract      vm cmd lis lcjs
-initGit MessageAnalysisDoc      vm cmd lis lcjs
-initGit MessageAnalysis      vm cmd lis lcjs
-initGit FaultAnalysisDoc      vm cmd lis lcjs
-initGit FaultAnalysis      vm cmd lis lcjs
-initGit Android.Terminal3762      vm cmd lis lcjs
+initGit esmsservice   kmt     vm cmd lis lcjs
+initGit SafeTest2017  kmt      vm cmd lis lcjs
+initGit gitcmd      kmt  vm cmd lis lcjs
+initGit contract     kmt   vm cmd lis lcjs
+initGit MessageAnalysisDoc   kmt     vm cmd lis lcjs
+initGit MessageAnalysis      kmt  vm cmd lis lcjs
+initGit FaultAnalysisDoc     kmt   vm cmd lis lcjs
+initGit FaultAnalysis     kmt   vm cmd lis lcjs
+initGit Android.Terminal3762   kmt     vm cmd lis lcjs
 
-initGit esmsDoc      vm cmd lis lcjs
-initGit esms      vm cmd lis lcjs
-initGit bid_ningxia      vm cmd lis lcjs
-initGit distribution      vm cmd lis lcjs
-initGit linq4j      vm cmd lis lcjs
-initGit CmdDoc      vm cmd lis lcjs
-initGit CEPRISealAIDLDoc      vm cmd lis lcjs
-initGit HHUPublicKey     kmt  vm cmd lis lcjs
-initGit CEPRISealAIDL      vm cmd lis lcjs
+initGit esmsDoc    kmt    vm cmd lis lcjs
+initGit esms   kmt     vm cmd lis lcjs
+initGit bid_ningxia    kmt    vm cmd lis lcjs
+initGit distribution   kmt     vm cmd lis lcjs
+initGit linq4j     kmt   vm cmd lis lcjs
+initGit CmdDoc    kmt    vm cmd lis lcjs
+initGit CEPRISealAIDLDoc   kmt     vm cmd lis lcjs
+initGit HHUPublicKey    kmt   kmt  vm cmd lis lcjs
+initGit CEPRISealAIDL    kmt    vm cmd lis lcjs
 initGit LiKey      vm cmd lis lcjs
 
-initGit DocTemplate      vm cmd lis lcjs
-initGit usbkms      vm cmd lis lcjs
-initGit usbkmsDoc      vm cmd lis lcjs
-initGit Android.BlueTooth      vm cmd lis lcjs
-initGit Android.DeviceInfo      vm cmd lis lcjs
-initGit Android.ExeWork      vm cmd lis lcjs
-initGit Android.HHUInterface      vm cmd lis lcjs
-initGit Android.ISO7816      vm cmd lis lcjs
-initGit Android.PeripheralProtocol      vm cmd lis lcjs
-initGit Android.RESAM      vm cmd lis lcjs
-initGit Android.SerialPort      vm cmd lis lcjs
-initGit Android.Terminal3761      vm cmd lis lcjs
-initGit Android.WorkSync      vm cmd lis lcjs
+initGit DocTemplate    kmt    vm cmd lis lcjs
+initGit usbkms      kmt  vm cmd lis lcjs
+initGit usbkmsDoc   kmt     vm cmd lis lcjs
+initGit Android.BlueTooth   kmt     vm cmd lis lcjs
+initGit Android.DeviceInfo   kmt     vm cmd lis lcjs
+initGit Android.ExeWork    kmt    vm cmd lis lcjs
+initGit Android.HHUInterface   kmt     vm cmd lis lcjs
+initGit Android.ISO7816     kmt   vm cmd lis lcjs
+initGit Android.PeripheralProtocol     kmt   vm cmd lis lcjs
+initGit Android.RESAM      kmt  vm cmd lis lcjs
+initGit Android.SerialPort    kmt    vm cmd lis lcjs
+initGit Android.Terminal3761   kmt     vm cmd lis lcjs
+initGit Android.WorkSync    kmt    vm cmd lis lcjs
 
-initGit SM3      vm cmd lis lcjs
-initGit SM2      vm cmd lis lcjs
-initGit SM4      vm cmd lis lcjs
-initGit SecUnit2      vm cmd lis lcjs
-initGit ChongQingMeterRead      vm cmd lis lcjs
-initGit MaintenanceHHU      vm cmd lis lcjs
-initGit AndroidHHU      vm cmd lis lcjs
-initGit AndroidHHUv2      vm cmd lis lcjs
-initGit CEPRICheck      vm cmd lis lcjs
-initGit AndroidConfig      vm cmd lis lcjs
-initGit ADoc      vm   lis lcjs
-initGit mfhhdAssist      vm kmt lis lcjs
-initGit TP2000Doc      vm kmt lis lcjs
-initGit TP2000      vm cmd lis lcjs kmt
-initGit project      vm  lis lcjs
-initGit kmtdoc      vm  lis lcjs
-initGit protocol      vm cmd lis lcjs
-initGit Slock      vm cmd lis lcjs kmt
-initGit solution      vm cmd lis lcjs
+initGit SM3     kmt   vm cmd lis lcjs
+initGit SM2    kmt    vm cmd lis lcjs
+initGit SM4     kmt   vm cmd lis lcjs
+initGit SecUnit2    kmt    vm cmd lis lcjs
+initGit ChongQingMeterRead    kmt    vm cmd lis lcjs
+initGit MaintenanceHHU    kmt    vm cmd lis lcjs
+initGit AndroidHHU      kmt  vm cmd lis lcjs
+initGit AndroidHHUv2     kmt   vm cmd lis lcjs
+initGit CEPRICheck      kmt  vm cmd lis lcjs
+initGit AndroidConfig   kmt     vm cmd lis lcjs
+initGit ADoc     kmt   vm   lis lcjs
+initGit mfhhdAssist    kmt    vm kmt lis lcjs
+initGit TP2000Doc    kmt    vm kmt lis lcjs
+initGit TP2000     kmt   vm cmd lis lcjs kmt
+initGit project     kmt   vm  lis lcjs
+initGit kmtdoc    kmt    vm  lis lcjs
+initGit protocol    kmt    vm cmd lis lcjs
+initGit Slock     kmt   vm cmd lis lcjs kmt
+initGit solution    kmt    vm cmd lis lcjs
 initGit Identity_S50  kmt    vm cmd lis lcjs
 initGit AndroidPeripheral     kmt vm cmd lis lcjs
 initGit HHUInOne    kmt  vm cmd lis lcjs
@@ -486,11 +486,11 @@ initGit ibd70    kmt  vm cmd lis lcjs
 initGit hhu1.8release    kmt  vm cmd lis lcjs
 initGit PMCWebService    kmt  vm cmd lis lcjs
 initGit pmc    kmt  vm cmd lis lcjs
-initGit pmcm    kmt  vm cmd lis lcjs
-initGit CEPRISealAssemblyLine      vm cmd lis lcjs
+initGit pmcm    kmt  vm cmd lis lcjs 
+initGit CEPRISealAssemblyLine      vm cmd lis lcjs 
 
 
-
+initGithub  kkkgo  EnterpriseGconvert
 
 initGithub gfwlist gfwlist  
 initGithub protocolbuffers protobuf 
@@ -503,6 +503,7 @@ initGithub  anrip dnspod-shell
 initGithub  zh-google-styleguide zh-google-styleguide
 initGithub  Tencent  TscanCode
 initGithub  hechaoyuyu  devicemanager
+initGithub  TimothyYe  godns
 
 
 work_path=$work_path/AndroidLib
