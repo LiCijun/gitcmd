@@ -71,6 +71,9 @@ rm -rf  $work_path/Android.AndroidProxy
 rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
+
+initGit ElectronicLabelDoc     vm cmd li lcj
+initGit ElectronicLabel     vm cmd li lcj
 initGit SimulationTestSystemDoc     vm cmd li lcj
 initGit SimulationTestSystem     vm cmd li lcj
 initGit tender-bidding     vm cmd li lcj
