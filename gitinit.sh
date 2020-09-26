@@ -72,6 +72,10 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
+
+initGit QhAssemblyLineDoc     	vm cmd li lcj
+initGit QhAssemblyLine     		vm cmd li lcj
+
 initGit ElectronicLabelDoc     vm cmd li lcj
 initGit ElectronicLabel     vm cmd li lcj
 initGit SimulationTestSystemDoc     vm cmd li lcj
@@ -493,8 +497,11 @@ initGit PMCWebService    kmt  vm cmd lis lcjs
 initGit pmc    kmt  vm cmd lis lcjs
 initGit pmcm    kmt  vm cmd lis lcjs 
 initGit CEPRISealAssemblyLine      vm cmd lis lcjs 
-
-
+initGit godns  vm  li lcj 
+initGit ddns-dnspod-script  vm li lcj
+initGit ArDNSPod  vm  li lcj 
+initGithub   imki911 ArDNSPod
+initGithub  xiaoicx ddns-dnspod-script
 initGithub  kkkgo  EnterpriseGconvert
 
 initGithub gfwlist gfwlist  
