@@ -72,7 +72,11 @@ rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
 
-
+initGit TQA40I_linux_ubuntu		vm cmd li lcj
+initGit visms-UHF     	vm cmd li lcj
+initGit STSHWDoc     	vm cmd li lcj
+initGit TQA40I     	vm cmd li lcj
+initGit archiso     	vm cmd li lcj
 initGit QhAssemblyLineDoc     	vm cmd li lcj
 initGit QhAssemblyLine     		vm cmd li lcj
 
@@ -500,6 +504,10 @@ initGit CEPRISealAssemblyLine      vm cmd lis lcjs
 initGit godns  vm  li lcj 
 initGit ddns-dnspod-script  vm li lcj
 initGit ArDNSPod  vm  li lcj 
+
+
+
+initGithub  iotang archliveiso
 initGithub   imki911 ArDNSPod
 initGithub  xiaoicx ddns-dnspod-script
 initGithub  kkkgo  EnterpriseGconvert
