@@ -71,7 +71,7 @@ rm -rf  $work_path/Android.AndroidProxy
 rm -rf  $work_path/FirefoxSync
 rm -rf  $work_path/AppRelease
 
-
+initGit hs     	vm  li lcj
 initGit TQA40I_linux_ubuntu		vm cmd li lcj
 initGit visms-UHF     	vm cmd li lcj
 initGit STSHWDoc     	vm cmd li lcj
@@ -506,7 +506,7 @@ initGit ddns-dnspod-script  vm li lcj
 initGit ArDNSPod  vm  li lcj 
 
 
-
+initGithub  ouyanghuiyu chineseocr_lite
 initGithub  iotang archliveiso
 initGithub   imki911 ArDNSPod
 initGithub  xiaoicx ddns-dnspod-script
