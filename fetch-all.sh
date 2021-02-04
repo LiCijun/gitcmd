@@ -13,12 +13,10 @@ function getdir(){
           
      cd $file
       
- 
    
       echo $file ;  
-    git  fetch --all -v --progress
-  
-    
+      git  fetch --all -v --progress
+     
     
         fi   
     fi

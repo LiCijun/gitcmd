@@ -1,71 +1,77 @@
 #! /bin/bash
 work_path=$(dirname $(dirname $(readlink -f $0)))
 echo Git Repo Path:$work_path
-function initRemote(){  
+function initRemote(){ 
+#echo  $git_Repo_Path   $1
 if [ "$1" = "lis" ] ; 
 then
-remote=$(git remote | grep "li" )
-if [ ! -n "$remote" ]; then git remote add "li"  "li":li/$git_Repo_Path.git; fi 
+#echo  $git_Repo_Path   $1
+remote=$(git remote | grep -w "li" )
+if [ ! -n "$remote" ]; then git remote add "li" "li":li/$git_Repo_Path.git; fi 
 return 
 fi
 
 if [ "$1" = "lcjs" ] ;
 then
-remote=$(git remote | grep "lcj" )
-if [ ! -n "$remote" ]; then git remote add "lcj"  "lcj":li/$git_Repo_Path.git; fi 
+#echo  $git_Repo_Path   $1
+remote=$(git remote | grep -w "lcj" )
+if [ ! -n "$remote" ]; then git remote add "lcj" "lcj":li/$git_Repo_Path.git; fi 
 return 
 fi
 
 
-
-if [  -n "$1" ] ;then
-   remote=$(git remote | grep "$1" )
-if [ ! -n "$remote" ]; then git remote add "$1"  "$1":$git_Repo_Path.git; fi 
+if [ -n "$1" ] ;then
+#echo  $git_Repo_Path   $1
+ remote=$(git remote | grep -w "$1" )
+if [ ! -n "$remote" ]; 
+	then 
+		git remote add "$1" "$1":$git_Repo_Path.git;
+		echo git remote add "$1" "$1":$git_Repo_Path.git;
+	fi 
+#	echo "$remote" Exit;
+	return
 fi
+
 }
-function initGit(){  
-   
+function initGit(){ 
+#echo ALL Param $*
 git_Repo_Path=$1
 cd $work_path
-if [ !  -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
+if [ ! -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
 cd $git_Repo_Path
-if [ !  -d .git ] ; then git init  ; fi 
+if [ ! -d .git ] ; then git init ; fi 
 
-initRemote "$2"
-initRemote "$3"
-initRemote "$4"
-initRemote "$5"
-initRemote "$6"
+for var in ${@:2}  
+do   
+initRemote $var;  
+done  
 
 }
 
-
-function initGithub(){  
-   
+function initGithub(){ 
+ 
 git_Repo_Path=$2
 cd $work_path
-if [ !  -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
+if [ ! -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
 cd $git_Repo_Path
-if [ !  -d .git ] ; then git init  ; fi 
+if [ ! -d .git ] ; then git init ; fi 
 
 
-remote=$(git remote | grep "github" )
-if [ ! -n "$remote" ]; then git remote add "github"  "github":$1/$git_Repo_Path.git; fi 
+remote=$(git remote | grep -w "github" )
+if [ ! -n "$remote" ]; then git remote add "github" "github":$1/$git_Repo_Path.git; fi 
 
-initRemote "$3"
-initRemote "$4"
-initRemote "$5"
-initRemote "$6"
-initRemote "$7"
-initRemote "$8"
+for var in ${@:3}  
+do   
+initRemote $var;  
+done  
+
 }
 
 
-
-initGit AppRelease    kmt  vm cmd lis lcjs
-initGit cepripro    kmt  vm cmd lis lcjs
-initGit fss2release    kmt  vm cmd lis lcjs
-initGit www.keymantek.com    kmt  vm cmd lis lcjs
+initGit AppRelease    kmt  vm cmd lis lcjs dsm dsmnfs
+initGit cepripro      kmt  vm cmd lis lcjs dsm dsmnfs
+initGit fss2release    kmt  vm cmd lis lcjs dsm dsmnfs
+initGit www.keymantek.com    kmt  vm cmd lis lcjs dsm dsmnfs
 
 
 

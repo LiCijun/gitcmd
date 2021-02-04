@@ -8,7 +8,8 @@ git init
 git remote add KMT kmt:gitolite-admin.git
 git remote add li  li:li/gitolite-admin-KMT.git
 git remote add lcj  lcj:li/gitolite-admin-KMT.git
-
+git remote add dsm  dsm:gitolite-admin-KMT.git
+git remote add dsmnfs  dsmnfs:gitolite-admin-KMT.git
 
 cd $work_path
 mkdir baselib
@@ -17,7 +18,8 @@ git init
 git remote add cmd  cmd:lib.git
 git remote add lcj  lcj:li/lib.git
 git remote add li  li:li/lib.git
-
+git remote add dsm  dsm:lib.git
+git remote add dsmnfs  dsmnfs:lib.git
 
 cd $work_path/AndroidLib
 mkdir  Android.Convert

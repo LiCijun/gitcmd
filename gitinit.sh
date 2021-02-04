@@ -2,46 +2,51 @@
 work_path=$(dirname $(dirname $(readlink -f $0)))
 echo Git Repo Path:$work_path
 function initRemote(){ 
+#echo  $git_Repo_Path   $1
 if [ "$1" = "lis" ] ; 
 then
-remote=$(git remote | grep "li" )
+#echo  $git_Repo_Path   $1
+remote=$(git remote | grep -w "li" )
 if [ ! -n "$remote" ]; then git remote add "li" "li":li/$git_Repo_Path.git; fi 
 return 
 fi
 
 if [ "$1" = "lcjs" ] ;
 then
-remote=$(git remote | grep "lcj" )
+#echo  $git_Repo_Path   $1
+remote=$(git remote | grep -w "lcj" )
 if [ ! -n "$remote" ]; then git remote add "lcj" "lcj":li/$git_Repo_Path.git; fi 
 return 
 fi
 
 
-
 if [ -n "$1" ] ;then
- remote=$(git remote | grep "$1" )
-if [ ! -n "$remote" ]; then git remote add "$1" "$1":$git_Repo_Path.git; fi 
+#echo  $git_Repo_Path   $1
+ remote=$(git remote | grep -w "$1" )
+if [ ! -n "$remote" ]; 
+	then 
+		git remote add "$1" "$1":$git_Repo_Path.git;
+		echo git remote add "$1" "$1":$git_Repo_Path.git;
+	fi 
+#	echo "$remote" Exit;
+	return
 fi
+
 }
 function initGit(){ 
- 
+#echo ALL Param $*
 git_Repo_Path=$1
 cd $work_path
 if [ ! -d $git_Repo_Path ] ; then mkdir -p $git_Repo_Path ; fi
 cd $git_Repo_Path
 if [ ! -d .git ] ; then git init ; fi 
 
-initRemote "$2"
-initRemote "$3"
-initRemote "$4"
-initRemote "$5"
-initRemote "$6"
-initRemote "$7"
-initRemote "$8"
-initRemote "$9"
-initRemote "$10"
-}
+for var in ${@:2}  
+do   
+initRemote $var;  
+done  
 
+}
 
 function initGithub(){ 
  
@@ -52,18 +57,16 @@ cd $git_Repo_Path
 if [ ! -d .git ] ; then git init ; fi 
 
 
-remote=$(git remote | grep "github" )
+remote=$(git remote | grep -w "github" )
 if [ ! -n "$remote" ]; then git remote add "github" "github":$1/$git_Repo_Path.git; fi 
 
-initRemote "$3"
-initRemote "$4"
-initRemote "$5"
-initRemote "$6"
-initRemote "$7"
-initRemote "$8"
-initRemote "$9"
-initRemote "$10"
+for var in ${@:3}  
+do   
+initRemote $var;  
+done  
+
 }
+
 rm -rf $work_path/warcraft
 rm -rf $work_path/firefox
 rm -rf $work_path/zxing
@@ -76,6 +79,7 @@ rm -rf $work_path/Android.AndroidProxy
 rm -rf $work_path/FirefoxSync
 rm -rf $work_path/AppRelease
 
+initGit 3A kmt vm dsmnfs cmd lis lcjs dsm
 initGit cmdshare 	vm dsmnfs li lcj cmd dsm
 initGit hs 	vm dsmnfs li lcj dsm
 initGit TQA40I_linux_ubuntu		vm dsmnfs cmd li lcj dsm
@@ -205,7 +209,7 @@ initGit KeyShareDoc kmt vm dsmnfs cmd lis lcjs dsm
 initGit KeyShare kmt vm dsmnfs lis lcjs dsm
 initGit ft31x_HyperTerm kmt vm dsmnfs cmd lis lcjs dsm
 initGit 3ADoc kmt vm dsmnfs cmd lis lcjs dsm
-initGit 3A kmt vm dsmnfs cmd lis lcjs dsm
+
 
 initGit esmsservice kmt vm dsmnfs cmd lis lcjs dsm
 initGit SafeTest2017 kmt vm dsmnfs cmd lis lcjs dsm
@@ -511,24 +515,24 @@ initGit ddns-dnspod-script vm dsmnfs li lcj dsm
 initGit ArDNSPod vm dsmnfs li lcj dsm
 
 
-initGithub ouyanghuiyu chineseocr_lite 
-initGithub iotang archliveiso 
-initGithub imki911 ArDNSPod 
-initGithub xiaoicx ddns-dnspod-script 
-initGithub kkkgo EnterpriseGconvert 
+initGithub ouyanghuiyu chineseocr_lite  vm dsmnfs li lcj dsm
+initGithub iotang archliveiso  vm dsmnfs li lcj dsm
+initGithub imki911 ArDNSPod  vm dsmnfs li lcj dsm
+initGithub xiaoicx ddns-dnspod-script vm dsmnfs li lcj dsm
+initGithub kkkgo EnterpriseGconvert vm dsmnfs li lcj dsm
 
-initGithub gfwlist gfwlist 
-initGithub protocolbuffers protobuf 
-initGithub hsz idea-gitignore 
-initGithub mikechengwei kafka-demo  
-initGithub apachecn kafka-doc-zh 
-initGithub github gitignore 
-initGithub julianhyde linq4j 
-initGithub anrip dnspod-shell 
-initGithub zh-google-styleguide zh-google-styleguide 
-initGithub Tencent TscanCode 
-initGithub hechaoyuyu devicemanager 
-initGithub TimothyYe godns 
+initGithub gfwlist gfwlist vm dsmnfs li lcj dsm
+initGithub protocolbuffers protobuf vm dsmnfs li lcj dsm
+initGithub hsz idea-gitignore vm dsmnfs li lcj dsm
+initGithub mikechengwei kafka-demo  vm dsmnfs li lcj dsm
+initGithub apachecn kafka-doc-zh vm dsmnfs li lcj dsm
+initGithub github gitignore vm dsmnfs li lcj dsm
+initGithub julianhyde linq4j vm dsmnfs li lcj dsm
+initGithub anrip dnspod-shell vm dsmnfs li lcj dsm
+initGithub zh-google-styleguide zh-google-styleguide vm dsmnfs li lcj dsm
+initGithub Tencent TscanCode vm dsmnfs li lcj dsm
+initGithub hechaoyuyu devicemanager vm dsmnfs li lcj dsm
+initGithub TimothyYe godns vm dsmnfs li lcj dsm
  
 
 work_path=$work_path/AndroidLib
