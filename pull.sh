@@ -15,12 +15,9 @@ function pull(){
         echo "不是 git 仓库 "
         return 128
     fi  
-# 方法一
-#   cbr_arr=($( git branch ))
-#   cbr=${cbr_arr[${#cbr_arr[@]}-1]}  
 
     cbr=`git symbolic-ref --short -q HEAD`    
- #   echo $cbr
+
 
     if [ "$cbr"x = x ] ;then
         continue ;
