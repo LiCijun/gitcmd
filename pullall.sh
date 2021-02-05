@@ -1,12 +1,5 @@
 #! /bin/bash
 #push all
-cbr=a;
-function getBranch()
-{
-    cbr_arr=($( git branch ))
-    cbr=${cbr_arr[${#cbr_arr[@]}-1]}  
- #   echo cbr: $cbr
-}
 function pullall(){
 
     for file in $work_path/*
@@ -19,7 +12,8 @@ function pullall(){
         cd $file       
         echo $file 
 
-        getBranch
+        
+        cbr=`git symbolic-ref --short -q HEAD` 
 
         if [ "$cbr"x = x ] ;
         then
@@ -34,8 +28,7 @@ function pullall(){
             then
               continue ;
         fi
-        echo git pull   $var $cbr -v  --progress
-       # exit;
+        echo git pull   $var $cbr -v  --progress    
         git pull   $var $cbr -v  --progress
     
         echo 

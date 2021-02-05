@@ -1,8 +1,6 @@
 #! /bin/bash
 
-
-function getdir(){
-
+function fsck(){
 
     for file in $work_path/*
     do  
@@ -11,22 +9,21 @@ function getdir(){
         
         if [   -d ${file}'/.git'   ] ; then 
           
-     cd $file
-     echo
-      echo $file ;  
-    git  fsck --full
+        cd $file       
+        echo $file 
+        git  fsck --full
+  
         fi   
     fi
+    echo 
     done
     
 }
 
 work_path=$(dirname $(dirname $(readlink -f $0)))
-getdir 
+fsck  
 work_path=$work_path/AndroidLib
-getdir 
-
-
+fsck  
 
 
 

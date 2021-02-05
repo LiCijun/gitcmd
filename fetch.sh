@@ -1,46 +1,41 @@
 #! /bin/bash
-
-
-function getdir(){
-echo Fetch $1
-if [  -n "$1" ] ;then   
-    for file in $work_path/*
-    do  
-    if test -d $file
-    then      
-        
-        if [   -d ${file}'/.git'   ] ; then 
-          
-     cd $file
-    remote=$(git remote | grep -w "$1" )
-
-       if [ "$remote"x = "$1"x ];    
-    then
+function fetch-remote()
+{
+    var=$1
+    echo Fetch $var    ;  
+    git  fetch -v --progress $var
     echo 
-      echo Fetch $1   $file ;  
-    git  fetch -v --progress $1
-    fi 
-        fi   
-    fi
-    done
-    fi
 }
+function fetch(){
+    aa=$(git rev-parse --is-inside-work-tree)
+    if [ $? -ne 0 ]; then
+        echo "不是 git 仓库 "
+        return 128
+    fi  
 
-work_path=$(dirname $(dirname $(readlink -f $0)))
+    mm=$(git remote) ;
+    echo The remote :$mm ;    
+    for var in $mm ; do
+        if [ "$var"x = alix ] ;  
+            then
+              continue ;
+        fi
 
-for var in ${@:1}  
-do   
-initRemote $var;  
-done  
+        if [[ $# -gt 0 ]]; then
+            rt=$(echo $* | grep -w $var)
 
-work_path=$work_path/AndroidLib
-echo $work_path
-
-
-for var in ${@:1}  
-do   
-initRemote $var;  
-done  
+ #           echo ALL:$*  var:$var  rt  :  $rt
+            if [[ "$rt"xx = xx ]]; then            
+                continue ;
+            else
+                fetch-remote $var 
+            fi            
+        else
+            fetch-remote $var 
+        fi         
+    done     
+}
+fetch $*
 
 
 
