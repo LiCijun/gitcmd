@@ -1,8 +1,30 @@
 #! /bin/bash
-#push all
+#git pull vm kmt li  master
+
+#${@:1:$#-1} 其中$@是列表形式列出所有的传入参数，然后:1是从第一个参数开始，
+#后面不加任何东西的话是一直到结尾，
+#而加:$#-1是$#是参数总个数-1，即显示除去最后一个参数外的所有参数。
+
+br=${@: -1}
+echo $@
+#br=${@:$#-1:$#} 
+echo branch $br 
+cbr_arr=($( git branch ))
+cbr=${cbr_arr[${#cbr_arr[@]}-1]}  
+echo  $cbr
 
 
-function pushall(){
+
+ if [ "$cbr"x = "$br"x ] ;  
+    then
+        for var in ${@:1:$#-1}  
+        do   
+            echo  $var;
+            git pull   $var $cbr -v  --progress
+        done         
+fi
+
+function gplb(){
 
     for file in $work_path/*
     do  
@@ -47,10 +69,10 @@ function pushall(){
     
 }
 
-work_path=$(dirname $(dirname $(readlink -f $0)))
-pushall 
-work_path=$work_path/AndroidLib
-pushall 
+#work_path=$(dirname $(dirname $(readlink -f $0)))
+#pushall 
+#work_path=$work_path/AndroidLib
+#pushall 
 
 
 

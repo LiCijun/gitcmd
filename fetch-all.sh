@@ -12,8 +12,7 @@ function getdir(){
         if [   -d ${file}'/.git'   ] ; then 
           
      cd $file
-      
-   
+         
       echo $file ;  
       git  fetch --all -v --progress
      
