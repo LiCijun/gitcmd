@@ -10,9 +10,7 @@ function pullall(){
         if [   -d ${file}'/.git'   ] ; then 
           
         cd $file       
-        echo $file 
-
-        
+              
         cbr=`git symbolic-ref --short -q HEAD` 
 
         if [ "$cbr"x = x ] ;
@@ -28,17 +26,16 @@ function pullall(){
             then
               continue ;
         fi
-        echo git pull   $var $cbr -v  --progress    
+        echo git pull   $var $cbr -v  --progress          $file 
         git pull   $var $cbr -v  --progress
     
         echo 
-        done       
-    
+
+        done           
         fi   
     fi
     echo 
-    done
-    
+    done    
 }
 
 work_path=$(dirname $(dirname $(readlink -f $0)))
