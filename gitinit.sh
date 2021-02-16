@@ -230,7 +230,7 @@ initGit CmdDoc kmt vm dsmnfs cmd lis lcjs dsm
 initGit CEPRISealAIDLDoc kmt vm dsmnfs cmd lis lcjs dsm
 initGit HHUPublicKey kmt kmt vm dsmnfs cmd lis lcjs dsm
 initGit CEPRISealAIDL kmt vm dsmnfs cmd lis lcjs dsm
-initGit LiKey vm dsmnfs cmd lis lcjs dsm
+initGit LiKey vm dsmnfs  lis lcjs dsm
 
 initGit DocTemplate kmt vm dsmnfs cmd lis lcjs dsm
 initGit usbkms kmt vm dsmnfs cmd lis lcjs dsm
