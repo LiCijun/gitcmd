@@ -79,6 +79,7 @@ rm -rf $work_path/Android.AndroidProxy
 rm -rf $work_path/FirefoxSync
 rm -rf $work_path/AppRelease
 
+initGit ISO27001  cmd dsm dsmnfs lcj li vm      
 initGit 3A kmt vm dsmnfs cmd lis lcjs dsm
 initGit cmdshare 	vm dsmnfs li lcj cmd dsm
 initGit hs 	vm dsmnfs li lcj dsm
